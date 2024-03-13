@@ -1,0 +1,10 @@
+.root {
+  height: 30px;
+  color: var(--token-dMoyXbO7yWwG);
+  position: relative;
+}
+@media (max-width: 768px) {
+  .root {
+    color: var(--token-dMoyXbO7yWwG);
+  }
+}
