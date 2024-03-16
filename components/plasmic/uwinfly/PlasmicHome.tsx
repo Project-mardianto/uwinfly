@@ -128,7 +128,7 @@ export type PlasmicHome__OverridesType = {
   sliderCarousel2?: Flex__<typeof SliderWrapper>;
   foreground5?: Flex__<"div">;
   sliderCarousel4?: Flex__<typeof SliderWrapper>;
-  accordion?: Flex__<typeof AntdAccordion>;
+  accordion2?: Flex__<typeof AntdAccordion>;
   sliderCarousel5?: Flex__<typeof SliderWrapper>;
   foreground7?: Flex__<"div">;
   iconNavbar2?: Flex__<typeof IconNavbar2>;
@@ -189,17 +189,6 @@ function PlasmicHome__RenderFunc(props: {
         onMutate: generateOnMutateForSpec("currentSlide", SliderWrapper_Helpers)
       },
       {
-        path: "accordion.activePanelId",
-        type: "private",
-        variableType: "text",
-        initFunc: ({ $props, $state, $queries, $ctx }) => undefined,
-
-        onMutate: generateOnMutateForSpec(
-          "activePanelId",
-          AntdAccordion_Helpers
-        )
-      },
-      {
         path: "sliderCarousel4.currentSlide",
         type: "private",
         variableType: "number",
@@ -216,6 +205,17 @@ function PlasmicHome__RenderFunc(props: {
 
         refName: "sliderCarousel5",
         onMutate: generateOnMutateForSpec("currentSlide", SliderWrapper_Helpers)
+      },
+      {
+        path: "accordion2.activePanelId",
+        type: "private",
+        variableType: "text",
+        initFunc: ({ $props, $state, $queries, $ctx }) => undefined,
+
+        onMutate: generateOnMutateForSpec(
+          "activePanelId",
+          AntdAccordion_Helpers
+        )
       }
     ],
     [$props, $ctx, $refs]
@@ -286,6 +286,7 @@ function PlasmicHome__RenderFunc(props: {
           data-plasmic-override={overrides.root}
           data-plasmic-root={true}
           data-plasmic-for-node={forNode}
+          accessKey={``}
           className={classNames(
             projectcss.all,
             projectcss.root_reset,
@@ -296,7 +297,6 @@ function PlasmicHome__RenderFunc(props: {
             plasmic_plasmic_rich_components_css.plasmic_tokens,
             sty.root
           )}
-          dangerouslySetInnerHTML={undefined}
         >
           <section className={classNames(projectcss.all, sty.section___53Bhg)}>
             <NavigationBar
@@ -910,6 +910,7 @@ function PlasmicHome__RenderFunc(props: {
                           role={"img"}
                         />
                       }
+                      link={`/Daftar`}
                       showEndIcon={true}
                     >
                       <div
@@ -931,6 +932,7 @@ function PlasmicHome__RenderFunc(props: {
                         role={"img"}
                       />
                     }
+                    link={`/Daftar`}
                     showEndIcon={true}
                     submitsForm={false}
                   >
@@ -5578,21 +5580,6 @@ function PlasmicHome__RenderFunc(props: {
               </Stack__>
             ) : null}
           </section>
-          <section className={classNames(projectcss.all, sty.section__fKK)}>
-            <div className={classNames(projectcss.all, sty.columns___2EjeB)}>
-              <div className={classNames(projectcss.all, sty.column__vf9O5)}>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__mpC3W
-                  )}
-                >
-                  {"Pertanyaan sering di ajukan ?"}
-                </div>
-              </div>
-            </div>
-          </section>
           {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
             <section className={classNames(projectcss.all, sty.section__jB3L)}>
               <div
@@ -5900,43 +5887,39 @@ function PlasmicHome__RenderFunc(props: {
               </section>
             </section>
           ) : null}
-          <section className={classNames(projectcss.all, sty.section__p97Rt)}>
-            <section className={classNames(projectcss.all, sty.section__rXn6I)}>
-              <div className={classNames(projectcss.all, sty.columns___8GKwq)}>
-                <div className={classNames(projectcss.all, sty.column__uw7Uw)}>
+          <section className={classNames(projectcss.all, sty.section__cdMed)}>
+            <section className={classNames(projectcss.all, sty.section__z5M8H)}>
+              <div className={classNames(projectcss.all, sty.columns___9PhrA)}>
+                <div className={classNames(projectcss.all, sty.column___0FU)}>
                   <div
                     className={classNames(
                       projectcss.all,
                       projectcss.__wab_text,
-                      sty.text__zfksY
+                      sty.text___5Sc9H
                     )}
                   >
                     {"Pertanyaan sering di ajukan ?"}
                   </div>
-                  <ArrowOpenRightSvgrepoComsvgIcon
-                    className={classNames(projectcss.all, sty.svg__zCbiF)}
-                    role={"img"}
-                  />
                 </div>
               </div>
               <section
-                className={classNames(projectcss.all, sty.section__nzf0C)}
+                className={classNames(projectcss.all, sty.section__nokA6)}
               >
-                <div className={classNames(projectcss.all, sty.columns__iJiA)}>
+                <div className={classNames(projectcss.all, sty.columns__hzY6)}>
                   <div
-                    className={classNames(projectcss.all, sty.column__cRAt8)}
+                    className={classNames(projectcss.all, sty.column__eys13)}
                   >
                     <div
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__pRtb
+                        sty.text__dqiuF
                       )}
                     >
                       {"Pertanyaan sering di ajukan ?"}
                     </div>
                     <ArrowOpenRightSvgrepoComsvgIcon
-                      className={classNames(projectcss.all, sty.svg__uCiUf)}
+                      className={classNames(projectcss.all, sty.svg__mSVaP)}
                       role={"img"}
                     />
                   </div>
@@ -5946,17 +5929,17 @@ function PlasmicHome__RenderFunc(props: {
             {(() => {
               const child$Props = {
                 activeKey: generateStateValueProp($state, [
-                  "accordion",
+                  "accordion2",
                   "activePanelId"
                 ]),
                 bordered: true,
-                className: classNames("__wab_instance", sty.accordion),
+                className: classNames("__wab_instance", sty.accordion2),
                 items: (
                   <React.Fragment>
                     <AntdAccordionItem
                       className={classNames(
                         "__wab_instance",
-                        sty.accordionItem__eCyyt
+                        sty.accordionItem__cB4N
                       )}
                       id={1}
                       label2={
@@ -5964,7 +5947,7 @@ function PlasmicHome__RenderFunc(props: {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text___9Bp6W
+                            sty.text__sQvSi
                           )}
                         >
                           {
@@ -5978,16 +5961,18 @@ function PlasmicHome__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__hYGq
+                          sty.text__p0Ky
                         )}
                       >
-                        {"First Children"}
+                        {
+                          "1. Warga Negara Indonesia\n\n2. KTP\n\n3. NPWP\n\n4. Memiliki Kartu Keluarga\n\n5. Menyediakan Ruang Usaha Minimal 2 Ruko (Milik Sendiri/Sewa)\n\n6. memilih paket waralaba 200Jt atau distributor 180Jt\n\n7. Investasi Pendirian yang tertera di (NPWP) Toko Dan Biaya Waralaba atau distributor"
+                        }
                       </div>
                     </AntdAccordionItem>
                     <AntdAccordionItem
                       className={classNames(
                         "__wab_instance",
-                        sty.accordionItem___315NH
+                        sty.accordionItem__pNmga
                       )}
                       id={2}
                       label2={
@@ -5995,7 +5980,7 @@ function PlasmicHome__RenderFunc(props: {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__b3Gnd
+                            sty.text__c743G
                           )}
                         >
                           {"Apakah bisa buka toko di rumah sendiri? "}
@@ -6007,16 +5992,18 @@ function PlasmicHome__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__hvBib
+                          sty.text__xk9Tj
                         )}
                       >
-                        {"Second Children"}
+                        {
+                          "Saat ini kami masih belum bisa membuka toko di rumah."
+                        }
                       </div>
                     </AntdAccordionItem>
                     <AntdAccordionItem
                       className={classNames(
                         "__wab_instance",
-                        sty.accordionItem__y3ULc
+                        sty.accordionItem__chd7
                       )}
                       id={"3"}
                       label2={
@@ -6024,7 +6011,7 @@ function PlasmicHome__RenderFunc(props: {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__w9Hgw
+                            sty.text__hnuZe
                           )}
                         >
                           {
@@ -6038,16 +6025,18 @@ function PlasmicHome__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__cp8FH
+                          sty.text__y4Cmd
                         )}
                       >
-                        {"Second Children"}
+                        {
+                          "Untuk pesanan berulang yang telah memiliki toko atau saat pembukaan toko baru, ongkos kirim akan ditanggung oleh kami. bagi mitra yang bekerja sama dengan kami, seperti waralaba atau distributor"
+                        }
                       </div>
                     </AntdAccordionItem>
                     <AntdAccordionItem
                       className={classNames(
                         "__wab_instance",
-                        sty.accordionItem__iarqB
+                        sty.accordionItem__hvqE2
                       )}
                       id={"4"}
                       label2={
@@ -6055,7 +6044,7 @@ function PlasmicHome__RenderFunc(props: {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__yfRu
+                            sty.text__lXoKf
                           )}
                         >
                           {"Apakah ada minimal pemesanan? "}
@@ -6067,16 +6056,18 @@ function PlasmicHome__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text___1DiMg
+                          sty.text__m0Vu
                         )}
                       >
-                        {"Second Children"}
+                        {
+                          "Saat ini, kami belum menetapkan minimal pemesanan barang, kecuali jika Anda bergabung dengan target kami."
+                        }
                       </div>
                     </AntdAccordionItem>
                     <AntdAccordionItem
                       className={classNames(
                         "__wab_instance",
-                        sty.accordionItem__b5Dm2
+                        sty.accordionItem___4KuTv
                       )}
                       id={"5"}
                       label2={
@@ -6084,7 +6075,7 @@ function PlasmicHome__RenderFunc(props: {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__wwb8K
+                            sty.text___9Hvx9
                           )}
                         >
                           {
@@ -6098,16 +6089,18 @@ function PlasmicHome__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__qPqYr
+                          sty.text__tUn6U
                         )}
                       >
-                        {"Second Children"}
+                        {
+                          "Harga kami harga dari produsen dan harga kami lebih rendah dari harga distributor."
+                        }
                       </div>
                     </AntdAccordionItem>
                     <AntdAccordionItem
                       className={classNames(
                         "__wab_instance",
-                        sty.accordionItem__o9KeJ
+                        sty.accordionItem__arZvh
                       )}
                       id={"6"}
                       label2={
@@ -6115,7 +6108,7 @@ function PlasmicHome__RenderFunc(props: {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__tyP2K
+                            sty.text__lAqHe
                           )}
                         >
                           {
@@ -6129,16 +6122,18 @@ function PlasmicHome__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text___5OYpZ
+                          sty.text__n6Z4M
                         )}
                       >
-                        {"Second Children"}
+                        {
+                          'Nama toko menggunakan nama "Uwinfly", persyaratan dan prosedur telah disetujui oleh produsen, sekitar 2 minggu kerja., sudah siap buka toko'
+                        }
                       </div>
                     </AntdAccordionItem>
                     <AntdAccordionItem
                       className={classNames(
                         "__wab_instance",
-                        sty.accordionItem__so8Bg
+                        sty.accordionItem___6KPQt
                       )}
                       id={"7"}
                       label2={
@@ -6146,7 +6141,7 @@ function PlasmicHome__RenderFunc(props: {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__lxF9P
+                            sty.text__lookg
                           )}
                         >
                           {"Apakah boleh berjualan produk lain?"}
@@ -6158,10 +6153,12 @@ function PlasmicHome__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__qWXfv
+                          sty.text__wole0
                         )}
                       >
-                        {"Second Children"}
+                        {
+                          "Saat ini kami memperbolehkan penjualan produk lain dengan syarat dan ketentuan yang telah ditetapkan oleh kami."
+                        }
                       </div>
                     </AntdAccordionItem>
                   </React.Fragment>
@@ -6169,7 +6166,7 @@ function PlasmicHome__RenderFunc(props: {
                 onChange: generateStateOnChangePropForCodeComponents(
                   $state,
                   "activePanelId",
-                  ["accordion", "activePanelId"],
+                  ["accordion2", "activePanelId"],
                   AntdAccordion_Helpers
                 )
               };
@@ -6178,7 +6175,7 @@ function PlasmicHome__RenderFunc(props: {
                 [
                   {
                     name: "activePanelId",
-                    plasmicStateName: "accordion.activePanelId"
+                    plasmicStateName: "accordion2.activePanelId"
                   }
                 ],
                 [],
@@ -6188,8 +6185,8 @@ function PlasmicHome__RenderFunc(props: {
 
               return (
                 <AntdAccordion
-                  data-plasmic-name={"accordion"}
-                  data-plasmic-override={overrides.accordion}
+                  data-plasmic-name={"accordion2"}
+                  data-plasmic-override={overrides.accordion2}
                   {...child$Props}
                 />
               );
@@ -6813,7 +6810,7 @@ const PlasmicDescendants = {
     "sliderCarousel2",
     "foreground5",
     "sliderCarousel4",
-    "accordion",
+    "accordion2",
     "sliderCarousel5",
     "foreground7",
     "iconNavbar2",
@@ -6841,7 +6838,7 @@ const PlasmicDescendants = {
   sliderCarousel2: ["sliderCarousel2"],
   foreground5: ["foreground5"],
   sliderCarousel4: ["sliderCarousel4"],
-  accordion: ["accordion"],
+  accordion2: ["accordion2"],
   sliderCarousel5: ["sliderCarousel5"],
   foreground7: ["foreground7"],
   iconNavbar2: ["iconNavbar2"],
@@ -6866,7 +6863,7 @@ type NodeDefaultElementType = {
   sliderCarousel2: typeof SliderWrapper;
   foreground5: "div";
   sliderCarousel4: typeof SliderWrapper;
-  accordion: typeof AntdAccordion;
+  accordion2: typeof AntdAccordion;
   sliderCarousel5: typeof SliderWrapper;
   foreground7: "div";
   iconNavbar2: typeof IconNavbar2;
@@ -6989,7 +6986,7 @@ export const PlasmicHome = Object.assign(
     sliderCarousel2: makeNodeComponent("sliderCarousel2"),
     foreground5: makeNodeComponent("foreground5"),
     sliderCarousel4: makeNodeComponent("sliderCarousel4"),
-    accordion: makeNodeComponent("accordion"),
+    accordion2: makeNodeComponent("accordion2"),
     sliderCarousel5: makeNodeComponent("sliderCarousel5"),
     foreground7: makeNodeComponent("foreground7"),
     iconNavbar2: makeNodeComponent("iconNavbar2"),

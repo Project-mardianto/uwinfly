@@ -135,7 +135,7 @@ export type PlasmicDaftar__OverridesType = {
   form2?: Flex__<typeof FormWrapper>;
   textArea?: Flex__<typeof AntdTextArea>;
   accordion2?: Flex__<typeof AntdAccordion>;
-  accordion?: Flex__<typeof AntdAccordion>;
+  accordion5?: Flex__<typeof AntdAccordion>;
   footerMain?: Flex__<typeof FooterMain>;
   accordion3?: Flex__<typeof AntdAccordion>;
   accordion4?: Flex__<typeof AntdAccordion>;
@@ -213,17 +213,6 @@ function PlasmicDaftar__RenderFunc(props: {
         onMutate: generateOnMutateForSpec("isSubmitting", FormWrapper_Helpers)
       },
       {
-        path: "accordion.activePanelId",
-        type: "private",
-        variableType: "text",
-        initFunc: ({ $props, $state, $queries, $ctx }) => undefined,
-
-        onMutate: generateOnMutateForSpec(
-          "activePanelId",
-          AntdAccordion_Helpers
-        )
-      },
-      {
         path: "accordion2.activePanelId",
         type: "private",
         variableType: "text",
@@ -247,6 +236,17 @@ function PlasmicDaftar__RenderFunc(props: {
       },
       {
         path: "accordion4.activePanelId",
+        type: "private",
+        variableType: "text",
+        initFunc: ({ $props, $state, $queries, $ctx }) => undefined,
+
+        onMutate: generateOnMutateForSpec(
+          "activePanelId",
+          AntdAccordion_Helpers
+        )
+      },
+      {
+        path: "accordion5.activePanelId",
         type: "private",
         variableType: "text",
         initFunc: ({ $props, $state, $queries, $ctx }) => undefined,
@@ -880,19 +880,19 @@ function PlasmicDaftar__RenderFunc(props: {
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__gIHu
+                      sty.formField__xeT1Y
                     )}
                     label={"Name"}
                     name={"name"}
                   >
                     <AntdInput
-                      className={classNames("__wab_instance", sty.input__sL6Sx)}
+                      className={classNames("__wab_instance", sty.input__txUSl)}
                     />
                   </FormItemWrapper>
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField___1V1Hi
+                      sty.formField__aFbBg
                     )}
                     label={"Jenis kelamin"}
                   >
@@ -913,7 +913,7 @@ function PlasmicDaftar__RenderFunc(props: {
                       <AntdRadio
                         className={classNames(
                           "__wab_instance",
-                          sty.radio__nIdGi
+                          sty.radio__lgb1
                         )}
                         value={"op1"}
                       >
@@ -921,7 +921,7 @@ function PlasmicDaftar__RenderFunc(props: {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text___3YUsy
+                            sty.text__p6OAw
                           )}
                         >
                           {"Option 1"}
@@ -930,7 +930,7 @@ function PlasmicDaftar__RenderFunc(props: {
                       <AntdRadio
                         className={classNames(
                           "__wab_instance",
-                          sty.radio__lKvzj
+                          sty.radio__kpuK
                         )}
                         value={"op2"}
                       >
@@ -938,7 +938,7 @@ function PlasmicDaftar__RenderFunc(props: {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text___8B2Tl
+                            sty.text__xKku6
                           )}
                         >
                           {"Option 2"}
@@ -949,30 +949,30 @@ function PlasmicDaftar__RenderFunc(props: {
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__iauTh
+                      sty.formField__v0ZAc
                     )}
                     hidden={false}
                     label={"Telepon"}
                   >
                     <AntdInput
-                      className={classNames("__wab_instance", sty.input__zlGq)}
+                      className={classNames("__wab_instance", sty.input__v9Tgb)}
                     />
                   </FormItemWrapper>
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField___8RyEe
+                      sty.formField__gRsws
                     )}
                     label={"Lokasi usaha"}
                   >
                     <AntdInput
-                      className={classNames("__wab_instance", sty.input__wvdp4)}
+                      className={classNames("__wab_instance", sty.input__megdb)}
                     />
                   </FormItemWrapper>
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__gm1W6
+                      sty.formField__l4Zyn
                     )}
                     label={"Paket kerjasama"}
                   >
@@ -1004,7 +1004,7 @@ function PlasmicDaftar__RenderFunc(props: {
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__tZgCm
+                      sty.formField__bYl2W
                     )}
                     initialValue={"2024-03-03T04:01:21.307Z"}
                     label={"Tanggal survei"}
@@ -1023,7 +1023,7 @@ function PlasmicDaftar__RenderFunc(props: {
                     children={null}
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__pyV3O
+                      sty.formField__iHrb5
                     )}
                     initialValue={false}
                     label={
@@ -1031,7 +1031,7 @@ function PlasmicDaftar__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__hCBa
+                          sty.text__sW8Fo
                         )}
                       >
                         {"Label"}
@@ -1047,7 +1047,7 @@ function PlasmicDaftar__RenderFunc(props: {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__t2MaG
+                        sty.text__o2NUl
                       )}
                     >
                       {"Kirim"}
@@ -1161,7 +1161,7 @@ function PlasmicDaftar__RenderFunc(props: {
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__uAMyX
+                        sty.formField__oQnLv
                       )}
                       label={"Name"}
                       name={"name"}
@@ -1169,14 +1169,14 @@ function PlasmicDaftar__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__wn2BU
+                          sty.input__bd22H
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__g8Nf
+                        sty.formField__l3Rxc
                       )}
                       hidden={false}
                       label={"Telepon"}
@@ -1184,14 +1184,14 @@ function PlasmicDaftar__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__dnWIj
+                          sty.input___56Oa5
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__juIai
+                        sty.formField__npXIp
                       )}
                       label={"Message"}
                       name={"message"}
@@ -1201,7 +1201,10 @@ function PlasmicDaftar__RenderFunc(props: {
                       />
                     </FormItemWrapper>
                     <AntdButton
-                      className={classNames("__wab_instance", sty.button__cjJj)}
+                      className={classNames(
+                        "__wab_instance",
+                        sty.button___84ZU5
+                      )}
                       submitsForm={true}
                       type={"primary"}
                     >
@@ -1209,7 +1212,7 @@ function PlasmicDaftar__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text___5J4Sx
+                          sty.text___9Jpwf
                         )}
                       >
                         {"Kirim"}
@@ -1532,358 +1535,314 @@ function PlasmicDaftar__RenderFunc(props: {
               </div>
             </div>
           </section>
-          <section className={classNames(projectcss.all, sty.section__phsgl)}>
-            {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
-              <section
-                className={classNames(projectcss.all, sty.section__efr6K)}
-              >
-                <div className={classNames(projectcss.all, sty.columns__cA5Gv)}>
+          <section className={classNames(projectcss.all, sty.section__igdQk)}>
+            <section className={classNames(projectcss.all, sty.section__o0LXu)}>
+              <div className={classNames(projectcss.all, sty.columns__dQiC)}>
+                <div className={classNames(projectcss.all, sty.column__pdMhp)}>
                   <div
-                    className={classNames(projectcss.all, sty.column__t0Pol)}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__tD2C
+                    )}
                   >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__quTp8
-                      )}
-                    >
-                      {"Pertanyaan sering di ajukan ?"}
-                    </div>
-                    <ArrowOpenRightSvgrepoComsvgIcon
-                      className={classNames(projectcss.all, sty.svg__l88D)}
-                      role={"img"}
-                    />
+                    {"Pertanyaan sering di ajukan ?"}
                   </div>
-                </div>
-                <section
-                  className={classNames(projectcss.all, sty.section___2WjUq)}
-                >
-                  <div
-                    className={classNames(projectcss.all, sty.columns___5QUn)}
-                  >
-                    <div
-                      className={classNames(projectcss.all, sty.column__bf1Ca)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__tq5X4
-                        )}
-                      >
-                        {"Pertanyaan sering di ajukan ?"}
-                      </div>
-                      <ArrowOpenRightSvgrepoComsvgIcon
-                        className={classNames(projectcss.all, sty.svg__q6UTc)}
-                        role={"img"}
-                      />
-                    </div>
-                  </div>
-                </section>
-              </section>
-            ) : null}
-            <section className={classNames(projectcss.all, sty.section__rNiLl)}>
-              <section
-                className={classNames(projectcss.all, sty.section__h5Po7)}
-              >
-                <div className={classNames(projectcss.all, sty.columns__tzC8P)}>
-                  <div
-                    className={classNames(projectcss.all, sty.column__jok7U)}
-                  >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__wJEp
-                      )}
-                    >
-                      {"Pertanyaan sering di ajukan ?"}
-                    </div>
-                    <ArrowOpenRightSvgrepoComsvgIcon
-                      className={classNames(projectcss.all, sty.svg__fnfzG)}
-                      role={"img"}
-                    />
-                  </div>
-                </div>
-                <section
-                  className={classNames(projectcss.all, sty.section__y6ZzT)}
-                >
-                  <div
-                    className={classNames(projectcss.all, sty.columns__yn5SA)}
-                  >
-                    <div
-                      className={classNames(projectcss.all, sty.column__tdW2L)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__tkbbY
-                        )}
-                      >
-                        {"Pertanyaan sering di ajukan ?"}
-                      </div>
-                      <ArrowOpenRightSvgrepoComsvgIcon
-                        className={classNames(projectcss.all, sty.svg___3BdqX)}
-                        role={"img"}
-                      />
-                    </div>
-                  </div>
-                </section>
-              </section>
-              {(() => {
-                const child$Props = {
-                  activeKey: generateStateValueProp($state, [
-                    "accordion",
-                    "activePanelId"
-                  ]),
-                  bordered: true,
-                  className: classNames("__wab_instance", sty.accordion),
-                  items: (
-                    <React.Fragment>
-                      <AntdAccordionItem
-                        className={classNames(
-                          "__wab_instance",
-                          sty.accordionItem__k1Uy
-                        )}
-                        id={1}
-                        label2={
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__ez5Ug
-                            )}
-                          >
-                            {
-                              "Bagaimana caranya & syarat-syarat untuk pembukaan distributor atau waralaba dengan uwinflay? "
-                            }
-                          </div>
-                        }
-                        showArrow={true}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text___2CtAz
-                          )}
-                        >
-                          {"First Children"}
-                        </div>
-                      </AntdAccordionItem>
-                      <AntdAccordionItem
-                        className={classNames(
-                          "__wab_instance",
-                          sty.accordionItem__fa3PB
-                        )}
-                        id={2}
-                        label2={
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__tB1Ly
-                            )}
-                          >
-                            {"Apakah bisa buka toko di rumah sendiri? "}
-                          </div>
-                        }
-                        showArrow={true}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__ox6R9
-                          )}
-                        >
-                          {"Second Children"}
-                        </div>
-                      </AntdAccordionItem>
-                      <AntdAccordionItem
-                        className={classNames(
-                          "__wab_instance",
-                          sty.accordionItem___6YrAr
-                        )}
-                        id={"3"}
-                        label2={
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__wYWcC
-                            )}
-                          >
-                            {
-                              "Apakah barang diantar sampai toko & bagaimana dengan ongkos kirimnya? "
-                            }
-                          </div>
-                        }
-                        showArrow={true}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__i0OJo
-                          )}
-                        >
-                          {"Second Children"}
-                        </div>
-                      </AntdAccordionItem>
-                      <AntdAccordionItem
-                        className={classNames(
-                          "__wab_instance",
-                          sty.accordionItem___4YnYl
-                        )}
-                        id={"4"}
-                        label2={
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__eeVdJ
-                            )}
-                          >
-                            {"Apakah ada minimal pemesanan? "}
-                          </div>
-                        }
-                        showArrow={true}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__tpYb0
-                          )}
-                        >
-                          {"Second Children"}
-                        </div>
-                      </AntdAccordionItem>
-                      <AntdAccordionItem
-                        className={classNames(
-                          "__wab_instance",
-                          sty.accordionItem__a3E2W
-                        )}
-                        id={"5"}
-                        label2={
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text___3GijY
-                            )}
-                          >
-                            {
-                              "Apakah harganya lebih murah dibandingkan distributor? "
-                            }
-                          </div>
-                        }
-                        showArrow={true}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__pkicK
-                          )}
-                        >
-                          {"Second Children"}
-                        </div>
-                      </AntdAccordionItem>
-                      <AntdAccordionItem
-                        className={classNames(
-                          "__wab_instance",
-                          sty.accordionItem__eXFb
-                        )}
-                        id={"6"}
-                        label2={
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__koqfj
-                            )}
-                          >
-                            {
-                              "Apakah tokonya menggunakan nama uwinflay? Berapa lama waktu sampai buka toko? "
-                            }
-                          </div>
-                        }
-                        showArrow={true}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__tTjzw
-                          )}
-                        >
-                          {"Second Children"}
-                        </div>
-                      </AntdAccordionItem>
-                      <AntdAccordionItem
-                        className={classNames(
-                          "__wab_instance",
-                          sty.accordionItem__nO7Aw
-                        )}
-                        id={"7"}
-                        label2={
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__c8KEp
-                            )}
-                          >
-                            {"Apakah boleh berjualan produk lain?"}
-                          </div>
-                        }
-                        showArrow={true}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__aHeJu
-                          )}
-                        >
-                          {"Second Children"}
-                        </div>
-                      </AntdAccordionItem>
-                    </React.Fragment>
-                  ),
-                  onChange: generateStateOnChangePropForCodeComponents(
-                    $state,
-                    "activePanelId",
-                    ["accordion", "activePanelId"],
-                    AntdAccordion_Helpers
-                  )
-                };
-                initializeCodeComponentStates(
-                  $state,
-                  [
-                    {
-                      name: "activePanelId",
-                      plasmicStateName: "accordion.activePanelId"
-                    }
-                  ],
-                  [],
-                  AntdAccordion_Helpers ?? {},
-                  child$Props
-                );
-
-                return (
-                  <AntdAccordion
-                    data-plasmic-name={"accordion"}
-                    data-plasmic-override={overrides.accordion}
-                    {...child$Props}
+                  <ArrowOpenRightSvgrepoComsvgIcon
+                    className={classNames(projectcss.all, sty.svg___67Dxn)}
+                    role={"img"}
                   />
-                );
-              })()}
+                </div>
+              </div>
+              <section
+                className={classNames(projectcss.all, sty.section___1TqbS)}
+              >
+                <div className={classNames(projectcss.all, sty.columns__omlaK)}>
+                  <div
+                    className={classNames(projectcss.all, sty.column__oD2PC)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__k90Ju
+                      )}
+                    >
+                      {"Pertanyaan sering di ajukan ?"}
+                    </div>
+                    <ArrowOpenRightSvgrepoComsvgIcon
+                      className={classNames(projectcss.all, sty.svg__hlzPb)}
+                      role={"img"}
+                    />
+                  </div>
+                </div>
+              </section>
             </section>
+            {(() => {
+              const child$Props = {
+                activeKey: generateStateValueProp($state, [
+                  "accordion5",
+                  "activePanelId"
+                ]),
+                bordered: true,
+                className: classNames("__wab_instance", sty.accordion5),
+                items: (
+                  <React.Fragment>
+                    <AntdAccordionItem
+                      className={classNames(
+                        "__wab_instance",
+                        sty.accordionItem___4SnQa
+                      )}
+                      id={1}
+                      label2={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text___2RWTh
+                          )}
+                        >
+                          {
+                            "Bagaimana caranya & syarat-syarat untuk pembukaan distributor atau waralaba dengan uwinflay? "
+                          }
+                        </div>
+                      }
+                      showArrow={true}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__gdryW
+                        )}
+                      >
+                        {
+                          "1. Warga Negara Indonesia\n\n2. KTP\n\n3. NPWP\n\n4. Memiliki Kartu Keluarga\n\n5. Menyediakan Ruang Usaha Minimal 2 Ruko (Milik Sendiri/Sewa)\n\n6. memilih paket waralaba 200Jt atau distributor 180Jt\n\n7. Investasi Pendirian yang tertera di (NPWP) Toko Dan Biaya Waralaba atau distributor"
+                        }
+                      </div>
+                    </AntdAccordionItem>
+                    <AntdAccordionItem
+                      className={classNames(
+                        "__wab_instance",
+                        sty.accordionItem__cyLoj
+                      )}
+                      id={2}
+                      label2={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__whRmX
+                          )}
+                        >
+                          {"Apakah bisa buka toko di rumah sendiri? "}
+                        </div>
+                      }
+                      showArrow={true}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__ay7Yi
+                        )}
+                      >
+                        {
+                          "Saat ini kami masih belum bisa membuka toko di rumah."
+                        }
+                      </div>
+                    </AntdAccordionItem>
+                    <AntdAccordionItem
+                      className={classNames(
+                        "__wab_instance",
+                        sty.accordionItem__leEOw
+                      )}
+                      id={"3"}
+                      label2={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text___8Ef8X
+                          )}
+                        >
+                          {
+                            "Apakah barang diantar sampai toko & bagaimana dengan ongkos kirimnya? "
+                          }
+                        </div>
+                      }
+                      showArrow={true}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__dl4Yl
+                        )}
+                      >
+                        {
+                          "Untuk pesanan berulang yang telah memiliki toko atau saat pembukaan toko baru, ongkos kirim akan ditanggung oleh kami. bagi mitra yang bekerja sama dengan kami, seperti waralaba atau distributor"
+                        }
+                      </div>
+                    </AntdAccordionItem>
+                    <AntdAccordionItem
+                      className={classNames(
+                        "__wab_instance",
+                        sty.accordionItem___8Qr2Y
+                      )}
+                      id={"4"}
+                      label2={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__pq7Ox
+                          )}
+                        >
+                          {"Apakah ada minimal pemesanan? "}
+                        </div>
+                      }
+                      showArrow={true}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__e45Jh
+                        )}
+                      >
+                        {
+                          "Saat ini, kami belum menetapkan minimal pemesanan barang, kecuali jika Anda bergabung dengan target kami."
+                        }
+                      </div>
+                    </AntdAccordionItem>
+                    <AntdAccordionItem
+                      className={classNames(
+                        "__wab_instance",
+                        sty.accordionItem__nFke9
+                      )}
+                      id={"5"}
+                      label2={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__iMv5M
+                          )}
+                        >
+                          {
+                            "Apakah harganya lebih murah dibandingkan distributor? "
+                          }
+                        </div>
+                      }
+                      showArrow={true}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__mVas1
+                        )}
+                      >
+                        {
+                          "Harga kami harga dari produsen dan harga kami lebih rendah dari harga distributor."
+                        }
+                      </div>
+                    </AntdAccordionItem>
+                    <AntdAccordionItem
+                      className={classNames(
+                        "__wab_instance",
+                        sty.accordionItem__gvqMq
+                      )}
+                      id={"6"}
+                      label2={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text___6LkzR
+                          )}
+                        >
+                          {
+                            "Apakah tokonya menggunakan nama uwinflay? Berapa lama waktu sampai buka toko? "
+                          }
+                        </div>
+                      }
+                      showArrow={true}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text___0Jsp7
+                        )}
+                      >
+                        {
+                          'Nama toko menggunakan nama "Uwinfly", persyaratan dan prosedur telah disetujui oleh produsen, sekitar 2 minggu kerja., sudah siap buka toko'
+                        }
+                      </div>
+                    </AntdAccordionItem>
+                    <AntdAccordionItem
+                      className={classNames(
+                        "__wab_instance",
+                        sty.accordionItem__qbW1Q
+                      )}
+                      id={"7"}
+                      label2={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__jc0S5
+                          )}
+                        >
+                          {"Apakah boleh berjualan produk lain?"}
+                        </div>
+                      }
+                      showArrow={true}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__vucot
+                        )}
+                      >
+                        {
+                          "Saat ini kami memperbolehkan penjualan produk lain dengan syarat dan ketentuan yang telah ditetapkan oleh kami."
+                        }
+                      </div>
+                    </AntdAccordionItem>
+                  </React.Fragment>
+                ),
+                onChange: generateStateOnChangePropForCodeComponents(
+                  $state,
+                  "activePanelId",
+                  ["accordion5", "activePanelId"],
+                  AntdAccordion_Helpers
+                )
+              };
+              initializeCodeComponentStates(
+                $state,
+                [
+                  {
+                    name: "activePanelId",
+                    plasmicStateName: "accordion5.activePanelId"
+                  }
+                ],
+                [],
+                AntdAccordion_Helpers ?? {},
+                child$Props
+              );
+
+              return (
+                <AntdAccordion
+                  data-plasmic-name={"accordion5"}
+                  data-plasmic-override={overrides.accordion5}
+                  {...child$Props}
+                />
+              );
+            })()}
           </section>
           <FooterMain
             data-plasmic-name={"footerMain"}
@@ -2612,7 +2571,7 @@ const PlasmicDescendants = {
     "form2",
     "textArea",
     "accordion2",
-    "accordion",
+    "accordion5",
     "footerMain",
     "accordion3",
     "accordion4"
@@ -2642,7 +2601,7 @@ const PlasmicDescendants = {
   form2: ["form2", "textArea"],
   textArea: ["textArea"],
   accordion2: ["accordion2"],
-  accordion: ["accordion"],
+  accordion5: ["accordion5"],
   footerMain: ["footerMain"],
   accordion3: ["accordion3"],
   accordion4: ["accordion4"]
@@ -2669,7 +2628,7 @@ type NodeDefaultElementType = {
   form2: typeof FormWrapper;
   textArea: typeof AntdTextArea;
   accordion2: typeof AntdAccordion;
-  accordion: typeof AntdAccordion;
+  accordion5: typeof AntdAccordion;
   footerMain: typeof FooterMain;
   accordion3: typeof AntdAccordion;
   accordion4: typeof AntdAccordion;
@@ -2794,7 +2753,7 @@ export const PlasmicDaftar = Object.assign(
     form2: makeNodeComponent("form2"),
     textArea: makeNodeComponent("textArea"),
     accordion2: makeNodeComponent("accordion2"),
-    accordion: makeNodeComponent("accordion"),
+    accordion5: makeNodeComponent("accordion5"),
     footerMain: makeNodeComponent("footerMain"),
     accordion3: makeNodeComponent("accordion3"),
     accordion4: makeNodeComponent("accordion4"),

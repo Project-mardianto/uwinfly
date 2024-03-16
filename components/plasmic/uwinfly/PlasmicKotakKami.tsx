@@ -130,10 +130,9 @@ export type PlasmicKotakKami__OverridesType = {
   clientsSection6?: Flex__<"div">;
   form2?: Flex__<typeof FormWrapper>;
   accordion2?: Flex__<typeof AntdAccordion>;
-  accordion?: Flex__<typeof AntdAccordion>;
-  footerMain?: Flex__<typeof FooterMain>;
   accordion3?: Flex__<typeof AntdAccordion>;
   accordion4?: Flex__<typeof AntdAccordion>;
+  footerMain?: Flex__<typeof FooterMain>;
 };
 
 export interface DefaultKotakKamiProps {}
@@ -188,17 +187,6 @@ function PlasmicKotakKami__RenderFunc(props: {
 
         refName: "form2",
         onMutate: generateOnMutateForSpec("isSubmitting", FormWrapper_Helpers)
-      },
-      {
-        path: "accordion.activePanelId",
-        type: "private",
-        variableType: "text",
-        initFunc: ({ $props, $state, $queries, $ctx }) => undefined,
-
-        onMutate: generateOnMutateForSpec(
-          "activePanelId",
-          AntdAccordion_Helpers
-        )
       },
       {
         path: "accordion2.activePanelId",
@@ -809,6 +797,50 @@ function PlasmicKotakKami__RenderFunc(props: {
               {"Kontak kami"}
             </div>
           </section>
+          {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
+            <section className={classNames(projectcss.all, sty.section__gToQd)}>
+              <div className={classNames(projectcss.all, sty.columns__tu6Lk)}>
+                <div className={classNames(projectcss.all, sty.column__e9O1E)}>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__qg0L
+                    )}
+                  >
+                    {"Pertanyaan sering di ajukan ?"}
+                  </div>
+                  <ArrowOpenRightSvgrepoComsvgIcon
+                    className={classNames(projectcss.all, sty.svg__k3AfZ)}
+                    role={"img"}
+                  />
+                </div>
+              </div>
+              <section
+                className={classNames(projectcss.all, sty.section__iBvGy)}
+              >
+                <div className={classNames(projectcss.all, sty.columns__gIiEb)}>
+                  <div
+                    className={classNames(projectcss.all, sty.column__jScEf)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__yJzjF
+                      )}
+                    >
+                      {"Pertanyaan sering di ajukan ?"}
+                    </div>
+                    <ArrowOpenRightSvgrepoComsvgIcon
+                      className={classNames(projectcss.all, sty.svg__cmZsd)}
+                      role={"img"}
+                    />
+                  </div>
+                </div>
+              </section>
+            </section>
+          ) : null}
           <section className={classNames(projectcss.all, sty.section__n6DMf)}>
             <div
               className={classNames(
@@ -820,7 +852,7 @@ function PlasmicKotakKami__RenderFunc(props: {
               {"Kontak kami"}
             </div>
           </section>
-          <section className={classNames(projectcss.all, sty.section__pdCfe)}>
+          <section className={classNames(projectcss.all, sty.section__a8IUr)}>
             {(() => {
               const child$Props = {
                 className: classNames("__wab_instance", sty.form3),
@@ -913,30 +945,30 @@ function PlasmicKotakKami__RenderFunc(props: {
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__udhI
+                      sty.formField__uy4Qd
                     )}
                     label={"Name"}
                     name={"name"}
                   >
                     <AntdInput
-                      className={classNames("__wab_instance", sty.input__a7E5Q)}
+                      className={classNames("__wab_instance", sty.input__t0YSp)}
                     />
                   </FormItemWrapper>
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField___2ALjK
+                      sty.formField__d8MWp
                     )}
                     label={"Phone"}
                   >
                     <AntdInput
-                      className={classNames("__wab_instance", sty.input__p9Uc6)}
+                      className={classNames("__wab_instance", sty.input__dwEcJ)}
                     />
                   </FormItemWrapper>
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__aooJ
+                      sty.formField___3C71G
                     )}
                     label={"Message"}
                     name={"message"}
@@ -944,7 +976,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                     <AntdTextArea
                       className={classNames(
                         "__wab_instance",
-                        sty.textArea__ovA4Y
+                        sty.textArea__bsVr
                       )}
                     />
                   </FormItemWrapper>
@@ -956,7 +988,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__qre8
+                        sty.text__j6Zf
                       )}
                     >
                       {"Kirim"}
@@ -965,16 +997,14 @@ function PlasmicKotakKami__RenderFunc(props: {
                 </FormWrapper>
               );
             })()}
-            <section
-              className={classNames(projectcss.all, sty.section___3Eoi1)}
-            >
-              <div className={classNames(projectcss.all, sty.columns__o3HuI)}>
-                <div className={classNames(projectcss.all, sty.column__nvmxV)}>
+            <section className={classNames(projectcss.all, sty.section__rIkBk)}>
+              <div className={classNames(projectcss.all, sty.columns___2Cl4)}>
+                <div className={classNames(projectcss.all, sty.column__gxdyY)}>
                   <div
-                    className={classNames(projectcss.all, sty.freeBox__iub6T)}
+                    className={classNames(projectcss.all, sty.freeBox__zhdkO)}
                   >
                     <LocationPinSvgrepoComsvgIcon
-                      className={classNames(projectcss.all, sty.svg__i2V6N)}
+                      className={classNames(projectcss.all, sty.svg___5Fk8D)}
                       role={"img"}
                     />
 
@@ -982,20 +1012,20 @@ function PlasmicKotakKami__RenderFunc(props: {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__srLbc
+                        sty.text__dR6Ug
                       )}
                     >
                       {"Kontak Kami"}
                     </div>
                   </div>
                   <section
-                    className={classNames(projectcss.all, sty.section__x9UEy)}
+                    className={classNames(projectcss.all, sty.section__sk8Bl)}
                   >
                     <div
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__c1VQs
+                        sty.text___85S1H
                       )}
                     >
                       {"Pembelian Unit / Kerjasama\n0812-1997-4035"}
@@ -1004,7 +1034,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__i0A0K
+                        sty.text___1Tk
                       )}
                     >
                       {"Email\nuwinfly.id@gmail.com"}
@@ -1013,7 +1043,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__aqV0O
+                        sty.text__kkQp9
                       )}
                     >
                       {"Jam Kerja\nSenin - Jumat 8:00 - 17:00 WIB"}
@@ -1021,13 +1051,13 @@ function PlasmicKotakKami__RenderFunc(props: {
                   </section>
                 </div>
               </div>
-              <div className={classNames(projectcss.all, sty.columns__eeWdv)}>
-                <div className={classNames(projectcss.all, sty.column__vphXz)}>
+              <div className={classNames(projectcss.all, sty.columns__vs5A)}>
+                <div className={classNames(projectcss.all, sty.column__z13Qm)}>
                   <div
-                    className={classNames(projectcss.all, sty.freeBox__lAufg)}
+                    className={classNames(projectcss.all, sty.freeBox__sffp1)}
                   >
                     <LocationArrowSvgrepoComsvgIcon
-                      className={classNames(projectcss.all, sty.svg__krkC4)}
+                      className={classNames(projectcss.all, sty.svg__hwG6Y)}
                       role={"img"}
                     />
 
@@ -1035,14 +1065,14 @@ function PlasmicKotakKami__RenderFunc(props: {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__ngAU
+                        sty.text___80YIs
                       )}
                     >
                       {"maps"}
                     </div>
                   </div>
                   <section
-                    className={classNames(projectcss.all, sty.section__gWvxI)}
+                    className={classNames(projectcss.all, sty.section__b5Gr)}
                   >
                     <Embed
                       data-plasmic-name={"embedHtml"}
@@ -1057,50 +1087,6 @@ function PlasmicKotakKami__RenderFunc(props: {
               </div>
             </section>
           </section>
-          {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
-            <section className={classNames(projectcss.all, sty.section__gToQd)}>
-              <div className={classNames(projectcss.all, sty.columns__tu6Lk)}>
-                <div className={classNames(projectcss.all, sty.column__e9O1E)}>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__qg0L
-                    )}
-                  >
-                    {"Pertanyaan sering di ajukan ?"}
-                  </div>
-                  <ArrowOpenRightSvgrepoComsvgIcon
-                    className={classNames(projectcss.all, sty.svg__k3AfZ)}
-                    role={"img"}
-                  />
-                </div>
-              </div>
-              <section
-                className={classNames(projectcss.all, sty.section__iBvGy)}
-              >
-                <div className={classNames(projectcss.all, sty.columns__gIiEb)}>
-                  <div
-                    className={classNames(projectcss.all, sty.column__jScEf)}
-                  >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__yJzjF
-                      )}
-                    >
-                      {"Pertanyaan sering di ajukan ?"}
-                    </div>
-                    <ArrowOpenRightSvgrepoComsvgIcon
-                      className={classNames(projectcss.all, sty.svg__cmZsd)}
-                      role={"img"}
-                    />
-                  </div>
-                </div>
-              </section>
-            </section>
-          ) : null}
           {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
             <Stack__
               as={"div"}
@@ -1161,7 +1147,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__gRzhJ
+                        sty.formField__j8KFk
                       )}
                       label={"Name"}
                       name={"name"}
@@ -1169,14 +1155,14 @@ function PlasmicKotakKami__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__etqJb
+                          sty.input__zEBlp
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__prPgy
+                        sty.formField__ujOE
                       )}
                       hidden={false}
                       label={"Telepon"}
@@ -1184,14 +1170,14 @@ function PlasmicKotakKami__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__mvMDd
+                          sty.input__kW2Sz
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__ctiTm
+                        sty.formField__ajfjc
                       )}
                       label={"Message"}
                       name={"message"}
@@ -1199,14 +1185,14 @@ function PlasmicKotakKami__RenderFunc(props: {
                       <AntdTextArea
                         className={classNames(
                           "__wab_instance",
-                          sty.textArea__cjRpT
+                          sty.textArea__bkYgk
                         )}
                       />
                     </FormItemWrapper>
                     <AntdButton
                       className={classNames(
                         "__wab_instance",
-                        sty.button__a5MNd
+                        sty.button___2YhiS
                       )}
                       submitsForm={true}
                       type={"primary"}
@@ -1215,7 +1201,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__lz59
+                          sty.text__xtEbl
                         )}
                       >
                         {"Kirim"}
@@ -1523,487 +1509,6 @@ function PlasmicKotakKami__RenderFunc(props: {
               </section>
             </Stack__>
           ) : null}
-          <section className={classNames(projectcss.all, sty.section__iaxwq)}>
-            <div className={classNames(projectcss.all, sty.columns__vweU)}>
-              <div className={classNames(projectcss.all, sty.column__yRmm)}>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__bzbIu
-                  )}
-                >
-                  {"Pertanyaan sering di ajukan ?"}
-                </div>
-              </div>
-            </div>
-          </section>
-          <section className={classNames(projectcss.all, sty.section__wOZY)}>
-            {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
-              <section
-                className={classNames(projectcss.all, sty.section__rl8D2)}
-              >
-                <div className={classNames(projectcss.all, sty.columns__h4CmL)}>
-                  <div
-                    className={classNames(projectcss.all, sty.column__vGqIt)}
-                  >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__c2LMl
-                      )}
-                    >
-                      {"Pertanyaan sering di ajukan ?"}
-                    </div>
-                    <ArrowOpenRightSvgrepoComsvgIcon
-                      className={classNames(projectcss.all, sty.svg__lrNzy)}
-                      role={"img"}
-                    />
-                  </div>
-                </div>
-                <section
-                  className={classNames(projectcss.all, sty.section__vmp6R)}
-                >
-                  <div
-                    className={classNames(projectcss.all, sty.columns__zbaBu)}
-                  >
-                    <div
-                      className={classNames(projectcss.all, sty.column__qOTqC)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__iZu5S
-                        )}
-                      >
-                        {"Pertanyaan sering di ajukan ?"}
-                      </div>
-                      <ArrowOpenRightSvgrepoComsvgIcon
-                        className={classNames(projectcss.all, sty.svg__z1Wqo)}
-                        role={"img"}
-                      />
-                    </div>
-                  </div>
-                </section>
-              </section>
-            ) : null}
-            <section className={classNames(projectcss.all, sty.section__zDff9)}>
-              <section
-                className={classNames(projectcss.all, sty.section__puNkJ)}
-              >
-                <div
-                  className={classNames(projectcss.all, sty.columns___1WMx4)}
-                >
-                  <div
-                    className={classNames(projectcss.all, sty.column__vIz6C)}
-                  >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__uUb0
-                      )}
-                    >
-                      {"Pertanyaan sering di ajukan ?"}
-                    </div>
-                    <ArrowOpenRightSvgrepoComsvgIcon
-                      className={classNames(projectcss.all, sty.svg__cZpVt)}
-                      role={"img"}
-                    />
-                  </div>
-                </div>
-                <section
-                  className={classNames(projectcss.all, sty.section__f9Bvq)}
-                >
-                  <div
-                    className={classNames(projectcss.all, sty.columns__fweg)}
-                  >
-                    <div
-                      className={classNames(projectcss.all, sty.column__ifVBy)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__rtD3M
-                        )}
-                      >
-                        {"Pertanyaan sering di ajukan ?"}
-                      </div>
-                      <ArrowOpenRightSvgrepoComsvgIcon
-                        className={classNames(projectcss.all, sty.svg__siNGx)}
-                        role={"img"}
-                      />
-                    </div>
-                  </div>
-                </section>
-              </section>
-              {(() => {
-                const child$Props = {
-                  activeKey: generateStateValueProp($state, [
-                    "accordion",
-                    "activePanelId"
-                  ]),
-                  bordered: true,
-                  className: classNames("__wab_instance", sty.accordion),
-                  items: (
-                    <React.Fragment>
-                      <AntdAccordionItem
-                        className={classNames(
-                          "__wab_instance",
-                          sty.accordionItem__oowUm
-                        )}
-                        id={1}
-                        label2={
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__vb1I
-                            )}
-                          >
-                            {
-                              "Bagaimana caranya & syarat-syarat untuk pembukaan distributor atau waralaba dengan uwinflay? "
-                            }
-                          </div>
-                        }
-                        showArrow={true}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__lqr4T
-                          )}
-                        >
-                          {"First Children"}
-                        </div>
-                      </AntdAccordionItem>
-                      <AntdAccordionItem
-                        className={classNames(
-                          "__wab_instance",
-                          sty.accordionItem__zXkJj
-                        )}
-                        id={2}
-                        label2={
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__cTm3O
-                            )}
-                          >
-                            {"Apakah bisa buka toko di rumah sendiri? "}
-                          </div>
-                        }
-                        showArrow={true}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__reTGw
-                          )}
-                        >
-                          {"Second Children"}
-                        </div>
-                      </AntdAccordionItem>
-                      <AntdAccordionItem
-                        className={classNames(
-                          "__wab_instance",
-                          sty.accordionItem__sDg0T
-                        )}
-                        id={"3"}
-                        label2={
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__p82Ec
-                            )}
-                          >
-                            {
-                              "Apakah barang diantar sampai toko & bagaimana dengan ongkos kirimnya? "
-                            }
-                          </div>
-                        }
-                        showArrow={true}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__cngi2
-                          )}
-                        >
-                          {"Second Children"}
-                        </div>
-                      </AntdAccordionItem>
-                      <AntdAccordionItem
-                        className={classNames(
-                          "__wab_instance",
-                          sty.accordionItem___64Url
-                        )}
-                        id={"4"}
-                        label2={
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__rwUsH
-                            )}
-                          >
-                            {"Apakah ada minimal pemesanan? "}
-                          </div>
-                        }
-                        showArrow={true}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__qu0Bu
-                          )}
-                        >
-                          {"Second Children"}
-                        </div>
-                      </AntdAccordionItem>
-                      <AntdAccordionItem
-                        className={classNames(
-                          "__wab_instance",
-                          sty.accordionItem__r2Jsw
-                        )}
-                        id={"5"}
-                        label2={
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__wwNf9
-                            )}
-                          >
-                            {
-                              "Apakah harganya lebih murah dibandingkan distributor? "
-                            }
-                          </div>
-                        }
-                        showArrow={true}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__q1HIg
-                          )}
-                        >
-                          {"Second Children"}
-                        </div>
-                      </AntdAccordionItem>
-                      <AntdAccordionItem
-                        className={classNames(
-                          "__wab_instance",
-                          sty.accordionItem___9GYxn
-                        )}
-                        id={"6"}
-                        label2={
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__zjEy
-                            )}
-                          >
-                            {
-                              "Apakah tokonya menggunakan nama uwinflay? Berapa lama waktu sampai buka toko? "
-                            }
-                          </div>
-                        }
-                        showArrow={true}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text___8KEfh
-                          )}
-                        >
-                          {"Second Children"}
-                        </div>
-                      </AntdAccordionItem>
-                      <AntdAccordionItem
-                        className={classNames(
-                          "__wab_instance",
-                          sty.accordionItem__zZkOk
-                        )}
-                        id={"7"}
-                        label2={
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__w5J53
-                            )}
-                          >
-                            {"Apakah boleh berjualan produk lain?"}
-                          </div>
-                        }
-                        showArrow={true}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__gMnLr
-                          )}
-                        >
-                          {"Second Children"}
-                        </div>
-                      </AntdAccordionItem>
-                    </React.Fragment>
-                  ),
-                  onChange: generateStateOnChangePropForCodeComponents(
-                    $state,
-                    "activePanelId",
-                    ["accordion", "activePanelId"],
-                    AntdAccordion_Helpers
-                  )
-                };
-                initializeCodeComponentStates(
-                  $state,
-                  [
-                    {
-                      name: "activePanelId",
-                      plasmicStateName: "accordion.activePanelId"
-                    }
-                  ],
-                  [],
-                  AntdAccordion_Helpers ?? {},
-                  child$Props
-                );
-
-                return (
-                  <AntdAccordion
-                    data-plasmic-name={"accordion"}
-                    data-plasmic-override={overrides.accordion}
-                    {...child$Props}
-                  />
-                );
-              })()}
-            </section>
-          </section>
-          <FooterMain
-            data-plasmic-name={"footerMain"}
-            data-plasmic-override={overrides.footerMain}
-            className={classNames("__wab_instance", sty.footerMain)}
-          />
-
-          <section className={classNames(projectcss.all, sty.section__jxUFe)}>
-            <div className={classNames(projectcss.all, sty.columns__jkwJb)}>
-              <div className={classNames(projectcss.all, sty.column__eUeyZ)}>
-                <div className={classNames(projectcss.all, sty.columns__znzFe)}>
-                  <div
-                    className={classNames(projectcss.all, sty.column__bNPt0)}
-                  >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__eQ1Uc
-                      )}
-                    >
-                      {"Pembayaran :"}
-                    </div>
-                  </div>
-                  <div
-                    className={classNames(projectcss.all, sty.column__cYPwG)}
-                  >
-                    <PlasmicImg__
-                      alt={""}
-                      className={classNames(sty.img__qBwbb)}
-                      displayHeight={"80px"}
-                      displayMaxHeight={"none"}
-                      displayMaxWidth={"100%"}
-                      displayMinHeight={"0"}
-                      displayMinWidth={"0"}
-                      displayWidth={"auto"}
-                      loading={"lazy"}
-                      src={{
-                        src: "/plasmic/uwinfly/images/_1646110410MandiriVapng.png",
-                        fullWidth: 257,
-                        fullHeight: 225,
-                        aspectRatio: undefined
-                      }}
-                    />
-                  </div>
-                  <div
-                    className={classNames(projectcss.all, sty.column__gR3P7)}
-                  >
-                    <PlasmicImg__
-                      alt={""}
-                      className={classNames(sty.img__auA5X)}
-                      displayHeight={"62px"}
-                      displayMaxHeight={"none"}
-                      displayMaxWidth={"100%"}
-                      displayMinHeight={"0"}
-                      displayMinWidth={"0"}
-                      displayWidth={"auto"}
-                      loading={"lazy"}
-                      src={{
-                        src: "/plasmic/uwinfly/images/bcApng.png",
-                        fullWidth: 257,
-                        fullHeight: 225,
-                        aspectRatio: undefined
-                      }}
-                    />
-                  </div>
-                  <div
-                    className={classNames(projectcss.all, sty.column__vl3Wh)}
-                  >
-                    <PlasmicImg__
-                      alt={""}
-                      className={classNames(sty.img__uyEm6)}
-                      displayHeight={"66px"}
-                      displayMaxHeight={"none"}
-                      displayMaxWidth={"100%"}
-                      displayMinHeight={"0"}
-                      displayMinWidth={"0"}
-                      displayWidth={"auto"}
-                      loading={"lazy"}
-                      src={{
-                        src: "/plasmic/uwinfly/images/download1Png.png",
-                        fullWidth: 257,
-                        fullHeight: 225,
-                        aspectRatio: undefined
-                      }}
-                    />
-                  </div>
-                  <div
-                    className={classNames(projectcss.all, sty.column___8DIrI)}
-                  >
-                    <PlasmicImg__
-                      alt={""}
-                      className={classNames(sty.img__iOgZ4)}
-                      displayHeight={"80px"}
-                      displayMaxHeight={"none"}
-                      displayMaxWidth={"100%"}
-                      displayMinHeight={"0"}
-                      displayMinWidth={"0"}
-                      displayWidth={"auto"}
-                      loading={"lazy"}
-                      src={{
-                        src: "/plasmic/uwinfly/images/downloadpng.png",
-                        fullWidth: 225,
-                        fullHeight: 225,
-                        aspectRatio: undefined
-                      }}
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
           {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
             <section className={classNames(projectcss.all, sty.section__tOiVm)}>
               <div className={classNames(projectcss.all, sty.columns__vkv7R)}>
@@ -2594,6 +2099,117 @@ function PlasmicKotakKami__RenderFunc(props: {
               })()}
             </section>
           ) : null}
+          <FooterMain
+            data-plasmic-name={"footerMain"}
+            data-plasmic-override={overrides.footerMain}
+            className={classNames("__wab_instance", sty.footerMain)}
+          />
+
+          <section className={classNames(projectcss.all, sty.section__jxUFe)}>
+            <div className={classNames(projectcss.all, sty.columns__jkwJb)}>
+              <div className={classNames(projectcss.all, sty.column__eUeyZ)}>
+                <div className={classNames(projectcss.all, sty.columns__znzFe)}>
+                  <div
+                    className={classNames(projectcss.all, sty.column__bNPt0)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__eQ1Uc
+                      )}
+                    >
+                      {"Pembayaran :"}
+                    </div>
+                  </div>
+                  <div
+                    className={classNames(projectcss.all, sty.column__cYPwG)}
+                  >
+                    <PlasmicImg__
+                      alt={""}
+                      className={classNames(sty.img__qBwbb)}
+                      displayHeight={"80px"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"100%"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"auto"}
+                      loading={"lazy"}
+                      src={{
+                        src: "/plasmic/uwinfly/images/_1646110410MandiriVapng.png",
+                        fullWidth: 257,
+                        fullHeight: 225,
+                        aspectRatio: undefined
+                      }}
+                    />
+                  </div>
+                  <div
+                    className={classNames(projectcss.all, sty.column__gR3P7)}
+                  >
+                    <PlasmicImg__
+                      alt={""}
+                      className={classNames(sty.img__auA5X)}
+                      displayHeight={"62px"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"100%"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"auto"}
+                      loading={"lazy"}
+                      src={{
+                        src: "/plasmic/uwinfly/images/bcApng.png",
+                        fullWidth: 257,
+                        fullHeight: 225,
+                        aspectRatio: undefined
+                      }}
+                    />
+                  </div>
+                  <div
+                    className={classNames(projectcss.all, sty.column__vl3Wh)}
+                  >
+                    <PlasmicImg__
+                      alt={""}
+                      className={classNames(sty.img__uyEm6)}
+                      displayHeight={"66px"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"100%"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"auto"}
+                      loading={"lazy"}
+                      src={{
+                        src: "/plasmic/uwinfly/images/download1Png.png",
+                        fullWidth: 257,
+                        fullHeight: 225,
+                        aspectRatio: undefined
+                      }}
+                    />
+                  </div>
+                  <div
+                    className={classNames(projectcss.all, sty.column___8DIrI)}
+                  >
+                    <PlasmicImg__
+                      alt={""}
+                      className={classNames(sty.img__iOgZ4)}
+                      displayHeight={"80px"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"100%"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"auto"}
+                      loading={"lazy"}
+                      src={{
+                        src: "/plasmic/uwinfly/images/downloadpng.png",
+                        fullWidth: 225,
+                        fullHeight: 225,
+                        aspectRatio: undefined
+                      }}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
     </React.Fragment>
@@ -2617,10 +2233,9 @@ const PlasmicDescendants = {
     "clientsSection6",
     "form2",
     "accordion2",
-    "accordion",
-    "footerMain",
     "accordion3",
-    "accordion4"
+    "accordion4",
+    "footerMain"
   ],
   navigationBar: [
     "navigationBar",
@@ -2644,10 +2259,9 @@ const PlasmicDescendants = {
   clientsSection6: ["clientsSection6", "form2", "accordion2"],
   form2: ["form2"],
   accordion2: ["accordion2"],
-  accordion: ["accordion"],
-  footerMain: ["footerMain"],
   accordion3: ["accordion3"],
-  accordion4: ["accordion4"]
+  accordion4: ["accordion4"],
+  footerMain: ["footerMain"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -2668,10 +2282,9 @@ type NodeDefaultElementType = {
   clientsSection6: "div";
   form2: typeof FormWrapper;
   accordion2: typeof AntdAccordion;
-  accordion: typeof AntdAccordion;
-  footerMain: typeof FooterMain;
   accordion3: typeof AntdAccordion;
   accordion4: typeof AntdAccordion;
+  footerMain: typeof FooterMain;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -2790,10 +2403,9 @@ export const PlasmicKotakKami = Object.assign(
     clientsSection6: makeNodeComponent("clientsSection6"),
     form2: makeNodeComponent("form2"),
     accordion2: makeNodeComponent("accordion2"),
-    accordion: makeNodeComponent("accordion"),
-    footerMain: makeNodeComponent("footerMain"),
     accordion3: makeNodeComponent("accordion3"),
     accordion4: makeNodeComponent("accordion4"),
+    footerMain: makeNodeComponent("footerMain"),
 
     // Metadata about props expected for PlasmicKotakKami
     internalVariantProps: PlasmicKotakKami__VariantProps,

@@ -164,7 +164,7 @@ function PlasmicMitra__RenderFunc(props: {
         initFunc: ({ $props, $state, $queries, $ctx }) => ""
       },
       {
-        path: "accordion2.activePanelId",
+        path: "accordion.activePanelId",
         type: "private",
         variableType: "text",
         initFunc: ({ $props, $state, $queries, $ctx }) => undefined,
@@ -175,7 +175,7 @@ function PlasmicMitra__RenderFunc(props: {
         )
       },
       {
-        path: "accordion.activePanelId",
+        path: "accordion2.activePanelId",
         type: "private",
         variableType: "text",
         initFunc: ({ $props, $state, $queries, $ctx }) => undefined,
@@ -4852,21 +4852,6 @@ function PlasmicMitra__RenderFunc(props: {
               </div>
             ) : null}
           </section>
-          <section className={classNames(projectcss.all, sty.section__dqHle)}>
-            <div className={classNames(projectcss.all, sty.columns__nsCX)}>
-              <div className={classNames(projectcss.all, sty.column___8NK75)}>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__gsfeg
-                  )}
-                >
-                  {"Pertanyaan sering di ajukan ?"}
-                </div>
-              </div>
-            </div>
-          </section>
           {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
             <section className={classNames(projectcss.all, sty.section__cr2U3)}>
               <div
@@ -4880,43 +4865,39 @@ function PlasmicMitra__RenderFunc(props: {
               </div>
             </section>
           ) : null}
-          <section className={classNames(projectcss.all, sty.section__omRnz)}>
-            <section className={classNames(projectcss.all, sty.section__lj59)}>
-              <div className={classNames(projectcss.all, sty.columns__nIsZ)}>
-                <div className={classNames(projectcss.all, sty.column__rHxv)}>
+          <section className={classNames(projectcss.all, sty.section__m0ZfW)}>
+            <section className={classNames(projectcss.all, sty.section__evcMs)}>
+              <div className={classNames(projectcss.all, sty.columns__buQhv)}>
+                <div className={classNames(projectcss.all, sty.column__bxrP1)}>
                   <div
                     className={classNames(
                       projectcss.all,
                       projectcss.__wab_text,
-                      sty.text__cRv6L
+                      sty.text__ebFhh
                     )}
                   >
                     {"Pertanyaan sering di ajukan ?"}
                   </div>
-                  <ArrowOpenRightSvgrepoComsvgIcon
-                    className={classNames(projectcss.all, sty.svg__typ2J)}
-                    role={"img"}
-                  />
                 </div>
               </div>
               <section
-                className={classNames(projectcss.all, sty.section__aU8Nf)}
+                className={classNames(projectcss.all, sty.section__jVEh5)}
               >
-                <div className={classNames(projectcss.all, sty.columns__c2Wrj)}>
+                <div className={classNames(projectcss.all, sty.columns__r00Dg)}>
                   <div
-                    className={classNames(projectcss.all, sty.column__nBPqo)}
+                    className={classNames(projectcss.all, sty.column__drD97)}
                   >
                     <div
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__ghvL7
+                        sty.text__vZjvW
                       )}
                     >
                       {"Pertanyaan sering di ajukan ?"}
                     </div>
                     <ArrowOpenRightSvgrepoComsvgIcon
-                      className={classNames(projectcss.all, sty.svg___4Ek5O)}
+                      className={classNames(projectcss.all, sty.svg__kbVsd)}
                       role={"img"}
                     />
                   </div>
@@ -4936,7 +4917,7 @@ function PlasmicMitra__RenderFunc(props: {
                     <AntdAccordionItem
                       className={classNames(
                         "__wab_instance",
-                        sty.accordionItem__mGbP
+                        sty.accordionItem__mqnBe
                       )}
                       id={1}
                       label2={
@@ -4944,7 +4925,7 @@ function PlasmicMitra__RenderFunc(props: {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__rolNw
+                            sty.text__yeEhl
                           )}
                         >
                           {
@@ -4958,16 +4939,18 @@ function PlasmicMitra__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text___13Zut
+                          sty.text__iXl9Z
                         )}
                       >
-                        {"First Children"}
+                        {
+                          "1. Warga Negara Indonesia\n\n2. KTP\n\n3. NPWP\n\n4. Memiliki Kartu Keluarga\n\n5. Menyediakan Ruang Usaha Minimal 2 Ruko (Milik Sendiri/Sewa)\n\n6. memilih paket waralaba 200Jt atau distributor 180Jt\n\n7. Investasi Pendirian yang tertera di (NPWP) Toko Dan Biaya Waralaba atau distributor"
+                        }
                       </div>
                     </AntdAccordionItem>
                     <AntdAccordionItem
                       className={classNames(
                         "__wab_instance",
-                        sty.accordionItem__rQiFl
+                        sty.accordionItem__iZcP6
                       )}
                       id={2}
                       label2={
@@ -4975,7 +4958,7 @@ function PlasmicMitra__RenderFunc(props: {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__gzvuh
+                            sty.text__erHkW
                           )}
                         >
                           {"Apakah bisa buka toko di rumah sendiri? "}
@@ -4987,16 +4970,18 @@ function PlasmicMitra__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text___9ZnZk
+                          sty.text__lGIcP
                         )}
                       >
-                        {"Second Children"}
+                        {
+                          "Saat ini kami masih belum bisa membuka toko di rumah."
+                        }
                       </div>
                     </AntdAccordionItem>
                     <AntdAccordionItem
                       className={classNames(
                         "__wab_instance",
-                        sty.accordionItem___4NVdt
+                        sty.accordionItem__mmScN
                       )}
                       id={"3"}
                       label2={
@@ -5004,7 +4989,7 @@ function PlasmicMitra__RenderFunc(props: {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text___85NbS
+                            sty.text___9HWaE
                           )}
                         >
                           {
@@ -5018,16 +5003,18 @@ function PlasmicMitra__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text___9FSCx
+                          sty.text__kMgIo
                         )}
                       >
-                        {"Second Children"}
+                        {
+                          "Untuk pesanan berulang yang telah memiliki toko atau saat pembukaan toko baru, ongkos kirim akan ditanggung oleh kami. bagi mitra yang bekerja sama dengan kami, seperti waralaba atau distributor"
+                        }
                       </div>
                     </AntdAccordionItem>
                     <AntdAccordionItem
                       className={classNames(
                         "__wab_instance",
-                        sty.accordionItem__d5WWe
+                        sty.accordionItem__yuslJ
                       )}
                       id={"4"}
                       label2={
@@ -5035,7 +5022,7 @@ function PlasmicMitra__RenderFunc(props: {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text___708
+                            sty.text___3SUgC
                           )}
                         >
                           {"Apakah ada minimal pemesanan? "}
@@ -5047,16 +5034,18 @@ function PlasmicMitra__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__lq58K
+                          sty.text__lAUh
                         )}
                       >
-                        {"Second Children"}
+                        {
+                          "Saat ini, kami belum menetapkan minimal pemesanan barang, kecuali jika Anda bergabung dengan target kami."
+                        }
                       </div>
                     </AntdAccordionItem>
                     <AntdAccordionItem
                       className={classNames(
                         "__wab_instance",
-                        sty.accordionItem__zwBUa
+                        sty.accordionItem__gqJCj
                       )}
                       id={"5"}
                       label2={
@@ -5064,7 +5053,7 @@ function PlasmicMitra__RenderFunc(props: {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__pKplK
+                            sty.text__o6J14
                           )}
                         >
                           {
@@ -5078,16 +5067,18 @@ function PlasmicMitra__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__pthx
+                          sty.text__zsiyJ
                         )}
                       >
-                        {"Second Children"}
+                        {
+                          "Harga kami harga dari produsen dan harga kami lebih rendah dari harga distributor."
+                        }
                       </div>
                     </AntdAccordionItem>
                     <AntdAccordionItem
                       className={classNames(
                         "__wab_instance",
-                        sty.accordionItem__rgxh2
+                        sty.accordionItem__y6CyU
                       )}
                       id={"6"}
                       label2={
@@ -5095,7 +5086,7 @@ function PlasmicMitra__RenderFunc(props: {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text___2FA9L
+                            sty.text__dC4D0
                           )}
                         >
                           {
@@ -5109,16 +5100,18 @@ function PlasmicMitra__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__q0Ay2
+                          sty.text__gGjwi
                         )}
                       >
-                        {"Second Children"}
+                        {
+                          'Nama toko menggunakan nama "Uwinfly", persyaratan dan prosedur telah disetujui oleh produsen, sekitar 2 minggu kerja., sudah siap buka toko'
+                        }
                       </div>
                     </AntdAccordionItem>
                     <AntdAccordionItem
                       className={classNames(
                         "__wab_instance",
-                        sty.accordionItem__nmzEp
+                        sty.accordionItem__dRHzd
                       )}
                       id={"7"}
                       label2={
@@ -5126,7 +5119,7 @@ function PlasmicMitra__RenderFunc(props: {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__ayK6D
+                            sty.text__arB34
                           )}
                         >
                           {"Apakah boleh berjualan produk lain?"}
@@ -5138,10 +5131,12 @@ function PlasmicMitra__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__gu8WF
+                          sty.text__o2WNd
                         )}
                       >
-                        {"Second Children"}
+                        {
+                          "Saat ini kami memperbolehkan penjualan produk lain dengan syarat dan ketentuan yang telah ditetapkan oleh kami."
+                        }
                       </div>
                     </AntdAccordionItem>
                   </React.Fragment>

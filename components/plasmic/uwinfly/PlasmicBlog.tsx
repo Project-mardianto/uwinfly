@@ -189,31 +189,6 @@ function PlasmicBlog__RenderFunc(props: {
             plasmic_plasmic_rich_components_css.plasmic_tokens,
             sty.root
           )}
-          onLoad={async event => {
-            const $steps = {};
-
-            $steps["updateStateVariable"] = true
-              ? (() => {
-                  const actionArgs = {};
-                  return (({ variable, value, startIndex, deleteCount }) => {
-                    if (!variable) {
-                      return;
-                    }
-                    const { objRoot, variablePath } = variable;
-                    undefined;
-                  })?.apply(null, [actionArgs]);
-                })()
-              : undefined;
-            if (
-              $steps["updateStateVariable"] != null &&
-              typeof $steps["updateStateVariable"] === "object" &&
-              typeof $steps["updateStateVariable"].then === "function"
-            ) {
-              $steps["updateStateVariable"] = await $steps[
-                "updateStateVariable"
-              ];
-            }
-          }}
         >
           <section className={classNames(projectcss.all, sty.section__qxZu7)}>
             <NavigationBar

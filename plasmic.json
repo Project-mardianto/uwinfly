@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -41,7 +41,8 @@
           "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "eiC1VCbma8t6iMexZerqLa",
@@ -63,7 +64,8 @@
           "componentImportPath": "@plasmicpkgs/commerce-swell"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "caTPwKxj5ZrD9LQ7DMdK4Z",
@@ -121,7 +123,8 @@
           "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "gLnoj82AzKVVT7qXiqAbHD",
@@ -187,7 +190,8 @@
           "componentImportPath": "@plasmicpkgs/plasmic-tabs"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "xp1p7dmg329XVLHyuEUxD2",
@@ -305,7 +309,8 @@
           "componentImportPath": "@plasmicpkgs/commerce"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "jkU633o1Cz7HrJdwdxhVHk",
@@ -359,7 +364,8 @@
           }
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "ohDidvG9XsCeFumugENU3J",
@@ -759,7 +765,8 @@
           "componentImportPath": "@plasmicpkgs/antd5/skinny/registerBreadcrumb"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "r3ASNrnyvLLLAtDvzUioQ",
@@ -785,7 +792,8 @@
           }
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "7nJ7UcFmq9UzB6eXfC5z4a",
@@ -807,7 +815,8 @@
           "componentImportPath": "@plasmicpkgs/plasmic-nav"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "szjgMQpPpxhmkjnaBvZQJG",
@@ -829,7 +838,8 @@
           "componentImportPath": "@plasmicpkgs/react-parallax-tilt"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "58GpZjZCWTaJ8AUhpCwt2K",
@@ -851,7 +861,8 @@
           "componentImportPath": "@plasmicpkgs/react-awesome-reveal"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "iWaiTLt8mAup4ReehswsSx",
@@ -1302,6 +1313,19 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/Blog"
+        },
+        {
+          "id": "xmYLiN-pPspI",
+          "name": "Xml",
+          "type": "managed",
+          "projectId": "iWaiTLt8mAup4ReehswsSx",
+          "renderModuleFilePath": "plasmic/uwinfly/PlasmicXml.tsx",
+          "importSpec": {
+            "modulePath": "Xml.tsx"
+          },
+          "cssFilePath": "plasmic/uwinfly/PlasmicXml.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
