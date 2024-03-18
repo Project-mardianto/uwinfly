@@ -609,6 +609,7 @@ function PlasmicValidasiMessage__RenderFunc(props: {
           <section className={classNames(projectcss.all, sty.section__xj9CM)}>
             <Button2
               className={classNames("__wab_instance", sty.button2__vpXbk)}
+              link={`/`}
             >
               {"Balik Menu"}
             </Button2>

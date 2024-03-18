@@ -1140,8 +1140,7 @@
 .button2__ctWr7:global(.__wab_instance) {
   max-width: 100%;
   position: relative;
-  width: 100%;
-  min-width: 0;
+  width: auto;
 }
 .svg__vfVpf {
   position: relative;
