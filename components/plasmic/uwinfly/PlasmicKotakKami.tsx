@@ -835,7 +835,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                         sty.text___1Tk
                       )}
                     >
-                      {"Email\nuwinfly.id@gmail.com"}
+                      {"Email\nuwinfly.mitra@gmail.com"}
                     </div>
                     <div
                       className={classNames(
@@ -878,7 +878,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                         sty.embedHtml__vtv1O
                       )}
                       code={
-                        '<div style="max-width:100%;list-style:none; transition: none;overflow:hidden;height:300px;"><div id="embed-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=PT+Uwinfly+Indonesia+Industries,+Jalan+Simoplas,+Randu+Garut,+Semarang+City,+Central+Java,+Indonesia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="embed-ded-maphtml" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="inject-map-data">premium bootstrap themes</a><style>#embed-map-canvas img{max-height:none;max-width:none!important;background:none!important;}</style></div>'
+                        '<div style="max-width:100%;list-style:none; transition: none;overflow:hidden;height:300px;"><div id="embed-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe width="820" height="560" id="gmap_canvas" src="https://maps.google.com/maps?q=Jl.+Raya+Gandul++No.1+Kel.+Gandul%2C+Kec.+Cinere%2C+Kota+Depok&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><a class="embed-ded-maphtml" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="inject-map-data">premium bootstrap themes</a><style>#embed-map-canvas img{max-height:none;max-width:none!important;background:none!important;}</style></div>'
                       }
                     />
                   </section>
@@ -946,7 +946,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__fi0Rz
+                        sty.formField___1X0YW
                       )}
                       label={"Name"}
                       name={"name"}
@@ -954,14 +954,14 @@ function PlasmicKotakKami__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__sQyDo
+                          sty.input__gNoDw
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__d5HY
+                        sty.formField__ko2J
                       )}
                       hidden={false}
                       label={"Telepon"}
@@ -969,14 +969,14 @@ function PlasmicKotakKami__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__uft84
+                          sty.input__bh2FV
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__xncV9
+                        sty.formField___7Tnfi
                       )}
                       label={"Message"}
                       name={"message"}
@@ -988,7 +988,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                     <AntdButton
                       className={classNames(
                         "__wab_instance",
-                        sty.button__q2Z0R
+                        sty.button__yVmHl
                       )}
                       submitsForm={true}
                       type={"primary"}
@@ -997,7 +997,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__qkmdg
+                          sty.text__nmUTv
                         )}
                       >
                         {"Kirim"}

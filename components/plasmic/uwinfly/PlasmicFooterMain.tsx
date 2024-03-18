@@ -379,9 +379,7 @@ function PlasmicFooterMain__RenderFunc(props: {
                 sty.text__spWJ
               )}
             >
-              {
-                "PT Uwinfly Indonesia Industries\nJl. Simoplas, Randu Garut, Kec. Tugu, Kota Semarang, Jawa Tengah 50181"
-              }
+              {"Jl. Raya Gandul  No.1 Kel. Gandul, Kec. Cinere, Kota Depok"}
             </div>
             <div
               className={classNames(
@@ -390,7 +388,7 @@ function PlasmicFooterMain__RenderFunc(props: {
                 sty.text__tkvfp
               )}
             >
-              {"Email\nxyz@company.com"}
+              {"Email\nuwinfly.mitra@gmail.com"}
             </div>
             <Button2
               data-plasmic-name={"button2"}
