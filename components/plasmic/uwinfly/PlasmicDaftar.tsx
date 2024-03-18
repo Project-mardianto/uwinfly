@@ -895,19 +895,22 @@ function PlasmicDaftar__RenderFunc(props: {
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__cSWng
+                      sty.formField__uvLTq
                     )}
                     label={"Name"}
                     name={"name"}
                   >
                     <AntdInput
-                      className={classNames("__wab_instance", sty.input__v2ZxD)}
+                      className={classNames(
+                        "__wab_instance",
+                        sty.input___4Cuce
+                      )}
                     />
                   </FormItemWrapper>
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__jpk5G
+                      sty.formField__gzL3
                     )}
                     label={"Jenis kelamin"}
                   >
@@ -928,7 +931,7 @@ function PlasmicDaftar__RenderFunc(props: {
                       <AntdRadio
                         className={classNames(
                           "__wab_instance",
-                          sty.radio__y3Bzh
+                          sty.radio___3SyO
                         )}
                         value={"op1"}
                       >
@@ -936,7 +939,7 @@ function PlasmicDaftar__RenderFunc(props: {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__gq4IF
+                            sty.text___7WLff
                           )}
                         >
                           {"Option 1"}
@@ -945,7 +948,7 @@ function PlasmicDaftar__RenderFunc(props: {
                       <AntdRadio
                         className={classNames(
                           "__wab_instance",
-                          sty.radio__ohMgL
+                          sty.radio__ljUVu
                         )}
                         value={"op2"}
                       >
@@ -953,7 +956,7 @@ function PlasmicDaftar__RenderFunc(props: {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__b0Kfb
+                            sty.text__unqSg
                           )}
                         >
                           {"Option 2"}
@@ -964,30 +967,30 @@ function PlasmicDaftar__RenderFunc(props: {
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__xc35B
+                      sty.formField___6BIx7
                     )}
                     hidden={false}
                     label={"Telepon"}
                   >
                     <AntdInput
-                      className={classNames("__wab_instance", sty.input__izuBq)}
+                      className={classNames("__wab_instance", sty.input__t32U)}
                     />
                   </FormItemWrapper>
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__pdcOj
+                      sty.formField__acGq
                     )}
                     label={"Lokasi usaha"}
                   >
                     <AntdInput
-                      className={classNames("__wab_instance", sty.input__jufpo)}
+                      className={classNames("__wab_instance", sty.input__qRymm)}
                     />
                   </FormItemWrapper>
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__epmwh
+                      sty.formField__mECfL
                     )}
                     label={"Paket kerjasama"}
                   >
@@ -1019,7 +1022,7 @@ function PlasmicDaftar__RenderFunc(props: {
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__rbbLl
+                      sty.formField__e59Dn
                     )}
                     initialValue={"2024-03-03T04:01:21.307Z"}
                     label={"Tanggal survei"}
@@ -1038,7 +1041,7 @@ function PlasmicDaftar__RenderFunc(props: {
                     children={null}
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__gJ9E8
+                      sty.formField__nnjpA
                     )}
                     initialValue={false}
                     label={
@@ -1046,7 +1049,7 @@ function PlasmicDaftar__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__uiMv7
+                          sty.text__s2Om1
                         )}
                       >
                         {"Label"}
@@ -1062,7 +1065,7 @@ function PlasmicDaftar__RenderFunc(props: {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__fsP7B
+                        sty.text__r5JIw
                       )}
                     >
                       {"Kirim"}
@@ -1176,7 +1179,7 @@ function PlasmicDaftar__RenderFunc(props: {
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__ejKxx
+                        sty.formField___9Ccyv
                       )}
                       label={"Name"}
                       name={"name"}
@@ -1184,14 +1187,14 @@ function PlasmicDaftar__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input___8AGgX
+                          sty.input__jfAGa
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__uu9In
+                        sty.formField__iR83F
                       )}
                       hidden={false}
                       label={"Telepon"}
@@ -1199,14 +1202,14 @@ function PlasmicDaftar__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__mk94U
+                          sty.input___9RrOe
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__lAfYv
+                        sty.formField__o6HA
                       )}
                       label={"Message"}
                       name={"message"}
@@ -1216,10 +1219,7 @@ function PlasmicDaftar__RenderFunc(props: {
                       />
                     </FormItemWrapper>
                     <AntdButton
-                      className={classNames(
-                        "__wab_instance",
-                        sty.button__fNIqG
-                      )}
+                      className={classNames("__wab_instance", sty.button__tOm3)}
                       submitsForm={true}
                       type={"primary"}
                     >
@@ -1227,7 +1227,7 @@ function PlasmicDaftar__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__sMVqh
+                          sty.text__ucrMt
                         )}
                       >
                         {"Kirim"}

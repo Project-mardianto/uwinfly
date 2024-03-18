@@ -1352,6 +1352,20 @@
           "cssFilePath": "plasmic/uwinfly/PlasmicText03.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "glQtNY980VYO",
+          "name": "ValidasiMessage",
+          "type": "managed",
+          "projectId": "iWaiTLt8mAup4ReehswsSx",
+          "renderModuleFilePath": "plasmic/uwinfly/PlasmicValidasiMessage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/validasi-message.tsx"
+          },
+          "cssFilePath": "plasmic/uwinfly/PlasmicValidasiMessage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/validasi-message"
         }
       ],
       "icons": [
@@ -1484,6 +1498,11 @@
           "id": "0qa3aoynIlk5",
           "name": "ProfileCircleSvgrepoCom1SvgIcon",
           "moduleFilePath": "plasmic/uwinfly/icons/PlasmicIcon__ProfileCircleSvgrepoCom1Svg.tsx"
+        },
+        {
+          "id": "eybPFtSD3Jk4",
+          "name": "_2987919AisvgIcon",
+          "moduleFilePath": "plasmic/uwinfly/icons/PlasmicIcon___2987919Aisvg.tsx"
         }
       ],
       "images": [
