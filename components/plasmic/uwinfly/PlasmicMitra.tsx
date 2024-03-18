@@ -5771,7 +5771,7 @@ export const PlasmicMitra = Object.assign(
 
     // Page metadata
     pageMetadata: {
-      title: "uwinfly",
+      title: "mitra uwinfly",
       description:
         "Solusi tepat mempunyai dealer motor listrik dan sepeda listrik, uwinfly terjamin dan terpercaya untuk inventasi anda ",
       ogImageSrc: "",

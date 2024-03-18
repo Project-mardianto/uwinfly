@@ -274,6 +274,21 @@ function PlasmicProfile__RenderFunc(props: {
           name="twitter:title"
           content={PlasmicProfile.pageMetadata.title}
         />
+        <meta
+          key="description"
+          name="description"
+          content={PlasmicProfile.pageMetadata.description}
+        />
+        <meta
+          key="og:description"
+          property="og:description"
+          content={PlasmicProfile.pageMetadata.description}
+        />
+        <meta
+          key="twitter:description"
+          name="twitter:description"
+          content={PlasmicProfile.pageMetadata.description}
+        />
       </Head>
 
       <style>{`
@@ -748,19 +763,19 @@ function PlasmicProfile__RenderFunc(props: {
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__reD8
+                      sty.formField__bijp
                     )}
                     label={"Email"}
                     name={"name"}
                   >
                     <AntdInput
-                      className={classNames("__wab_instance", sty.input__fboll)}
+                      className={classNames("__wab_instance", sty.input__t4EQm)}
                     />
                   </FormItemWrapper>
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__gPmVh
+                      sty.formField___1Te0E
                     )}
                     label={"Password"}
                   >
@@ -778,7 +793,7 @@ function PlasmicProfile__RenderFunc(props: {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text___8JeU1
+                        sty.text__wbLuB
                       )}
                     >
                       {"Login"}
@@ -1151,7 +1166,7 @@ function PlasmicProfile__RenderFunc(props: {
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__we6Ys
+                        sty.formField__rSqM
                       )}
                       label={"Name"}
                       name={"name"}
@@ -1159,14 +1174,14 @@ function PlasmicProfile__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input___8DywX
+                          sty.input__voxy5
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__laJvx
+                        sty.formField__hxIkv
                       )}
                       hidden={false}
                       label={"Telepon"}
@@ -1174,14 +1189,14 @@ function PlasmicProfile__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__te3Ny
+                          sty.input__rW8V4
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__dmp5B
+                        sty.formField___6DL0
                       )}
                       label={"Message"}
                       name={"message"}
@@ -1193,7 +1208,7 @@ function PlasmicProfile__RenderFunc(props: {
                     <AntdButton
                       className={classNames(
                         "__wab_instance",
-                        sty.button__y3Mxl
+                        sty.button___9BCkB
                       )}
                       submitsForm={true}
                       type={"primary"}
@@ -1202,7 +1217,7 @@ function PlasmicProfile__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__fVyj4
+                          sty.text__hqd4O
                         )}
                       >
                         {"Kirim"}
@@ -2612,8 +2627,8 @@ export const PlasmicProfile = Object.assign(
 
     // Page metadata
     pageMetadata: {
-      title: "Kotak kami",
-      description: "",
+      title: "profile",
+      description: "Isi biodata anda untuk pembelian produk uwinfly",
       ogImageSrc: "",
       canonical: ""
     }

@@ -165,6 +165,21 @@ function PlasmicAboutUs__RenderFunc(props: {
           name="twitter:title"
           content={PlasmicAboutUs.pageMetadata.title}
         />
+        <meta
+          key="description"
+          name="description"
+          content={PlasmicAboutUs.pageMetadata.description}
+        />
+        <meta
+          key="og:description"
+          property="og:description"
+          content={PlasmicAboutUs.pageMetadata.description}
+        />
+        <meta
+          key="twitter:description"
+          name="twitter:description"
+          content={PlasmicAboutUs.pageMetadata.description}
+        />
       </Head>
 
       <style>{`
@@ -189,31 +204,6 @@ function PlasmicAboutUs__RenderFunc(props: {
             plasmic_plasmic_rich_components_css.plasmic_tokens,
             sty.root
           )}
-          onLoad={async event => {
-            const $steps = {};
-
-            $steps["updateStateVariable"] = true
-              ? (() => {
-                  const actionArgs = {};
-                  return (({ variable, value, startIndex, deleteCount }) => {
-                    if (!variable) {
-                      return;
-                    }
-                    const { objRoot, variablePath } = variable;
-                    undefined;
-                  })?.apply(null, [actionArgs]);
-                })()
-              : undefined;
-            if (
-              $steps["updateStateVariable"] != null &&
-              typeof $steps["updateStateVariable"] === "object" &&
-              typeof $steps["updateStateVariable"].then === "function"
-            ) {
-              $steps["updateStateVariable"] = await $steps[
-                "updateStateVariable"
-              ];
-            }
-          }}
         >
           <section className={classNames(projectcss.all, sty.section__bFuWe)}>
             <NavigationBar
@@ -1123,8 +1113,9 @@ export const PlasmicAboutUs = Object.assign(
 
     // Page metadata
     pageMetadata: {
-      title: "About Us",
-      description: "",
+      title: "tentang kami ",
+      description:
+        "Uwinfly adalah Perusahaan Industrial yang bergerak dalam bidang usaha kendaraan listrik. Dimulai dengan set-up pabrik untuk memulai proses produksi di Tahun 2018. UWinfly mulai memproduksi dan menjualkan produk seperti Sepeda Listrik dan Motor Listrik di Tahun 2019.",
       ogImageSrc: "",
       canonical: ""
     }

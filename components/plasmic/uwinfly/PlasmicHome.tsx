@@ -286,7 +286,6 @@ function PlasmicHome__RenderFunc(props: {
           data-plasmic-override={overrides.root}
           data-plasmic-root={true}
           data-plasmic-for-node={forNode}
-          accessKey={``}
           className={classNames(
             projectcss.all,
             projectcss.root_reset,

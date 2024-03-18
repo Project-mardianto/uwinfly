@@ -165,6 +165,21 @@ function PlasmicBlog__RenderFunc(props: {
           name="twitter:title"
           content={PlasmicBlog.pageMetadata.title}
         />
+        <meta
+          key="description"
+          name="description"
+          content={PlasmicBlog.pageMetadata.description}
+        />
+        <meta
+          key="og:description"
+          property="og:description"
+          content={PlasmicBlog.pageMetadata.description}
+        />
+        <meta
+          key="twitter:description"
+          name="twitter:description"
+          content={PlasmicBlog.pageMetadata.description}
+        />
       </Head>
 
       <style>{`
@@ -1096,8 +1111,8 @@ export const PlasmicBlog = Object.assign(
 
     // Page metadata
     pageMetadata: {
-      title: "About Us",
-      description: "",
+      title: "blog ",
+      description: "informasi  sepeda listrik dan motor listrik \n",
       ogImageSrc: "",
       canonical: ""
     }

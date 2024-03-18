@@ -1457,9 +1457,9 @@ export const PlasmicChat = Object.assign(
 
     // Page metadata
     pageMetadata: {
-      title: "uwinfly",
+      title: "chat",
       description:
-        "Solusi tepat mempunyai dealer motor listrik dan sepeda listrik, uwinfly terjamin dan terpercaya untuk inventasi anda ",
+        "membantu customer uwinfly indonesia mengenai sepeda listrik dan motor listrik\n",
       ogImageSrc: "",
       canonical: ""
     }

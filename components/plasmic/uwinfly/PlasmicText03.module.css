@@ -1,0 +1,17 @@
+.root {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: var(--token-dMoyXbO7yWwG);
+  line-height: 1.6;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  position: relative;
+  min-width: 0;
+  padding: 0px;
+  margin: 0px 0px 7px;
+}
+.root:hover {
+  color: #ff0100;
+}

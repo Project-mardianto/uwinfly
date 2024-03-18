@@ -187,6 +187,21 @@ function PlasmicPersyaratan__RenderFunc(props: {
           name="twitter:title"
           content={PlasmicPersyaratan.pageMetadata.title}
         />
+        <meta
+          key="description"
+          name="description"
+          content={PlasmicPersyaratan.pageMetadata.description}
+        />
+        <meta
+          key="og:description"
+          property="og:description"
+          content={PlasmicPersyaratan.pageMetadata.description}
+        />
+        <meta
+          key="twitter:description"
+          name="twitter:description"
+          content={PlasmicPersyaratan.pageMetadata.description}
+        />
       </Head>
 
       <style>{`
@@ -951,8 +966,9 @@ export const PlasmicPersyaratan = Object.assign(
 
     // Page metadata
     pageMetadata: {
-      title: "Service",
-      description: "",
+      title: "persyaratan ",
+      description:
+        "persyaratan apa saja ingin menjadi distributor atau waralaba uwinfly ",
       ogImageSrc: "",
       canonical: ""
     }

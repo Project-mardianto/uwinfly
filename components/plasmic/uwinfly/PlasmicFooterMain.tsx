@@ -204,7 +204,20 @@ function PlasmicFooterMain__RenderFunc(props: {
                 projectcss.all,
                 projectcss.a,
                 projectcss.__wab_text,
-                sty.link__aviw8
+                sty.link__lnQj0
+              )}
+              component={Link}
+              href={`/`}
+              platform={"nextjs"}
+            >
+              {"Home"}
+            </PlasmicLink__>
+            <PlasmicLink__
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
+                projectcss.__wab_text,
+                sty.link__rioZd
               )}
               component={Link}
               href={`/about-us`}
@@ -217,7 +230,7 @@ function PlasmicFooterMain__RenderFunc(props: {
                 projectcss.all,
                 projectcss.a,
                 projectcss.__wab_text,
-                sty.link__h7Xjs
+                sty.link___4PIj0
               )}
               component={Link}
               href={`/Mitra`}
@@ -230,7 +243,7 @@ function PlasmicFooterMain__RenderFunc(props: {
                 projectcss.all,
                 projectcss.a,
                 projectcss.__wab_text,
-                sty.link__ia3FF
+                sty.link__fbqHe
               )}
               component={Link}
               href={`/persyaratan`}

@@ -268,6 +268,21 @@ function PlasmicKotakKami__RenderFunc(props: {
           name="twitter:title"
           content={PlasmicKotakKami.pageMetadata.title}
         />
+        <meta
+          key="description"
+          name="description"
+          content={PlasmicKotakKami.pageMetadata.description}
+        />
+        <meta
+          key="og:description"
+          property="og:description"
+          content={PlasmicKotakKami.pageMetadata.description}
+        />
+        <meta
+          key="twitter:description"
+          name="twitter:description"
+          content={PlasmicKotakKami.pageMetadata.description}
+        />
       </Head>
 
       <style>{`
@@ -945,30 +960,33 @@ function PlasmicKotakKami__RenderFunc(props: {
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__uy4Qd
+                      sty.formField__bm3Nn
                     )}
                     label={"Name"}
                     name={"name"}
                   >
                     <AntdInput
-                      className={classNames("__wab_instance", sty.input__t0YSp)}
+                      className={classNames("__wab_instance", sty.input__m0BrC)}
                     />
                   </FormItemWrapper>
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__d8MWp
+                      sty.formField__qAu8V
                     )}
                     label={"Phone"}
                   >
                     <AntdInput
-                      className={classNames("__wab_instance", sty.input__dwEcJ)}
+                      className={classNames(
+                        "__wab_instance",
+                        sty.input___5ZNeZ
+                      )}
                     />
                   </FormItemWrapper>
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField___3C71G
+                      sty.formField__dZjb0
                     )}
                     label={"Message"}
                     name={"message"}
@@ -976,7 +994,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                     <AntdTextArea
                       className={classNames(
                         "__wab_instance",
-                        sty.textArea__bsVr
+                        sty.textArea__mo1JO
                       )}
                     />
                   </FormItemWrapper>
@@ -988,7 +1006,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__j6Zf
+                        sty.text__q0BCi
                       )}
                     >
                       {"Kirim"}
@@ -1147,7 +1165,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__j8KFk
+                        sty.formField__xaYmm
                       )}
                       label={"Name"}
                       name={"name"}
@@ -1155,14 +1173,14 @@ function PlasmicKotakKami__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__zEBlp
+                          sty.input__wVbhZ
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__ujOE
+                        sty.formField___9VhQ4
                       )}
                       hidden={false}
                       label={"Telepon"}
@@ -1170,14 +1188,14 @@ function PlasmicKotakKami__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__kW2Sz
+                          sty.input__vfh8C
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__ajfjc
+                        sty.formField__ew9Lv
                       )}
                       label={"Message"}
                       name={"message"}
@@ -1185,14 +1203,14 @@ function PlasmicKotakKami__RenderFunc(props: {
                       <AntdTextArea
                         className={classNames(
                           "__wab_instance",
-                          sty.textArea__bkYgk
+                          sty.textArea__hR66I
                         )}
                       />
                     </FormItemWrapper>
                     <AntdButton
                       className={classNames(
                         "__wab_instance",
-                        sty.button___2YhiS
+                        sty.button__nyWwi
                       )}
                       submitsForm={true}
                       type={"primary"}
@@ -1201,7 +1219,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__xtEbl
+                          sty.text__gZHwY
                         )}
                       >
                         {"Kirim"}
@@ -2413,8 +2431,8 @@ export const PlasmicKotakKami = Object.assign(
 
     // Page metadata
     pageMetadata: {
-      title: "Kotak kami",
-      description: "",
+      title: "kotak kami",
+      description: "produk uwinfly motor listrik sepeda listrik ",
       ogImageSrc: "",
       canonical: ""
     }
