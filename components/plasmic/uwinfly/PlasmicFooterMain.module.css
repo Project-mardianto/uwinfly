@@ -5,6 +5,7 @@
   width: 100%;
   position: relative;
   flex-wrap: wrap;
+  background: var(--token-jgohepLVeKvh);
   min-width: 0;
   padding: 36px 64px;
 }

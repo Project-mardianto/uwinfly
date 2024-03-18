@@ -69,6 +69,7 @@ import Link4 from "../../Link4"; // plasmic-import: b5zzKfYNksQk/component
 import Link5 from "../../Link5"; // plasmic-import: jy_zqM-l3sYE/component
 import Link6 from "../../Link6"; // plasmic-import: qdfwHKfwtv8_/component
 import Button from "../../Button"; // plasmic-import: f3lmI1Q2JQuQ/component
+import { Embed } from "@plasmicpkgs/plasmic-basic-components";
 import { FormWrapper } from "@plasmicpkgs/antd5/skinny/Form";
 import { formHelpers as FormWrapper_Helpers } from "@plasmicpkgs/antd5/skinny/Form";
 import { FormItemWrapper } from "@plasmicpkgs/antd5/skinny/FormItem";
@@ -76,8 +77,6 @@ import { AntdInput } from "@plasmicpkgs/antd5/skinny/registerInput";
 import { inputHelpers as AntdInput_Helpers } from "@plasmicpkgs/antd5/skinny/registerInput";
 import { AntdTextArea } from "@plasmicpkgs/antd5/skinny/registerInput";
 import { inputHelpers as AntdTextArea_Helpers } from "@plasmicpkgs/antd5/skinny/registerInput";
-import Button2 from "../../Button2"; // plasmic-import: bn8Yy5q1VEYE/component
-import { Embed } from "@plasmicpkgs/plasmic-basic-components";
 import { AntdButton } from "@plasmicpkgs/antd5/skinny/registerButton";
 import { AntdAccordion } from "@plasmicpkgs/antd5/skinny/registerCollapse";
 import { accordionHelpers as AntdAccordion_Helpers } from "@plasmicpkgs/antd5/skinny/registerCollapse";
@@ -99,7 +98,6 @@ import BestSellersvgIcon from "./icons/PlasmicIcon__BestSellersvg"; // plasmic-i
 import MotorcyclesvgIcon from "./icons/PlasmicIcon__Motorcyclesvg"; // plasmic-import: bB21gLC1MPi2/icon
 import PinsvgIcon from "./icons/PlasmicIcon__Pinsvg"; // plasmic-import: d5Rc8pnBZxlJ/icon
 import ArrowOpenRightSvgrepoComsvgIcon from "./icons/PlasmicIcon__ArrowOpenRightSvgrepoComsvg"; // plasmic-import: bseFrujWYX3A/icon
-import Icon4Icon from "./icons/PlasmicIcon__Icon4"; // plasmic-import: Fvg9iqGVtOYx/icon
 import LocationPinSvgrepoComsvgIcon from "./icons/PlasmicIcon__LocationPinSvgrepoComsvg"; // plasmic-import: WLhuhbeughNW/icon
 import LocationArrowSvgrepoComsvgIcon from "./icons/PlasmicIcon__LocationArrowSvgrepoComsvg"; // plasmic-import: HBJM9aAQDa93/icon
 
@@ -124,11 +122,9 @@ export type PlasmicKotakKami__OverridesType = {
   link5?: Flex__<typeof Link5>;
   link6?: Flex__<typeof Link6>;
   h2?: Flex__<"h2">;
-  form3?: Flex__<typeof FormWrapper>;
-  button2?: Flex__<typeof Button2>;
-  embedHtml?: Flex__<typeof Embed>;
   clientsSection6?: Flex__<"div">;
   form2?: Flex__<typeof FormWrapper>;
+  textArea?: Flex__<typeof AntdTextArea>;
   accordion2?: Flex__<typeof AntdAccordion>;
   accordion3?: Flex__<typeof AntdAccordion>;
   accordion4?: Flex__<typeof AntdAccordion>;
@@ -220,24 +216,6 @@ function PlasmicKotakKami__RenderFunc(props: {
           "activePanelId",
           AntdAccordion_Helpers
         )
-      },
-      {
-        path: "form3.value",
-        type: "private",
-        variableType: "object",
-        initFunc: ({ $props, $state, $queries, $ctx }) => undefined,
-
-        refName: "form3",
-        onMutate: generateOnMutateForSpec("value", FormWrapper_Helpers)
-      },
-      {
-        path: "form3.isSubmitting",
-        type: "private",
-        variableType: "boolean",
-        initFunc: ({ $props, $state, $queries, $ctx }) => false,
-
-        refName: "form3",
-        onMutate: generateOnMutateForSpec("isSubmitting", FormWrapper_Helpers)
       }
     ],
     [$props, $ctx, $refs]
@@ -751,67 +729,6 @@ function PlasmicKotakKami__RenderFunc(props: {
               </Stack__>
             </div>
           </div>
-          <section className={classNames(projectcss.all, sty.section__u7HKy)}>
-            {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
-              <section
-                className={classNames(projectcss.all, sty.section__msOSh)}
-              >
-                <div className={classNames(projectcss.all, sty.columns__tDhAe)}>
-                  <div
-                    className={classNames(projectcss.all, sty.column__oZjJy)}
-                  >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__hXfQ6
-                      )}
-                    >
-                      {"Pertanyaan sering di ajukan ?"}
-                    </div>
-                    <ArrowOpenRightSvgrepoComsvgIcon
-                      className={classNames(projectcss.all, sty.svg__alJl4)}
-                      role={"img"}
-                    />
-                  </div>
-                </div>
-                <section
-                  className={classNames(projectcss.all, sty.section__pvfwv)}
-                >
-                  <div
-                    className={classNames(projectcss.all, sty.columns__alZs)}
-                  >
-                    <div
-                      className={classNames(projectcss.all, sty.column___1Mwvp)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__lSyK
-                        )}
-                      >
-                        {"Pertanyaan sering di ajukan ?"}
-                      </div>
-                      <ArrowOpenRightSvgrepoComsvgIcon
-                        className={classNames(projectcss.all, sty.svg__ia5Er)}
-                        role={"img"}
-                      />
-                    </div>
-                  </div>
-                </section>
-              </section>
-            ) : null}
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__dZv9N
-              )}
-            >
-              {"Kontak kami"}
-            </div>
-          </section>
           {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
             <section className={classNames(projectcss.all, sty.section__gToQd)}>
               <div className={classNames(projectcss.all, sty.columns__tu6Lk)}>
@@ -868,153 +785,16 @@ function PlasmicKotakKami__RenderFunc(props: {
             </div>
           </section>
           <section className={classNames(projectcss.all, sty.section__a8IUr)}>
-            {(() => {
-              const child$Props = {
-                className: classNames("__wab_instance", sty.form3),
-                extendedOnValuesChange:
-                  generateStateOnChangePropForCodeComponents(
-                    $state,
-                    "value",
-                    ["form3", "value"],
-                    FormWrapper_Helpers
-                  ),
-                formItems: undefined,
-                labelCol: { span: 8, horizontalOnly: true },
-                layout: "vertical",
-                mode: undefined,
-                onFinish: async values => {
-                  const $steps = {};
-
-                  $steps["updateAccordionActivePanelId"] = true
-                    ? (() => {
-                        const actionArgs = {
-                          variable: {
-                            objRoot: $state,
-                            variablePath: ["accordion", "activePanelId"]
-                          },
-                          operation: 0
-                        };
-                        return (({
-                          variable,
-                          value,
-                          startIndex,
-                          deleteCount
-                        }) => {
-                          if (!variable) {
-                            return;
-                          }
-                          const { objRoot, variablePath } = variable;
-
-                          $stateSet(objRoot, variablePath, value);
-                          return value;
-                        })?.apply(null, [actionArgs]);
-                      })()
-                    : undefined;
-                  if (
-                    $steps["updateAccordionActivePanelId"] != null &&
-                    typeof $steps["updateAccordionActivePanelId"] ===
-                      "object" &&
-                    typeof $steps["updateAccordionActivePanelId"].then ===
-                      "function"
-                  ) {
-                    $steps["updateAccordionActivePanelId"] = await $steps[
-                      "updateAccordionActivePanelId"
-                    ];
-                  }
-                },
-                onIsSubmittingChange:
-                  generateStateOnChangePropForCodeComponents(
-                    $state,
-                    "isSubmitting",
-                    ["form3", "isSubmitting"],
-                    FormWrapper_Helpers
-                  ),
-                ref: ref => {
-                  $refs["form3"] = ref;
-                },
-                wrapperCol: { span: 16, horizontalOnly: true }
-              };
-              initializeCodeComponentStates(
-                $state,
-                [
-                  {
-                    name: "value",
-                    plasmicStateName: "form3.value"
-                  },
-                  {
-                    name: "isSubmitting",
-                    plasmicStateName: "form3.isSubmitting"
-                  }
-                ],
-                [],
-                FormWrapper_Helpers ?? {},
-                child$Props
-              );
-
-              return (
-                <FormWrapper
-                  data-plasmic-name={"form3"}
-                  data-plasmic-override={overrides.form3}
-                  {...child$Props}
-                >
-                  <FormItemWrapper
-                    className={classNames(
-                      "__wab_instance",
-                      sty.formField__bm3Nn
-                    )}
-                    label={"Name"}
-                    name={"name"}
-                  >
-                    <AntdInput
-                      className={classNames("__wab_instance", sty.input__m0BrC)}
-                    />
-                  </FormItemWrapper>
-                  <FormItemWrapper
-                    className={classNames(
-                      "__wab_instance",
-                      sty.formField__qAu8V
-                    )}
-                    label={"Phone"}
-                  >
-                    <AntdInput
-                      className={classNames(
-                        "__wab_instance",
-                        sty.input___5ZNeZ
-                      )}
-                    />
-                  </FormItemWrapper>
-                  <FormItemWrapper
-                    className={classNames(
-                      "__wab_instance",
-                      sty.formField__dZjb0
-                    )}
-                    label={"Message"}
-                    name={"message"}
-                  >
-                    <AntdTextArea
-                      className={classNames(
-                        "__wab_instance",
-                        sty.textArea__mo1JO
-                      )}
-                    />
-                  </FormItemWrapper>
-                  <Button2
-                    className={classNames("__wab_instance", sty.button2)}
-                    submitsForm={false}
-                  >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__q0BCi
-                      )}
-                    >
-                      {"Kirim"}
-                    </div>
-                  </Button2>
-                </FormWrapper>
-              );
-            })()}
+            <section className={classNames(projectcss.all, sty.section__lPkHg)}>
+              <Embed
+                className={classNames("__wab_instance", sty.embedHtml__tI1Pk)}
+                code={
+                  hasVariant(globalVariants, "screen", "mobile")
+                    ? '<script src="https://cdn03.jotfor.ms/static/prototype.forms.js?v=3.3.52452" type="text/javascript"></script>\r\n<script src="https://cdn01.jotfor.ms/static/jotform.forms.js?v=3.3.52452" type="text/javascript"></script>\r\n<script src="https://cdn01.jotfor.ms/s/umd/8ed085b5681/for-form-branding-footer.js?v=3.3.52452" type="text/javascript" defer></script>\r\n<script src="https://cdn02.jotfor.ms/js/vendor/smoothscroll.min.js?v=3.3.52452" type="text/javascript"></script>\r\n<script src="https://cdn03.jotfor.ms/js/errorNavigation.js?v=3.3.52452" type="text/javascript"></script>\r\n<script type="text/javascript">\tJotForm.newDefaultTheme = true;\r\n\tJotForm.extendsNewTheme = false;\r\n\tJotForm.singleProduct = false;\r\n\tJotForm.newPaymentUIForNewCreatedForms = true;\r\n\tJotForm.texts = {"confirmEmail":"E-mail does not match","pleaseWait":"Please wait...","validateEmail":"You need to validate this e-mail","confirmClearForm":"Are you sure you want to clear the form","lessThan":"Your score should be less than or equal to","incompleteFields":"There are incomplete required fields. Please complete them.","required":"This field is required.","requireOne":"At least one field required.","requireEveryRow":"Every row is required.","requireEveryCell":"Every cell is required.","email":"Enter a valid e-mail address","alphabetic":"This field can only contain letters","numeric":"This field can only contain numeric values","alphanumeric":"This field can only contain letters and numbers.","cyrillic":"This field can only contain cyrillic characters","url":"This field can only contain a valid URL","currency":"This field can only contain currency values.","fillMask":"Field value must fill mask.","uploadExtensions":"You can only upload following files:","noUploadExtensions":"File has no extension file type (e.g. .txt, .png, .jpeg)","uploadFilesize":"File size cannot be bigger than:","uploadFilesizemin":"File size cannot be smaller than:","gradingScoreError":"Score total should only be less than or equal to","inputCarretErrorA":"Input should not be less than the minimum value:","inputCarretErrorB":"Input should not be greater than the maximum value:","maxDigitsError":"The maximum digits allowed is","minCharactersError":"The number of characters should not be less than the minimum value:","maxCharactersError":"The number of characters should not be more than the maximum value:","freeEmailError":"Free email accounts are not allowed","minSelectionsError":"The minimum required number of selections is ","maxSelectionsError":"The maximum number of selections allowed is ","pastDatesDisallowed":"Date must not be in the past.","dateLimited":"This date is unavailable.","dateInvalid":"This date is not valid. The date format is {format}","dateInvalidSeparate":"This date is not valid. Enter a valid {element}.","ageVerificationError":"You must be older than {minAge} years old to submit this form.","multipleFileUploads_typeError":"{file} has invalid extension. Only {extensions} are allowed.","multipleFileUploads_sizeError":"{file} is too large, maximum file size is {sizeLimit}.","multipleFileUploads_minSizeError":"{file} is too small, minimum file size is {minSizeLimit}.","multipleFileUploads_emptyError":"{file} is empty, please select files again without it.","multipleFileUploads_uploadFailed":"File upload failed, please remove it and upload the file again.","multipleFileUploads_onLeave":"The files are being uploaded, if you leave now the upload will be cancelled.","multipleFileUploads_fileLimitError":"Only {fileLimit} file uploads allowed.","dragAndDropFilesHere_infoMessage":"Drag and drop files here","chooseAFile_infoMessage":"Choose a file","maxFileSize_infoMessage":"Max. file size","generalError":"There are errors on the form. Please fix them before continuing.","generalPageError":"There are errors on this page. Please fix them before continuing.","wordLimitError":"Too many words. The limit is","wordMinLimitError":"Too few words.  The minimum is","characterLimitError":"Too many Characters.  The limit is","characterMinLimitError":"Too few characters. The minimum is","ccInvalidNumber":"Credit Card Number is invalid.","ccInvalidCVC":"CVC number is invalid.","ccInvalidExpireDate":"Expire date is invalid.","ccInvalidExpireMonth":"Expiration month is invalid.","ccInvalidExpireYear":"Expiration year is invalid.","ccMissingDetails":"Please fill up the credit card details.","ccMissingProduct":"Please select at least one product.","ccMissingDonation":"Please enter numeric values for donation amount.","disallowDecimals":"Please enter a whole number.","restrictedDomain":"This domain is not allowed","ccDonationMinLimitError":"Minimum amount is {minAmount} {currency}","requiredLegend":"All fields marked with * are required and must be filled.","geoPermissionTitle":"Permission Denied","geoPermissionDesc":"Check your browser\'s privacy settings.","geoNotAvailableTitle":"Position Unavailable","geoNotAvailableDesc":"Location provider not available. Please enter the address manually.","geoTimeoutTitle":"Timeout","geoTimeoutDesc":"Please check your internet connection and try again.","selectedTime":"Selected Time","formerSelectedTime":"Former Time","cancelAppointment":"Cancel Appointment","cancelSelection":"Cancel Selection","noSlotsAvailable":"No slots available","slotUnavailable":"{time} on {date} has been selected is unavailable. Please select another slot.","multipleError":"There are {count} errors on this page. Please correct them before moving on.","oneError":"There is {count} error on this page. Please correct it before moving on.","doneMessage":"Well done! All errors are fixed.","invalidTime":"Enter a valid time","doneButton":"Done","reviewSubmitText":"Review and Submit","nextButtonText":"Next","prevButtonText":"Previous","seeErrorsButton":"See Errors","notEnoughStock":"Not enough stock for the current selection","notEnoughStock_remainedItems":"Not enough stock for the current selection ({count} items left)","soldOut":"Sold Out","justSoldOut":"Just Sold Out","selectionSoldOut":"Selection Sold Out","subProductItemsLeft":"({count} items left)","startButtonText":"START","submitButtonText":"Submit","submissionLimit":"Sorry! Only one entry is allowed. Multiple submissions are disabled for this form.","reviewBackText":"Back to Form","seeAllText":"See All","progressMiddleText":"of","fieldError":"field has an error.","error":"Error"};\r\n\tJotForm.newPaymentUI = true;\r\n\tJotForm.replaceTagTest = true;\r\n\tJotForm.clearFieldOnHide="disable";\r\n\tJotForm.submitError="jumpToFirstError";\r\n\twindow.addEventListener(\'DOMContentLoaded\',function(){window.brandingFooter.init({"formID":240772950165055,"campaign":"powered_by_jotform_le","isCardForm":false,"isLegacyForm":true})});\tJotForm.isFullSource = true;\r\n\r\n\tJotForm.init(function(){\r\n\t/*INIT-START*/\r\nif (window.JotForm && JotForm.accessible) $(\'input_10\').setAttribute(\'tabindex\',0);\r\nif (window.JotForm && JotForm.accessible) $(\'input_13\').setAttribute(\'tabindex\',0);\r\nif (window.JotForm && JotForm.accessible) $(\'input_5\').setAttribute(\'tabindex\',0);\r\n      JotForm.alterTexts({"ageVerificationError":"You must be older than {minAge} years old to submit this form.","alphabetic":"This field can only contain letters","alphanumeric":"This field can only contain letters and numbers.","cancelAppointment":"Cancel Appointment","cancelSelection":"Cancel Selection","ccDonationMinLimitError":"Minimum amount is {minAmount} {currency}","ccInvalidCVC":"CVC number is invalid.","ccInvalidExpireDate":"Expire date is invalid.","ccInvalidExpireMonth":"Expiration month is invalid.","ccInvalidExpireYear":"Expiration year is invalid.","ccInvalidNumber":"Credit Card Number is invalid.","ccMissingDetails":"Please fill up the credit card details.","ccMissingDonation":"Please enter numeric values for donation amount.","ccMissingProduct":"Please select at least one product.","characterLimitError":"Too many Characters.  The limit is","characterMinLimitError":"Too few characters. The minimum is","chooseAFile_infoMessage":"Choose a file","confirmClearForm":"Are you sure you want to clear the form","confirmEmail":"E-mail does not match","currency":"This field can only contain currency values.","cyrillic":"This field can only contain cyrillic characters","dateInvalid":"This date is not valid. The date format is {format}","dateInvalidSeparate":"This date is not valid. Enter a valid {element}.","dateLimited":"This date is unavailable.","disallowDecimals":"Please enter a whole number.","doneButton":"Done","doneMessage":"Well done! All errors are fixed.","dragAndDropFilesHere_infoMessage":"Drag and drop files here","email":"Enter a valid e-mail address","error":"Error","fieldError":"field has an error.","fillMask":"Field value must fill mask.","formerSelectedTime":"Former Time","freeEmailError":"Free email accounts are not allowed","generalError":"There are errors on the form. Please fix them before continuing.","generalPageError":"There are errors on this page. Please fix them before continuing.","geoNotAvailableDesc":"Location provider not available. Please enter the address manually.","geoNotAvailableTitle":"Position Unavailable","geoPermissionDesc":"Check your browser\'s privacy settings.","geoPermissionTitle":"Permission Denied","geoTimeoutDesc":"Please check your internet connection and try again.","geoTimeoutTitle":"Timeout","gradingScoreError":"Score total should only be less than or equal to","incompleteFields":"There are incomplete required fields. Please complete them.","inputCarretErrorA":"Input should not be less than the minimum value:","inputCarretErrorB":"Input should not be greater than the maximum value:","invalidTime":"Enter a valid time","justSoldOut":"Just Sold Out","lessThan":"Your score should be less than or equal to","maxCharactersError":"The number of characters should not be more than the maximum value:","maxDigitsError":"The maximum digits allowed is","maxFileSize_infoMessage":"Max. file size","maxSelectionsError":"The maximum number of selections allowed is ","minCharactersError":"The number of characters should not be less than the minimum value:","minSelectionsError":"The minimum required number of selections is ","multipleError":"There are {count} errors on this page. Please correct them before moving on.","multipleFileUploads_emptyError":"{file} is empty, please select files again without it.","multipleFileUploads_fileLimitError":"Only {fileLimit} file uploads allowed.","multipleFileUploads_minSizeError":"{file} is too small, minimum file size is {minSizeLimit}.","multipleFileUploads_onLeave":"The files are being uploaded, if you leave now the upload will be cancelled.","multipleFileUploads_sizeError":"{file} is too large, maximum file size is {sizeLimit}.","multipleFileUploads_typeError":"{file} has invalid extension. Only {extensions} are allowed.","multipleFileUploads_uploadFailed":"File upload failed, please remove it and upload the file again.","nextButtonText":"Next","noSlotsAvailable":"No slots available","notEnoughStock":"Not enough stock for the current selection","notEnoughStock_remainedItems":"Not enough stock for the current selection ({count} items left)","noUploadExtensions":"File has no extension file type (e.g. .txt, .png, .jpeg)","numeric":"This field can only contain numeric values","oneError":"There is {count} error on this page. Please correct it before moving on.","pastDatesDisallowed":"Date must not be in the past.","pleaseWait":"Please wait...","prevButtonText":"Previous","progressMiddleText":"of","required":"This field is required.","requiredLegend":"All fields marked with * are required and must be filled.","requireEveryCell":"Every cell is required.","requireEveryRow":"Every row is required.","requireOne":"At least one field required.","restrictedDomain":"This domain is not allowed","reviewBackText":"Back to Form","reviewSubmitText":"Review and Submit","seeAllText":"See All","seeErrorsButton":"See Errors","selectedTime":"Selected Time","selectionSoldOut":"Selection Sold Out","slotUnavailable":"{time} on {date} has been selected is unavailable. Please select another slot.","soldOut":"Sold Out","startButtonText":"START","submissionLimit":"Sorry! Only one entry is allowed. Multiple submissions are disabled for this form.","submitButtonText":"Submit","subProductItemsLeft":"({count} items left)","uploadExtensions":"You can only upload following files:","uploadFilesize":"File size cannot be bigger than:","uploadFilesizemin":"File size cannot be smaller than:","url":"This field can only contain a valid URL","validateEmail":"You need to validate this e-mail","wordLimitError":"Too many words. The limit is","wordMinLimitError":"Too few words.  The minimum is"});\r\n\t/*INIT-END*/\r\n\t});\r\n\r\n   setTimeout(function() {\r\nJotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Kirim","type":"control_button"},null,null,{"description":"","mde":"No","name":"pertanyaan","qid":"5","subLabel":"Text 500","text":"Pertanyaan ","type":"control_textarea","wysiwyg":"Disable"},null,null,null,null,{"description":"","name":"nama","qid":"10","subLabel":"","text":"Nama","type":"control_textbox"},{"name":"kontakKami","qid":"11","text":"Kontak kami","type":"control_head"},null,{"description":"","name":"telepon13","qid":"13","subLabel":"","text":"Telepon \\u002F whats app","type":"control_textbox"}]);}, 20); \r\n</script>\r\n<link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/stylebuilder/static/form-common.css?v=8d43c84\r\n"/>\r\n<style type="text/css">@media print{*{-webkit-print-color-adjust: exact !important;color-adjust: exact !important;}.form-section{display:inline!important}.form-pagebreak{display:none!important}.form-section-closed{height:auto!important}.page-section{position:initial!important}}</style>\r\n<link id="custom-font" type="text/css" rel="stylesheet" href="//cdn.jotfor.ms/fonts/?family=Roboto" />\r\n<link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/themes/CSS/5e6b428acc8c4e222d1beb91.css?v=3.3.52452"/>\r\n<link type="text/css" rel="stylesheet" href="https://cdn03.jotfor.ms/css/styles/payment/payment_styles.css?3.3.52452" />\r\n<link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/css/styles/payment/payment_feature.css?3.3.52452" />\r\n<link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/stylebuilder/static/donationBox.css?v=3.3.52452">\r\n<style type="text/css" id="form-designer-style">\r\n    /* Injected CSS Code */\r\n/*PREFERENCES STYLE*/\r\n    .form-all {\r\n      font-family: Roboto, sans-serif;\r\n    }\r\n  \r\n    .form-label.form-label-auto {\r\n      \r\n    display: block;\r\n    float: none;\r\n    text-align: left;\r\n    width: 100%;\r\n  \r\n    }\r\n  \r\n    .form-line {\r\n      margin-top: 12px;\r\n      margin-bottom: 12px;\r\n    }\r\n  \r\n    .form-all {\r\n      max-width: 760px;\r\n      width: 100%;\r\n    }\r\n  \r\n    .form-label.form-label-left,\r\n    .form-label.form-label-right,\r\n    .form-label.form-label-left.form-label-auto,\r\n    .form-label.form-label-right.form-label-auto {\r\n      width: 230px;\r\n    }\r\n  \r\n    .form-all {\r\n      font-size: 16px\r\n    }\r\n  \r\n    .supernova .form-all, .form-all {\r\n      background-color: #FFFFFF;\r\n    }\r\n  \r\n    .form-all {\r\n      color: #2C3345;\r\n    }\r\n    .form-header-group .form-header {\r\n      color: #2C3345;\r\n    }\r\n    .form-header-group .form-subHeader {\r\n      color: #2C3345;\r\n    }\r\n    .form-label-top,\r\n    .form-label-left,\r\n    .form-label-right,\r\n    .form-html,\r\n    .form-checkbox-item label,\r\n    .form-radio-item label,\r\n    span.FITB .qb-checkbox-label,\r\n    span.FITB .qb-radiobox-label,\r\n    span.FITB .form-radio label,\r\n    span.FITB .form-checkbox label,\r\n    [data-blotid][data-type=checkbox] [data-labelid],\r\n    [data-blotid][data-type=radiobox] [data-labelid],\r\n    span.FITB-inptCont[data-type=checkbox] label,\r\n    span.FITB-inptCont[data-type=radiobox] label {\r\n      color: #2C3345;\r\n    }\r\n    .form-sub-label {\r\n      color: #464d5f;\r\n    }\r\n  \r\n  .supernova {\r\n    background-color: #ffffff;\r\n  }\r\n  .supernova body {\r\n    background: transparent;\r\n  }\r\n  \r\n    .form-textbox,\r\n    .form-textarea,\r\n    .form-dropdown,\r\n    .form-radio-other-input,\r\n    .form-checkbox-other-input,\r\n    .form-captcha input,\r\n    .form-spinner input {\r\n      background-color: #FFFFFF;\r\n    }\r\n  \r\n      \r\n    .supernova {\r\n      background-repeat: no-repeat;\r\n      background-size:cover;\r\n      background-attachment: fixed;\r\n      background-position: center top;\r\n    }\r\n\r\n      .supernova, #stage {\r\n        background-image: none;\r\n      }\r\n    \r\n      .form-all {\r\n        background-image: none;\r\n      }\r\n    /*PREFERENCES STYLE*//*__INSPECT_SEPERATOR__*/\r\n.form-label.form-label-auto {\r\n        \r\n      display: block;\r\n      float: none;\r\n      text-align: left;\r\n      width: 100%;\r\n    \r\n      }\r\n    /* Injected CSS Code */\r\n</style>\r\n\r\n<form class="jotform-form" onsubmit="return typeof testSubmitFunction !== \'undefined\' && testSubmitFunction();" action="https://submit.jotform.com/submit/240772950165055" method="post" name="form_240772950165055" id="240772950165055" accept-charset="utf-8" autocomplete="on"><input type="hidden" name="formID" value="240772950165055" /><input type="hidden" id="JWTContainer" value="" /><input type="hidden" id="cardinalOrderNumber" value="" /><input type="hidden" id="jsExecutionTracker" name="jsExecutionTracker" value="build-date-1710765470547" /><input type="hidden" id="submitSource" name="submitSource" value="unknown" /><input type="hidden" id="buildDate" name="buildDate" value="1710765470547" />\r\n  <div role="main" class="form-all">\r\n    <ul class="form-section page-section">\r\n      <li id="cid_11" class="form-input-wide" data-type="control_head">\r\n        <div class="form-header-group  header-default">\r\n          <div class="header-text httal htvam">\r\n            <h2 id="header_11" class="form-header" data-component="header">Kontak kami</h2>\r\n          </div>\r\n        </div>\r\n      </li>\r\n      <li class="form-line jf-required" data-type="control_textbox" id="id_10"><label class="form-label form-label-top form-label-auto" id="label_10" for="input_10" aria-hidden="false"> Nama<span class="form-required">*</span> </label>\r\n        <div id="cid_10" class="form-input-wide jf-required" data-layout="half"> <input type="text" id="input_10" name="q10_nama" data-type="input-textbox" class="form-textbox validate[required]" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_10" required="" value="" /> </div>\r\n      </li>\r\n      <li class="form-line jf-required" data-type="control_textbox" id="id_13"><label class="form-label form-label-top form-label-auto" id="label_13" for="input_13" aria-hidden="false"> Telepon / whats app<span class="form-required">*</span> </label>\r\n        <div id="cid_13" class="form-input-wide jf-required" data-layout="half"> <input type="text" id="input_13" name="q13_telepon13" data-type="input-textbox" class="form-textbox validate[required]" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_13" required="" value="" /> </div>\r\n      </li>\r\n      <li class="form-line jf-required" data-type="control_textarea" id="id_5"><label class="form-label form-label-top form-label-auto" id="label_5" for="input_5" aria-hidden="false"> Pertanyaan <span class="form-required">*</span> </label>\r\n        <div id="cid_5" class="form-input-wide jf-required" data-layout="full"> <span class="form-sub-label-container" style="vertical-align:top"><textarea id="input_5" class="form-textarea validate[required]" name="q5_pertanyaan" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_5 sublabel_input_5"></textarea><label class="form-sub-label" for="input_5" id="sublabel_input_5" style="min-height:13px">Text 500</label></span> </div>\r\n      </li>\r\n      <li class="form-line" data-type="control_button" id="id_2">\r\n        <div id="cid_2" class="form-input-wide" data-layout="full">\r\n          <div data-align="left" class="form-buttons-wrapper form-buttons-left   jsTest-button-wrapperField"><button id="input_2" type="submit" class="form-submit-button form-submit-button-red-500 submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">Kirim</button></div>\r\n        </div>\r\n      </li>\r\n      <li style="display:none">Should be Empty: <input type="text" name="website" value="" type="hidden" /></li>\r\n    </ul>\r\n  </div>\r\n  <script>\r\n    JotForm.showJotFormPowered = "new_footer";\r\n  </script>\r\n  <script>\r\n    JotForm.poweredByText = "Powered by Jotform";\r\n  </script><input type="hidden" class="simple_spc" id="simple_spc" name="simple_spc" value="240772950165055" />\r\n  <script type="text/javascript">\r\n    var all_spc = document.querySelectorAll("form[id=\'240772950165055\'] .si" + "mple" + "_spc");\r\n    for (var i = 0; i < all_spc.length; i++)\r\n    {\r\n      all_spc[i].value = "240772950165055-240772950165055";\r\n    }\r\n  </script>\r\n</form><script type="text/javascript">JotForm.ownerView=true;</script><script type="text/javascript">JotForm.isNewSACL=true;</script>'
+                    : '<script src="https://cdn03.jotfor.ms/static/prototype.forms.js?v=3.3.52452" type="text/javascript"></script>\r\n<script src="https://cdn01.jotfor.ms/static/jotform.forms.js?v=3.3.52452" type="text/javascript"></script>\r\n<script src="https://cdn01.jotfor.ms/s/umd/8ed085b5681/for-form-branding-footer.js?v=3.3.52452" type="text/javascript" defer></script>\r\n<script src="https://cdn02.jotfor.ms/js/vendor/smoothscroll.min.js?v=3.3.52452" type="text/javascript"></script>\r\n<script src="https://cdn03.jotfor.ms/js/errorNavigation.js?v=3.3.52452" type="text/javascript"></script>\r\n<script type="text/javascript">\tJotForm.newDefaultTheme = true;\r\n\tJotForm.extendsNewTheme = false;\r\n\tJotForm.singleProduct = false;\r\n\tJotForm.newPaymentUIForNewCreatedForms = true;\r\n\tJotForm.texts = {"confirmEmail":"E-mail does not match","pleaseWait":"Please wait...","validateEmail":"You need to validate this e-mail","confirmClearForm":"Are you sure you want to clear the form","lessThan":"Your score should be less than or equal to","incompleteFields":"There are incomplete required fields. Please complete them.","required":"This field is required.","requireOne":"At least one field required.","requireEveryRow":"Every row is required.","requireEveryCell":"Every cell is required.","email":"Enter a valid e-mail address","alphabetic":"This field can only contain letters","numeric":"This field can only contain numeric values","alphanumeric":"This field can only contain letters and numbers.","cyrillic":"This field can only contain cyrillic characters","url":"This field can only contain a valid URL","currency":"This field can only contain currency values.","fillMask":"Field value must fill mask.","uploadExtensions":"You can only upload following files:","noUploadExtensions":"File has no extension file type (e.g. .txt, .png, .jpeg)","uploadFilesize":"File size cannot be bigger than:","uploadFilesizemin":"File size cannot be smaller than:","gradingScoreError":"Score total should only be less than or equal to","inputCarretErrorA":"Input should not be less than the minimum value:","inputCarretErrorB":"Input should not be greater than the maximum value:","maxDigitsError":"The maximum digits allowed is","minCharactersError":"The number of characters should not be less than the minimum value:","maxCharactersError":"The number of characters should not be more than the maximum value:","freeEmailError":"Free email accounts are not allowed","minSelectionsError":"The minimum required number of selections is ","maxSelectionsError":"The maximum number of selections allowed is ","pastDatesDisallowed":"Date must not be in the past.","dateLimited":"This date is unavailable.","dateInvalid":"This date is not valid. The date format is {format}","dateInvalidSeparate":"This date is not valid. Enter a valid {element}.","ageVerificationError":"You must be older than {minAge} years old to submit this form.","multipleFileUploads_typeError":"{file} has invalid extension. Only {extensions} are allowed.","multipleFileUploads_sizeError":"{file} is too large, maximum file size is {sizeLimit}.","multipleFileUploads_minSizeError":"{file} is too small, minimum file size is {minSizeLimit}.","multipleFileUploads_emptyError":"{file} is empty, please select files again without it.","multipleFileUploads_uploadFailed":"File upload failed, please remove it and upload the file again.","multipleFileUploads_onLeave":"The files are being uploaded, if you leave now the upload will be cancelled.","multipleFileUploads_fileLimitError":"Only {fileLimit} file uploads allowed.","dragAndDropFilesHere_infoMessage":"Drag and drop files here","chooseAFile_infoMessage":"Choose a file","maxFileSize_infoMessage":"Max. file size","generalError":"There are errors on the form. Please fix them before continuing.","generalPageError":"There are errors on this page. Please fix them before continuing.","wordLimitError":"Too many words. The limit is","wordMinLimitError":"Too few words.  The minimum is","characterLimitError":"Too many Characters.  The limit is","characterMinLimitError":"Too few characters. The minimum is","ccInvalidNumber":"Credit Card Number is invalid.","ccInvalidCVC":"CVC number is invalid.","ccInvalidExpireDate":"Expire date is invalid.","ccInvalidExpireMonth":"Expiration month is invalid.","ccInvalidExpireYear":"Expiration year is invalid.","ccMissingDetails":"Please fill up the credit card details.","ccMissingProduct":"Please select at least one product.","ccMissingDonation":"Please enter numeric values for donation amount.","disallowDecimals":"Please enter a whole number.","restrictedDomain":"This domain is not allowed","ccDonationMinLimitError":"Minimum amount is {minAmount} {currency}","requiredLegend":"All fields marked with * are required and must be filled.","geoPermissionTitle":"Permission Denied","geoPermissionDesc":"Check your browser\'s privacy settings.","geoNotAvailableTitle":"Position Unavailable","geoNotAvailableDesc":"Location provider not available. Please enter the address manually.","geoTimeoutTitle":"Timeout","geoTimeoutDesc":"Please check your internet connection and try again.","selectedTime":"Selected Time","formerSelectedTime":"Former Time","cancelAppointment":"Cancel Appointment","cancelSelection":"Cancel Selection","noSlotsAvailable":"No slots available","slotUnavailable":"{time} on {date} has been selected is unavailable. Please select another slot.","multipleError":"There are {count} errors on this page. Please correct them before moving on.","oneError":"There is {count} error on this page. Please correct it before moving on.","doneMessage":"Well done! All errors are fixed.","invalidTime":"Enter a valid time","doneButton":"Done","reviewSubmitText":"Review and Submit","nextButtonText":"Next","prevButtonText":"Previous","seeErrorsButton":"See Errors","notEnoughStock":"Not enough stock for the current selection","notEnoughStock_remainedItems":"Not enough stock for the current selection ({count} items left)","soldOut":"Sold Out","justSoldOut":"Just Sold Out","selectionSoldOut":"Selection Sold Out","subProductItemsLeft":"({count} items left)","startButtonText":"START","submitButtonText":"Submit","submissionLimit":"Sorry! Only one entry is allowed. Multiple submissions are disabled for this form.","reviewBackText":"Back to Form","seeAllText":"See All","progressMiddleText":"of","fieldError":"field has an error.","error":"Error"};\r\n\tJotForm.newPaymentUI = true;\r\n\tJotForm.replaceTagTest = true;\r\n\tJotForm.clearFieldOnHide="disable";\r\n\tJotForm.submitError="jumpToFirstError";\r\n\twindow.addEventListener(\'DOMContentLoaded\',function(){window.brandingFooter.init({"formID":240772950165055,"campaign":"powered_by_jotform_le","isCardForm":false,"isLegacyForm":true})});\tJotForm.isFullSource = true;\r\n\r\n\tJotForm.init(function(){\r\n\t/*INIT-START*/\r\nif (window.JotForm && JotForm.accessible) $(\'input_10\').setAttribute(\'tabindex\',0);\r\nif (window.JotForm && JotForm.accessible) $(\'input_13\').setAttribute(\'tabindex\',0);\r\nif (window.JotForm && JotForm.accessible) $(\'input_5\').setAttribute(\'tabindex\',0);\r\n      JotForm.alterTexts({"ageVerificationError":"You must be older than {minAge} years old to submit this form.","alphabetic":"This field can only contain letters","alphanumeric":"This field can only contain letters and numbers.","cancelAppointment":"Cancel Appointment","cancelSelection":"Cancel Selection","ccDonationMinLimitError":"Minimum amount is {minAmount} {currency}","ccInvalidCVC":"CVC number is invalid.","ccInvalidExpireDate":"Expire date is invalid.","ccInvalidExpireMonth":"Expiration month is invalid.","ccInvalidExpireYear":"Expiration year is invalid.","ccInvalidNumber":"Credit Card Number is invalid.","ccMissingDetails":"Please fill up the credit card details.","ccMissingDonation":"Please enter numeric values for donation amount.","ccMissingProduct":"Please select at least one product.","characterLimitError":"Too many Characters.  The limit is","characterMinLimitError":"Too few characters. The minimum is","chooseAFile_infoMessage":"Choose a file","confirmClearForm":"Are you sure you want to clear the form","confirmEmail":"E-mail does not match","currency":"This field can only contain currency values.","cyrillic":"This field can only contain cyrillic characters","dateInvalid":"This date is not valid. The date format is {format}","dateInvalidSeparate":"This date is not valid. Enter a valid {element}.","dateLimited":"This date is unavailable.","disallowDecimals":"Please enter a whole number.","doneButton":"Done","doneMessage":"Well done! All errors are fixed.","dragAndDropFilesHere_infoMessage":"Drag and drop files here","email":"Enter a valid e-mail address","error":"Error","fieldError":"field has an error.","fillMask":"Field value must fill mask.","formerSelectedTime":"Former Time","freeEmailError":"Free email accounts are not allowed","generalError":"There are errors on the form. Please fix them before continuing.","generalPageError":"There are errors on this page. Please fix them before continuing.","geoNotAvailableDesc":"Location provider not available. Please enter the address manually.","geoNotAvailableTitle":"Position Unavailable","geoPermissionDesc":"Check your browser\'s privacy settings.","geoPermissionTitle":"Permission Denied","geoTimeoutDesc":"Please check your internet connection and try again.","geoTimeoutTitle":"Timeout","gradingScoreError":"Score total should only be less than or equal to","incompleteFields":"There are incomplete required fields. Please complete them.","inputCarretErrorA":"Input should not be less than the minimum value:","inputCarretErrorB":"Input should not be greater than the maximum value:","invalidTime":"Enter a valid time","justSoldOut":"Just Sold Out","lessThan":"Your score should be less than or equal to","maxCharactersError":"The number of characters should not be more than the maximum value:","maxDigitsError":"The maximum digits allowed is","maxFileSize_infoMessage":"Max. file size","maxSelectionsError":"The maximum number of selections allowed is ","minCharactersError":"The number of characters should not be less than the minimum value:","minSelectionsError":"The minimum required number of selections is ","multipleError":"There are {count} errors on this page. Please correct them before moving on.","multipleFileUploads_emptyError":"{file} is empty, please select files again without it.","multipleFileUploads_fileLimitError":"Only {fileLimit} file uploads allowed.","multipleFileUploads_minSizeError":"{file} is too small, minimum file size is {minSizeLimit}.","multipleFileUploads_onLeave":"The files are being uploaded, if you leave now the upload will be cancelled.","multipleFileUploads_sizeError":"{file} is too large, maximum file size is {sizeLimit}.","multipleFileUploads_typeError":"{file} has invalid extension. Only {extensions} are allowed.","multipleFileUploads_uploadFailed":"File upload failed, please remove it and upload the file again.","nextButtonText":"Next","noSlotsAvailable":"No slots available","notEnoughStock":"Not enough stock for the current selection","notEnoughStock_remainedItems":"Not enough stock for the current selection ({count} items left)","noUploadExtensions":"File has no extension file type (e.g. .txt, .png, .jpeg)","numeric":"This field can only contain numeric values","oneError":"There is {count} error on this page. Please correct it before moving on.","pastDatesDisallowed":"Date must not be in the past.","pleaseWait":"Please wait...","prevButtonText":"Previous","progressMiddleText":"of","required":"This field is required.","requiredLegend":"All fields marked with * are required and must be filled.","requireEveryCell":"Every cell is required.","requireEveryRow":"Every row is required.","requireOne":"At least one field required.","restrictedDomain":"This domain is not allowed","reviewBackText":"Back to Form","reviewSubmitText":"Review and Submit","seeAllText":"See All","seeErrorsButton":"See Errors","selectedTime":"Selected Time","selectionSoldOut":"Selection Sold Out","slotUnavailable":"{time} on {date} has been selected is unavailable. Please select another slot.","soldOut":"Sold Out","startButtonText":"START","submissionLimit":"Sorry! Only one entry is allowed. Multiple submissions are disabled for this form.","submitButtonText":"Submit","subProductItemsLeft":"({count} items left)","uploadExtensions":"You can only upload following files:","uploadFilesize":"File size cannot be bigger than:","uploadFilesizemin":"File size cannot be smaller than:","url":"This field can only contain a valid URL","validateEmail":"You need to validate this e-mail","wordLimitError":"Too many words. The limit is","wordMinLimitError":"Too few words.  The minimum is"});\r\n\t/*INIT-END*/\r\n\t});\r\n\r\n   setTimeout(function() {\r\nJotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"Kirim","type":"control_button"},null,null,{"description":"","mde":"No","name":"pertanyaan","qid":"5","subLabel":"Text 500","text":"Pertanyaan ","type":"control_textarea","wysiwyg":"Disable"},null,null,null,null,{"description":"","name":"nama","qid":"10","subLabel":"","text":"Nama","type":"control_textbox"},{"name":"kontakKami","qid":"11","text":"Kontak kami","type":"control_head"},null,{"description":"","name":"telepon13","qid":"13","subLabel":"","text":"Telepon \\u002F whats app","type":"control_textbox"}]);}, 20); \r\n</script>\r\n<link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/stylebuilder/static/form-common.css?v=8d43c84\r\n"/>\r\n<style type="text/css">@media print{*{-webkit-print-color-adjust: exact !important;color-adjust: exact !important;}.form-section{display:inline!important}.form-pagebreak{display:none!important}.form-section-closed{height:auto!important}.page-section{position:initial!important}}</style>\r\n<link id="custom-font" type="text/css" rel="stylesheet" href="//cdn.jotfor.ms/fonts/?family=Roboto" />\r\n<link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/themes/CSS/5e6b428acc8c4e222d1beb91.css?v=3.3.52452"/>\r\n<link type="text/css" rel="stylesheet" href="https://cdn03.jotfor.ms/css/styles/payment/payment_styles.css?3.3.52452" />\r\n<link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/css/styles/payment/payment_feature.css?3.3.52452" />\r\n<link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/stylebuilder/static/donationBox.css?v=3.3.52452">\r\n<style type="text/css" id="form-designer-style">\r\n    /* Injected CSS Code */\r\n/*PREFERENCES STYLE*/\r\n    .form-all {\r\n      font-family: Roboto, sans-serif;\r\n    }\r\n  \r\n    .form-label.form-label-auto {\r\n      \r\n    display: block;\r\n    float: none;\r\n    text-align: left;\r\n    width: 100%;\r\n  \r\n    }\r\n  \r\n    .form-line {\r\n      margin-top: 12px;\r\n      margin-bottom: 12px;\r\n    }\r\n  \r\n    .form-all {\r\n      max-width: 760px;\r\n      width: 100%;\r\n    }\r\n  \r\n    .form-label.form-label-left,\r\n    .form-label.form-label-right,\r\n    .form-label.form-label-left.form-label-auto,\r\n    .form-label.form-label-right.form-label-auto {\r\n      width: 230px;\r\n    }\r\n  \r\n    .form-all {\r\n      font-size: 16px\r\n    }\r\n  \r\n    .supernova .form-all, .form-all {\r\n      background-color: #FFFFFF;\r\n    }\r\n  \r\n    .form-all {\r\n      color: #2C3345;\r\n    }\r\n    .form-header-group .form-header {\r\n      color: #2C3345;\r\n    }\r\n    .form-header-group .form-subHeader {\r\n      color: #2C3345;\r\n    }\r\n    .form-label-top,\r\n    .form-label-left,\r\n    .form-label-right,\r\n    .form-html,\r\n    .form-checkbox-item label,\r\n    .form-radio-item label,\r\n    span.FITB .qb-checkbox-label,\r\n    span.FITB .qb-radiobox-label,\r\n    span.FITB .form-radio label,\r\n    span.FITB .form-checkbox label,\r\n    [data-blotid][data-type=checkbox] [data-labelid],\r\n    [data-blotid][data-type=radiobox] [data-labelid],\r\n    span.FITB-inptCont[data-type=checkbox] label,\r\n    span.FITB-inptCont[data-type=radiobox] label {\r\n      color: #2C3345;\r\n    }\r\n    .form-sub-label {\r\n      color: #464d5f;\r\n    }\r\n  \r\n  .supernova {\r\n    background-color: #ffffff;\r\n  }\r\n  .supernova body {\r\n    background: transparent;\r\n  }\r\n  \r\n    .form-textbox,\r\n    .form-textarea,\r\n    .form-dropdown,\r\n    .form-radio-other-input,\r\n    .form-checkbox-other-input,\r\n    .form-captcha input,\r\n    .form-spinner input {\r\n      background-color: #FFFFFF;\r\n    }\r\n  \r\n      \r\n    .supernova {\r\n      background-repeat: no-repeat;\r\n      background-size:cover;\r\n      background-attachment: fixed;\r\n      background-position: center top;\r\n    }\r\n\r\n      .supernova, #stage {\r\n        background-image: none;\r\n      }\r\n    \r\n      .form-all {\r\n        background-image: none;\r\n      }\r\n    /*PREFERENCES STYLE*//*__INSPECT_SEPERATOR__*/\r\n.form-label.form-label-auto {\r\n        \r\n      display: block;\r\n      float: none;\r\n      text-align: left;\r\n      width: 100%;\r\n    \r\n      }\r\n    /* Injected CSS Code */\r\n</style>\r\n\r\n<form class="jotform-form" onsubmit="return typeof testSubmitFunction !== \'undefined\' && testSubmitFunction();" action="https://submit.jotform.com/submit/240772950165055" method="post" name="form_240772950165055" id="240772950165055" accept-charset="utf-8" autocomplete="on"><input type="hidden" name="formID" value="240772950165055" /><input type="hidden" id="JWTContainer" value="" /><input type="hidden" id="cardinalOrderNumber" value="" /><input type="hidden" id="jsExecutionTracker" name="jsExecutionTracker" value="build-date-1710765470547" /><input type="hidden" id="submitSource" name="submitSource" value="unknown" /><input type="hidden" id="buildDate" name="buildDate" value="1710765470547" />\r\n  <div role="main" class="form-all">\r\n    <ul class="form-section page-section">\r\n      <li id="cid_11" class="form-input-wide" data-type="control_head">\r\n        <div class="form-header-group  header-default">\r\n          <div class="header-text httal htvam">\r\n            <h2 id="header_11" class="form-header" data-component="header">Kontak kami</h2>\r\n          </div>\r\n        </div>\r\n      </li>\r\n      <li class="form-line jf-required" data-type="control_textbox" id="id_10"><label class="form-label form-label-top form-label-auto" id="label_10" for="input_10" aria-hidden="false"> Nama<span class="form-required">*</span> </label>\r\n        <div id="cid_10" class="form-input-wide jf-required" data-layout="half"> <input type="text" id="input_10" name="q10_nama" data-type="input-textbox" class="form-textbox validate[required]" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_10" required="" value="" /> </div>\r\n      </li>\r\n      <li class="form-line jf-required" data-type="control_textbox" id="id_13"><label class="form-label form-label-top form-label-auto" id="label_13" for="input_13" aria-hidden="false"> Telepon / whats app<span class="form-required">*</span> </label>\r\n        <div id="cid_13" class="form-input-wide jf-required" data-layout="half"> <input type="text" id="input_13" name="q13_telepon13" data-type="input-textbox" class="form-textbox validate[required]" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_13" required="" value="" /> </div>\r\n      </li>\r\n      <li class="form-line jf-required" data-type="control_textarea" id="id_5"><label class="form-label form-label-top form-label-auto" id="label_5" for="input_5" aria-hidden="false"> Pertanyaan <span class="form-required">*</span> </label>\r\n        <div id="cid_5" class="form-input-wide jf-required" data-layout="full"> <span class="form-sub-label-container" style="vertical-align:top"><textarea id="input_5" class="form-textarea validate[required]" name="q5_pertanyaan" style="width:648px;height:163px" data-component="textarea" required="" aria-labelledby="label_5 sublabel_input_5"></textarea><label class="form-sub-label" for="input_5" id="sublabel_input_5" style="min-height:13px">Text 500</label></span> </div>\r\n      </li>\r\n      <li class="form-line" data-type="control_button" id="id_2">\r\n        <div id="cid_2" class="form-input-wide" data-layout="full">\r\n          <div data-align="left" class="form-buttons-wrapper form-buttons-left   jsTest-button-wrapperField"><button id="input_2" type="submit" class="form-submit-button form-submit-button-red-500 submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">Kirim</button></div>\r\n        </div>\r\n      </li>\r\n      <li style="display:none">Should be Empty: <input type="text" name="website" value="" type="hidden" /></li>\r\n    </ul>\r\n  </div>\r\n  <script>\r\n    JotForm.showJotFormPowered = "new_footer";\r\n  </script>\r\n  <script>\r\n    JotForm.poweredByText = "Powered by Jotform";\r\n  </script><input type="hidden" class="simple_spc" id="simple_spc" name="simple_spc" value="240772950165055" />\r\n  <script type="text/javascript">\r\n    var all_spc = document.querySelectorAll("form[id=\'240772950165055\'] .si" + "mple" + "_spc");\r\n    for (var i = 0; i < all_spc.length; i++)\r\n    {\r\n      all_spc[i].value = "240772950165055-240772950165055";\r\n    }\r\n  </script>\r\n</form><script type="text/javascript">JotForm.ownerView=true;</script><script type="text/javascript">JotForm.isNewSACL=true;</script>'
+                }
+              />
+            </section>
             <section className={classNames(projectcss.all, sty.section__rIkBk)}>
               <div className={classNames(projectcss.all, sty.columns___2Cl4)}>
                 <div className={classNames(projectcss.all, sty.column__gxdyY)}>
@@ -1046,7 +826,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                         sty.text___85S1H
                       )}
                     >
-                      {"Pembelian Unit / Kerjasama\n0812-1997-4035"}
+                      {"Pembelian Unit / Kerjasama\n0812-8105-908"}
                     </div>
                     <div
                       className={classNames(
@@ -1093,9 +873,10 @@ function PlasmicKotakKami__RenderFunc(props: {
                     className={classNames(projectcss.all, sty.section__b5Gr)}
                   >
                     <Embed
-                      data-plasmic-name={"embedHtml"}
-                      data-plasmic-override={overrides.embedHtml}
-                      className={classNames("__wab_instance", sty.embedHtml)}
+                      className={classNames(
+                        "__wab_instance",
+                        sty.embedHtml__vtv1O
+                      )}
                       code={
                         '<div style="max-width:100%;list-style:none; transition: none;overflow:hidden;height:300px;"><div id="embed-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=PT+Uwinfly+Indonesia+Industries,+Jalan+Simoplas,+Randu+Garut,+Semarang+City,+Central+Java,+Indonesia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="embed-ded-maphtml" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="inject-map-data">premium bootstrap themes</a><style>#embed-map-canvas img{max-height:none;max-width:none!important;background:none!important;}</style></div>'
                       }
@@ -1165,7 +946,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__xaYmm
+                        sty.formField__aYfZ2
                       )}
                       label={"Name"}
                       name={"name"}
@@ -1173,14 +954,14 @@ function PlasmicKotakKami__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__wVbhZ
+                          sty.input__rtZfR
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField___9VhQ4
+                        sty.formField__pd32E
                       )}
                       hidden={false}
                       label={"Telepon"}
@@ -1188,29 +969,26 @@ function PlasmicKotakKami__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__vfh8C
+                          sty.input___2Kk
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__ew9Lv
+                        sty.formField___1DjCn
                       )}
                       label={"Message"}
                       name={"message"}
                     >
                       <AntdTextArea
-                        className={classNames(
-                          "__wab_instance",
-                          sty.textArea__hR66I
-                        )}
+                        className={classNames("__wab_instance", sty.textArea)}
                       />
                     </FormItemWrapper>
                     <AntdButton
                       className={classNames(
                         "__wab_instance",
-                        sty.button__nyWwi
+                        sty.button__vxIr1
                       )}
                       submitsForm={true}
                       type={"primary"}
@@ -1219,7 +997,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__gZHwY
+                          sty.text__fXViC
                         )}
                       >
                         {"Kirim"}
@@ -2245,11 +2023,9 @@ const PlasmicDescendants = {
     "link5",
     "link6",
     "h2",
-    "form3",
-    "button2",
-    "embedHtml",
     "clientsSection6",
     "form2",
+    "textArea",
     "accordion2",
     "accordion3",
     "accordion4",
@@ -2271,11 +2047,9 @@ const PlasmicDescendants = {
   link5: ["link5"],
   link6: ["link6"],
   h2: ["h2"],
-  form3: ["form3", "button2"],
-  button2: ["button2"],
-  embedHtml: ["embedHtml"],
-  clientsSection6: ["clientsSection6", "form2", "accordion2"],
-  form2: ["form2"],
+  clientsSection6: ["clientsSection6", "form2", "textArea", "accordion2"],
+  form2: ["form2", "textArea"],
+  textArea: ["textArea"],
   accordion2: ["accordion2"],
   accordion3: ["accordion3"],
   accordion4: ["accordion4"],
@@ -2294,11 +2068,9 @@ type NodeDefaultElementType = {
   link5: typeof Link5;
   link6: typeof Link6;
   h2: "h2";
-  form3: typeof FormWrapper;
-  button2: typeof Button2;
-  embedHtml: typeof Embed;
   clientsSection6: "div";
   form2: typeof FormWrapper;
+  textArea: typeof AntdTextArea;
   accordion2: typeof AntdAccordion;
   accordion3: typeof AntdAccordion;
   accordion4: typeof AntdAccordion;
@@ -2415,11 +2187,9 @@ export const PlasmicKotakKami = Object.assign(
     link5: makeNodeComponent("link5"),
     link6: makeNodeComponent("link6"),
     h2: makeNodeComponent("h2"),
-    form3: makeNodeComponent("form3"),
-    button2: makeNodeComponent("button2"),
-    embedHtml: makeNodeComponent("embedHtml"),
     clientsSection6: makeNodeComponent("clientsSection6"),
     form2: makeNodeComponent("form2"),
+    textArea: makeNodeComponent("textArea"),
     accordion2: makeNodeComponent("accordion2"),
     accordion3: makeNodeComponent("accordion3"),
     accordion4: makeNodeComponent("accordion4"),
