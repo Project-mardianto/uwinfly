@@ -31,6 +31,8 @@ function Chat() {
         params={useRouter()?.query}
         query={useRouter()?.query}
       >
+        <script async src="https://cse.google.com/cse.js?cx=a57e7f63f92bd473d"></script>
+        <div className="gcse-search"></div>
         <PlasmicChat />
       </PageParamsProvider__>
     </GlobalContextsProvider>
