@@ -1035,7 +1035,7 @@
       calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
     )
     minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
-  padding: 36px 0;
+  padding: 0px 0;
 }
 .section__fU0Dj > * {
   grid-column: 4;
@@ -1043,7 +1043,7 @@
 @media (max-width: 768px) {
   .section__fU0Dj {
     background: var(--token-41VRhDKfihhY);
-    padding: 16px;
+    padding: 0px 16px;
   }
 }
 @media (max-width: 768px) {
@@ -1321,25 +1321,25 @@
     display: none;
   }
 }
-.formField__kx8RT:global(.__wab_instance) {
+.formField___2P1Lt:global(.__wab_instance) {
   width: 100%;
   margin-bottom: 24px;
   min-width: 0;
 }
-.input___0Cjg:global(.__wab_instance) {
+.input___4XSx2:global(.__wab_instance) {
   max-width: 100%;
   object-fit: cover;
 }
-.formField___3LttL:global(.__wab_instance) {
+.formField___9Un24:global(.__wab_instance) {
   width: 100%;
   margin-bottom: 24px;
   min-width: 0;
 }
-.input__hAh7Z:global(.__wab_instance) {
+.input__yXnvc:global(.__wab_instance) {
   max-width: 100%;
   object-fit: cover;
 }
-.formField__jlYa7:global(.__wab_instance) {
+.formField__efkCh:global(.__wab_instance) {
   width: 100%;
   margin-bottom: 24px;
   min-width: 0;
@@ -1348,11 +1348,11 @@
   max-width: 100%;
   object-fit: cover;
 }
-.button___2NqIc:global(.__wab_instance) {
+.button___9Kw0F:global(.__wab_instance) {
   max-width: 100%;
   object-fit: cover;
 }
-.text__gbgJn {
+.text__hGOq {
   position: relative;
   width: 100%;
   height: auto;
