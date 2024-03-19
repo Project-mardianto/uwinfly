@@ -372,12 +372,22 @@ function PlasmicProduk__RenderFunc(props: {
                       className={classNames("__wab_instance", sty.link3)}
                     />
                   </PlasmicLink__>
-                  <Link4
-                    data-plasmic-name={"link4"}
-                    data-plasmic-override={overrides.link4}
-                    className={classNames("__wab_instance", sty.link4)}
-                  />
-
+                  <PlasmicLink__
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.link__e6E6J
+                    )}
+                    component={Link}
+                    href={`/Blog`}
+                    platform={"nextjs"}
+                  >
+                    <Link4
+                      data-plasmic-name={"link4"}
+                      data-plasmic-override={overrides.link4}
+                      className={classNames("__wab_instance", sty.link4)}
+                    />
+                  </PlasmicLink__>
                   <PlasmicLink__
                     className={classNames(
                       projectcss.all,

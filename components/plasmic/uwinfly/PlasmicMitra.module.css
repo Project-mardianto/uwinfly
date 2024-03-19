@@ -145,8 +145,9 @@
   margin-right: 0px;
   display: flex;
 }
-.link4:global(.__wab_instance) {
+.link__ubWla {
   position: relative;
+  display: flex;
 }
 .link__rRa9L {
   position: relative;

@@ -271,7 +271,7 @@ function PlasmicAboutUs__RenderFunc(props: {
               }
               forceOpenMenu={
                 hasVariant(globalVariants, "screen", "mobile")
-                  ? false
+                  ? true
                   : undefined
               }
               itemsGap={hasVariant(globalVariants, "screen", "mobile") ? 8 : 8}
@@ -325,12 +325,22 @@ function PlasmicAboutUs__RenderFunc(props: {
                       className={classNames("__wab_instance", sty.link3)}
                     />
                   </PlasmicLink__>
-                  <Link4
-                    data-plasmic-name={"link4"}
-                    data-plasmic-override={overrides.link4}
-                    className={classNames("__wab_instance", sty.link4)}
-                  />
-
+                  <PlasmicLink__
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.link___06WaX
+                    )}
+                    component={Link}
+                    href={`/Blog`}
+                    platform={"nextjs"}
+                  >
+                    <Link4
+                      data-plasmic-name={"link4"}
+                      data-plasmic-override={overrides.link4}
+                      className={classNames("__wab_instance", sty.link4)}
+                    />
+                  </PlasmicLink__>
                   <PlasmicLink__
                     className={classNames(
                       projectcss.all,

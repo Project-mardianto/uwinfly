@@ -69,8 +69,6 @@ import Link4 from "../../Link4"; // plasmic-import: b5zzKfYNksQk/component
 import Link5 from "../../Link5"; // plasmic-import: jy_zqM-l3sYE/component
 import Link6 from "../../Link6"; // plasmic-import: qdfwHKfwtv8_/component
 import Button from "../../Button"; // plasmic-import: f3lmI1Q2JQuQ/component
-import ServiceValue from "../../ServiceValue"; // plasmic-import: Dh2YVzmzoTLy/component
-import HomeFooterTop from "../../HomeFooterTop"; // plasmic-import: sRA5PV1tz8Fx/component
 import FooterMain from "../../FooterMain"; // plasmic-import: qoZVCK7paFuV/component
 
 import { useScreenVariants as useScreenVariantssppb0UOhrN5L } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: Sppb0uOhrN5l/globalVariant
@@ -108,8 +106,6 @@ export type PlasmicBlog__OverridesType = {
   link4?: Flex__<typeof Link4>;
   link5?: Flex__<typeof Link5>;
   link6?: Flex__<typeof Link6>;
-  serviceRow?: Flex__<"div">;
-  homeFooterTop?: Flex__<typeof HomeFooterTop>;
   footerMain?: Flex__<typeof FooterMain>;
 };
 
@@ -270,9 +266,7 @@ function PlasmicBlog__RenderFunc(props: {
                 />
               }
               forceOpenMenu={
-                hasVariant(globalVariants, "screen", "mobile")
-                  ? false
-                  : undefined
+                hasVariant(globalVariants, "screen", "mobile") ? true : true
               }
               itemsGap={hasVariant(globalVariants, "screen", "mobile") ? 8 : 8}
               menuItems={
@@ -325,12 +319,22 @@ function PlasmicBlog__RenderFunc(props: {
                       className={classNames("__wab_instance", sty.link3)}
                     />
                   </PlasmicLink__>
-                  <Link4
-                    data-plasmic-name={"link4"}
-                    data-plasmic-override={overrides.link4}
-                    className={classNames("__wab_instance", sty.link4)}
-                  />
-
+                  <PlasmicLink__
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.link__bFLdA
+                    )}
+                    component={Link}
+                    href={`/Blog`}
+                    platform={"nextjs"}
+                  >
+                    <Link4
+                      data-plasmic-name={"link4"}
+                      data-plasmic-override={overrides.link4}
+                      className={classNames("__wab_instance", sty.link4)}
+                    />
+                  </PlasmicLink__>
                   <PlasmicLink__
                     className={classNames(
                       projectcss.all,
@@ -563,91 +567,49 @@ function PlasmicBlog__RenderFunc(props: {
               </div>
             </div>
           </section>
-          <div className={classNames(projectcss.all, sty.freeBox__bKgsJ)}>
-            <div className={classNames(projectcss.all, sty.freeBox__vZ6CE)}>
-              <Stack__
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.columns__jc0Rp)}
-              >
-                <div className={classNames(projectcss.all, sty.column__uPm66)}>
-                  <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img__skW0Q)}
-                    displayHeight={
-                      hasVariant(globalVariants, "screen", "mobile")
-                        ? "199px"
-                        : "322px"
-                    }
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"100%"}
-                    loading={"lazy"}
-                    src={
-                      hasVariant(globalVariants, "screen", "mobile")
-                        ? {
-                            src: "/plasmic/uwinfly/images/_1Jpg.jpg",
-                            fullWidth: 640,
-                            fullHeight: 386,
-                            aspectRatio: undefined
-                          }
-                        : {
-                            src: "/plasmic/uwinfly/images/_1Jpg.jpg",
-                            fullWidth: 640,
-                            fullHeight: 386,
-                            aspectRatio: undefined
-                          }
-                    }
-                  />
+          <section className={classNames(projectcss.all, sty.section__obmi)}>
+            <div className={classNames(projectcss.all, sty.columns___7F4E)}>
+              <div className={classNames(projectcss.all, sty.column__hJox3)}>
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__wGxPf)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/uwinfly/images/newProject2Png.png",
+                    fullWidth: 800,
+                    fullHeight: 600,
+                    aspectRatio: undefined
+                  }}
+                />
+              </div>
+              <div className={classNames(projectcss.all, sty.column__wMi2X)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__ms9Bs
+                  )}
+                >
+                  {"Enter some text"}
                 </div>
-                <div className={classNames(projectcss.all, sty.column__lqXFj)}>
-                  <Stack__
-                    as={"div"}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.freeBox__iXqEr)}
-                  >
-                    <h2
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h2,
-                        projectcss.__wab_text,
-                        sty.h2__j10Cj
-                      )}
-                    >
-                      {hasVariant(globalVariants, "screen", "mobile")
-                        ? "Tentang kami"
-                        : "Tentang kami"}
-                    </h2>
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__rXNr7
-                      )}
-                    >
-                      {hasVariant(globalVariants, "screen", "mobile")
-                        ? "Uwinfly adalah Perusahaan Industrial yang bergerak dalam bidang usaha kendaraan listrik. Dimulai dengan set-up pabrik untuk memulai proses produksi di Tahun 2018. UWinfly mulai memproduksi dan menjualkan produk seperti Sepeda Listrik dan Motor Listrik di Tahun 2019."
-                        : "Uwinfly adalah Perusahaan Industrial yang bergerak dalam bidang usaha kendaraan listrik. Dimulai dengan set-up pabrik untuk memulai proses produksi di Tahun 2018. UWinfly mulai memproduksi dan menjualkan produk seperti Sepeda Listrik dan Motor Listrik di Tahun 2019."}
-                    </div>
-                    <section
-                      className={classNames(projectcss.all, sty.section__lkofr)}
-                    >
-                      <Button
-                        className={classNames(
-                          "__wab_instance",
-                          sty.button__dJlUn
-                        )}
-                      >
-                        {"Daftar sekarang"}
-                      </Button>
-                    </section>
-                  </Stack__>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__vHe
+                  )}
+                >
+                  {"Enter some text"}
                 </div>
-              </Stack__>
+              </div>
             </div>
-          </div>
+          </section>
           {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
             <section className={classNames(projectcss.all, sty.section__qefS)}>
               <div
@@ -674,159 +636,6 @@ function PlasmicBlog__RenderFunc(props: {
               }
             </div>
           </section>
-          <div className={classNames(projectcss.all, sty.freeBox__xdyMy)}>
-            <Stack__
-              as={"div"}
-              hasGap={true}
-              className={classNames(projectcss.all, sty.freeBox__b5Mc5)}
-            >
-              <Stack__
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.freeBox__evXm)}
-              >
-                <Stack__
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__jp9Eq)}
-                >
-                  <h2
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.h2,
-                      projectcss.__wab_text,
-                      sty.h2__mtR0D
-                    )}
-                  >
-                    {"Vision"}
-                  </h2>
-                </Stack__>
-                <Stack__
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox___56GZo)}
-                >
-                  <Stack__
-                    as={"div"}
-                    data-plasmic-name={"serviceRow"}
-                    data-plasmic-override={overrides.serviceRow}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.serviceRow)}
-                  >
-                    <div
-                      className={classNames(projectcss.all, sty.column__r2Ncm)}
-                    >
-                      <ServiceValue
-                        className={classNames(
-                          "__wab_instance",
-                          sty.serviceValue__gvKBz
-                        )}
-                        slot={
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text___2Vut0
-                            )}
-                          >
-                            {
-                              "Mendukung dalam pengurangan limbah emisi Bahan Bakar Minyak (BBM) sebagai bentuk kepedulian terhadap lingkungan serta mendukung percepatan proses produksi kendaraan listrik di Indonesia."
-                            }
-                          </div>
-                        }
-                      >
-                        <h3
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.h3,
-                            projectcss.__wab_text,
-                            sty.h3__vvTrm
-                          )}
-                        >
-                          {"Program Pemerintah"}
-                        </h3>
-                      </ServiceValue>
-                    </div>
-                    <div
-                      className={classNames(projectcss.all, sty.column__nsD1D)}
-                    >
-                      <ServiceValue
-                        className={classNames(
-                          "__wab_instance",
-                          sty.serviceValue__gcHcH
-                        )}
-                        slot={
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__cukiG
-                            )}
-                          >
-                            {
-                              "Membangun Kawasan lndustri untuk kendaraan listrik untuk Motor Listrik dan Mobil Listrik, serta menjadi Market Leader terbesar untuk kendaraan Listrik di Indonesia."
-                            }
-                          </div>
-                        }
-                      >
-                        <h3
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.h3,
-                            projectcss.__wab_text,
-                            sty.h3___2FRw1
-                          )}
-                        >
-                          {"Kawasan lndustri"}
-                        </h3>
-                      </ServiceValue>
-                    </div>
-                    <div
-                      className={classNames(projectcss.all, sty.column__xiDzl)}
-                    >
-                      <ServiceValue
-                        className={classNames(
-                          "__wab_instance",
-                          sty.serviceValue__irJ4M
-                        )}
-                        slot={
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__peB4M
-                            )}
-                          >
-                            {
-                              "Terus Meningkatkan kualitas produk dan lnovasi yang selalu ada dengan memberikan harga terbaik yang mampu membantu meningkatkan kesejahteraan untuk masyarakat Indonesia."
-                            }
-                          </div>
-                        }
-                      >
-                        <h3
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.h3,
-                            projectcss.__wab_text,
-                            sty.h3__zUw0C
-                          )}
-                        >
-                          {"lnovasi "}
-                        </h3>
-                      </ServiceValue>
-                    </div>
-                  </Stack__>
-                </Stack__>
-              </Stack__>
-            </Stack__>
-          </div>
-          <div className={classNames(projectcss.all, sty.freeBox__wm9B7)}>
-            <HomeFooterTop
-              data-plasmic-name={"homeFooterTop"}
-              data-plasmic-override={overrides.homeFooterTop}
-              className={classNames("__wab_instance", sty.homeFooterTop)}
-            />
-          </div>
           <FooterMain
             data-plasmic-name={"footerMain"}
             data-plasmic-override={overrides.footerMain}
@@ -952,8 +761,6 @@ const PlasmicDescendants = {
     "link4",
     "link5",
     "link6",
-    "serviceRow",
-    "homeFooterTop",
     "footerMain"
   ],
   navigationBar: [
@@ -971,8 +778,6 @@ const PlasmicDescendants = {
   link4: ["link4"],
   link5: ["link5"],
   link6: ["link6"],
-  serviceRow: ["serviceRow"],
-  homeFooterTop: ["homeFooterTop"],
   footerMain: ["footerMain"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
@@ -987,8 +792,6 @@ type NodeDefaultElementType = {
   link4: typeof Link4;
   link5: typeof Link5;
   link6: typeof Link6;
-  serviceRow: "div";
-  homeFooterTop: typeof HomeFooterTop;
   footerMain: typeof FooterMain;
 };
 
@@ -1101,8 +904,6 @@ export const PlasmicBlog = Object.assign(
     link4: makeNodeComponent("link4"),
     link5: makeNodeComponent("link5"),
     link6: makeNodeComponent("link6"),
-    serviceRow: makeNodeComponent("serviceRow"),
-    homeFooterTop: makeNodeComponent("homeFooterTop"),
     footerMain: makeNodeComponent("footerMain"),
 
     // Metadata about props expected for PlasmicBlog
