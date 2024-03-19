@@ -77,6 +77,7 @@ import { accordionHelpers as AntdAccordion_Helpers } from "@plasmicpkgs/antd5/sk
 import { AntdAccordionItem } from "@plasmicpkgs/antd5/skinny/registerCollapse";
 import IconNavbar2 from "../../IconNavbar2"; // plasmic-import: 8dJjOz6ixDRs/component
 import FooterMain from "../../FooterMain"; // plasmic-import: qoZVCK7paFuV/component
+import { PlasmicHead } from "@plasmicapp/react-web";
 import { Fetcher } from "@plasmicapp/react-web/lib/data-sources";
 
 import { useScreenVariants as useScreenVariantssppb0UOhrN5L } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: Sppb0uOhrN5l/globalVariant
@@ -133,6 +134,7 @@ export type PlasmicHome__OverridesType = {
   foreground7?: Flex__<"div">;
   iconNavbar2?: Flex__<typeof IconNavbar2>;
   footerMain?: Flex__<typeof FooterMain>;
+  pageMetadataOverride?: Flex__<typeof PlasmicHead>;
 };
 
 export interface DefaultHomeProps {}
@@ -6786,6 +6788,17 @@ function PlasmicHome__RenderFunc(props: {
               </div>
             </div>
           </section>
+          <PlasmicHead
+            data-plasmic-name={"pageMetadataOverride"}
+            data-plasmic-override={overrides.pageMetadataOverride}
+            canonical={"https://uwinfly.co.id/"}
+            className={classNames("__wab_instance", sty.pageMetadataOverride)}
+            description={
+              "Solusi tepat mempunyai dealer motor listrik dan sepeda listrik, uwinfly terjamin dan terpercaya untuk inventasi anda "
+            }
+            image={"/plasmic/uwinfly/images/logopng.png"}
+            title={"uwinfly"}
+          />
         </div>
       </div>
     </React.Fragment>
@@ -6813,7 +6826,8 @@ const PlasmicDescendants = {
     "sliderCarousel5",
     "foreground7",
     "iconNavbar2",
-    "footerMain"
+    "footerMain",
+    "pageMetadataOverride"
   ],
   navigationBar: [
     "navigationBar",
@@ -6841,7 +6855,8 @@ const PlasmicDescendants = {
   sliderCarousel5: ["sliderCarousel5"],
   foreground7: ["foreground7"],
   iconNavbar2: ["iconNavbar2"],
-  footerMain: ["footerMain"]
+  footerMain: ["footerMain"],
+  pageMetadataOverride: ["pageMetadataOverride"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -6867,6 +6882,7 @@ type NodeDefaultElementType = {
   foreground7: "div";
   iconNavbar2: typeof IconNavbar2;
   footerMain: typeof FooterMain;
+  pageMetadataOverride: typeof PlasmicHead;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -6990,6 +7006,7 @@ export const PlasmicHome = Object.assign(
     foreground7: makeNodeComponent("foreground7"),
     iconNavbar2: makeNodeComponent("iconNavbar2"),
     footerMain: makeNodeComponent("footerMain"),
+    pageMetadataOverride: makeNodeComponent("pageMetadataOverride"),
 
     // Metadata about props expected for PlasmicHome
     internalVariantProps: PlasmicHome__VariantProps,

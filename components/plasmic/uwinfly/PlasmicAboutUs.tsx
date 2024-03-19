@@ -72,6 +72,7 @@ import Button from "../../Button"; // plasmic-import: f3lmI1Q2JQuQ/component
 import ServiceValue from "../../ServiceValue"; // plasmic-import: Dh2YVzmzoTLy/component
 import HomeFooterTop from "../../HomeFooterTop"; // plasmic-import: sRA5PV1tz8Fx/component
 import FooterMain from "../../FooterMain"; // plasmic-import: qoZVCK7paFuV/component
+import { PlasmicHead } from "@plasmicapp/react-web";
 
 import { useScreenVariants as useScreenVariantssppb0UOhrN5L } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: Sppb0uOhrN5l/globalVariant
 
@@ -111,6 +112,7 @@ export type PlasmicAboutUs__OverridesType = {
   serviceRow?: Flex__<"div">;
   homeFooterTop?: Flex__<typeof HomeFooterTop>;
   footerMain?: Flex__<typeof FooterMain>;
+  pageMetadataOverride?: Flex__<typeof PlasmicHead>;
 };
 
 export interface DefaultAboutUsProps {}
@@ -948,6 +950,16 @@ function PlasmicAboutUs__RenderFunc(props: {
               </div>
             </div>
           </section>
+          <PlasmicHead
+            data-plasmic-name={"pageMetadataOverride"}
+            data-plasmic-override={overrides.pageMetadataOverride}
+            canonical={"https://uwinfly.co.id/about-us"}
+            className={classNames("__wab_instance", sty.pageMetadataOverride)}
+            description={
+              "Uwinfly adalah Perusahaan Industrial yang bergerak dalam bidang usaha kendaraan listrik. Dimulai dengan set-up pabrik untuk memulai proses produksi di Tahun 2018. UWinfly mulai memproduksi dan menjualkan produk seperti Sepeda Listrik dan Motor Listrik di Tahun 2019."
+            }
+            title={"tentang kami "}
+          />
         </div>
       </div>
     </React.Fragment>
@@ -966,7 +978,8 @@ const PlasmicDescendants = {
     "link6",
     "serviceRow",
     "homeFooterTop",
-    "footerMain"
+    "footerMain",
+    "pageMetadataOverride"
   ],
   navigationBar: [
     "navigationBar",
@@ -985,7 +998,8 @@ const PlasmicDescendants = {
   link6: ["link6"],
   serviceRow: ["serviceRow"],
   homeFooterTop: ["homeFooterTop"],
-  footerMain: ["footerMain"]
+  footerMain: ["footerMain"],
+  pageMetadataOverride: ["pageMetadataOverride"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -1002,6 +1016,7 @@ type NodeDefaultElementType = {
   serviceRow: "div";
   homeFooterTop: typeof HomeFooterTop;
   footerMain: typeof FooterMain;
+  pageMetadataOverride: typeof PlasmicHead;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -1116,6 +1131,7 @@ export const PlasmicAboutUs = Object.assign(
     serviceRow: makeNodeComponent("serviceRow"),
     homeFooterTop: makeNodeComponent("homeFooterTop"),
     footerMain: makeNodeComponent("footerMain"),
+    pageMetadataOverride: makeNodeComponent("pageMetadataOverride"),
 
     // Metadata about props expected for PlasmicAboutUs
     internalVariantProps: PlasmicAboutUs__VariantProps,

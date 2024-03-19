@@ -266,7 +266,7 @@ function PlasmicBlog__RenderFunc(props: {
                 />
               }
               forceOpenMenu={
-                hasVariant(globalVariants, "screen", "mobile") ? true : true
+                hasVariant(globalVariants, "screen", "mobile") ? false : true
               }
               itemsGap={hasVariant(globalVariants, "screen", "mobile") ? 8 : 8}
               menuItems={
