@@ -1482,9 +1482,6 @@ export const PlasmicChat = Object.assign(
     internalVariantProps: PlasmicChat__VariantProps,
     internalArgProps: PlasmicChat__ArgProps,
 
-    // Key-value metadata
-    metadata: { a57E7F63F92Bd473D: "a57e7f63f92bd473d" },
-
     // Page metadata
     pageMetadata: {
       title: "chat",

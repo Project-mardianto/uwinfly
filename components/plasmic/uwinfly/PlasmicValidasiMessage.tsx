@@ -927,9 +927,6 @@ export const PlasmicValidasiMessage = Object.assign(
     internalVariantProps: PlasmicValidasiMessage__VariantProps,
     internalArgProps: PlasmicValidasiMessage__ArgProps,
 
-    // Key-value metadata
-    metadata: { a57E7F63F92Bd473D: "a57e7f63f92bd473d" },
-
     // Page metadata
     pageMetadata: {
       title: "validasi-message",
