@@ -32,8 +32,6 @@ function Home() {
         query={useRouter()?.query}
       >
         <PlasmicHome />
-        <script async src="https://cse.google.com/cse.js?cx=a57e7f63f92bd473d">
-        </script>
       </PageParamsProvider__>
     </GlobalContextsProvider>
   );
