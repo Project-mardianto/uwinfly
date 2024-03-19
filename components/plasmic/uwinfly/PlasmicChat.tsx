@@ -74,6 +74,7 @@ import { sliderHelpers as SliderWrapper_Helpers } from "@plasmicpkgs/react-slick
 import { Embed } from "@plasmicpkgs/plasmic-basic-components";
 import FooterMain from "../../FooterMain"; // plasmic-import: qoZVCK7paFuV/component
 import IconNavbar2 from "../../IconNavbar2"; // plasmic-import: 8dJjOz6ixDRs/component
+import { PlasmicHead } from "@plasmicapp/react-web";
 import { Fetcher } from "@plasmicapp/react-web/lib/data-sources";
 
 import { useScreenVariants as useScreenVariantssppb0UOhrN5L } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: Sppb0uOhrN5l/globalVariant
@@ -118,6 +119,7 @@ export type PlasmicChat__OverridesType = {
   sliderCarousel?: Flex__<typeof SliderWrapper>;
   footerMain?: Flex__<typeof FooterMain>;
   iconNavbar2?: Flex__<typeof IconNavbar2>;
+  pageMetadataOverride?: Flex__<typeof PlasmicHead>;
 };
 
 export interface DefaultChatProps {}
@@ -1292,6 +1294,17 @@ function PlasmicChat__RenderFunc(props: {
               </div>
             </div>
           </section>
+          <PlasmicHead
+            data-plasmic-name={"pageMetadataOverride"}
+            data-plasmic-override={overrides.pageMetadataOverride}
+            canonical={"https://uwinfly.co.id/chat"}
+            className={classNames("__wab_instance", sty.pageMetadataOverride)}
+            description={
+              "membantu customer uwinfly indonesia mengenai sepeda listrik dan motor listrik"
+            }
+            image={"/plasmic/uwinfly/images/logopng.png"}
+            title={"chat"}
+          />
         </div>
       </div>
     </React.Fragment>
@@ -1310,7 +1323,8 @@ const PlasmicDescendants = {
     "link6",
     "sliderCarousel",
     "footerMain",
-    "iconNavbar2"
+    "iconNavbar2",
+    "pageMetadataOverride"
   ],
   navigationBar: [
     "navigationBar",
@@ -1329,7 +1343,8 @@ const PlasmicDescendants = {
   link6: ["link6"],
   sliderCarousel: ["sliderCarousel"],
   footerMain: ["footerMain"],
-  iconNavbar2: ["iconNavbar2"]
+  iconNavbar2: ["iconNavbar2"],
+  pageMetadataOverride: ["pageMetadataOverride"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -1346,6 +1361,7 @@ type NodeDefaultElementType = {
   sliderCarousel: typeof SliderWrapper;
   footerMain: typeof FooterMain;
   iconNavbar2: typeof IconNavbar2;
+  pageMetadataOverride: typeof PlasmicHead;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -1460,6 +1476,7 @@ export const PlasmicChat = Object.assign(
     sliderCarousel: makeNodeComponent("sliderCarousel"),
     footerMain: makeNodeComponent("footerMain"),
     iconNavbar2: makeNodeComponent("iconNavbar2"),
+    pageMetadataOverride: makeNodeComponent("pageMetadataOverride"),
 
     // Metadata about props expected for PlasmicChat
     internalVariantProps: PlasmicChat__VariantProps,

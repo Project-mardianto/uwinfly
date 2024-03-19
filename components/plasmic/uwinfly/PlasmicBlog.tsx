@@ -70,6 +70,7 @@ import Link5 from "../../Link5"; // plasmic-import: jy_zqM-l3sYE/component
 import Link6 from "../../Link6"; // plasmic-import: qdfwHKfwtv8_/component
 import Button from "../../Button"; // plasmic-import: f3lmI1Q2JQuQ/component
 import FooterMain from "../../FooterMain"; // plasmic-import: qoZVCK7paFuV/component
+import { PlasmicHead } from "@plasmicapp/react-web";
 
 import { useScreenVariants as useScreenVariantssppb0UOhrN5L } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: Sppb0uOhrN5l/globalVariant
 
@@ -107,6 +108,7 @@ export type PlasmicBlog__OverridesType = {
   link5?: Flex__<typeof Link5>;
   link6?: Flex__<typeof Link6>;
   footerMain?: Flex__<typeof FooterMain>;
+  pageMetadataOverride?: Flex__<typeof PlasmicHead>;
 };
 
 export interface DefaultBlogProps {}
@@ -745,6 +747,14 @@ function PlasmicBlog__RenderFunc(props: {
               </div>
             </div>
           </section>
+          <PlasmicHead
+            data-plasmic-name={"pageMetadataOverride"}
+            data-plasmic-override={overrides.pageMetadataOverride}
+            className={classNames("__wab_instance", sty.pageMetadataOverride)}
+            description={"informasi  sepeda listrik dan motor listrik "}
+            image={"/plasmic/uwinfly/images/logopng.png"}
+            title={"blog "}
+          />
         </div>
       </div>
     </React.Fragment>
@@ -761,7 +771,8 @@ const PlasmicDescendants = {
     "link4",
     "link5",
     "link6",
-    "footerMain"
+    "footerMain",
+    "pageMetadataOverride"
   ],
   navigationBar: [
     "navigationBar",
@@ -778,7 +789,8 @@ const PlasmicDescendants = {
   link4: ["link4"],
   link5: ["link5"],
   link6: ["link6"],
-  footerMain: ["footerMain"]
+  footerMain: ["footerMain"],
+  pageMetadataOverride: ["pageMetadataOverride"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -793,6 +805,7 @@ type NodeDefaultElementType = {
   link5: typeof Link5;
   link6: typeof Link6;
   footerMain: typeof FooterMain;
+  pageMetadataOverride: typeof PlasmicHead;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -905,6 +918,7 @@ export const PlasmicBlog = Object.assign(
     link5: makeNodeComponent("link5"),
     link6: makeNodeComponent("link6"),
     footerMain: makeNodeComponent("footerMain"),
+    pageMetadataOverride: makeNodeComponent("pageMetadataOverride"),
 
     // Metadata about props expected for PlasmicBlog
     internalVariantProps: PlasmicBlog__VariantProps,

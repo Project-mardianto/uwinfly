@@ -74,6 +74,7 @@ import { AntdAccordion } from "@plasmicpkgs/antd5/skinny/registerCollapse";
 import { accordionHelpers as AntdAccordion_Helpers } from "@plasmicpkgs/antd5/skinny/registerCollapse";
 import { AntdAccordionItem } from "@plasmicpkgs/antd5/skinny/registerCollapse";
 import FooterMain from "../../FooterMain"; // plasmic-import: qoZVCK7paFuV/component
+import { PlasmicHead } from "@plasmicapp/react-web";
 import { Fetcher } from "@plasmicapp/react-web/lib/data-sources";
 
 import { useScreenVariants as useScreenVariantssppb0UOhrN5L } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: Sppb0uOhrN5l/globalVariant
@@ -120,6 +121,7 @@ export type PlasmicMitra__OverridesType = {
   accordion2?: Flex__<typeof AntdAccordion>;
   footerMain?: Flex__<typeof FooterMain>;
   accordion?: Flex__<typeof AntdAccordion>;
+  pageMetadataOverride?: Flex__<typeof PlasmicHead>;
 };
 
 export interface DefaultMitraProps {}
@@ -5594,6 +5596,17 @@ function PlasmicMitra__RenderFunc(props: {
               })()}
             </section>
           ) : null}
+          <PlasmicHead
+            data-plasmic-name={"pageMetadataOverride"}
+            data-plasmic-override={overrides.pageMetadataOverride}
+            canonical={"https://uwinfly.co.id/Mitra"}
+            className={classNames("__wab_instance", sty.pageMetadataOverride)}
+            description={
+              "Solusi tepat mempunyai dealer motor listrik dan sepeda listrik, uwinfly terjamin dan terpercaya untuk inventasi anda "
+            }
+            image={"/plasmic/uwinfly/images/logopng.png"}
+            title={"mitra uwinfly"}
+          />
         </div>
       </div>
     </React.Fragment>
@@ -5615,7 +5628,8 @@ const PlasmicDescendants = {
     "foreground4",
     "accordion2",
     "footerMain",
-    "accordion"
+    "accordion",
+    "pageMetadataOverride"
   ],
   navigationBar: [
     "navigationBar",
@@ -5637,7 +5651,8 @@ const PlasmicDescendants = {
   foreground4: ["foreground4"],
   accordion2: ["accordion2"],
   footerMain: ["footerMain"],
-  accordion: ["accordion"]
+  accordion: ["accordion"],
+  pageMetadataOverride: ["pageMetadataOverride"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -5657,6 +5672,7 @@ type NodeDefaultElementType = {
   accordion2: typeof AntdAccordion;
   footerMain: typeof FooterMain;
   accordion: typeof AntdAccordion;
+  pageMetadataOverride: typeof PlasmicHead;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -5774,6 +5790,7 @@ export const PlasmicMitra = Object.assign(
     accordion2: makeNodeComponent("accordion2"),
     footerMain: makeNodeComponent("footerMain"),
     accordion: makeNodeComponent("accordion"),
+    pageMetadataOverride: makeNodeComponent("pageMetadataOverride"),
 
     // Metadata about props expected for PlasmicMitra
     internalVariantProps: PlasmicMitra__VariantProps,

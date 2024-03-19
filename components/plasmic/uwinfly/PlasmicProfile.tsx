@@ -85,6 +85,7 @@ import { accordionHelpers as AntdAccordion_Helpers } from "@plasmicpkgs/antd5/sk
 import { AntdAccordionItem } from "@plasmicpkgs/antd5/skinny/registerCollapse";
 import FooterMain from "../../FooterMain"; // plasmic-import: qoZVCK7paFuV/component
 import IconNavbar2 from "../../IconNavbar2"; // plasmic-import: 8dJjOz6ixDRs/component
+import { PlasmicHead } from "@plasmicapp/react-web";
 
 import { useScreenVariants as useScreenVariantssppb0UOhrN5L } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: Sppb0uOhrN5l/globalVariant
 
@@ -139,6 +140,7 @@ export type PlasmicProfile__OverridesType = {
   accordion3?: Flex__<typeof AntdAccordion>;
   freeBox?: Flex__<"div">;
   iconNavbar2?: Flex__<typeof IconNavbar2>;
+  pageMetadataOverride?: Flex__<typeof PlasmicHead>;
 };
 
 export interface DefaultProfileProps {}
@@ -773,7 +775,7 @@ function PlasmicProfile__RenderFunc(props: {
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__zGAk7
+                      sty.formField__gedrd
                     )}
                     label={"Email"}
                     name={"name"}
@@ -781,14 +783,14 @@ function PlasmicProfile__RenderFunc(props: {
                     <AntdInput
                       className={classNames(
                         "__wab_instance",
-                        sty.input___8QpbB
+                        sty.input___2S5Yb
                       )}
                     />
                   </FormItemWrapper>
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField___2TNTy
+                      sty.formField__efHe6
                     )}
                     label={"Password"}
                   >
@@ -806,7 +808,7 @@ function PlasmicProfile__RenderFunc(props: {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__bb2A
+                        sty.text__umey7
                       )}
                     >
                       {"Login"}
@@ -1179,7 +1181,7 @@ function PlasmicProfile__RenderFunc(props: {
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__coZjy
+                        sty.formField__tl7Q1
                       )}
                       label={"Name"}
                       name={"name"}
@@ -1187,14 +1189,14 @@ function PlasmicProfile__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__frjXh
+                          sty.input__vc3Ue
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField___3DsRq
+                        sty.formField__sSu2M
                       )}
                       hidden={false}
                       label={"Telepon"}
@@ -1202,14 +1204,14 @@ function PlasmicProfile__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__bs2Zi
+                          sty.input__zoCkD
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField___0TDoa
+                        sty.formField__ovzwl
                       )}
                       label={"Message"}
                       name={"message"}
@@ -1221,7 +1223,7 @@ function PlasmicProfile__RenderFunc(props: {
                     <AntdButton
                       className={classNames(
                         "__wab_instance",
-                        sty.button__cr1OM
+                        sty.button__ux4Hh
                       )}
                       submitsForm={true}
                       type={"primary"}
@@ -1230,7 +1232,7 @@ function PlasmicProfile__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__iJGp7
+                          sty.text__xyh0N
                         )}
                       >
                         {"Kirim"}
@@ -2429,6 +2431,15 @@ function PlasmicProfile__RenderFunc(props: {
               </div>
             </div>
           ) : null}
+          <PlasmicHead
+            data-plasmic-name={"pageMetadataOverride"}
+            data-plasmic-override={overrides.pageMetadataOverride}
+            canonical={"https://uwinfly.co.id/Profile"}
+            className={classNames("__wab_instance", sty.pageMetadataOverride)}
+            description={"Isi biodata anda untuk pembelian produk uwinfly"}
+            image={"/plasmic/uwinfly/images/logopng.png"}
+            title={"profile"}
+          />
         </div>
       </div>
     </React.Fragment>
@@ -2456,7 +2467,8 @@ const PlasmicDescendants = {
     "footerMain",
     "accordion3",
     "freeBox",
-    "iconNavbar2"
+    "iconNavbar2",
+    "pageMetadataOverride"
   ],
   navigationBar: [
     "navigationBar",
@@ -2484,7 +2496,8 @@ const PlasmicDescendants = {
   footerMain: ["footerMain"],
   accordion3: ["accordion3"],
   freeBox: ["freeBox", "iconNavbar2"],
-  iconNavbar2: ["iconNavbar2"]
+  iconNavbar2: ["iconNavbar2"],
+  pageMetadataOverride: ["pageMetadataOverride"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -2510,6 +2523,7 @@ type NodeDefaultElementType = {
   accordion3: typeof AntdAccordion;
   freeBox: "div";
   iconNavbar2: typeof IconNavbar2;
+  pageMetadataOverride: typeof PlasmicHead;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -2633,6 +2647,7 @@ export const PlasmicProfile = Object.assign(
     accordion3: makeNodeComponent("accordion3"),
     freeBox: makeNodeComponent("freeBox"),
     iconNavbar2: makeNodeComponent("iconNavbar2"),
+    pageMetadataOverride: makeNodeComponent("pageMetadataOverride"),
 
     // Metadata about props expected for PlasmicProfile
     internalVariantProps: PlasmicProfile__VariantProps,

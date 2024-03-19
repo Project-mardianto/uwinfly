@@ -958,6 +958,7 @@ function PlasmicAboutUs__RenderFunc(props: {
             description={
               "Uwinfly adalah Perusahaan Industrial yang bergerak dalam bidang usaha kendaraan listrik. Dimulai dengan set-up pabrik untuk memulai proses produksi di Tahun 2018. UWinfly mulai memproduksi dan menjualkan produk seperti Sepeda Listrik dan Motor Listrik di Tahun 2019."
             }
+            image={"/plasmic/uwinfly/images/logopng.png"}
             title={"tentang kami "}
           />
         </div>

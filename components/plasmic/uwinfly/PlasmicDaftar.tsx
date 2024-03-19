@@ -82,6 +82,7 @@ import { AntdAccordion } from "@plasmicpkgs/antd5/skinny/registerCollapse";
 import { accordionHelpers as AntdAccordion_Helpers } from "@plasmicpkgs/antd5/skinny/registerCollapse";
 import { AntdAccordionItem } from "@plasmicpkgs/antd5/skinny/registerCollapse";
 import FooterMain from "../../FooterMain"; // plasmic-import: qoZVCK7paFuV/component
+import { PlasmicHead } from "@plasmicapp/react-web";
 
 import { useScreenVariants as useScreenVariantssppb0UOhrN5L } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: Sppb0uOhrN5l/globalVariant
 
@@ -129,6 +130,7 @@ export type PlasmicDaftar__OverridesType = {
   footerMain?: Flex__<typeof FooterMain>;
   accordion3?: Flex__<typeof AntdAccordion>;
   accordion4?: Flex__<typeof AntdAccordion>;
+  pageMetadataOverride?: Flex__<typeof PlasmicHead>;
 };
 
 export interface DefaultDaftarProps {}
@@ -877,7 +879,7 @@ function PlasmicDaftar__RenderFunc(props: {
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__m7Isf
+                        sty.formField__dl0WH
                       )}
                       label={"Name"}
                       name={"name"}
@@ -885,14 +887,14 @@ function PlasmicDaftar__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__j2C6Z
+                          sty.input___6MLyo
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__ghrmJ
+                        sty.formField__egaKy
                       )}
                       hidden={false}
                       label={"Telepon"}
@@ -900,14 +902,14 @@ function PlasmicDaftar__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__oc291
+                          sty.input__p3GW9
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__uC0Hy
+                        sty.formField__b9VKu
                       )}
                       label={"Message"}
                       name={"message"}
@@ -919,7 +921,7 @@ function PlasmicDaftar__RenderFunc(props: {
                     <AntdButton
                       className={classNames(
                         "__wab_instance",
-                        sty.button___5Nq4D
+                        sty.button__vL8Dd
                       )}
                       submitsForm={true}
                       type={"primary"}
@@ -928,7 +930,7 @@ function PlasmicDaftar__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__jvqJ
+                          sty.text__p2D61
                         )}
                       >
                         {"Kirim"}
@@ -2261,6 +2263,15 @@ function PlasmicDaftar__RenderFunc(props: {
               })()}
             </section>
           ) : null}
+          <PlasmicHead
+            data-plasmic-name={"pageMetadataOverride"}
+            data-plasmic-override={overrides.pageMetadataOverride}
+            canonical={"https://uwinfly.co.id/Daftar"}
+            className={classNames("__wab_instance", sty.pageMetadataOverride)}
+            description={"cara mudah menjadi distributor dan waralaba uwinfly"}
+            image={"/plasmic/uwinfly/images/logopng.png"}
+            title={"daftar"}
+          />
         </div>
       </div>
     </React.Fragment>
@@ -2286,7 +2297,8 @@ const PlasmicDescendants = {
     "accordion5",
     "footerMain",
     "accordion3",
-    "accordion4"
+    "accordion4",
+    "pageMetadataOverride"
   ],
   navigationBar: [
     "navigationBar",
@@ -2312,7 +2324,8 @@ const PlasmicDescendants = {
   accordion5: ["accordion5"],
   footerMain: ["footerMain"],
   accordion3: ["accordion3"],
-  accordion4: ["accordion4"]
+  accordion4: ["accordion4"],
+  pageMetadataOverride: ["pageMetadataOverride"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -2336,6 +2349,7 @@ type NodeDefaultElementType = {
   footerMain: typeof FooterMain;
   accordion3: typeof AntdAccordion;
   accordion4: typeof AntdAccordion;
+  pageMetadataOverride: typeof PlasmicHead;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -2457,6 +2471,7 @@ export const PlasmicDaftar = Object.assign(
     footerMain: makeNodeComponent("footerMain"),
     accordion3: makeNodeComponent("accordion3"),
     accordion4: makeNodeComponent("accordion4"),
+    pageMetadataOverride: makeNodeComponent("pageMetadataOverride"),
 
     // Metadata about props expected for PlasmicDaftar
     internalVariantProps: PlasmicDaftar__VariantProps,

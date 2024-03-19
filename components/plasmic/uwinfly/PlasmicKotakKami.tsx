@@ -82,6 +82,7 @@ import { AntdAccordion } from "@plasmicpkgs/antd5/skinny/registerCollapse";
 import { accordionHelpers as AntdAccordion_Helpers } from "@plasmicpkgs/antd5/skinny/registerCollapse";
 import { AntdAccordionItem } from "@plasmicpkgs/antd5/skinny/registerCollapse";
 import FooterMain from "../../FooterMain"; // plasmic-import: qoZVCK7paFuV/component
+import { PlasmicHead } from "@plasmicapp/react-web";
 
 import { useScreenVariants as useScreenVariantssppb0UOhrN5L } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: Sppb0uOhrN5l/globalVariant
 
@@ -129,6 +130,7 @@ export type PlasmicKotakKami__OverridesType = {
   accordion3?: Flex__<typeof AntdAccordion>;
   accordion4?: Flex__<typeof AntdAccordion>;
   footerMain?: Flex__<typeof FooterMain>;
+  pageMetadataOverride?: Flex__<typeof PlasmicHead>;
 };
 
 export interface DefaultKotakKamiProps {}
@@ -956,7 +958,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__p4FJ
+                        sty.formField__lYzxJ
                       )}
                       label={"Name"}
                       name={"name"}
@@ -964,14 +966,14 @@ function PlasmicKotakKami__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input___0Uk93
+                          sty.input__dPv4A
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__vqPiN
+                        sty.formField__wLpt
                       )}
                       hidden={false}
                       label={"Telepon"}
@@ -979,14 +981,14 @@ function PlasmicKotakKami__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__m6Hl1
+                          sty.input__yuId0
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__cf0I2
+                        sty.formField__zb0Tf
                       )}
                       label={"Message"}
                       name={"message"}
@@ -998,7 +1000,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                     <AntdButton
                       className={classNames(
                         "__wab_instance",
-                        sty.button__kKXwt
+                        sty.button__yzgrW
                       )}
                       submitsForm={true}
                       type={"primary"}
@@ -1007,7 +1009,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__nA3Op
+                          sty.text__ivVza
                         )}
                       >
                         {"Kirim"}
@@ -2016,6 +2018,15 @@ function PlasmicKotakKami__RenderFunc(props: {
               </div>
             </div>
           </section>
+          <PlasmicHead
+            data-plasmic-name={"pageMetadataOverride"}
+            data-plasmic-override={overrides.pageMetadataOverride}
+            canonical={"https://uwinfly.co.id/Kotak-kami"}
+            className={classNames("__wab_instance", sty.pageMetadataOverride)}
+            description={"produk uwinfly motor listrik sepeda listrik "}
+            image={"/plasmic/uwinfly/images/logopng.png"}
+            title={"kotak kami"}
+          />
         </div>
       </div>
     </React.Fragment>
@@ -2039,7 +2050,8 @@ const PlasmicDescendants = {
     "accordion2",
     "accordion3",
     "accordion4",
-    "footerMain"
+    "footerMain",
+    "pageMetadataOverride"
   ],
   navigationBar: [
     "navigationBar",
@@ -2063,7 +2075,8 @@ const PlasmicDescendants = {
   accordion2: ["accordion2"],
   accordion3: ["accordion3"],
   accordion4: ["accordion4"],
-  footerMain: ["footerMain"]
+  footerMain: ["footerMain"],
+  pageMetadataOverride: ["pageMetadataOverride"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -2085,6 +2098,7 @@ type NodeDefaultElementType = {
   accordion3: typeof AntdAccordion;
   accordion4: typeof AntdAccordion;
   footerMain: typeof FooterMain;
+  pageMetadataOverride: typeof PlasmicHead;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -2204,6 +2218,7 @@ export const PlasmicKotakKami = Object.assign(
     accordion3: makeNodeComponent("accordion3"),
     accordion4: makeNodeComponent("accordion4"),
     footerMain: makeNodeComponent("footerMain"),
+    pageMetadataOverride: makeNodeComponent("pageMetadataOverride"),
 
     // Metadata about props expected for PlasmicKotakKami
     internalVariantProps: PlasmicKotakKami__VariantProps,

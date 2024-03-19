@@ -82,6 +82,7 @@ import { AddToCartButton } from "@plasmicpkgs/commerce";
 import Button2 from "../../Button2"; // plasmic-import: bn8Yy5q1VEYE/component
 import FooterMain from "../../FooterMain"; // plasmic-import: qoZVCK7paFuV/component
 import IconNavbar2 from "../../IconNavbar2"; // plasmic-import: 8dJjOz6ixDRs/component
+import { PlasmicHead } from "@plasmicapp/react-web";
 
 import { useScreenVariants as useScreenVariantssppb0UOhrN5L } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: Sppb0uOhrN5l/globalVariant
 
@@ -135,6 +136,7 @@ export type PlasmicDetailProduk__OverridesType = {
   button2?: Flex__<typeof Button2>;
   footerMain?: Flex__<typeof FooterMain>;
   iconNavbar2?: Flex__<typeof IconNavbar2>;
+  pageMetadataOverride?: Flex__<typeof PlasmicHead>;
 };
 
 export interface DefaultDetailProdukProps {}
@@ -340,7 +342,7 @@ function PlasmicDetailProduk__RenderFunc(props: {
               }
               forceOpenMenu={
                 hasVariant(globalVariants, "screen", "mobile")
-                  ? true
+                  ? false
                   : undefined
               }
               itemsGap={hasVariant(globalVariants, "screen", "mobile") ? 8 : 8}
@@ -2189,6 +2191,17 @@ function PlasmicDetailProduk__RenderFunc(props: {
               </div>
             </div>
           ) : null}
+          <PlasmicHead
+            data-plasmic-name={"pageMetadataOverride"}
+            data-plasmic-override={overrides.pageMetadataOverride}
+            canonical={"https://uwinfly.co.id/uwinfly-t3s-pro"}
+            className={classNames("__wab_instance", sty.pageMetadataOverride)}
+            description={
+              "Solusi tepat mempunyai dealer motor listrik dan sepeda listrik, uwinfly terjamin dan terpercaya untuk inventasi anda "
+            }
+            image={"/plasmic/uwinfly/images/logopng.png"}
+            title={"uwinfly"}
+          />
         </div>
       </div>
     </React.Fragment>
@@ -2214,7 +2227,8 @@ const PlasmicDescendants = {
     "productPrice",
     "button2",
     "footerMain",
-    "iconNavbar2"
+    "iconNavbar2",
+    "pageMetadataOverride"
   ],
   navigationBar: [
     "navigationBar",
@@ -2248,7 +2262,8 @@ const PlasmicDescendants = {
   productPrice: ["productPrice"],
   button2: ["button2"],
   footerMain: ["footerMain"],
-  iconNavbar2: ["iconNavbar2"]
+  iconNavbar2: ["iconNavbar2"],
+  pageMetadataOverride: ["pageMetadataOverride"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -2272,6 +2287,7 @@ type NodeDefaultElementType = {
   button2: typeof Button2;
   footerMain: typeof FooterMain;
   iconNavbar2: typeof IconNavbar2;
+  pageMetadataOverride: typeof PlasmicHead;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -2393,6 +2409,7 @@ export const PlasmicDetailProduk = Object.assign(
     button2: makeNodeComponent("button2"),
     footerMain: makeNodeComponent("footerMain"),
     iconNavbar2: makeNodeComponent("iconNavbar2"),
+    pageMetadataOverride: makeNodeComponent("pageMetadataOverride"),
 
     // Metadata about props expected for PlasmicDetailProduk
     internalVariantProps: PlasmicDetailProduk__VariantProps,

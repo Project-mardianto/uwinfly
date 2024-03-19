@@ -73,6 +73,7 @@ import { AntdTabs } from "@plasmicpkgs/antd5/skinny/registerTabs";
 import { AntdTabItem } from "@plasmicpkgs/antd5/skinny/registerTabs";
 import HomeFooterTop from "../../HomeFooterTop"; // plasmic-import: sRA5PV1tz8Fx/component
 import FooterMain from "../../FooterMain"; // plasmic-import: qoZVCK7paFuV/component
+import { PlasmicHead } from "@plasmicapp/react-web";
 
 import { useScreenVariants as useScreenVariantssppb0UOhrN5L } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: Sppb0uOhrN5l/globalVariant
 
@@ -115,6 +116,7 @@ export type PlasmicPersyaratan__OverridesType = {
   footerTopSection?: Flex__<"div">;
   homeFooterTop?: Flex__<typeof HomeFooterTop>;
   footerMain?: Flex__<typeof FooterMain>;
+  pageMetadataOverride?: Flex__<typeof PlasmicHead>;
 };
 
 export interface DefaultPersyaratanProps {}
@@ -793,6 +795,18 @@ function PlasmicPersyaratan__RenderFunc(props: {
             data-plasmic-override={overrides.footerMain}
             className={classNames("__wab_instance", sty.footerMain)}
           />
+
+          <PlasmicHead
+            data-plasmic-name={"pageMetadataOverride"}
+            data-plasmic-override={overrides.pageMetadataOverride}
+            canonical={"https://uwinfly.co.id/persyaratan"}
+            className={classNames("__wab_instance", sty.pageMetadataOverride)}
+            description={
+              "persyaratan apa saja ingin menjadi distributor atau waralaba uwinfly "
+            }
+            image={"/plasmic/uwinfly/images/logopng.png"}
+            title={"persyaratan "}
+          />
         </div>
       </div>
     </React.Fragment>
@@ -813,7 +827,8 @@ const PlasmicDescendants = {
     "tabs",
     "footerTopSection",
     "homeFooterTop",
-    "footerMain"
+    "footerMain",
+    "pageMetadataOverride"
   ],
   navigationBar: [
     "navigationBar",
@@ -834,7 +849,8 @@ const PlasmicDescendants = {
   tabs: ["tabs"],
   footerTopSection: ["footerTopSection", "homeFooterTop"],
   homeFooterTop: ["homeFooterTop"],
-  footerMain: ["footerMain"]
+  footerMain: ["footerMain"],
+  pageMetadataOverride: ["pageMetadataOverride"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -853,6 +869,7 @@ type NodeDefaultElementType = {
   footerTopSection: "div";
   homeFooterTop: typeof HomeFooterTop;
   footerMain: typeof FooterMain;
+  pageMetadataOverride: typeof PlasmicHead;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -969,6 +986,7 @@ export const PlasmicPersyaratan = Object.assign(
     footerTopSection: makeNodeComponent("footerTopSection"),
     homeFooterTop: makeNodeComponent("homeFooterTop"),
     footerMain: makeNodeComponent("footerMain"),
+    pageMetadataOverride: makeNodeComponent("pageMetadataOverride"),
 
     // Metadata about props expected for PlasmicPersyaratan
     internalVariantProps: PlasmicPersyaratan__VariantProps,
