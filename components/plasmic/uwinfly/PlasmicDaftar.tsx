@@ -879,7 +879,7 @@ function PlasmicDaftar__RenderFunc(props: {
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__dl0WH
+                        sty.formField__kyAz
                       )}
                       label={"Name"}
                       name={"name"}
@@ -887,14 +887,14 @@ function PlasmicDaftar__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input___6MLyo
+                          sty.input__piIQz
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__egaKy
+                        sty.formField__rIrvs
                       )}
                       hidden={false}
                       label={"Telepon"}
@@ -902,14 +902,14 @@ function PlasmicDaftar__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__p3GW9
+                          sty.input__kaXO
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__b9VKu
+                        sty.formField___2ZiPy
                       )}
                       label={"Message"}
                       name={"message"}
@@ -921,7 +921,7 @@ function PlasmicDaftar__RenderFunc(props: {
                     <AntdButton
                       className={classNames(
                         "__wab_instance",
-                        sty.button__vL8Dd
+                        sty.button__sVlfN
                       )}
                       submitsForm={true}
                       type={"primary"}
@@ -930,7 +930,7 @@ function PlasmicDaftar__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__p2D61
+                          sty.text__kaOp
                         )}
                       >
                         {"Kirim"}
@@ -2476,6 +2476,9 @@ export const PlasmicDaftar = Object.assign(
     // Metadata about props expected for PlasmicDaftar
     internalVariantProps: PlasmicDaftar__VariantProps,
     internalArgProps: PlasmicDaftar__ArgProps,
+
+    // Key-value metadata
+    metadata: { a57E7F63F92Bd473D: "a57e7f63f92bd473d" },
 
     // Page metadata
     pageMetadata: {

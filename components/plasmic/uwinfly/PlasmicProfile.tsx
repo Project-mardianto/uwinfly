@@ -775,22 +775,19 @@ function PlasmicProfile__RenderFunc(props: {
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__gedrd
+                      sty.formField__jjUKe
                     )}
                     label={"Email"}
                     name={"name"}
                   >
                     <AntdInput
-                      className={classNames(
-                        "__wab_instance",
-                        sty.input___2S5Yb
-                      )}
+                      className={classNames("__wab_instance", sty.input__qlf45)}
                     />
                   </FormItemWrapper>
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__efHe6
+                      sty.formField__pn1Lu
                     )}
                     label={"Password"}
                   >
@@ -808,7 +805,7 @@ function PlasmicProfile__RenderFunc(props: {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__umey7
+                        sty.text__ugZj2
                       )}
                     >
                       {"Login"}
@@ -1181,7 +1178,7 @@ function PlasmicProfile__RenderFunc(props: {
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__tl7Q1
+                        sty.formField__flOl
                       )}
                       label={"Name"}
                       name={"name"}
@@ -1189,14 +1186,14 @@ function PlasmicProfile__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__vc3Ue
+                          sty.input__yF4D
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__sSu2M
+                        sty.formField__f4Tx
                       )}
                       hidden={false}
                       label={"Telepon"}
@@ -1204,14 +1201,14 @@ function PlasmicProfile__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__zoCkD
+                          sty.input__cG5T
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__ovzwl
+                        sty.formField__xyMn6
                       )}
                       label={"Message"}
                       name={"message"}
@@ -1223,7 +1220,7 @@ function PlasmicProfile__RenderFunc(props: {
                     <AntdButton
                       className={classNames(
                         "__wab_instance",
-                        sty.button__ux4Hh
+                        sty.button__hUxpp
                       )}
                       submitsForm={true}
                       type={"primary"}
@@ -1232,7 +1229,7 @@ function PlasmicProfile__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__xyh0N
+                          sty.text__pFn5
                         )}
                       >
                         {"Kirim"}
@@ -2652,6 +2649,9 @@ export const PlasmicProfile = Object.assign(
     // Metadata about props expected for PlasmicProfile
     internalVariantProps: PlasmicProfile__VariantProps,
     internalArgProps: PlasmicProfile__ArgProps,
+
+    // Key-value metadata
+    metadata: { a57E7F63F92Bd473D: "a57e7f63f92bd473d" },
 
     // Page metadata
     pageMetadata: {

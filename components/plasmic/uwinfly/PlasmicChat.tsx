@@ -302,7 +302,7 @@ function PlasmicChat__RenderFunc(props: {
               }
               forceOpenMenu={
                 hasVariant(globalVariants, "screen", "mobile")
-                  ? true
+                  ? false
                   : undefined
               }
               itemsGap={hasVariant(globalVariants, "screen", "mobile") ? 8 : 8}
@@ -1481,6 +1481,9 @@ export const PlasmicChat = Object.assign(
     // Metadata about props expected for PlasmicChat
     internalVariantProps: PlasmicChat__VariantProps,
     internalArgProps: PlasmicChat__ArgProps,
+
+    // Key-value metadata
+    metadata: { a57E7F63F92Bd473D: "a57e7f63f92bd473d" },
 
     // Page metadata
     pageMetadata: {

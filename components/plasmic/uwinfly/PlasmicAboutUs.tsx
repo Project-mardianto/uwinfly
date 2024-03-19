@@ -1138,6 +1138,9 @@ export const PlasmicAboutUs = Object.assign(
     internalVariantProps: PlasmicAboutUs__VariantProps,
     internalArgProps: PlasmicAboutUs__ArgProps,
 
+    // Key-value metadata
+    metadata: { a57E7F63F92Bd473D: "a57e7f63f92bd473d" },
+
     // Page metadata
     pageMetadata: {
       title: "tentang kami ",

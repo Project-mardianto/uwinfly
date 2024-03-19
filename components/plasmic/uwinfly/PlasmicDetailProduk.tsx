@@ -111,11 +111,9 @@ export type PlasmicDetailProduk__VariantsArgs = {};
 type VariantPropType = keyof PlasmicDetailProduk__VariantsArgs;
 export const PlasmicDetailProduk__VariantProps = new Array<VariantPropType>();
 
-export type PlasmicDetailProduk__ArgsType = {
-  mkmkm?: boolean;
-};
+export type PlasmicDetailProduk__ArgsType = {};
 type ArgPropType = keyof PlasmicDetailProduk__ArgsType;
-export const PlasmicDetailProduk__ArgProps = new Array<ArgPropType>("mkmkm");
+export const PlasmicDetailProduk__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicDetailProduk__OverridesType = {
   root?: Flex__<"div">;
@@ -2414,6 +2412,9 @@ export const PlasmicDetailProduk = Object.assign(
     // Metadata about props expected for PlasmicDetailProduk
     internalVariantProps: PlasmicDetailProduk__VariantProps,
     internalArgProps: PlasmicDetailProduk__ArgProps,
+
+    // Key-value metadata
+    metadata: { a57E7F63F92Bd473D: "a57e7f63f92bd473d" },
 
     // Page metadata
     pageMetadata: {

@@ -7012,6 +7012,9 @@ export const PlasmicHome = Object.assign(
     internalVariantProps: PlasmicHome__VariantProps,
     internalArgProps: PlasmicHome__ArgProps,
 
+    // Key-value metadata
+    metadata: { a57E7F63F92Bd473D: "a57e7f63f92bd473d" },
+
     // Page metadata
     pageMetadata: {
       title: "uwinfly",

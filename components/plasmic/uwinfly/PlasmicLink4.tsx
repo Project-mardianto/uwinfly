@@ -135,7 +135,7 @@ function PlasmicLink4__RenderFunc(props: {
         sty.root
       )}
       component={Link}
-      href={"/"}
+      href={`/Blog`}
       platform={"nextjs"}
     >
       {"Blog"}
