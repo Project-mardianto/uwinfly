@@ -123,7 +123,6 @@ export type PlasmicKotakKami__OverridesType = {
   link4?: Flex__<typeof Link4>;
   link5?: Flex__<typeof Link5>;
   link6?: Flex__<typeof Link6>;
-  h2?: Flex__<"h2">;
   clientsSection6?: Flex__<"div">;
   form2?: Flex__<typeof FormWrapper>;
   textArea?: Flex__<typeof AntdTextArea>;
@@ -697,93 +696,48 @@ function PlasmicKotakKami__RenderFunc(props: {
               </div>
             </div>
           ) : null}
-          <div className={classNames(projectcss.all, sty.freeBox__kiXAg)}>
-            <div className={classNames(projectcss.all, sty.freeBox__uuJaA)}>
-              <Stack__
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.columns__pOJkl)}
-              >
-                <div className={classNames(projectcss.all, sty.column__mwqgQ)}>
-                  <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img__up21G)}
-                    displayHeight={
-                      hasVariant(globalVariants, "screen", "mobile")
-                        ? "172px"
-                        : "322px"
-                    }
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"100%"}
-                    loading={"lazy"}
-                    src={
-                      hasVariant(globalVariants, "screen", "mobile")
-                        ? {
-                            src: "/plasmic/uwinfly/images/_9616Convertedpng3.png",
-                            fullWidth: 2069,
-                            fullHeight: 992,
-                            aspectRatio: undefined
-                          }
-                        : {
-                            src: "/plasmic/uwinfly/images/_9616Convertedpng3.png",
-                            fullWidth: 2069,
-                            fullHeight: 992,
-                            aspectRatio: undefined
-                          }
-                    }
+          {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
+            <div className={classNames(projectcss.all, sty.columns__ogeJt)}>
+              <div className={classNames(projectcss.all, sty.column__njvsA)}>
+                <PlasmicLink__
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    sty.link__imGx2
+                  )}
+                  component={Link}
+                  href={`/`}
+                  platform={"nextjs"}
+                >
+                  <ArrowLeftSvgrepoComsvgIcon
+                    className={classNames(projectcss.all, sty.svg__caAi)}
+                    role={"img"}
                   />
-                </div>
-                <div className={classNames(projectcss.all, sty.column__nm9Oc)}>
-                  <Stack__
-                    as={"div"}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.freeBox__uNyg)}
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__iQd4Z
+                    )}
                   >
-                    <h2
-                      data-plasmic-name={"h2"}
-                      data-plasmic-override={overrides.h2}
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h2,
-                        projectcss.__wab_text,
-                        sty.h2
-                      )}
-                    >
-                      {hasVariant(globalVariants, "screen", "mobile")
-                        ? "Tentang kami"
-                        : "Tentang kami"}
-                    </h2>
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__xf0SS
-                      )}
-                    >
-                      {hasVariant(globalVariants, "screen", "mobile")
-                        ? "Solusi tepat mempunyai dealer motor listrik dan sepeda listrik, uwinfly terjamin dan terpercaya untuk inventasi anda "
-                        : "Solusi tepat mempunyai dealer motor listrik dan sepeda listrik, uwinfly terjamin dan terpercaya untuk inventasi anda "}
-                    </div>
-                    <section
-                      className={classNames(projectcss.all, sty.section__abEzm)}
-                    >
-                      <Button
-                        className={classNames(
-                          "__wab_instance",
-                          sty.button__nVbVo
-                        )}
-                      >
-                        {"Daftar sekarang"}
-                      </Button>
-                    </section>
-                  </Stack__>
+                    {"  Balik Menu"}
+                  </div>
+                </PlasmicLink__>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__ssHW)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__kjgyf
+                  )}
+                >
+                  {"Januari 24, 2024"}
                 </div>
-              </Stack__>
+              </div>
             </div>
-          </div>
+          ) : null}
           {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
             <section className={classNames(projectcss.all, sty.section__gToQd)}>
               <div className={classNames(projectcss.all, sty.columns__tu6Lk)}>
@@ -1001,7 +955,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__agNgh
+                        sty.formField__rzQrX
                       )}
                       label={"Name"}
                       name={"name"}
@@ -1009,14 +963,14 @@ function PlasmicKotakKami__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__wJnar
+                          sty.input__lPOnW
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__u5Ej
+                        sty.formField__kl2Ye
                       )}
                       hidden={false}
                       label={"Telepon"}
@@ -1024,14 +978,14 @@ function PlasmicKotakKami__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input___6JE6M
+                          sty.input__bfaZ7
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField___58Lp
+                        sty.formField__tsTsx
                       )}
                       label={"Message"}
                       name={"message"}
@@ -1043,7 +997,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                     <AntdButton
                       className={classNames(
                         "__wab_instance",
-                        sty.button___7GcY3
+                        sty.button__ipwLc
                       )}
                       submitsForm={true}
                       type={"primary"}
@@ -1052,7 +1006,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__rsYgd
+                          sty.text__vRyN5
                         )}
                       >
                         {"Kirim"}
@@ -2086,7 +2040,6 @@ const PlasmicDescendants = {
     "link4",
     "link5",
     "link6",
-    "h2",
     "clientsSection6",
     "form2",
     "textArea",
@@ -2111,7 +2064,6 @@ const PlasmicDescendants = {
   link4: ["link4"],
   link5: ["link5"],
   link6: ["link6"],
-  h2: ["h2"],
   clientsSection6: ["clientsSection6", "form2", "textArea", "accordion2"],
   form2: ["form2", "textArea"],
   textArea: ["textArea"],
@@ -2133,7 +2085,6 @@ type NodeDefaultElementType = {
   link4: typeof Link4;
   link5: typeof Link5;
   link6: typeof Link6;
-  h2: "h2";
   clientsSection6: "div";
   form2: typeof FormWrapper;
   textArea: typeof AntdTextArea;
@@ -2253,7 +2204,6 @@ export const PlasmicKotakKami = Object.assign(
     link4: makeNodeComponent("link4"),
     link5: makeNodeComponent("link5"),
     link6: makeNodeComponent("link6"),
-    h2: makeNodeComponent("h2"),
     clientsSection6: makeNodeComponent("clientsSection6"),
     form2: makeNodeComponent("form2"),
     textArea: makeNodeComponent("textArea"),
