@@ -1380,6 +1380,20 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/7-kelebihan-dan-kegunaan-motor-listrik"
+        },
+        {
+          "id": "kM2OqxWGBH0e",
+          "name": "BateraiMotorListrikAgarPerformaTerjaga",
+          "type": "managed",
+          "projectId": "iWaiTLt8mAup4ReehswsSx",
+          "renderModuleFilePath": "plasmic/uwinfly/PlasmicBateraiMotorListrikAgarPerformaTerjaga.tsx",
+          "importSpec": {
+            "modulePath": "../pages/Baterai-motor-listrik-agar-performa-terjaga.tsx"
+          },
+          "cssFilePath": "plasmic/uwinfly/PlasmicBateraiMotorListrikAgarPerformaTerjaga.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Baterai-motor-listrik-agar-performa-terjaga"
         }
       ],
       "icons": [

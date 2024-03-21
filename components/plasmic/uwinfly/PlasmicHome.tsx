@@ -6273,6 +6273,92 @@ function PlasmicHome__RenderFunc(props: {
                   {...child$Props}
                 >
                   <div
+                    className={classNames(projectcss.all, sty.freeBox___7QKh)}
+                  >
+                    <section
+                      className={classNames(projectcss.all, sty.section__ovlJx)}
+                    >
+                      <PlasmicImg__
+                        alt={""}
+                        className={classNames(sty.img__bkNt0)}
+                        displayHeight={"auto"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={
+                          hasVariant(globalVariants, "screen", "mobile")
+                            ? "100%"
+                            : "auto"
+                        }
+                        src={
+                          hasVariant(globalVariants, "screen", "mobile")
+                            ? {
+                                src: "/plasmic/uwinfly/images/newProjectpng.png",
+                                fullWidth: 800,
+                                fullHeight: 600,
+                                aspectRatio: undefined
+                              }
+                            : {
+                                src: "/plasmic/uwinfly/images/newProjectpng.png",
+                                fullWidth: 800,
+                                fullHeight: 600,
+                                aspectRatio: undefined
+                              }
+                        }
+                      />
+
+                      <section
+                        className={classNames(
+                          projectcss.all,
+                          sty.section__mCnT7
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__co87N
+                          )}
+                        >
+                          {hasVariant(globalVariants, "screen", "mobile")
+                            ? "Feb 15, 2024"
+                            : "Feb 15, 2024"}
+                        </div>
+                        <PlasmicLink__
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.a,
+                            projectcss.__wab_text,
+                            sty.link___4Orvp
+                          )}
+                          component={Link}
+                          href={
+                            hasVariant(globalVariants, "screen", "mobile")
+                              ? `/Baterai-motor-listrik-agar-performa-terjaga`
+                              : undefined
+                          }
+                          platform={"nextjs"}
+                        >
+                          {hasVariant(globalVariants, "screen", "mobile")
+                            ? "Baterai Motor Listrik Agar Performa Terjaga"
+                            : "Baterai Motor Listrik Agar Performa Terjaga"}
+                        </PlasmicLink__>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__iyQh4
+                          )}
+                        >
+                          {hasVariant(globalVariants, "screen", "mobile")
+                            ? "Pemilik sepeda motor listrik perlu mengetahui cara merawat baterai"
+                            : "Pemilik sepeda motor listrik perlu mengetahui cara merawat baterai"}
+                        </div>
+                      </section>
+                    </section>
+                  </div>
+                  <div
                     className={classNames(projectcss.all, sty.freeBox__uCgxa)}
                   >
                     <section
@@ -6348,84 +6434,6 @@ function PlasmicHome__RenderFunc(props: {
                           {
                             "Kendaraan listrik saat ini tengah dikembangkan oleh produsen otomotif. "
                           }
-                        </div>
-                      </section>
-                    </section>
-                  </div>
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox___7QKh)}
-                  >
-                    <section
-                      className={classNames(projectcss.all, sty.section__ovlJx)}
-                    >
-                      <PlasmicImg__
-                        alt={""}
-                        className={classNames(sty.img__bkNt0)}
-                        displayHeight={"auto"}
-                        displayMaxHeight={"none"}
-                        displayMaxWidth={"100%"}
-                        displayMinHeight={"0"}
-                        displayMinWidth={"0"}
-                        displayWidth={
-                          hasVariant(globalVariants, "screen", "mobile")
-                            ? "100%"
-                            : "auto"
-                        }
-                        src={
-                          hasVariant(globalVariants, "screen", "mobile")
-                            ? {
-                                src: "/plasmic/uwinfly/images/newProjectpng.png",
-                                fullWidth: 800,
-                                fullHeight: 600,
-                                aspectRatio: undefined
-                              }
-                            : {
-                                src: "/plasmic/uwinfly/images/newProjectpng.png",
-                                fullWidth: 800,
-                                fullHeight: 600,
-                                aspectRatio: undefined
-                              }
-                        }
-                      />
-
-                      <section
-                        className={classNames(
-                          projectcss.all,
-                          sty.section__mCnT7
-                        )}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__co87N
-                          )}
-                        >
-                          {hasVariant(globalVariants, "screen", "mobile")
-                            ? "Feb 15, 2024"
-                            : "Feb 15, 2024"}
-                        </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text___4Orvp
-                          )}
-                        >
-                          {hasVariant(globalVariants, "screen", "mobile")
-                            ? "Baterai Motor Listrik Agar Performa Terjaga"
-                            : "Baterai Motor Listrik Agar Performa Terjaga"}
-                        </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__iyQh4
-                          )}
-                        >
-                          {hasVariant(globalVariants, "screen", "mobile")
-                            ? "Pemilik sepeda motor listrik perlu mengetahui cara merawat baterai"
-                            : "Pemilik sepeda motor listrik perlu mengetahui cara merawat baterai"}
                         </div>
                       </section>
                     </section>
