@@ -1394,6 +1394,20 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/Baterai-motor-listrik-agar-performa-terjaga"
+        },
+        {
+          "id": "Spfa0WJhx6mI",
+          "name": "CaraMerawatMotorListrikApaSajaDilakukan",
+          "type": "managed",
+          "projectId": "iWaiTLt8mAup4ReehswsSx",
+          "renderModuleFilePath": "plasmic/uwinfly/PlasmicCaraMerawatMotorListrikApaSajaDilakukan.tsx",
+          "importSpec": {
+            "modulePath": "../pages/Cara-merawat-motor-listrik-apa-saja-dilakukan.tsx"
+          },
+          "cssFilePath": "plasmic/uwinfly/PlasmicCaraMerawatMotorListrikApaSajaDilakukan.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Cara-merawat-motor-listrik-apa-saja-dilakukan"
         }
       ],
       "icons": [

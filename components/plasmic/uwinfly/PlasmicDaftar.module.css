@@ -601,6 +601,11 @@
   font-size: 18px;
   min-width: 0;
 }
+@media (max-width: 768px) {
+  .text__b2Zh {
+    display: none;
+  }
+}
 .column__wmZY {
   display: flex;
   position: relative;
@@ -1439,25 +1444,25 @@
     display: none;
   }
 }
-.formField__otNcO:global(.__wab_instance) {
+.formField__a7D5K:global(.__wab_instance) {
   width: 100%;
   margin-bottom: 24px;
   min-width: 0;
 }
-.input__nyIsh:global(.__wab_instance) {
+.input__nEdRb:global(.__wab_instance) {
   max-width: 100%;
   object-fit: cover;
 }
-.formField___05GWe:global(.__wab_instance) {
+.formField__dlL1X:global(.__wab_instance) {
   width: 100%;
   margin-bottom: 24px;
   min-width: 0;
 }
-.input__afW0T:global(.__wab_instance) {
+.input___009Yh:global(.__wab_instance) {
   max-width: 100%;
   object-fit: cover;
 }
-.formField__oHmSw:global(.__wab_instance) {
+.formField__rbrBy:global(.__wab_instance) {
   width: 100%;
   margin-bottom: 24px;
   min-width: 0;
@@ -1466,11 +1471,11 @@
   max-width: 100%;
   object-fit: cover;
 }
-.button__kV0V:global(.__wab_instance) {
+.button__n8WWn:global(.__wab_instance) {
   max-width: 100%;
   object-fit: cover;
 }
-.text__g32PE {
+.text__xwA4L {
   position: relative;
   width: 100%;
   height: auto;

@@ -6273,6 +6273,88 @@ function PlasmicHome__RenderFunc(props: {
                   {...child$Props}
                 >
                   <div
+                    className={classNames(projectcss.all, sty.freeBox__hd3Gv)}
+                  >
+                    <section
+                      className={classNames(projectcss.all, sty.section__mkBl0)}
+                    >
+                      <PlasmicImg__
+                        alt={""}
+                        className={classNames(sty.img___1YneA)}
+                        displayHeight={"auto"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={
+                          hasVariant(globalVariants, "screen", "mobile")
+                            ? "100%"
+                            : "auto"
+                        }
+                        src={
+                          hasVariant(globalVariants, "screen", "mobile")
+                            ? {
+                                src: "/plasmic/uwinfly/images/newProject1Png.png",
+                                fullWidth: 800,
+                                fullHeight: 600,
+                                aspectRatio: undefined
+                              }
+                            : {
+                                src: "/plasmic/uwinfly/images/newProject1Png.png",
+                                fullWidth: 800,
+                                fullHeight: 600,
+                                aspectRatio: undefined
+                              }
+                        }
+                      />
+
+                      <section
+                        className={classNames(
+                          projectcss.all,
+                          sty.section__iNCzs
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__anWnE
+                          )}
+                        >
+                          {hasVariant(globalVariants, "screen", "mobile")
+                            ? "Feb 20, 2024"
+                            : "Feb 20, 2024"}
+                        </div>
+                        <PlasmicLink__
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.a,
+                            projectcss.__wab_text,
+                            sty.link___0Pwal
+                          )}
+                          component={Link}
+                          href={`/Cara-merawat-motor-listrik-apa-saja-dilakukan`}
+                          platform={"nextjs"}
+                        >
+                          {hasVariant(globalVariants, "screen", "mobile")
+                            ? "Cara Merawat Motor Listrik: Apa Saja Dilakukan?"
+                            : "Cara Merawat Motor Listrik: Apa Saja Dilakukan?"}
+                        </PlasmicLink__>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__tghgr
+                          )}
+                        >
+                          {hasVariant(globalVariants, "screen", "mobile")
+                            ? "Akhir-akhir ini motor listrik semakin populer sebagai alternatif "
+                            : "Akhir-akhir ini motor listrik semakin populer sebagai alternatif "}
+                        </div>
+                      </section>
+                    </section>
+                  </div>
+                  <div
                     className={classNames(projectcss.all, sty.freeBox___7QKh)}
                   >
                     <section
@@ -6336,7 +6418,7 @@ function PlasmicHome__RenderFunc(props: {
                           href={
                             hasVariant(globalVariants, "screen", "mobile")
                               ? `/Baterai-motor-listrik-agar-performa-terjaga`
-                              : undefined
+                              : `/Baterai-motor-listrik-agar-performa-terjaga`
                           }
                           platform={"nextjs"}
                         >
@@ -6434,84 +6516,6 @@ function PlasmicHome__RenderFunc(props: {
                           {
                             "Kendaraan listrik saat ini tengah dikembangkan oleh produsen otomotif. "
                           }
-                        </div>
-                      </section>
-                    </section>
-                  </div>
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__hd3Gv)}
-                  >
-                    <section
-                      className={classNames(projectcss.all, sty.section__mkBl0)}
-                    >
-                      <PlasmicImg__
-                        alt={""}
-                        className={classNames(sty.img___1YneA)}
-                        displayHeight={"auto"}
-                        displayMaxHeight={"none"}
-                        displayMaxWidth={"100%"}
-                        displayMinHeight={"0"}
-                        displayMinWidth={"0"}
-                        displayWidth={
-                          hasVariant(globalVariants, "screen", "mobile")
-                            ? "100%"
-                            : "auto"
-                        }
-                        src={
-                          hasVariant(globalVariants, "screen", "mobile")
-                            ? {
-                                src: "/plasmic/uwinfly/images/newProject1Png.png",
-                                fullWidth: 800,
-                                fullHeight: 600,
-                                aspectRatio: undefined
-                              }
-                            : {
-                                src: "/plasmic/uwinfly/images/newProject1Png.png",
-                                fullWidth: 800,
-                                fullHeight: 600,
-                                aspectRatio: undefined
-                              }
-                        }
-                      />
-
-                      <section
-                        className={classNames(
-                          projectcss.all,
-                          sty.section__iNCzs
-                        )}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__anWnE
-                          )}
-                        >
-                          {hasVariant(globalVariants, "screen", "mobile")
-                            ? "Feb 20, 2024"
-                            : "Feb 20, 2024"}
-                        </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text___0Pwal
-                          )}
-                        >
-                          {hasVariant(globalVariants, "screen", "mobile")
-                            ? "Cara Merawat Motor Listrik: Apa Saja Dilakukan?"
-                            : "Cara Merawat Motor Listrik: Apa Saja Dilakukan?"}
-                        </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__tghgr
-                          )}
-                        >
-                          {hasVariant(globalVariants, "screen", "mobile")
-                            ? "Akhir-akhir ini motor listrik semakin populer sebagai alternatif "
-                            : "Akhir-akhir ini motor listrik semakin populer sebagai alternatif "}
                         </div>
                       </section>
                     </section>

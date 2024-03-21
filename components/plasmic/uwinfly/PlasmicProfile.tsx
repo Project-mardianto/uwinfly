@@ -775,19 +775,19 @@ function PlasmicProfile__RenderFunc(props: {
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__mknk
+                      sty.formField__eYh3N
                     )}
                     label={"Email"}
                     name={"name"}
                   >
                     <AntdInput
-                      className={classNames("__wab_instance", sty.input__vnb0K)}
+                      className={classNames("__wab_instance", sty.input__lf35Y)}
                     />
                   </FormItemWrapper>
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__cUwW
+                      sty.formField___5VMD
                     )}
                     label={"Password"}
                   >
@@ -805,7 +805,7 @@ function PlasmicProfile__RenderFunc(props: {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__eGwup
+                        sty.text__qu3X4
                       )}
                     >
                       {"Login"}
@@ -1178,19 +1178,22 @@ function PlasmicProfile__RenderFunc(props: {
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__rN4J7
+                        sty.formField__v0Rst
                       )}
                       label={"Name"}
                       name={"name"}
                     >
                       <AntdInput
-                        className={classNames("__wab_instance", sty.input__aGG)}
+                        className={classNames(
+                          "__wab_instance",
+                          sty.input__cMfp0
+                        )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__p1Q2B
+                        sty.formField__v3O
                       )}
                       hidden={false}
                       label={"Telepon"}
@@ -1198,14 +1201,14 @@ function PlasmicProfile__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__gz9Oh
+                          sty.input___4YCbm
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__l6Oo5
+                        sty.formField__bHIlw
                       )}
                       label={"Message"}
                       name={"message"}
@@ -1217,7 +1220,7 @@ function PlasmicProfile__RenderFunc(props: {
                     <AntdButton
                       className={classNames(
                         "__wab_instance",
-                        sty.button__kbUrJ
+                        sty.button__ncWfP
                       )}
                       submitsForm={true}
                       type={"primary"}
@@ -1226,7 +1229,7 @@ function PlasmicProfile__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__kH0QX
+                          sty.text__s9WLo
                         )}
                       >
                         {"Kirim"}
