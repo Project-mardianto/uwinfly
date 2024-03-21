@@ -680,21 +680,15 @@ function PlasmicBateraiMotorListrikAgarPerformaTerjaga__RenderFunc(props: {
                     className={classNames(
                       projectcss.all,
                       projectcss.__wab_text,
-                      sty.text___4XiP
-                    )}
-                  >
-                    {
-                      "Pemilik sepeda motor listrik perlu mengetahui bagaimana cara merawat baterai yang ada pada kendaraan. Pasalnya, cara merawat baterai motor listrik yang benar bisa memperpanjang usia pakai dari kendaraan.\nUntuk menjaga dan merawat agar motor listrik Anda tetap prima, ada beberapa tips supaya performa baterai tetap baik dalam pemakaian sehari-hari. Berikut cara merawat baterai motor listrik.\n"
-                    }
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
                       sty.text__dhqTb
                     )}
                   >
                     <React.Fragment>
+                      <React.Fragment>
+                        {
+                          "Pemilik sepeda motor listrik perlu mengetahui bagaimana cara merawat baterai yang ada pada kendaraan. Pasalnya, cara merawat baterai motor listrik yang benar bisa memperpanjang usia pakai dari kendaraan.\nUntuk menjaga dan merawat agar motor listrik Anda tetap prima, ada beberapa tips supaya performa baterai tetap baik dalam pemakaian sehari-hari. Berikut cara merawat baterai motor listrik.\n\n"
+                        }
+                      </React.Fragment>
                       <span
                         className={"plasmic_default__all plasmic_default__span"}
                         style={{ fontWeight: 700 }}

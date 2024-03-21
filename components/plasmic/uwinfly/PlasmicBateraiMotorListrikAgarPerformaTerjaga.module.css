@@ -1004,20 +1004,6 @@
     grid-column: 4;
   }
 }
-.text___4XiP {
-  position: relative;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  font-weight: 300;
-  font-size: 24px;
-  min-width: 0;
-}
-@media (max-width: 768px) {
-  .text___4XiP {
-    font-size: 18px;
-  }
-}
 .text__dhqTb {
   position: relative;
   width: 100%;

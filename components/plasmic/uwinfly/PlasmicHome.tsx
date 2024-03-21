@@ -6333,7 +6333,11 @@ function PlasmicHome__RenderFunc(props: {
                             sty.link___0Pwal
                           )}
                           component={Link}
-                          href={`/Cara-merawat-motor-listrik-apa-saja-dilakukan`}
+                          href={
+                            hasVariant(globalVariants, "screen", "mobile")
+                              ? `/Cara-merawat-motor-listrik-apa-saja-dilakukan`
+                              : `/Cara-merawat-motor-listrik-apa-saja-dilakukan`
+                          }
                           platform={"nextjs"}
                         >
                           {hasVariant(globalVariants, "screen", "mobile")

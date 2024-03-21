@@ -1171,7 +1171,7 @@ function PlasmicChat__RenderFunc(props: {
                   <section
                     className={classNames(projectcss.all, sty.section__uU6K)}
                   >
-                    <UserSvgrepoComsvgIcon
+                    <ChatRoundDotsSvgrepoCom1SvgIcon
                       className={classNames(projectcss.all, sty.svg__rPu9H)}
                       role={"img"}
                     />
@@ -1181,6 +1181,34 @@ function PlasmicChat__RenderFunc(props: {
                       projectcss.all,
                       projectcss.__wab_text,
                       sty.text__fSm9
+                    )}
+                  >
+                    {"Chat"}
+                  </div>
+                </PlasmicLink__>
+                <PlasmicLink__
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    sty.column__h6Rb
+                  )}
+                  component={Link}
+                  href={`/Profile`}
+                  platform={"nextjs"}
+                >
+                  <section
+                    className={classNames(projectcss.all, sty.section__rZhIy)}
+                  >
+                    <UserSvgrepoComsvgIcon
+                      className={classNames(projectcss.all, sty.svg__kbhgn)}
+                      role={"img"}
+                    />
+                  </section>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__s8KX
                     )}
                   >
                     {"Profile"}
