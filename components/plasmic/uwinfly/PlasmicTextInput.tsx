@@ -61,6 +61,8 @@ import {
 
 import * as pp from "@plasmicapp/react-web";
 
+import { useScreenVariants as useScreenVariantssppb0UOhrN5L } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: Sppb0uOhrN5l/globalVariant
+
 import "@plasmicapp/react-web/lib/plasmic.css";
 
 import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic.module.css"; // plasmic-import: ohDidvG9XsCeFumugENU3J/projectcss
@@ -245,6 +247,10 @@ function PlasmicTextInput__RenderFunc(props: {
   const triggers = {
     focusVisibleWithin_root: isRootFocusVisibleWithin
   };
+
+  const globalVariants = ensureGlobalVariants({
+    screen: useScreenVariantssppb0UOhrN5L()
+  });
 
   return (
     <div

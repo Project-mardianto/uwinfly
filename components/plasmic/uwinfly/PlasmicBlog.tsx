@@ -572,107 +572,194 @@ function PlasmicBlog__RenderFunc(props: {
           <section className={classNames(projectcss.all, sty.section__obmi)}>
             <div className={classNames(projectcss.all, sty.columns___7F4E)}>
               <div className={classNames(projectcss.all, sty.column__hJox3)}>
-                <PlasmicImg__
-                  alt={""}
-                  className={classNames(sty.img__wGxPf)}
-                  displayHeight={"auto"}
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"100%"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={"auto"}
-                  loading={"lazy"}
-                  src={{
-                    src: "/plasmic/uwinfly/images/newProject2Png.png",
-                    fullWidth: 800,
-                    fullHeight: 600,
-                    aspectRatio: undefined
-                  }}
-                />
-
                 <section
-                  className={classNames(projectcss.all, sty.section__paH80)}
+                  className={classNames(projectcss.all, sty.section__zrY4)}
+                >
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__nsnLc)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/uwinfly/images/newProject2Png.png",
+                      fullWidth: 800,
+                      fullHeight: 600,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </section>
+                <section
+                  className={classNames(projectcss.all, sty.section__e0Xvr)}
                 >
                   <div
-                    className={classNames(projectcss.all, sty.columns__riRoL)}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__ppva4
+                    )}
                   >
-                    <div
-                      className={classNames(projectcss.all, sty.column__slhm3)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__b7C8R
-                        )}
-                      >
-                        {"Enter some text"}
-                      </div>
-                    </div>
-                    <div
-                      className={classNames(projectcss.all, sty.column___0KnOz)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__zjnS4
-                        )}
-                      >
-                        {"Enter some text"}
-                      </div>
-                    </div>
+                    {"June 24, 2024"}
+                  </div>
+                  <PlasmicLink__
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      projectcss.__wab_text,
+                      sty.link__advm4
+                    )}
+                    component={Link}
+                    platform={"nextjs"}
+                  >
+                    {"7 Kelebihan dan Kegunaan Motor Listrik"}
+                  </PlasmicLink__>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__o7EbH
+                    )}
+                  >
+                    {
+                      "Kendaraan listrik saat ini tengah dikembangkan oleh produsen otomotif. "
+                    }
                   </div>
                 </section>
               </div>
-              <div className={classNames(projectcss.all, sty.column__wMi2X)}>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__ms9Bs
-                  )}
+            </div>
+          </section>
+          <section className={classNames(projectcss.all, sty.section___00CV9)}>
+            <div className={classNames(projectcss.all, sty.columns__aaJhC)}>
+              <div className={classNames(projectcss.all, sty.column__qsrKn)}>
+                <section
+                  className={classNames(projectcss.all, sty.section__vh3C)}
                 >
-                  {"Enter some text"}
-                </div>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__vHe
-                  )}
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__zkJPd)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/uwinfly/images/newProject2Png.png",
+                      fullWidth: 800,
+                      fullHeight: 600,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </section>
+                <section
+                  className={classNames(projectcss.all, sty.section__exjNo)}
                 >
-                  {"Enter some text"}
-                </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__sktf
+                    )}
+                  >
+                    {"June 24, 2024"}
+                  </div>
+                  <PlasmicLink__
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      projectcss.__wab_text,
+                      sty.link__rqSJ
+                    )}
+                    component={Link}
+                    platform={"nextjs"}
+                  >
+                    {"7 Kelebihan dan Kegunaan Motor Listrik"}
+                  </PlasmicLink__>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__f3Eep
+                    )}
+                  >
+                    {
+                      "Kendaraan listrik saat ini tengah dikembangkan oleh produsen otomotif. "
+                    }
+                  </div>
+                </section>
               </div>
             </div>
           </section>
           {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
-            <section className={classNames(projectcss.all, sty.section__qefS)}>
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text__p4K8V
-                )}
-              >
-                {"Tentang kami"}
+            <section className={classNames(projectcss.all, sty.section__vQgWe)}>
+              <div className={classNames(projectcss.all, sty.columns___2AxXk)}>
+                <div className={classNames(projectcss.all, sty.column__eUlF)}>
+                  <section
+                    className={classNames(projectcss.all, sty.section__kcpYh)}
+                  >
+                    <PlasmicImg__
+                      alt={""}
+                      className={classNames(sty.img__rVyYn)}
+                      displayHeight={"auto"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"100%"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"auto"}
+                      loading={"lazy"}
+                      src={{
+                        src: "/plasmic/uwinfly/images/newProject2Png.png",
+                        fullWidth: 800,
+                        fullHeight: 600,
+                        aspectRatio: undefined
+                      }}
+                    />
+                  </section>
+                  <section
+                    className={classNames(projectcss.all, sty.section__w4Bml)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__xQhVa
+                      )}
+                    >
+                      {"June 24, 2024"}
+                    </div>
+                    <PlasmicLink__
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        projectcss.__wab_text,
+                        sty.link__ykvR
+                      )}
+                      component={Link}
+                      platform={"nextjs"}
+                    >
+                      {"7 Kelebihan dan Kegunaan Motor Listrik"}
+                    </PlasmicLink__>
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__g8B4K
+                      )}
+                    >
+                      {
+                        "Kendaraan listrik saat ini tengah dikembangkan oleh produsen otomotif. "
+                      }
+                    </div>
+                  </section>
+                </div>
               </div>
             </section>
           ) : null}
-          <section className={classNames(projectcss.all, sty.section__ncUx)}>
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__q5Spa
-              )}
-            >
-              {
-                "Uwinfly adalah Perusahaan Industrial yang bergerak dalam bidang usaha kendaraan listrik. Dimulai dengan set-up pabrik untuk memulai proses produksi di Tahun 2018. UWinfly mulai memproduksi dan menjualkan produk seperti Sepeda Listrik dan Motor Listrik di Tahun 2019. Dengan Hasil total penjualan sebanyak 5000 Unit di tahun 2019."
-              }
-            </div>
-          </section>
           <FooterMain
             data-plasmic-name={"footerMain"}
             data-plasmic-override={overrides.footerMain}

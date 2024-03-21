@@ -12057,12 +12057,14 @@
   font-size: 26px;
   font-weight: 500;
   padding-left: 0px;
+  color: var(--token-WxvvgatuPYoJ);
   min-width: 0;
 }
 @media (max-width: 768px) {
   .text___8YSsA {
     width: 100%;
     font-size: 21px;
+    color: #535353d9;
     grid-column-start: 1 !important;
     grid-column-end: -1 !important;
   }
@@ -12203,6 +12205,7 @@
   .text___4Orvp {
     width: 100%;
     font-size: 21px;
+    color: #535353d9;
     grid-column-start: 1 !important;
     grid-column-end: -1 !important;
   }
@@ -12344,6 +12347,7 @@
     width: 100%;
     font-size: 21px;
     padding-right: 0px;
+    color: #535353d9;
     grid-column-start: 1 !important;
     grid-column-end: -1 !important;
   }

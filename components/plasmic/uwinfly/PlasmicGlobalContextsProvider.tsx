@@ -14,7 +14,6 @@ export interface GlobalContextsProviderProps {
   antdConfigProviderProps?: Partial<
     Omit<React.ComponentProps<typeof AntdConfigProvider>, "children">
   >;
-
   commerceProviderComponentProps?: Partial<
     Omit<React.ComponentProps<typeof CommerceProviderComponent>, "children">
   >;
@@ -108,7 +107,7 @@ export default function GlobalContextsProvider(
               fontSize: "16px",
               fontWeight: "400",
               lineHeight: "1.7",
-              color: "#000000",
+              color: "#535353",
               letterSpacing: "normal"
             }
           : undefined
