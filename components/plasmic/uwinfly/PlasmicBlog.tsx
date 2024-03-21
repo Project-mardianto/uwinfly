@@ -589,6 +589,41 @@ function PlasmicBlog__RenderFunc(props: {
                     aspectRatio: undefined
                   }}
                 />
+
+                <section
+                  className={classNames(projectcss.all, sty.section__paH80)}
+                >
+                  <div
+                    className={classNames(projectcss.all, sty.columns__riRoL)}
+                  >
+                    <div
+                      className={classNames(projectcss.all, sty.column__slhm3)}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__b7C8R
+                        )}
+                      >
+                        {"Enter some text"}
+                      </div>
+                    </div>
+                    <div
+                      className={classNames(projectcss.all, sty.column___0KnOz)}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__zjnS4
+                        )}
+                      >
+                        {"Enter some text"}
+                      </div>
+                    </div>
+                  </div>
+                </section>
               </div>
               <div className={classNames(projectcss.all, sty.column__wMi2X)}>
                 <div

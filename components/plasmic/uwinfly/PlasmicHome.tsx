@@ -6315,6 +6315,17 @@ function PlasmicHome__RenderFunc(props: {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
+                            sty.text__z5Vjv
+                          )}
+                        >
+                          {hasVariant(globalVariants, "screen", "mobile")
+                            ? "Jan 10, 2024"
+                            : "June 24, 2024"}
+                        </div>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
                             sty.text___8YSsA
                           )}
                         >
@@ -6335,14 +6346,14 @@ function PlasmicHome__RenderFunc(props: {
                     </section>
                   </div>
                   <div
-                    className={classNames(projectcss.all, sty.freeBox__xAkWo)}
+                    className={classNames(projectcss.all, sty.freeBox___7QKh)}
                   >
                     <section
-                      className={classNames(projectcss.all, sty.section__g8QGl)}
+                      className={classNames(projectcss.all, sty.section__ovlJx)}
                     >
                       <PlasmicImg__
                         alt={""}
-                        className={classNames(sty.img__qpup3)}
+                        className={classNames(sty.img__bkNt0)}
                         displayHeight={"auto"}
                         displayMaxHeight={"none"}
                         displayMaxWidth={"100%"}
@@ -6373,25 +6384,36 @@ function PlasmicHome__RenderFunc(props: {
                       <section
                         className={classNames(
                           projectcss.all,
-                          sty.section__jxm00
+                          sty.section__mCnT7
                         )}
                       >
                         <div
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__oAB
+                            sty.text__co87N
                           )}
                         >
                           {hasVariant(globalVariants, "screen", "mobile")
-                            ? "Baterai Motor Listrik Agar Performa Tetap Terjaga"
-                            : "Baterai Motor Listrik Agar Performa Tetap Terjaga"}
+                            ? "Feb 15, 2024"
+                            : "Feb 15, 2024"}
                         </div>
                         <div
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__zeDTa
+                            sty.text___4Orvp
+                          )}
+                        >
+                          {hasVariant(globalVariants, "screen", "mobile")
+                            ? "Baterai Motor Listrik Agar Performa Terjaga"
+                            : "Baterai Motor Listrik Agar Performa Terjaga"}
+                        </div>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__iyQh4
                           )}
                         >
                           {hasVariant(globalVariants, "screen", "mobile")
@@ -6402,14 +6424,14 @@ function PlasmicHome__RenderFunc(props: {
                     </section>
                   </div>
                   <div
-                    className={classNames(projectcss.all, sty.freeBox__olKou)}
+                    className={classNames(projectcss.all, sty.freeBox__hd3Gv)}
                   >
                     <section
-                      className={classNames(projectcss.all, sty.section__pl2Gv)}
+                      className={classNames(projectcss.all, sty.section__mkBl0)}
                     >
                       <PlasmicImg__
                         alt={""}
-                        className={classNames(sty.img__jpxQ)}
+                        className={classNames(sty.img___1YneA)}
                         displayHeight={"auto"}
                         displayMaxHeight={"none"}
                         displayMaxWidth={"100%"}
@@ -6440,14 +6462,25 @@ function PlasmicHome__RenderFunc(props: {
                       <section
                         className={classNames(
                           projectcss.all,
-                          sty.section__n3S5
+                          sty.section__iNCzs
                         )}
                       >
                         <div
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__oDaMe
+                            sty.text__anWnE
+                          )}
+                        >
+                          {hasVariant(globalVariants, "screen", "mobile")
+                            ? "Feb 20, 2024"
+                            : "Feb 20, 2024"}
+                        </div>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text___0Pwal
                           )}
                         >
                           {hasVariant(globalVariants, "screen", "mobile")
@@ -6458,7 +6491,7 @@ function PlasmicHome__RenderFunc(props: {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text___3XUgB
+                            sty.text__tghgr
                           )}
                         >
                           {hasVariant(globalVariants, "screen", "mobile")
