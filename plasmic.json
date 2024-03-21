@@ -1366,6 +1366,20 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/validasi-message"
+        },
+        {
+          "id": "UvuH9QiGqNGm",
+          "name": "_7KelebihanDanKegunaanMotorListrik",
+          "type": "managed",
+          "projectId": "iWaiTLt8mAup4ReehswsSx",
+          "renderModuleFilePath": "plasmic/uwinfly/Plasmic_7KelebihanDanKegunaanMotorListrik.tsx",
+          "importSpec": {
+            "modulePath": "../pages/7-kelebihan-dan-kegunaan-motor-listrik.tsx"
+          },
+          "cssFilePath": "plasmic/uwinfly/Plasmic_7KelebihanDanKegunaanMotorListrik.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/7-kelebihan-dan-kegunaan-motor-listrik"
         }
       ],
       "icons": [

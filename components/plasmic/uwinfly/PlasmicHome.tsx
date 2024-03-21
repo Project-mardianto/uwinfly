@@ -6322,15 +6322,19 @@ function PlasmicHome__RenderFunc(props: {
                             ? "Januari 10, 2024"
                             : "Januari 24, 2024"}
                         </div>
-                        <div
+                        <PlasmicLink__
                           className={classNames(
                             projectcss.all,
+                            projectcss.a,
                             projectcss.__wab_text,
-                            sty.text___8YSsA
+                            sty.link___8YSsA
                           )}
+                          component={Link}
+                          href={`/7-kelebihan-dan-kegunaan-motor-listrik`}
+                          platform={"nextjs"}
                         >
                           {"7 Kelebihan dan Kegunaan Motor Listrik"}
-                        </div>
+                        </PlasmicLink__>
                         <div
                           className={classNames(
                             projectcss.all,

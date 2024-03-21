@@ -12049,7 +12049,7 @@
     grid-column-end: -1 !important;
   }
 }
-.text___8YSsA {
+.link___8YSsA {
   position: relative;
   width: 100%;
   height: auto;
@@ -12061,7 +12061,7 @@
   min-width: 0;
 }
 @media (max-width: 768px) {
-  .text___8YSsA {
+  .link___8YSsA {
     width: 100%;
     font-size: 21px;
     color: #535353d9;
