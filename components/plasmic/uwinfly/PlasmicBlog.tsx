@@ -633,65 +633,56 @@ function PlasmicBlog__RenderFunc(props: {
             </div>
           </section>
           <section className={classNames(projectcss.all, sty.section___00CV9)}>
-            <div className={classNames(projectcss.all, sty.columns__aaJhC)}>
-              <div className={classNames(projectcss.all, sty.column__qsrKn)}>
-                <section
-                  className={classNames(projectcss.all, sty.section__vh3C)}
+            <div className={classNames(projectcss.all, sty.columns__t3Ywk)}>
+              <div className={classNames(projectcss.all, sty.column__pxRt)}>
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__jo2Or)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/uwinfly/images/newProjectpng.png",
+                    fullWidth: 800,
+                    fullHeight: 600,
+                    aspectRatio: undefined
+                  }}
+                />
+              </div>
+              <div className={classNames(projectcss.all, sty.column__qsyjk)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__nXsLe
+                  )}
                 >
-                  <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img__zkJPd)}
-                    displayHeight={"auto"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"auto"}
-                    loading={"lazy"}
-                    src={{
-                      src: "/plasmic/uwinfly/images/newProject2Png.png",
-                      fullWidth: 800,
-                      fullHeight: 600,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </section>
-                <section
-                  className={classNames(projectcss.all, sty.section__exjNo)}
+                  {"Feb 15, 2024"}
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__gP55I
+                  )}
                 >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__sktf
-                    )}
-                  >
-                    {"June 24, 2024"}
-                  </div>
-                  <PlasmicLink__
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      projectcss.__wab_text,
-                      sty.link__rqSJ
-                    )}
-                    component={Link}
-                    platform={"nextjs"}
-                  >
-                    {"7 Kelebihan dan Kegunaan Motor Listrik"}
-                  </PlasmicLink__>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__f3Eep
-                    )}
-                  >
-                    {
-                      "Kendaraan listrik saat ini tengah dikembangkan oleh produsen otomotif. "
-                    }
-                  </div>
-                </section>
+                  {"Baterai Motor Listrik Agar Performa Terjaga"}
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text___2GR4V
+                  )}
+                >
+                  {
+                    "Pemilik sepeda motor listrik perlu mengetahui cara merawat baterai"
+                  }
+                </div>
               </div>
             </div>
           </section>
