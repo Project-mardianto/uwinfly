@@ -603,7 +603,7 @@ function PlasmicBlog__RenderFunc(props: {
                       sty.text__ppva4
                     )}
                   >
-                    {"June 24, 2024"}
+                    {"Januari 24, 2024"}
                   </div>
                   <PlasmicLink__
                     className={classNames(
@@ -685,7 +685,639 @@ function PlasmicBlog__RenderFunc(props: {
                 </div>
               </div>
             </div>
+            <section className={classNames(projectcss.all, sty.section__xiVbk)}>
+              <div className={classNames(projectcss.all, sty.columns__gJ5NV)}>
+                <div className={classNames(projectcss.all, sty.column__cDdcm)}>
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__isgdj)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/uwinfly/images/newProject1Png.png",
+                      fullWidth: 800,
+                      fullHeight: 600,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </div>
+                <div className={classNames(projectcss.all, sty.column__ge7H3)}>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__y3Ybc
+                    )}
+                  >
+                    {"Maret 20, 2024"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__hqGhI
+                    )}
+                  >
+                    {"Cara Merawat Motor Listrik: Apa Saja Dilakukan?"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__yFz
+                    )}
+                  >
+                    {
+                      "Akhir-akhir ini motor listrik semakin populer sebagai alternatif "
+                    }
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section className={classNames(projectcss.all, sty.section__zzXbk)}>
+              <div className={classNames(projectcss.all, sty.columns___5Uf8O)}>
+                <div className={classNames(projectcss.all, sty.column__kzwl2)}>
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__jDw0I)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/uwinfly/images/perawatanMotorListrikjpg.jpg",
+                      fullWidth: 700,
+                      fullHeight: 394,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </div>
+                <div className={classNames(projectcss.all, sty.column__e3XUw)}>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___757Sh
+                    )}
+                  >
+                    {"Feb 1, 2024"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__ohh8H
+                    )}
+                  >
+                    {"6 Perbedaan Motor Listrik dan Sepeda Listrik"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__bQwnc
+                    )}
+                  >
+                    {
+                      "Sepeda listrik tengah naik daun di kalangan masyarakat. Umumnya, banyak masyarakat"
+                    }
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section className={classNames(projectcss.all, sty.section__wJNqR)}>
+              <div className={classNames(projectcss.all, sty.columns__tsTnc)}>
+                <div className={classNames(projectcss.all, sty.column__llDrb)}>
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__qtXbM)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/uwinfly/images/_648F793C6Dcd1Jpeg.jpg",
+                      fullWidth: 1200,
+                      fullHeight: 800,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </div>
+                <div className={classNames(projectcss.all, sty.column__kNLgs)}>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__ukfHg
+                    )}
+                  >
+                    {"Maret 15, 2024"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___6Ocp
+                    )}
+                  >
+                    {
+                      "Baru Saja Beli Motor Listrik? Catat 5 Tips Utama Merawat Motor Listrik Ini"
+                    }
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__nmRKu
+                    )}
+                  >
+                    {
+                      "Baru saja beli motor listrik! Catat 5 tips utama merawat motor listrik "
+                    }
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section className={classNames(projectcss.all, sty.section__tb9Iz)}>
+              <div className={classNames(projectcss.all, sty.columns__iBrWt)}>
+                <div className={classNames(projectcss.all, sty.column__h3Np)}>
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__or07N)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/uwinfly/images/_1Jpg.jpg",
+                      fullWidth: 640,
+                      fullHeight: 386,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </div>
+                <div className={classNames(projectcss.all, sty.column__bpJiq)}>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__lAXb
+                    )}
+                  >
+                    {"April 13, 2024"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___9UyJl
+                    )}
+                  >
+                    {"Ingin Menjadi Dealer Motor Listrik? uwinfly!"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__j80P
+                    )}
+                  >
+                    {"Semakin banyak masyarakat yang menggunakan motor listrik"}
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section className={classNames(projectcss.all, sty.section__p4BhY)}>
+              <div className={classNames(projectcss.all, sty.columns__f25Qp)}>
+                <div className={classNames(projectcss.all, sty.column__h32Nw)}>
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__h3TZh)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/uwinfly/images/f202302051100218Jpg.jpg",
+                      fullWidth: 620,
+                      fullHeight: 349,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </div>
+                <div className={classNames(projectcss.all, sty.column__y2GXp)}>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___2JOb
+                    )}
+                  >
+                    {"April 12, 2024"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__o3UAo
+                    )}
+                  >
+                    {"Sewa Sepeda Listrik; Peluang Usaha Menarik"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__jt14M
+                    )}
+                  >
+                    {
+                      "Sepeda listrik menjadi sebuah tren yang mulai banyak digemari"
+                    }
+                  </div>
+                </div>
+              </div>
+            </section>
           </section>
+          {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
+            <section className={classNames(projectcss.all, sty.section__d7NA0)}>
+              <div className={classNames(projectcss.all, sty.columns___9HzGy)}>
+                <div className={classNames(projectcss.all, sty.column___5C7Ry)}>
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img___6S4Km)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={
+                      hasVariant(globalVariants, "screen", "mobile")
+                        ? {
+                            src: "/plasmic/uwinfly/images/newProject1Png.png",
+                            fullWidth: 800,
+                            fullHeight: 600,
+                            aspectRatio: undefined
+                          }
+                        : {
+                            src: "/plasmic/uwinfly/images/newProjectpng.png",
+                            fullWidth: 800,
+                            fullHeight: 600,
+                            aspectRatio: undefined
+                          }
+                    }
+                  />
+                </div>
+                <div className={classNames(projectcss.all, sty.column__aRweE)}>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__exrKy
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "mobile")
+                      ? "Feb 20, 2024"
+                      : "Feb 15, 2024"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__eYwtb
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "mobile")
+                      ? "Cara Merawat Motor Listrik: Apa Saja Dilakukan?"
+                      : "Baterai Motor Listrik Agar Performa Terjaga"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__lXOfQ
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "mobile")
+                      ? "Akhir-akhir ini motor listrik semakin populer sebagai alternatif "
+                      : "Pemilik sepeda motor listrik perlu mengetahui cara merawat baterai"}
+                  </div>
+                </div>
+              </div>
+            </section>
+          ) : null}
+          {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
+            <section
+              className={classNames(projectcss.all, sty.section___6JNrR)}
+            >
+              <div className={classNames(projectcss.all, sty.columns__b0M7R)}>
+                <div className={classNames(projectcss.all, sty.column__ftEcY)}>
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__aYlQ)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={
+                      hasVariant(globalVariants, "screen", "mobile")
+                        ? {
+                            src: "/plasmic/uwinfly/images/_648F793C6Dcd1Jpeg.jpg",
+                            fullWidth: 1200,
+                            fullHeight: 800,
+                            aspectRatio: undefined
+                          }
+                        : {
+                            src: "/plasmic/uwinfly/images/newProjectpng.png",
+                            fullWidth: 800,
+                            fullHeight: 600,
+                            aspectRatio: undefined
+                          }
+                    }
+                  />
+                </div>
+                <div className={classNames(projectcss.all, sty.column__orZ5L)}>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__trWau
+                    )}
+                  >
+                    {"Feb 15, 2024"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__mfawD
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "mobile")
+                      ? "5 Cara Perawatan Motor Listrik, Mudah Banget!"
+                      : "Baterai Motor Listrik Agar Performa Terjaga"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__s7UKf
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "mobile")
+                      ? "Perawatan motor listrik wajib diketahui setiap pemilik jika ingin kendaraannya "
+                      : "Pemilik sepeda motor listrik perlu mengetahui cara merawat baterai"}
+                  </div>
+                </div>
+              </div>
+            </section>
+          ) : null}
+          {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
+            <section className={classNames(projectcss.all, sty.section__rsI9N)}>
+              <div className={classNames(projectcss.all, sty.columns__otlbW)}>
+                <div className={classNames(projectcss.all, sty.column__sevw4)}>
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__tsO3D)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/uwinfly/images/newProjectpng.png",
+                      fullWidth: 800,
+                      fullHeight: 600,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </div>
+                <div className={classNames(projectcss.all, sty.column__otwKe)}>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__jyNuB
+                    )}
+                  >
+                    {"Feb 15, 2024"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__eKuRh
+                    )}
+                  >
+                    {"Baterai Motor Listrik Agar Performa Terjaga"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__uhEb5
+                    )}
+                  >
+                    {
+                      "Pemilik sepeda motor listrik perlu mengetahui cara merawat baterai"
+                    }
+                  </div>
+                </div>
+              </div>
+            </section>
+          ) : null}
+          {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
+            <section className={classNames(projectcss.all, sty.section__fyNcY)}>
+              <div className={classNames(projectcss.all, sty.columns___6Raa9)}>
+                <div className={classNames(projectcss.all, sty.column__dobR)}>
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img___6K97B)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/uwinfly/images/newProjectpng.png",
+                      fullWidth: 800,
+                      fullHeight: 600,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </div>
+                <div className={classNames(projectcss.all, sty.column__wZ9Bb)}>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__oyLvl
+                    )}
+                  >
+                    {"Feb 15, 2024"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__l6Y4Z
+                    )}
+                  >
+                    {"Baterai Motor Listrik Agar Performa Terjaga"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___5CVqX
+                    )}
+                  >
+                    {
+                      "Pemilik sepeda motor listrik perlu mengetahui cara merawat baterai"
+                    }
+                  </div>
+                </div>
+              </div>
+            </section>
+          ) : null}
+          {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
+            <section className={classNames(projectcss.all, sty.section__s9Eo0)}>
+              <div className={classNames(projectcss.all, sty.columns__m39Mx)}>
+                <div className={classNames(projectcss.all, sty.column__zRgE)}>
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img___1E5PB)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/uwinfly/images/newProjectpng.png",
+                      fullWidth: 800,
+                      fullHeight: 600,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </div>
+                <div className={classNames(projectcss.all, sty.column__pYTm3)}>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__ldWr0
+                    )}
+                  >
+                    {"Feb 15, 2024"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__zgNlo
+                    )}
+                  >
+                    {"Baterai Motor Listrik Agar Performa Terjaga"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___9NZca
+                    )}
+                  >
+                    {
+                      "Pemilik sepeda motor listrik perlu mengetahui cara merawat baterai"
+                    }
+                  </div>
+                </div>
+              </div>
+            </section>
+          ) : null}
+          {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
+            <section className={classNames(projectcss.all, sty.section__lbGif)}>
+              <div className={classNames(projectcss.all, sty.columns__pzOc0)}>
+                <div className={classNames(projectcss.all, sty.column___2DsrK)}>
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__goWcB)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/uwinfly/images/newProjectpng.png",
+                      fullWidth: 800,
+                      fullHeight: 600,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </div>
+                <div className={classNames(projectcss.all, sty.column__y4Ly)}>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__cpX6I
+                    )}
+                  >
+                    {"Feb 15, 2024"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__wTaM
+                    )}
+                  >
+                    {"Baterai Motor Listrik Agar Performa Terjaga"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__pDfOj
+                    )}
+                  >
+                    {
+                      "Pemilik sepeda motor listrik perlu mengetahui cara merawat baterai"
+                    }
+                  </div>
+                </div>
+              </div>
+            </section>
+          ) : null}
           {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
             <section className={classNames(projectcss.all, sty.section__vQgWe)}>
               <div className={classNames(projectcss.all, sty.columns___2AxXk)}>
@@ -868,6 +1500,179 @@ function PlasmicBlog__RenderFunc(props: {
             image={"/plasmic/uwinfly/images/logopng.png"}
             title={"blog "}
           />
+
+          {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
+            <section className={classNames(projectcss.all, sty.section__bhsQe)}>
+              <div className={classNames(projectcss.all, sty.columns__tqzAz)}>
+                <div className={classNames(projectcss.all, sty.column__h2U4)}>
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__lmhjP)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/uwinfly/images/newProjectpng.png",
+                      fullWidth: 800,
+                      fullHeight: 600,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </div>
+                <div className={classNames(projectcss.all, sty.column__chDdR)}>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__irexV
+                    )}
+                  >
+                    {"Feb 15, 2024"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__t3HK
+                    )}
+                  >
+                    {"Baterai Motor Listrik Agar Performa Terjaga"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__osfAw
+                    )}
+                  >
+                    {
+                      "Pemilik sepeda motor listrik perlu mengetahui cara merawat baterai"
+                    }
+                  </div>
+                </div>
+              </div>
+            </section>
+          ) : null}
+          {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
+            <section className={classNames(projectcss.all, sty.section__ny5Ql)}>
+              <div className={classNames(projectcss.all, sty.columns__sttYl)}>
+                <div className={classNames(projectcss.all, sty.column__xKfwm)}>
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__mLQe)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/uwinfly/images/newProjectpng.png",
+                      fullWidth: 800,
+                      fullHeight: 600,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </div>
+                <div className={classNames(projectcss.all, sty.column__s18Hf)}>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__vzoAi
+                    )}
+                  >
+                    {"Feb 15, 2024"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__kxLts
+                    )}
+                  >
+                    {"Baterai Motor Listrik Agar Performa Terjaga"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___51Xe6
+                    )}
+                  >
+                    {
+                      "Pemilik sepeda motor listrik perlu mengetahui cara merawat baterai"
+                    }
+                  </div>
+                </div>
+              </div>
+              <section
+                className={classNames(projectcss.all, sty.section__hCt4Q)}
+              >
+                <div className={classNames(projectcss.all, sty.columns___1QjK)}>
+                  <div
+                    className={classNames(projectcss.all, sty.column__u0Uha)}
+                  >
+                    <PlasmicImg__
+                      alt={""}
+                      className={classNames(sty.img___8Cpjt)}
+                      displayHeight={"auto"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"100%"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"auto"}
+                      loading={"lazy"}
+                      src={{
+                        src: "/plasmic/uwinfly/images/newProjectpng.png",
+                        fullWidth: 800,
+                        fullHeight: 600,
+                        aspectRatio: undefined
+                      }}
+                    />
+                  </div>
+                  <div
+                    className={classNames(projectcss.all, sty.column___09AUy)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__x4LAo
+                      )}
+                    >
+                      {"Feb 15, 2024"}
+                    </div>
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__n6GUd
+                      )}
+                    >
+                      {"Baterai Motor Listrik Agar Performa Terjaga"}
+                    </div>
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__ddgFp
+                      )}
+                    >
+                      {
+                        "Pemilik sepeda motor listrik perlu mengetahui cara merawat baterai"
+                      }
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </section>
+          ) : null}
         </div>
       </div>
     </React.Fragment>

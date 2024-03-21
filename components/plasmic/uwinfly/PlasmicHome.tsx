@@ -6319,8 +6319,8 @@ function PlasmicHome__RenderFunc(props: {
                           )}
                         >
                           {hasVariant(globalVariants, "screen", "mobile")
-                            ? "Jan 10, 2024"
-                            : "June 24, 2024"}
+                            ? "Januari 10, 2024"
+                            : "Januari 24, 2024"}
                         </div>
                         <div
                           className={classNames(
