@@ -91,6 +91,7 @@ import BestSellersvgIcon from "./icons/PlasmicIcon__BestSellersvg"; // plasmic-i
 import ChecksvgIcon from "./icons/PlasmicIcon__Checksvg"; // plasmic-import: q0SxIWf05NzX/icon
 import MotorcyclesvgIcon from "./icons/PlasmicIcon__Motorcyclesvg"; // plasmic-import: bB21gLC1MPi2/icon
 import PinsvgIcon from "./icons/PlasmicIcon__Pinsvg"; // plasmic-import: d5Rc8pnBZxlJ/icon
+import ArrowLeftSvgrepoComsvgIcon from "./icons/PlasmicIcon__ArrowLeftSvgrepoComsvg"; // plasmic-import: n23QXdz0xMhj/icon
 import Icon4Icon from "./icons/PlasmicIcon__Icon4"; // plasmic-import: Fvg9iqGVtOYx/icon
 import Icon5Icon from "./icons/PlasmicIcon__Icon5"; // plasmic-import: ppJdKeJyi95N/icon
 import ArrowOpenRightSvgrepoComsvgIcon from "./icons/PlasmicIcon__ArrowOpenRightSvgrepoComsvg"; // plasmic-import: bseFrujWYX3A/icon
@@ -626,6 +627,48 @@ function PlasmicMitra__RenderFunc(props: {
               </div>
             </div>
           </section>
+          {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
+            <div className={classNames(projectcss.all, sty.columns__shdtq)}>
+              <div className={classNames(projectcss.all, sty.column___5Mpwa)}>
+                <PlasmicLink__
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    sty.link__waXkn
+                  )}
+                  component={Link}
+                  href={`/`}
+                  platform={"nextjs"}
+                >
+                  <ArrowLeftSvgrepoComsvgIcon
+                    className={classNames(projectcss.all, sty.svg__knWsd)}
+                    role={"img"}
+                  />
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__weHm2
+                    )}
+                  >
+                    {"  Home"}
+                  </div>
+                </PlasmicLink__>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__zirV)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__sJyqg
+                  )}
+                >
+                  {"Januari 24, 2024"}
+                </div>
+              </div>
+            </div>
+          ) : null}
           <section className={classNames(projectcss.all, sty.section___67Fft)}>
             <div className={classNames(projectcss.all, sty.columns__s1Og)}>
               <div className={classNames(projectcss.all, sty.column___2MpAz)}>

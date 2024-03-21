@@ -98,6 +98,7 @@ import ChecksvgIcon from "./icons/PlasmicIcon__Checksvg"; // plasmic-import: q0S
 import BestSellersvgIcon from "./icons/PlasmicIcon__BestSellersvg"; // plasmic-import: gEr3vmMDIr_A/icon
 import MotorcyclesvgIcon from "./icons/PlasmicIcon__Motorcyclesvg"; // plasmic-import: bB21gLC1MPi2/icon
 import PinsvgIcon from "./icons/PlasmicIcon__Pinsvg"; // plasmic-import: d5Rc8pnBZxlJ/icon
+import ArrowLeftSvgrepoComsvgIcon from "./icons/PlasmicIcon__ArrowLeftSvgrepoComsvg"; // plasmic-import: n23QXdz0xMhj/icon
 import ArrowOpenRightSvgrepoComsvgIcon from "./icons/PlasmicIcon__ArrowOpenRightSvgrepoComsvg"; // plasmic-import: bseFrujWYX3A/icon
 
 createPlasmicElementProxy;
@@ -608,6 +609,48 @@ function PlasmicDaftar__RenderFunc(props: {
               </div>
             </div>
           </section>
+          {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
+            <div className={classNames(projectcss.all, sty.columns__idk5D)}>
+              <div className={classNames(projectcss.all, sty.column__hElT)}>
+                <PlasmicLink__
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    sty.link___0YXvo
+                  )}
+                  component={Link}
+                  href={`/`}
+                  platform={"nextjs"}
+                >
+                  <ArrowLeftSvgrepoComsvgIcon
+                    className={classNames(projectcss.all, sty.svg__hxsgn)}
+                    role={"img"}
+                  />
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__b2Zh
+                    )}
+                  >
+                    {"  Home"}
+                  </div>
+                </PlasmicLink__>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__wmZY)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__ftW1F
+                  )}
+                >
+                  {"Januari 24, 2024"}
+                </div>
+              </div>
+            </div>
+          ) : null}
           <section className={classNames(projectcss.all, sty.section___2Oxxd)}>
             <Stack__
               as={"div"}
@@ -879,7 +922,7 @@ function PlasmicDaftar__RenderFunc(props: {
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField___7IzLl
+                        sty.formField__geajO
                       )}
                       label={"Name"}
                       name={"name"}
@@ -887,14 +930,14 @@ function PlasmicDaftar__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input___8SpUo
+                          sty.input__e1UPb
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__m7I4Q
+                        sty.formField___50Zn4
                       )}
                       hidden={false}
                       label={"Telepon"}
@@ -902,14 +945,14 @@ function PlasmicDaftar__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__mOjih
+                          sty.input__qgXxs
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__ipIjk
+                        sty.formField__neQzG
                       )}
                       label={"Message"}
                       name={"message"}
@@ -921,7 +964,7 @@ function PlasmicDaftar__RenderFunc(props: {
                     <AntdButton
                       className={classNames(
                         "__wab_instance",
-                        sty.button__kqbxJ
+                        sty.button__nZeN5
                       )}
                       submitsForm={true}
                       type={"primary"}
@@ -930,7 +973,7 @@ function PlasmicDaftar__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__oIbMb
+                          sty.text___8Ikux
                         )}
                       >
                         {"Kirim"}

@@ -86,6 +86,7 @@ import BestSellersvgIcon from "./icons/PlasmicIcon__BestSellersvg"; // plasmic-i
 import ChecksvgIcon from "./icons/PlasmicIcon__Checksvg"; // plasmic-import: q0SxIWf05NzX/icon
 import MotorcyclesvgIcon from "./icons/PlasmicIcon__Motorcyclesvg"; // plasmic-import: bB21gLC1MPi2/icon
 import PinsvgIcon from "./icons/PlasmicIcon__Pinsvg"; // plasmic-import: d5Rc8pnBZxlJ/icon
+import ArrowLeftSvgrepoComsvgIcon from "./icons/PlasmicIcon__ArrowLeftSvgrepoComsvg"; // plasmic-import: n23QXdz0xMhj/icon
 
 createPlasmicElementProxy;
 
@@ -569,6 +570,48 @@ function PlasmicBlog__RenderFunc(props: {
               </div>
             </div>
           </section>
+          {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
+            <div className={classNames(projectcss.all, sty.columns___51R1M)}>
+              <div className={classNames(projectcss.all, sty.column__fJgNk)}>
+                <PlasmicLink__
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    sty.link___4I0Ky
+                  )}
+                  component={Link}
+                  href={`/`}
+                  platform={"nextjs"}
+                >
+                  <ArrowLeftSvgrepoComsvgIcon
+                    className={classNames(projectcss.all, sty.svg___9G55Y)}
+                    role={"img"}
+                  />
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___5ToCv
+                    )}
+                  >
+                    {"  Home"}
+                  </div>
+                </PlasmicLink__>
+              </div>
+              <div className={classNames(projectcss.all, sty.column___3DkpQ)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__k1Hog
+                  )}
+                >
+                  {"Januari 24, 2024"}
+                </div>
+              </div>
+            </div>
+          ) : null}
           <section className={classNames(projectcss.all, sty.section__obmi)}>
             <div className={classNames(projectcss.all, sty.columns___7F4E)}>
               <div className={classNames(projectcss.all, sty.column__hJox3)}>

@@ -88,6 +88,7 @@ import BestSellersvgIcon from "./icons/PlasmicIcon__BestSellersvg"; // plasmic-i
 import ChecksvgIcon from "./icons/PlasmicIcon__Checksvg"; // plasmic-import: q0SxIWf05NzX/icon
 import MotorcyclesvgIcon from "./icons/PlasmicIcon__Motorcyclesvg"; // plasmic-import: bB21gLC1MPi2/icon
 import PinsvgIcon from "./icons/PlasmicIcon__Pinsvg"; // plasmic-import: d5Rc8pnBZxlJ/icon
+import ArrowLeftSvgrepoComsvgIcon from "./icons/PlasmicIcon__ArrowLeftSvgrepoComsvg"; // plasmic-import: n23QXdz0xMhj/icon
 
 createPlasmicElementProxy;
 
@@ -273,7 +274,7 @@ function PlasmicAboutUs__RenderFunc(props: {
               }
               forceOpenMenu={
                 hasVariant(globalVariants, "screen", "mobile")
-                  ? true
+                  ? false
                   : undefined
               }
               itemsGap={hasVariant(globalVariants, "screen", "mobile") ? 8 : 8}
@@ -575,6 +576,80 @@ function PlasmicAboutUs__RenderFunc(props: {
               </div>
             </div>
           </section>
+          {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
+            <div className={classNames(projectcss.all, sty.columns___4ZTYv)}>
+              <div className={classNames(projectcss.all, sty.column__ltdly)}>
+                <PlasmicLink__
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    sty.link__qXjNr
+                  )}
+                  component={Link}
+                  href={`/`}
+                  platform={"nextjs"}
+                >
+                  <ArrowLeftSvgrepoComsvgIcon
+                    className={classNames(projectcss.all, sty.svg__q48T)}
+                    role={"img"}
+                  />
+                </PlasmicLink__>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__pjdHe)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__zpvrd
+                  )}
+                >
+                  {"Januari 24, 2024"}
+                </div>
+              </div>
+            </div>
+          ) : null}
+          {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
+            <div className={classNames(projectcss.all, sty.columns__jT4Gn)}>
+              <div className={classNames(projectcss.all, sty.column___6TlPt)}>
+                <PlasmicLink__
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    sty.link___4L0Vh
+                  )}
+                  component={Link}
+                  href={`/`}
+                  platform={"nextjs"}
+                >
+                  <ArrowLeftSvgrepoComsvgIcon
+                    className={classNames(projectcss.all, sty.svg__dMfjo)}
+                    role={"img"}
+                  />
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__ll20P
+                    )}
+                  >
+                    {"  Home"}
+                  </div>
+                </PlasmicLink__>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__evgUe)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__gwjPw
+                  )}
+                >
+                  {"Januari 24, 2024"}
+                </div>
+              </div>
+            </div>
+          ) : null}
           <div className={classNames(projectcss.all, sty.freeBox___0JGou)}>
             <div className={classNames(projectcss.all, sty.freeBox__cXi63)}>
               <Stack__
@@ -595,7 +670,11 @@ function PlasmicAboutUs__RenderFunc(props: {
                     displayMaxWidth={"100%"}
                     displayMinHeight={"0"}
                     displayMinWidth={"0"}
-                    displayWidth={"100%"}
+                    displayWidth={
+                      hasVariant(globalVariants, "screen", "mobile")
+                        ? "100%"
+                        : "100%"
+                    }
                     loading={"lazy"}
                     src={
                       hasVariant(globalVariants, "screen", "mobile")

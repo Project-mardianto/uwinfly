@@ -98,6 +98,7 @@ import ChecksvgIcon from "./icons/PlasmicIcon__Checksvg"; // plasmic-import: q0S
 import BestSellersvgIcon from "./icons/PlasmicIcon__BestSellersvg"; // plasmic-import: gEr3vmMDIr_A/icon
 import MotorcyclesvgIcon from "./icons/PlasmicIcon__Motorcyclesvg"; // plasmic-import: bB21gLC1MPi2/icon
 import PinsvgIcon from "./icons/PlasmicIcon__Pinsvg"; // plasmic-import: d5Rc8pnBZxlJ/icon
+import ArrowLeftSvgrepoComsvgIcon from "./icons/PlasmicIcon__ArrowLeftSvgrepoComsvg"; // plasmic-import: n23QXdz0xMhj/icon
 import ArrowOpenRightSvgrepoComsvgIcon from "./icons/PlasmicIcon__ArrowOpenRightSvgrepoComsvg"; // plasmic-import: bseFrujWYX3A/icon
 import LocationPinSvgrepoComsvgIcon from "./icons/PlasmicIcon__LocationPinSvgrepoComsvg"; // plasmic-import: WLhuhbeughNW/icon
 import LocationArrowSvgrepoComsvgIcon from "./icons/PlasmicIcon__LocationArrowSvgrepoComsvg"; // plasmic-import: HBJM9aAQDa93/icon
@@ -654,6 +655,48 @@ function PlasmicKotakKami__RenderFunc(props: {
               </div>
             </Stack__>
           </section>
+          {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
+            <div className={classNames(projectcss.all, sty.columns__cwt7F)}>
+              <div className={classNames(projectcss.all, sty.column__taiYi)}>
+                <PlasmicLink__
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    sty.link__qvwuv
+                  )}
+                  component={Link}
+                  href={`/`}
+                  platform={"nextjs"}
+                >
+                  <ArrowLeftSvgrepoComsvgIcon
+                    className={classNames(projectcss.all, sty.svg__i7EAd)}
+                    role={"img"}
+                  />
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__i2B15
+                    )}
+                  >
+                    {"  Home"}
+                  </div>
+                </PlasmicLink__>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__y283)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__qYSvN
+                  )}
+                >
+                  {"Januari 24, 2024"}
+                </div>
+              </div>
+            </div>
+          ) : null}
           <div className={classNames(projectcss.all, sty.freeBox__kiXAg)}>
             <div className={classNames(projectcss.all, sty.freeBox__uuJaA)}>
               <Stack__
@@ -958,7 +1001,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__y8VyE
+                        sty.formField__bxNi6
                       )}
                       label={"Name"}
                       name={"name"}
@@ -966,14 +1009,14 @@ function PlasmicKotakKami__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__roJwk
+                          sty.input__b0VyJ
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__b9H2O
+                        sty.formField__yhlcx
                       )}
                       hidden={false}
                       label={"Telepon"}
@@ -981,14 +1024,14 @@ function PlasmicKotakKami__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__izEaW
+                          sty.input__aqg4
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__kp49N
+                        sty.formField___8FAk7
                       )}
                       label={"Message"}
                       name={"message"}
@@ -1000,7 +1043,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                     <AntdButton
                       className={classNames(
                         "__wab_instance",
-                        sty.button__dq3Dz
+                        sty.button___4HkhT
                       )}
                       submitsForm={true}
                       type={"primary"}
@@ -1009,7 +1052,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__xgLr4
+                          sty.text__arSo
                         )}
                       >
                         {"Kirim"}
