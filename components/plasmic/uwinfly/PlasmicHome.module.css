@@ -12820,7 +12820,7 @@
   display: flex;
   min-width: 0;
   padding: 8px;
-  border-top: 2px solid #ff0100;
+  border-top: 4px solid var(--token-jgohepLVeKvh);
 }
 .section__pqVb {
   display: grid;
