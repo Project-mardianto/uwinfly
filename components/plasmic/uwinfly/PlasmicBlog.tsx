@@ -595,7 +595,7 @@ function PlasmicBlog__RenderFunc(props: {
                       sty.text___5ToCv
                     )}
                   >
-                    {"  Home"}
+                    {"  Balik Menu"}
                   </div>
                 </PlasmicLink__>
               </div>

@@ -633,7 +633,7 @@ function PlasmicAboutUs__RenderFunc(props: {
                       sty.text__ll20P
                     )}
                   >
-                    {"  Home"}
+                    {"  Balik Menu"}
                   </div>
                 </PlasmicLink__>
               </div>

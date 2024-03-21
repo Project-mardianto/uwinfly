@@ -1870,6 +1870,7 @@
   align-items: center;
   min-width: 0;
   padding: 8px;
+  border-top: 2px solid #ff0100;
 }
 .section__mrTh6 {
   display: grid;

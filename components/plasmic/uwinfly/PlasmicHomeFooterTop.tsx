@@ -59,8 +59,6 @@ import {
   useGlobalActions
 } from "@plasmicapp/react-web/lib/host";
 
-import Button2 from "../../Button2"; // plasmic-import: bn8Yy5q1VEYE/component
-
 import { useScreenVariants as useScreenVariantssppb0UOhrN5L } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: Sppb0uOhrN5l/globalVariant
 
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -69,9 +67,6 @@ import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic.module.css";
 import plasmic_plasmic_rich_components_css from "../plasmic_rich_components/plasmic.module.css"; // plasmic-import: jkU633o1Cz7HrJdwdxhVHk/projectcss
 import projectcss from "./plasmic.module.css"; // plasmic-import: iWaiTLt8mAup4ReehswsSx/projectcss
 import sty from "./PlasmicHomeFooterTop.module.css"; // plasmic-import: sRA5PV1tz8Fx/css
-
-import WhatsappBusinessSvgrepoComsvgIcon from "./icons/PlasmicIcon__WhatsappBusinessSvgrepoComsvg"; // plasmic-import: q4DFmera4NCY/icon
-import Icon4Icon from "./icons/PlasmicIcon__Icon4"; // plasmic-import: Fvg9iqGVtOYx/icon
 
 createPlasmicElementProxy;
 
@@ -86,10 +81,6 @@ export const PlasmicHomeFooterTop__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicHomeFooterTop__OverridesType = {
   root?: Flex__<"div">;
-  foreground3?: Flex__<"div">;
-  h2?: Flex__<"h2">;
-  button2?: Flex__<typeof Button2>;
-  svg?: Flex__<"svg">;
 };
 
 export interface DefaultHomeFooterTopProps {
@@ -147,98 +138,18 @@ function PlasmicHomeFooterTop__RenderFunc(props: {
         plasmic_plasmic_rich_components_css.plasmic_tokens,
         sty.root
       )}
-    >
-      <div className={classNames(projectcss.all, sty.freeBox__uRvj0)}>
-        <Stack__
-          as={"div"}
-          data-plasmic-name={"foreground3"}
-          data-plasmic-override={overrides.foreground3}
-          hasGap={true}
-          className={classNames(projectcss.all, sty.foreground3)}
-        >
-          <Stack__
-            as={"div"}
-            hasGap={true}
-            className={classNames(projectcss.all, sty.freeBox__coMBr)}
-          >
-            <h2
-              data-plasmic-name={"h2"}
-              data-plasmic-override={overrides.h2}
-              className={classNames(
-                projectcss.all,
-                projectcss.h2,
-                projectcss.__wab_text,
-                sty.h2
-              )}
-            >
-              {hasVariant(globalVariants, "screen", "mobile")
-                ? "Waralaba dan Distributor"
-                : "Waralaba dan Distributor"}
-            </h2>
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__vuGkl
-              )}
-            >
-              {hasVariant(globalVariants, "screen", "mobile")
-                ? "Kami berkontribusi di bidang produsen motor listrik dan sepeda listrik uwinfly"
-                : "Kami berkontribusi di bidang produsen motor listrik dan sepeda listrik uwinfly"}
-            </div>
-          </Stack__>
-          <Stack__
-            as={"div"}
-            hasGap={true}
-            className={classNames(projectcss.all, sty.freeBox__bQdK)}
-          >
-            <Button2
-              data-plasmic-name={"button2"}
-              data-plasmic-override={overrides.button2}
-              className={classNames("__wab_instance", sty.button2)}
-              showStartIcon={true}
-              startIcon={
-                <WhatsappBusinessSvgrepoComsvgIcon
-                  data-plasmic-name={"svg"}
-                  data-plasmic-override={overrides.svg}
-                  className={classNames(projectcss.all, sty.svg)}
-                  role={"img"}
-                />
-              }
-            >
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text__n4PBa
-                )}
-              >
-                {"Whatsapp kami"}
-              </div>
-            </Button2>
-          </Stack__>
-        </Stack__>
-      </div>
-    </div>
+    />
   ) as React.ReactElement | null;
 }
 
 const PlasmicDescendants = {
-  root: ["root", "foreground3", "h2", "button2", "svg"],
-  foreground3: ["foreground3", "h2", "button2", "svg"],
-  h2: ["h2"],
-  button2: ["button2", "svg"],
-  svg: ["svg"]
+  root: ["root"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  foreground3: "div";
-  h2: "h2";
-  button2: typeof Button2;
-  svg: "svg";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -301,10 +212,6 @@ export const PlasmicHomeFooterTop = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    foreground3: makeNodeComponent("foreground3"),
-    h2: makeNodeComponent("h2"),
-    button2: makeNodeComponent("button2"),
-    svg: makeNodeComponent("svg"),
 
     // Metadata about props expected for PlasmicHomeFooterTop
     internalVariantProps: PlasmicHomeFooterTop__VariantProps,

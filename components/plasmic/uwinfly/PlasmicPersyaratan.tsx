@@ -555,7 +555,7 @@ function PlasmicPersyaratan__RenderFunc(props: {
                       sty.text__ply55
                     )}
                   >
-                    {"  Home"}
+                    {"  Balik Menu"}
                   </div>
                 </PlasmicLink__>
               </div>

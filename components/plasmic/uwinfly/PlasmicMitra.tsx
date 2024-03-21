@@ -652,7 +652,7 @@ function PlasmicMitra__RenderFunc(props: {
                       sty.text__weHm2
                     )}
                   >
-                    {"  Home"}
+                    {"  Balik Menu"}
                   </div>
                 </PlasmicLink__>
               </div>

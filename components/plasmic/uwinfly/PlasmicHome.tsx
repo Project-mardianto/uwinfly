@@ -76,6 +76,7 @@ import { AntdAccordion } from "@plasmicpkgs/antd5/skinny/registerCollapse";
 import { accordionHelpers as AntdAccordion_Helpers } from "@plasmicpkgs/antd5/skinny/registerCollapse";
 import { AntdAccordionItem } from "@plasmicpkgs/antd5/skinny/registerCollapse";
 import IconNavbar2 from "../../IconNavbar2"; // plasmic-import: 8dJjOz6ixDRs/component
+import HomeFooterTop from "../../HomeFooterTop"; // plasmic-import: sRA5PV1tz8Fx/component
 import FooterMain from "../../FooterMain"; // plasmic-import: qoZVCK7paFuV/component
 import { PlasmicHead } from "@plasmicapp/react-web";
 import { Fetcher } from "@plasmicapp/react-web/lib/data-sources";
@@ -133,6 +134,8 @@ export type PlasmicHome__OverridesType = {
   sliderCarousel5?: Flex__<typeof SliderWrapper>;
   foreground7?: Flex__<"div">;
   iconNavbar2?: Flex__<typeof IconNavbar2>;
+  footerTopSection?: Flex__<"div">;
+  homeFooterTop?: Flex__<typeof HomeFooterTop>;
   footerMain?: Flex__<typeof FooterMain>;
   pageMetadataOverride?: Flex__<typeof PlasmicHead>;
 };
@@ -6716,6 +6719,17 @@ function PlasmicHome__RenderFunc(props: {
               </div>
             </div>
           ) : null}
+          <div
+            data-plasmic-name={"footerTopSection"}
+            data-plasmic-override={overrides.footerTopSection}
+            className={classNames(projectcss.all, sty.footerTopSection)}
+          >
+            <HomeFooterTop
+              data-plasmic-name={"homeFooterTop"}
+              data-plasmic-override={overrides.homeFooterTop}
+              className={classNames("__wab_instance", sty.homeFooterTop)}
+            />
+          </div>
           <FooterMain
             data-plasmic-name={"footerMain"}
             data-plasmic-override={overrides.footerMain}
@@ -6863,6 +6877,8 @@ const PlasmicDescendants = {
     "sliderCarousel5",
     "foreground7",
     "iconNavbar2",
+    "footerTopSection",
+    "homeFooterTop",
     "footerMain",
     "pageMetadataOverride"
   ],
@@ -6892,6 +6908,8 @@ const PlasmicDescendants = {
   sliderCarousel5: ["sliderCarousel5"],
   foreground7: ["foreground7"],
   iconNavbar2: ["iconNavbar2"],
+  footerTopSection: ["footerTopSection", "homeFooterTop"],
+  homeFooterTop: ["homeFooterTop"],
   footerMain: ["footerMain"],
   pageMetadataOverride: ["pageMetadataOverride"]
 } as const;
@@ -6918,6 +6936,8 @@ type NodeDefaultElementType = {
   sliderCarousel5: typeof SliderWrapper;
   foreground7: "div";
   iconNavbar2: typeof IconNavbar2;
+  footerTopSection: "div";
+  homeFooterTop: typeof HomeFooterTop;
   footerMain: typeof FooterMain;
   pageMetadataOverride: typeof PlasmicHead;
 };
@@ -7042,6 +7062,8 @@ export const PlasmicHome = Object.assign(
     sliderCarousel5: makeNodeComponent("sliderCarousel5"),
     foreground7: makeNodeComponent("foreground7"),
     iconNavbar2: makeNodeComponent("iconNavbar2"),
+    footerTopSection: makeNodeComponent("footerTopSection"),
+    homeFooterTop: makeNodeComponent("homeFooterTop"),
     footerMain: makeNodeComponent("footerMain"),
     pageMetadataOverride: makeNodeComponent("pageMetadataOverride"),
 

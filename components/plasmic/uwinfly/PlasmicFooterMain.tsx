@@ -394,6 +394,15 @@ function PlasmicFooterMain__RenderFunc(props: {
                 sty.text__tkvfp
               )}
             >
+              {"Telepon / whatsapp\n0812-8105-908"}
+            </div>
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__gowbw
+              )}
+            >
               {"Email\nuwinfly.mitra@gmail.com"}
             </div>
             <Button2
