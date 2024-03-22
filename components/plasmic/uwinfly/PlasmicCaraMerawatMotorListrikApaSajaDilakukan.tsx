@@ -686,167 +686,511 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
                       sty.text__bbYro
                     )}
                   >
-                    <React.Fragment>
+                    {hasVariant(globalVariants, "screen", "mobile") ? (
                       <React.Fragment>
-                        {
-                          "Akhir-akhir ini motor listrik semakin populer sebagai alternatif ramah lingkungan untuk kendaraan bermotor konvensional. Namun, untuk memastikan kinerjanya tetap optimal dan umur pakainya maksimal, kamu perlu tahu cara merawat motor listrik yang benar.\n\nSama seperti jenis kendaraan lainnya secara umum, motor listrik juga memerlukan perawatan yang baik. Bila hal tersebut tidak diterapkan, beberapa komponen dari motor listrik bisa mengalami penurunan kualitas dan berakhir pada kerusakan. Sebagai pengguna, tentunya kamu tidak ingin hal ini terjadi, kan? \n\nBagaimana Cara Merawat Motor Listrik dengan Benar?\nCara merawat motor listrik perlu dilakukan secara baik dan benar. Motor listrik memerlukan perhatian khusus untuk menjaga performa dan daya tahan baterainya. \n\nSecara umum, berikut adalah beberapa tips cara merawat motor listrik yang bisa kamu terapkan mulai sekarang.\n\n"
-                        }
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"Uwinfly.co.id"}
+                        </span>
+                        <React.Fragment>
+                          {
+                            " Akhir-akhir ini motor listrik semakin populer sebagai alternatif ramah lingkungan untuk kendaraan bermotor konvensional. Namun, untuk memastikan kinerjanya tetap optimal dan umur pakainya maksimal, kamu perlu tahu cara merawat motor listrik yang benar.\n\nSama seperti jenis kendaraan lainnya secara umum, motor listrik juga memerlukan perawatan yang baik. Bila hal tersebut tidak diterapkan, beberapa komponen dari motor listrik bisa mengalami penurunan kualitas dan berakhir pada kerusakan. Sebagai pengguna, tentunya kamu tidak ingin hal ini terjadi, kan? \n\nBagaimana Cara Merawat Motor Listrik dengan Benar?\nCara merawat motor listrik perlu dilakukan secara baik dan benar. Motor listrik memerlukan perhatian khusus untuk menjaga performa dan daya tahan baterainya. \n\nSecara umum, berikut adalah beberapa tips cara merawat motor listrik yang bisa kamu terapkan mulai sekarang.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"1. Menjaga kondisi bater"}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nBaterai adalah komponen paling penting pada motor listrik. Sebaiknya gunakan jenis charger yang disediakan oleh pabrikan atau charger yang direkomendasikan. Lalu pastikan untuk selalu mengisi daya baterai sesuai dengan petunjuk yang ada pada buku manual panduan penggunaan.\n\nSaat melakukan proses pengisian, sebisa mungkin hindari adanya overcharging. Jangan biarkan baterai terlalu lama diisi daya setelah mencapai kapasitas penuh. Ini dapat merusak sel baterai dan memperpendek umur baterai.\n\nHindari juga kemungkinan terjadinya depleted battery. Usahakan untuk tidak menggunakan sepeda motor listrik sampai baterai sepenuhnya habis. Karena hal tersebut dapat mengurangi umur pakai baterai.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"2. Pemeriksaan rem"}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nRem yang baik adalah kunci keselamatan bagi pengguna motor listrik. Lakukan pemeriksaan rutin untuk memastikan sistem pengereman berfungsi dengan baik.  Pastikan kampas rem memiliki ketebalan yang cukup. Segara ganti jika memang kampas sudah tipis.\n\nJangan lupa juga untuk memeriksa kondisi cakram rem dan kinerjanya. Ini perlu kamu lakukan untuk memastikan tidak ada goresan atau deformasi yang dapat memengaruhi proses pengereman.\n\nsparepart motor listrik\nPemeriksaan rem motor listrik\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"3. Pengecekan tekanan ban"}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nTekanan udara yang tepat pada ban adalah kunci untuk kenyamanan dan keamanan berkendara. Kamu perlu memastikan bahwa tekanan udara pada ban sudah sesuai dengan rekomendasi pabrikan. Tekanan yang tepat meningkatkan efisiensi bahan bakar dan kestabilan kendaraan.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"4. Metode penyimpanan"}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nSebisa mungkin usahakan untuk menyimpan motor listrik secara baik. Ada panduang khusus agar metode penyimpanan yang kamu gunakan tidak sampai merusak atau mengurangi fungsi motor listrik. \n\nLetakkan motor listrik di tempat yang kering dan terlindung dari cuaca ekstrem. Selalu gunakan penutup untuk melindungi sepeda motor dari debu dan kotoran.Kalau kamu tidak akan menggunakan sepeda motor listrik untuk waktu yang lama, simpanlah baterai pada daya sekitar 50%. Letakkan baterai di tempat yang jauh dari paparan sinar matahari secara langsung dengan suhu yang sejuk.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"5. Melakukan pengecekan rutin"}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nLakukan pemeriksaan visual secara rutin terhadap semua komponen sepeda motor, termasuk kabel-kabel, lampu, dan bagian-bagian lainnya. Pastikan semua sistem elektrik berfungsi dengan baik. \n\nPeriksa lampu, pastikan semua lampu dan klakson berfungsi dengan baik. Ganti lampu yang mati segera. Periksa kabel-kabel untuk memastikan tidak ada korsleting atau kabel yang terkelupas.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"6. Perhatikan kondisi jalan "}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nCara merawat motor listrik selanjutnya adalah dengan menghindari jalan berlubang dan kasar. Kondisi jalan yang seperti itu dapat merusak suspensi dan bagian-bagian motor listrik lainnya. Kalau memang jalan yang akan dilewati merupakan medan yang cukup sulit, jalankan motor listrik dengan perlahan dan berhati-hati. \n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"7. Memeriksa aplikasi atau software tambahan "}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nBeberapa merek motor listrik, seperti United, memberikan tambahan fitur aplikasi atau software yang memiliki berbagai fungsi. Periksa selalu pembaruan aplikasi tersebut untuk memastikan bahwa koneksi dan integrasi dengan motor listrik berjalan dengan aman dan lancar.\n\nSelalu gunakan buku panduan pengguna yang disediakan oleh pabrikan motor listrik sebagai petunjuk perawatan yang lebih spesifik. Menerapkan cara merawat motor listrik dengan baik, artinya kamu dapat memastikan kinerjanya secara optimal dan memperpanjang umur pakai komponen utamanya\n \nw \nKenapa Kamu Perlu Tahu Cara Merawat Motor Listrik?\nPemeliharaan dan perawatan motor listrik memang tidak memerlukan biaya yang banyak seperti pada motor konvensional. Namun, belajar untuk bisa merawatnya sendiri pun sangatlah penting. \n\nMengetahui cara merawat motor listrik bisa memberikan beberapa manfaat bagi kamu dan pengguna lainnya. Manfaat tersebut antara lain adalah:\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"1. Pemeliharaan performa yang optimal"}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nDengan merawat sepeda motor listrik secara teratur, Anda dapat memastikan bahwa semua komponen berfungsi dengan baik. Performa optimal dapat meningkatkan pengalaman berkendara dan memastikan keamanan pengendara.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"2. Memperpanjang umur baterai"}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nDengan merawat baterai sesuai petunjuk, kamu dapat memperpanjang umur pakai baterai dan memastikan daya tahan yang optimal.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"3. Efisiensi energi"}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nPemeliharaan yang baik membantu menjaga efisiensi energi sepeda motor listrik. Ini dapat berdampak pada jarak tempuh per pengisian baterai, meningkatkan daya tahan motor listrik, dan pastinya mengurangi biaya operasional.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"4. Memastikan keamanan pengendara"}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nPengecekan rutin terhadap rem, lampu, dan sistem elektrik lainnya dapat membantu memastikan keamanan kamu saat berkendara. Motor listrik yang terawat dengan baik memiliki peluang lebih rendah untuk mengalami kegagalan komponen kritis.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"5. Menghemat biaya perbaikan dan perawatan "}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nPemeliharaan preventif cenderung lebih ekonomis daripada biaya perbaikan akibat kamu abai dalam pemeliharaan. Menerapkan cara merawat motor listrik secara teratur, artinya kamu bisa mencegah kerusakan yang mungkin terjadi akibat pemakaian yang tidak tepat.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"6. Memperpanjang umur pakai motor listrik "}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nPemeliharaan yang baik dapat memperpanjang umur pakai motor listrik. Ini berarti investasi awal kamu dalam kendaraan tersebut dapat memberikan value atau nilai lebih dalam jangka panjang.\n\nBaca Juga: Apa Saja Sparepart Motor Listrik yang Perlu Diketahui?\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"7. Kepatuhan Garansi"}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nProdusen motor listrik umumnya menawarkan garansi khusus. Tetapi, garansi ini bergantung pada pemeliharaan yang sesuai dengan pedoman pabrik. Dengan menjaga pemeliharaan yang baik, kamu dapat memastikan bahwa kendaraan tetap berada dalam jaminan garansi dan dapat memanfaatkan perbaikan yang dibutuhkan tanpa adanya biaya tambahan.\n\nDengan memahami dan menerapkan cara merawat motor listrik, kamu dan para pengguna lainnya dapat memaksimalkan manfaat kendaraan tersebut. Selain itu juga bisa meminimalkan risiko kerusakan dan biaya perbaikan yang tidak terduga.\n\nDalam menjaga motor listrik kamu, pastikan untuk selalu mengikuti petunjuk dari produsen dan mematuhi prosedur keamanan yang diberikan. Kalau ternyata kamu kurang yakin atau mengalami masalah saat menggunakan motor listrik, kamu bisa langsung konsultasikan hal tersebut dengan teknisi yang berpengalaman.\n\nProduk motor listrik keluaran UNITED merupakan produk asli Indonesia yang mengutamakan kualitas produk terbaik dan bergaransi. Produk United bisa dipastikan selalu inovatif dan akan mampu beradaptasi dengan teknologi ter-up-to-date yang pastinya berkonsep eco-friendly. Temukan berbagai pilihan motor listrik di sini."
+                          }
+                        </React.Fragment>
                       </React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"1. Menjaga kondisi baterai"}
-                      </span>
+                    ) : (
                       <React.Fragment>
-                        {
-                          "\nBaterai adalah komponen paling penting pada motor listrik. Sebaiknya gunakan jenis charger yang disediakan oleh pabrikan atau charger yang direkomendasikan. Lalu pastikan untuk selalu mengisi daya baterai sesuai dengan petunjuk yang ada pada buku manual panduan penggunaan.\n\nSaat melakukan proses pengisian, sebisa mungkin hindari adanya overcharging. Jangan biarkan baterai terlalu lama diisi daya setelah mencapai kapasitas penuh. Ini dapat merusak sel baterai dan memperpendek umur baterai.\n\nHindari juga kemungkinan terjadinya depleted battery. Usahakan untuk tidak menggunakan sepeda motor listrik sampai baterai sepenuhnya habis. Karena hal tersebut dapat mengurangi umur pakai baterai.\n\n"
-                        }
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"Uwinfly.co.id"}
+                        </span>
+                        <React.Fragment>
+                          {
+                            " Akhir-akhir ini motor listrik semakin populer sebagai alternatif ramah lingkungan untuk kendaraan bermotor konvensional. Namun, untuk memastikan kinerjanya tetap optimal dan umur pakainya maksimal, kamu perlu tahu cara merawat motor listrik yang benar.\n\nSama seperti jenis kendaraan lainnya secara umum, motor listrik juga memerlukan perawatan yang baik. Bila hal tersebut tidak diterapkan, beberapa komponen dari motor listrik bisa mengalami penurunan kualitas dan berakhir pada kerusakan. Sebagai pengguna, tentunya kamu tidak ingin hal ini terjadi, kan? \n\nBagaimana Cara Merawat Motor Listrik dengan Benar?\nCara merawat motor listrik perlu dilakukan secara baik dan benar. Motor listrik memerlukan perhatian khusus untuk menjaga performa dan daya tahan baterainya. \n\nSecara umum, berikut adalah beberapa tips cara merawat motor listrik yang bisa kamu terapkan mulai sekarang.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"1. Menjaga kondisi baterai"}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nBaterai adalah komponen paling penting pada motor listrik. Sebaiknya gunakan jenis charger yang disediakan oleh pabrikan atau charger yang direkomendasikan. Lalu pastikan untuk selalu mengisi daya baterai sesuai dengan petunjuk yang ada pada buku manual panduan penggunaan.\n\nSaat melakukan proses pengisian, sebisa mungkin hindari adanya overcharging. Jangan biarkan baterai terlalu lama diisi daya setelah mencapai kapasitas penuh. Ini dapat merusak sel baterai dan memperpendek umur baterai.\n\nHindari juga kemungkinan terjadinya depleted battery. Usahakan untuk tidak menggunakan sepeda motor listrik sampai baterai sepenuhnya habis. Karena hal tersebut dapat mengurangi umur pakai baterai.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"2. Pemeriksaan rem"}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nRem yang baik adalah kunci keselamatan bagi pengguna motor listrik. Lakukan pemeriksaan rutin untuk memastikan sistem pengereman berfungsi dengan baik.  Pastikan kampas rem memiliki ketebalan yang cukup. Segara ganti jika memang kampas sudah tipis.\n\nJangan lupa juga untuk memeriksa kondisi cakram rem dan kinerjanya. Ini perlu kamu lakukan untuk memastikan tidak ada goresan atau deformasi yang dapat memengaruhi proses pengereman.\n\nsparepart motor listrik\nPemeriksaan rem motor listrik\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"3. Pengecekan tekanan ban"}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nTekanan udara yang tepat pada ban adalah kunci untuk kenyamanan dan keamanan berkendara. Kamu perlu memastikan bahwa tekanan udara pada ban sudah sesuai dengan rekomendasi pabrikan. Tekanan yang tepat meningkatkan efisiensi bahan bakar dan kestabilan kendaraan.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"4. Metode penyimpanan "}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nSebisa mungkin usahakan untuk menyimpan motor listrik secara baik. Ada panduang khusus agar metode penyimpanan yang kamu gunakan tidak sampai merusak atau mengurangi fungsi motor listrik. \n\nLetakkan motor listrik di tempat yang kering dan terlindung dari cuaca ekstrem. Selalu gunakan penutup untuk melindungi sepeda motor dari debu dan kotoran.Kalau kamu tidak akan menggunakan sepeda motor listrik untuk waktu yang lama, simpanlah baterai pada daya sekitar 50%. Letakkan baterai di tempat yang jauh dari paparan sinar matahari secara langsung dengan suhu yang sejuk.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"5. Melakukan pengecekan rutin"}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nLakukan pemeriksaan visual secara rutin terhadap semua komponen sepeda motor, termasuk kabel-kabel, lampu, dan bagian-bagian lainnya. Pastikan semua sistem elektrik berfungsi dengan baik. \n\nPeriksa lampu, pastikan semua lampu dan klakson berfungsi dengan baik. Ganti lampu yang mati segera. Periksa kabel-kabel untuk memastikan tidak ada korsleting atau kabel yang terkelupas.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"6. Perhatikan kondisi jalan "}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nCara merawat motor listrik selanjutnya adalah dengan menghindari jalan berlubang dan kasar. Kondisi jalan yang seperti itu dapat merusak suspensi dan bagian-bagian motor listrik lainnya. Kalau memang jalan yang akan dilewati merupakan medan yang cukup sulit, jalankan motor listrik dengan perlahan dan berhati-hati. \n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"7. Memeriksa aplikasi atau software tambahan "}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nBeberapa merek motor listrik, seperti United, memberikan tambahan fitur aplikasi atau software yang memiliki berbagai fungsi. Periksa selalu pembaruan aplikasi tersebut untuk memastikan bahwa koneksi dan integrasi dengan motor listrik berjalan dengan aman dan lancar.\n\nSelalu gunakan buku panduan pengguna yang disediakan oleh pabrikan motor listrik sebagai petunjuk perawatan yang lebih spesifik. Menerapkan cara merawat motor listrik dengan baik, artinya kamu dapat memastikan kinerjanya secara optimal dan memperpanjang umur pakai komponen utamanya.\n\nBaca Juga: Service Motor Listrik Handal dan Terpercaya, Harga Terjangkau!\n\n \nKenapa Kamu Perlu Tahu Cara Merawat Motor Listrik?\nPemeliharaan dan perawatan motor listrik memang tidak memerlukan biaya yang banyak seperti pada motor konvensional. Namun, belajar untuk bisa merawatnya sendiri pun sangatlah penting. \n\nMengetahui cara merawat motor listrik bisa memberikan beberapa manfaat bagi kamu dan pengguna lainnya. Manfaat tersebut antara lain adalah:\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"1. Pemeliharaan performa yang optimal"}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nDengan merawat sepeda motor listrik secara teratur, Anda dapat memastikan bahwa semua komponen berfungsi dengan baik. Performa optimal dapat meningkatkan pengalaman berkendara dan memastikan keamanan pengendara.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"2. Memperpanjang umur baterai"}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nDengan merawat baterai sesuai petunjuk, kamu dapat memperpanjang umur pakai baterai dan memastikan daya tahan yang optimal.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"3. Efisiensi energi"}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nPemeliharaan yang baik membantu menjaga efisiensi energi sepeda motor listrik. Ini dapat berdampak pada jarak tempuh per pengisian baterai, meningkatkan daya tahan motor listrik, dan pastinya mengurangi biaya operasional.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"4. Memastikan keamanan pengendara"}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nPengecekan rutin terhadap rem, lampu, dan sistem elektrik lainnya dapat membantu memastikan keamanan kamu saat berkendara. Motor listrik yang terawat dengan baik memiliki peluang lebih rendah untuk mengalami kegagalan komponen kritis.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"5. Menghemat biaya perbaikan dan perawatan "}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nPemeliharaan preventif cenderung lebih ekonomis daripada biaya perbaikan akibat kamu abai dalam pemeliharaan. Menerapkan cara merawat motor listrik secara teratur, artinya kamu bisa mencegah kerusakan yang mungkin terjadi akibat pemakaian yang tidak tepat.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"6. Memperpanjang umur pakai motor listrik "}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nPemeliharaan yang baik dapat memperpanjang umur pakai motor listrik. Ini berarti investasi awal kamu dalam kendaraan tersebut dapat memberikan value atau nilai lebih dalam jangka panjang.\n\nBaca Juga: Apa Saja Sparepart Motor Listrik yang Perlu Diketahui?\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"7. Kepatuhan Garansi"}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nProdusen motor listrik umumnya menawarkan garansi khusus. Tetapi, garansi ini bergantung pada pemeliharaan yang sesuai dengan pedoman pabrik. Dengan menjaga pemeliharaan yang baik, kamu dapat memastikan bahwa kendaraan tetap berada dalam jaminan garansi dan dapat memanfaatkan perbaikan yang dibutuhkan tanpa adanya biaya tambahan.\n\nDengan memahami dan menerapkan cara merawat motor listrik, kamu dan para pengguna lainnya dapat memaksimalkan manfaat kendaraan tersebut. Selain itu juga bisa meminimalkan risiko kerusakan dan biaya perbaikan yang tidak terduga.\n\nDalam menjaga motor listrik kamu, pastikan untuk selalu mengikuti petunjuk dari produsen dan mematuhi prosedur keamanan yang diberikan. Kalau ternyata kamu kurang yakin atau mengalami masalah saat menggunakan motor listrik, kamu bisa langsung konsultasikan hal tersebut dengan teknisi yang berpengalaman.\n\nProduk motor listrik keluaran UNITED merupakan produk asli Indonesia yang mengutamakan kualitas produk terbaik dan bergaransi. Produk United bisa dipastikan selalu inovatif dan akan mampu beradaptasi dengan teknologi ter-up-to-date yang pastinya berkonsep eco-friendly. Temukan berbagai pilihan motor listrik di sini."
+                          }
+                        </React.Fragment>
                       </React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"2. Pemeriksaan rem"}
-                      </span>
-                      <React.Fragment>
-                        {
-                          "\nRem yang baik adalah kunci keselamatan bagi pengguna motor listrik. Lakukan pemeriksaan rutin untuk memastikan sistem pengereman berfungsi dengan baik.  Pastikan kampas rem memiliki ketebalan yang cukup. Segara ganti jika memang kampas sudah tipis.\n\nJangan lupa juga untuk memeriksa kondisi cakram rem dan kinerjanya. Ini perlu kamu lakukan untuk memastikan tidak ada goresan atau deformasi yang dapat memengaruhi proses pengereman.\n\nsparepart motor listrik\nPemeriksaan rem motor listrik\n\n"
-                        }
-                      </React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"3. Pengecekan tekanan ban"}
-                      </span>
-                      <React.Fragment>
-                        {
-                          "\nTekanan udara yang tepat pada ban adalah kunci untuk kenyamanan dan keamanan berkendara. Kamu perlu memastikan bahwa tekanan udara pada ban sudah sesuai dengan rekomendasi pabrikan. Tekanan yang tepat meningkatkan efisiensi bahan bakar dan kestabilan kendaraan.\n\n"
-                        }
-                      </React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"4. Metode penyimpanan "}
-                      </span>
-                      <React.Fragment>
-                        {
-                          "\nSebisa mungkin usahakan untuk menyimpan motor listrik secara baik. Ada panduang khusus agar metode penyimpanan yang kamu gunakan tidak sampai merusak atau mengurangi fungsi motor listrik. \n\nLetakkan motor listrik di tempat yang kering dan terlindung dari cuaca ekstrem. Selalu gunakan penutup untuk melindungi sepeda motor dari debu dan kotoran.Kalau kamu tidak akan menggunakan sepeda motor listrik untuk waktu yang lama, simpanlah baterai pada daya sekitar 50%. Letakkan baterai di tempat yang jauh dari paparan sinar matahari secara langsung dengan suhu yang sejuk.\n\n"
-                        }
-                      </React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"5. Melakukan pengecekan rutin"}
-                      </span>
-                      <React.Fragment>
-                        {
-                          "\nLakukan pemeriksaan visual secara rutin terhadap semua komponen sepeda motor, termasuk kabel-kabel, lampu, dan bagian-bagian lainnya. Pastikan semua sistem elektrik berfungsi dengan baik. \n\nPeriksa lampu, pastikan semua lampu dan klakson berfungsi dengan baik. Ganti lampu yang mati segera. Periksa kabel-kabel untuk memastikan tidak ada korsleting atau kabel yang terkelupas.\n\n"
-                        }
-                      </React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"6. Perhatikan kondisi jalan "}
-                      </span>
-                      <React.Fragment>
-                        {
-                          "\nCara merawat motor listrik selanjutnya adalah dengan menghindari jalan berlubang dan kasar. Kondisi jalan yang seperti itu dapat merusak suspensi dan bagian-bagian motor listrik lainnya. Kalau memang jalan yang akan dilewati merupakan medan yang cukup sulit, jalankan motor listrik dengan perlahan dan berhati-hati. \n\n"
-                        }
-                      </React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"7. Memeriksa aplikasi atau software tambahan "}
-                      </span>
-                      <React.Fragment>
-                        {
-                          "\nBeberapa merek motor listrik, seperti United, memberikan tambahan fitur aplikasi atau software yang memiliki berbagai fungsi. Periksa selalu pembaruan aplikasi tersebut untuk memastikan bahwa koneksi dan integrasi dengan motor listrik berjalan dengan aman dan lancar.\n\nSelalu gunakan buku panduan pengguna yang disediakan oleh pabrikan motor listrik sebagai petunjuk perawatan yang lebih spesifik. Menerapkan cara merawat motor listrik dengan baik, artinya kamu dapat memastikan kinerjanya secara optimal dan memperpanjang umur pakai komponen utamanya.\n\nBaca Juga: Service Motor Listrik Handal dan Terpercaya, Harga Terjangkau!\n\n \nKenapa Kamu Perlu Tahu Cara Merawat Motor Listrik?\nPemeliharaan dan perawatan motor listrik memang tidak memerlukan biaya yang banyak seperti pada motor konvensional. Namun, belajar untuk bisa merawatnya sendiri pun sangatlah penting. \n\nMengetahui cara merawat motor listrik bisa memberikan beberapa manfaat bagi kamu dan pengguna lainnya. Manfaat tersebut antara lain adalah:\n\n"
-                        }
-                      </React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"1. Pemeliharaan performa yang optimal"}
-                      </span>
-                      <React.Fragment>
-                        {
-                          "\nDengan merawat sepeda motor listrik secara teratur, Anda dapat memastikan bahwa semua komponen berfungsi dengan baik. Performa optimal dapat meningkatkan pengalaman berkendara dan memastikan keamanan pengendara.\n\n"
-                        }
-                      </React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"2. Memperpanjang umur baterai"}
-                      </span>
-                      <React.Fragment>
-                        {
-                          "\nDengan merawat baterai sesuai petunjuk, kamu dapat memperpanjang umur pakai baterai dan memastikan daya tahan yang optimal.\n\n"
-                        }
-                      </React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"3. Efisiensi energi"}
-                      </span>
-                      <React.Fragment>
-                        {
-                          "\nPemeliharaan yang baik membantu menjaga efisiensi energi sepeda motor listrik. Ini dapat berdampak pada jarak tempuh per pengisian baterai, meningkatkan daya tahan motor listrik, dan pastinya mengurangi biaya operasional.\n\n"
-                        }
-                      </React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"4. Memastikan keamanan pengendara"}
-                      </span>
-                      <React.Fragment>
-                        {
-                          "\nPengecekan rutin terhadap rem, lampu, dan sistem elektrik lainnya dapat membantu memastikan keamanan kamu saat berkendara. Motor listrik yang terawat dengan baik memiliki peluang lebih rendah untuk mengalami kegagalan komponen kritis.\n\n"
-                        }
-                      </React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"5. Menghemat biaya perbaikan dan perawatan "}
-                      </span>
-                      <React.Fragment>
-                        {
-                          "\nPemeliharaan preventif cenderung lebih ekonomis daripada biaya perbaikan akibat kamu abai dalam pemeliharaan. Menerapkan cara merawat motor listrik secara teratur, artinya kamu bisa mencegah kerusakan yang mungkin terjadi akibat pemakaian yang tidak tepat.\n\n"
-                        }
-                      </React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"6. Memperpanjang umur pakai motor listrik "}
-                      </span>
-                      <React.Fragment>
-                        {
-                          "\nPemeliharaan yang baik dapat memperpanjang umur pakai motor listrik. Ini berarti investasi awal kamu dalam kendaraan tersebut dapat memberikan value atau nilai lebih dalam jangka panjang.\n\nBaca Juga: Apa Saja Sparepart Motor Listrik yang Perlu Diketahui?\n\n"
-                        }
-                      </React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"7. Kepatuhan Garansi"}
-                      </span>
-                      <React.Fragment>
-                        {
-                          "\nProdusen motor listrik umumnya menawarkan garansi khusus. Tetapi, garansi ini bergantung pada pemeliharaan yang sesuai dengan pedoman pabrik. Dengan menjaga pemeliharaan yang baik, kamu dapat memastikan bahwa kendaraan tetap berada dalam jaminan garansi dan dapat memanfaatkan perbaikan yang dibutuhkan tanpa adanya biaya tambahan.\n\nDengan memahami dan menerapkan cara merawat motor listrik, kamu dan para pengguna lainnya dapat memaksimalkan manfaat kendaraan tersebut. Selain itu juga bisa meminimalkan risiko kerusakan dan biaya perbaikan yang tidak terduga.\n\nDalam menjaga motor listrik kamu, pastikan untuk selalu mengikuti petunjuk dari produsen dan mematuhi prosedur keamanan yang diberikan. Kalau ternyata kamu kurang yakin atau mengalami masalah saat menggunakan motor listrik, kamu bisa langsung konsultasikan hal tersebut dengan teknisi yang berpengalaman.\n\nProduk motor listrik keluaran UNITED merupakan produk asli Indonesia yang mengutamakan kualitas produk terbaik dan bergaransi. Produk United bisa dipastikan selalu inovatif dan akan mampu beradaptasi dengan teknologi ter-up-to-date yang pastinya berkonsep eco-friendly. Temukan berbagai pilihan motor listrik di sini."
-                        }
-                      </React.Fragment>
-                    </React.Fragment>
+                    )}
                   </div>
                 </section>
               </div>
@@ -1748,8 +2092,9 @@ export const PlasmicCaraMerawatMotorListrikApaSajaDilakukan = Object.assign(
 
     // Page metadata
     pageMetadata: {
-      title: "blog ",
-      description: "informasi  sepeda listrik dan motor listrik \n",
+      title: "Cara Merawat Motor Listrik: Apa Saja Dilakukan?",
+      description:
+        "Akhir-akhir ini motor listrik semakin populer sebagai alternatif ",
       ogImageSrc: "",
       canonical: ""
     }

@@ -675,23 +675,22 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
                     className={classNames(
                       projectcss.all,
                       projectcss.__wab_text,
-                      sty.text__qaia
-                    )}
-                  >
-                    {""}
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
                       sty.text__qU5Gu
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "mobile") ? (
                       <React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"Uwinfly.co.id"}
+                        </span>
                         <React.Fragment>
                           {
-                            "Kendaraan listrik saat ini tengah dikembangkan oleh produsen otomotif. Bukan tanpa alasan, pasalnya banyak kegunaan motor listrik dalam kehidupan sehari-hari. \n\nMisalnya saja, motor listrik bisa berguna untuk membuat hidup lebih sehat, ramah lingkungan, hingga mengurangi polusi udara. Dengan berbagai keunggulan ini, motor listrik bisa menjadi solusi kendaraan masa depan. \n\nBagi Anda yang masih awam mungkin akan bertanya-tanya, apa itu motor listrik dan cara kerjanya? Kami akan memberikan informasi mendalam mengenai motor listrik tersebut hingga keunggulannya.\n\n"
+                            " Kendaraan listrik saat ini tengah dikembangkan oleh produsen otomotif. Bukan tanpa alasan, pasalnya banyak kegunaan motor listrik dalam kehidupan sehari-hari. \n\nMisalnya saja, motor listrik bisa berguna untuk membuat hidup lebih sehat, ramah lingkungan, hingga mengurangi polusi udara. Dengan berbagai keunggulan ini, motor listrik bisa menjadi solusi kendaraan masa depan. \n\nBagi Anda yang masih awam mungkin akan bertanya-tanya, apa itu motor listrik dan cara kerjanya? Kami akan memberikan informasi mendalam mengenai motor listrik tersebut hingga keunggulannya.\n\n"
                           }
                         </React.Fragment>
                         <span
@@ -703,6 +702,15 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
                           {
                             "Kegunaan Motor Listrik dalam Kehidupan Sehari-hari "
                           }
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
                         </span>
                         <React.Fragment>
                           {
@@ -716,6 +724,15 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
                           style={{ fontWeight: 700 }}
                         >
                           {"Kontrol sepenuhnya motor listrik melalui ponsel"}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
                         </span>
                         <React.Fragment>
                           {
@@ -750,6 +767,15 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
                         >
                           {"1. Ramah Lingkungan"}
                         </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
                         <React.Fragment>
                           {
                             "\nPasti banyak yang penasaran, apakah motor listrik mengeluarkan asap? Nah motor listrik tidak menghasilkan asap sama sekali. Ini artinya, kendaraan tersebut tidak menghasilkan emisi gas buang yang menyebabkan polusi udara.\n\nMengutip dari laman Kemenperin.go.id, pemerintah juga telah menargetkan untuk mencapai net zero emisi di tahun 2060 mendatang. Salah satu jalan yang dilakukan oleh Pemerintah Indonesia yakni dengan memperbanyak produksi kendaraan listrik. Kemudian mewajibkan pemerintah pusat dan daerah memakai kendaraan listrik.\n\nKetika semua lapisan masyarakat telah memakai kendaraan listrik, maka akan tercipta lingkungan yang sehat. Polusi udara menjadi berkurang dan tentunya kondisi lingkungan juga bisa menjadi lebih baik lagi.\n\n"
@@ -762,6 +788,15 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
                           style={{ fontWeight: 700 }}
                         >
                           {"2. Menghemat Energi Fosil"}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
                         </span>
                         <React.Fragment>
                           {
@@ -776,6 +811,15 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
                         >
                           {"3. Lebih Hemat Biaya Perawatan"}
                         </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
                         <React.Fragment>
                           {
                             "\nSetiap kendaraan bermotor tentunya perlu perawatan harian atau bulanan. Hal ini sangat berguna agar kondisi motor tetap prima dan bisa digunakan untuk berkendara dengan lancar.\n\nPerawatan dan operasional tersebut meliputi bahan bakar, reparasi rem, pengecekan mesin, dan lain sebagainya. Untungnya saat Anda memakai kendaraan listrik, Anda akan jauh lebih hemat dari biaya-biaya tersebut. \n\nKarena motor listrik hanya perlu perawatan bagian baterai dan kondisi mesin. Hal ini akan membuat Anda lebih hemat dalam perawatan kendaraan listrik yang dimiliki.\n\n"
@@ -788,6 +832,15 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
                           style={{ fontWeight: 700 }}
                         >
                           {"4. Lebih Ringan"}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
                         </span>
                         <React.Fragment>
                           {
@@ -802,6 +855,15 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
                         >
                           {"5. Tidak Bising"}
                         </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
                         <React.Fragment>
                           {
                             "\nKeunggulan motor listrik ketimbang motor konvensional yakni tidak bising. Motor listrik biasanya memiliki suara bising karena perlu pembakaran di mesin. Kemudian hasil pembakaran yang berupa gas akan dibuang melalui knalpot. \n\nHal inilah yang membuat motor konvensional memiliki bunyi yang amat bising. Sementara pada motor listrik, sama sekali tidak ada pembakaran di bagian mesin. Bunyi pada mesin motor listrik bersumber dari putaran dinamo atau rotor. \n\nSehingga motor listrik tidak akan mengeluarkan bunyi bising sama sekali. Hal tersebut akan memberikan kenyamanan berkendara untuk Anda sendiri dan lingkungan di sekitar Anda. Kehidupan bermasyarakat pun jadi lebih rukun serta lebih indah.\n\n"
@@ -814,6 +876,15 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
                           style={{ fontWeight: 700 }}
                         >
                           {"6. Pengisian Daya Lebih Cepat"}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
                         </span>
                         <React.Fragment>
                           {
@@ -828,6 +899,15 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
                         >
                           {"7. Dapat Dicas di Rumah"}
                         </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
                         <React.Fragment>
                           {
                             "\nSalah satu pertanyaan terbesar pengguna adalah apakah motor listrik bisa dicas di rumah? Menurut data dari pln.go.id , motor listrik dapat dicas di rumah. Pengguna bisa mengisi daya sebanyak seminggu dua kali. \n\nJangan khawatir soal tagihan listrik membengkak, karena motor listrik ini cukup hemat. Jarak sekitar 40 km membutuhkan energi listrik sebesar 1 kWh. Bahkan jika Anda mengisi daya di tempat pengisian, Anda hanya perlu mengeluarkan uang 2 ribu rupiah saja. \n\nBiaya ini tentunya jauh lebih murah meriah ketimbang harus memakai kendaraan konvensional. Terlebih lagi harga BBM di Indonesia sudah naik, jadi sudah saatnya kita beralih ke motor listrik.\n"
@@ -836,9 +916,17 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
                       </React.Fragment>
                     ) : (
                       <React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"Uwinfly.co.id"}
+                        </span>
                         <React.Fragment>
                           {
-                            "Kendaraan listrik saat ini tengah dikembangkan oleh produsen otomotif. Bukan tanpa alasan, pasalnya banyak kegunaan motor listrik dalam kehidupan sehari-hari. \n\nMisalnya saja, motor listrik bisa berguna untuk membuat hidup lebih sehat, ramah lingkungan, hingga mengurangi polusi udara. Dengan berbagai keunggulan ini, motor listrik bisa menjadi solusi kendaraan masa depan. \n\nBagi Anda yang masih awam mungkin akan bertanya-tanya, apa itu motor listrik dan cara kerjanya? Kami akan memberikan informasi mendalam mengenai motor listrik tersebut hingga keunggulannya.\n\n"
+                            " Kendaraan listrik saat ini tengah dikembangkan oleh produsen otomotif. Bukan tanpa alasan, pasalnya banyak kegunaan motor listrik dalam kehidupan sehari-hari. \n\nMisalnya saja, motor listrik bisa berguna untuk membuat hidup lebih sehat, ramah lingkungan, hingga mengurangi polusi udara. Dengan berbagai keunggulan ini, motor listrik bisa menjadi solusi kendaraan masa depan. \n\nBagi Anda yang masih awam mungkin akan bertanya-tanya, apa itu motor listrik dan cara kerjanya? Kami akan memberikan informasi mendalam mengenai motor listrik tersebut hingga keunggulannya.\n\n"
                           }
                         </React.Fragment>
                         <span
@@ -1889,8 +1977,9 @@ export const Plasmic_7KelebihanDanKegunaanMotorListrik = Object.assign(
 
     // Page metadata
     pageMetadata: {
-      title: "blog ",
-      description: "informasi  sepeda listrik dan motor listrik \n",
+      title: "7 Kelebihan dan Kegunaan Motor Listrik",
+      description:
+        "Kendaraan listrik saat ini tengah dikembangkan oleh produsen otomotif. ",
       ogImageSrc: "",
       canonical: ""
     }

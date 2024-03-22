@@ -687,9 +687,15 @@ function PlasmicBateraiMotorListrikAgarPerformaTerjaga__RenderFunc(props: {
                     )}
                   >
                     <React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontWeight: 700 }}
+                      >
+                        {"Uwinfly.co.id"}
+                      </span>
                       <React.Fragment>
                         {
-                          "Pemilik sepeda motor listrik perlu mengetahui bagaimana cara merawat baterai yang ada pada kendaraan. Pasalnya, cara merawat baterai motor listrik yang benar bisa memperpanjang usia pakai dari kendaraan.\nUntuk menjaga dan merawat agar motor listrik Anda tetap prima, ada beberapa tips supaya performa baterai tetap baik dalam pemakaian sehari-hari. Berikut cara merawat baterai motor listrik.\n\n"
+                          " Pemilik sepeda motor listrik perlu mengetahui bagaimana cara merawat baterai yang ada pada kendaraan. Pasalnya, cara merawat baterai motor listrik yang benar bisa memperpanjang usia pakai dari kendaraan.\nUntuk menjaga dan merawat agar motor listrik Anda tetap prima, ada beberapa tips supaya performa baterai tetap baik dalam pemakaian sehari-hari. Berikut cara merawat baterai motor listrik.\n\n"
                         }
                       </React.Fragment>
                       <span
@@ -698,9 +704,16 @@ function PlasmicBateraiMotorListrikAgarPerformaTerjaga__RenderFunc(props: {
                       >
                         {"1. Hindari mengisi ulang baterai di bawah 20 persen"}
                       </span>
+                      <React.Fragment>{"\n"}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontWeight: 700 }}
+                      >
+                        {""}
+                      </span>
                       <React.Fragment>
                         {
-                          "\n\nSebaiknya Anda menghindari mengisi ulang daya baterai dalam kondisi yang sangat rendah dengan indikator di bawah 20 persen. Hal ini dapat merusak komponen dan dapat mengacaukan kinerja baterai. \n\nAnda disarankan untuk mengisi ulang daya ketika kondisi baterai dalam posisi 25 persen sampai dengan 80 persen. Kondisi ini dapat merawat performa baterai tetap prima.\n\n"
+                          "\nSebaiknya Anda menghindari mengisi ulang daya baterai dalam kondisi yang sangat rendah dengan indikator di bawah 20 persen. Hal ini dapat merusak komponen dan dapat mengacaukan kinerja baterai. \n\nAnda disarankan untuk mengisi ulang daya ketika kondisi baterai dalam posisi 25 persen sampai dengan 80 persen. Kondisi ini dapat merawat performa baterai tetap prima.\n\n"
                         }
                       </React.Fragment>
                       <span
@@ -709,9 +722,16 @@ function PlasmicBateraiMotorListrikAgarPerformaTerjaga__RenderFunc(props: {
                       >
                         {"2. Mengisi baterai secara berkala"}
                       </span>
+                      <React.Fragment>{"\n"}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontWeight: 700 }}
+                      >
+                        {""}
+                      </span>
                       <React.Fragment>
                         {
-                          "\n\nAnda juga perlu mengisi baterai motor listrik secara berkala. Meski jarang digunakan, tapi baterai tetap harus diisi ulang setidaknya setiap dua atau tiga hari sekali agar performa tetap terjaga.\n\n"
+                          "\nAnda juga perlu mengisi baterai motor listrik secara berkala. Meski jarang digunakan, tapi baterai tetap harus diisi ulang setidaknya setiap dua atau tiga hari sekali agar performa tetap terjaga.\n\n"
                         }
                       </React.Fragment>
                       <span
@@ -719,6 +739,13 @@ function PlasmicBateraiMotorListrikAgarPerformaTerjaga__RenderFunc(props: {
                         style={{ fontWeight: 700 }}
                       >
                         {"3. Hindari mengisi daya ketika kondisi baterai panas"}
+                      </span>
+                      <React.Fragment>{"\n"}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontWeight: 700 }}
+                      >
+                        {""}
                       </span>
                       <React.Fragment>
                         {
@@ -730,6 +757,13 @@ function PlasmicBateraiMotorListrikAgarPerformaTerjaga__RenderFunc(props: {
                         style={{ fontWeight: 700 }}
                       >
                         {"4. Parkir kendaraan di tempat yang sejuk"}
+                      </span>
+                      <React.Fragment>{"\n"}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontWeight: 700 }}
+                      >
+                        {""}
                       </span>
                       <React.Fragment>
                         {
@@ -744,6 +778,13 @@ function PlasmicBateraiMotorListrikAgarPerformaTerjaga__RenderFunc(props: {
                           "5. Hindari gunakan charger dan kabel yang tidak orisinal"
                         }
                       </span>
+                      <React.Fragment>{"\n"}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontWeight: 700 }}
+                      >
+                        {""}
+                      </span>
                       <React.Fragment>
                         {
                           "\nAnda juga tidak disarankan menggunakan charger dan kabel yang tidak orisinal, karena dapat membuat banyak proses pemanasan dalam waktu singkat, sehingga komponen dapat mengakibatkan kerusakan.\n\nGunakan selalu charger dan kabel bawaan atau beli komponen orisinal agar baterai motor listrik Anda tetap terjaga.\n\n"
@@ -754,6 +795,13 @@ function PlasmicBateraiMotorListrikAgarPerformaTerjaga__RenderFunc(props: {
                         style={{ fontWeight: 700 }}
                       >
                         {"6. Jangan mengisi baterai terlalu lama"}
+                      </span>
+                      <React.Fragment>{"\n"}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontWeight: 700 }}
+                      >
+                        {""}
                       </span>
                       <React.Fragment>
                         {
@@ -768,6 +816,13 @@ function PlasmicBateraiMotorListrikAgarPerformaTerjaga__RenderFunc(props: {
                           "7. Jangan langsung mengisi daya ketika motor baru berhenti"
                         }
                       </span>
+                      <React.Fragment>{"\n"}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontWeight: 700 }}
+                      >
+                        {""}
+                      </span>
                       <React.Fragment>
                         {
                           "\nAnda harus menunggu kondisi motor mendingin setidaknya 30 menit, maka Anda bisa mengisi ulang baterai motor listrik.\n\n"
@@ -778,6 +833,13 @@ function PlasmicBateraiMotorListrikAgarPerformaTerjaga__RenderFunc(props: {
                         style={{ fontWeight: 700 }}
                       >
                         {"8. Hindari membenturkan atau memukul baterai"}
+                      </span>
+                      <React.Fragment>{"\n"}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontWeight: 700 }}
+                      >
+                        {""}
                       </span>
                       <React.Fragment>
                         {
@@ -1690,8 +1752,9 @@ export const PlasmicBateraiMotorListrikAgarPerformaTerjaga = Object.assign(
 
     // Page metadata
     pageMetadata: {
-      title: "blog ",
-      description: "informasi  sepeda listrik dan motor listrik \n",
+      title: "Baterai Motor Listrik Agar Performa Terjaga",
+      description:
+        "Pemilik sepeda motor listrik perlu mengetahui cara merawat baterai",
       ogImageSrc: "",
       canonical: ""
     }

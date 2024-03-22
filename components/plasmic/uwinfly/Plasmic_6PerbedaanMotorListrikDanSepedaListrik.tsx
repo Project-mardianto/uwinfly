@@ -683,79 +683,195 @@ function Plasmic_6PerbedaanMotorListrikDanSepedaListrik__RenderFunc(props: {
                       sty.text__inuiB
                     )}
                   >
-                    <React.Fragment>
+                    {hasVariant(globalVariants, "screen", "mobile") ? (
                       <React.Fragment>
-                        {
-                          "Satlantas Polrestabes Makassar mengeluarkan larangan penggunaan sepeda listrik bertenaga baterai di jalan raya karena dianggap berbahaya bagi keselamatan pengendara. Larangan itu dikeluarkan setelah masyarakat ternyata ambigu tentang perbedaan antara sepeda listrik dan sepeda motor listrik. \n\nDefinisi antara sepeda listrik dan motor listrik dapat dilihat dari dua peraturan yang berbeda. Sepeda listrik ikut Peraturan Menteri Perhubungan No 45 Tahun 2020 tentang Kendaraan Tertentu dengan Menggunakan Penggerak Motor Listrik, sedangkan sepeda motor listrik ikut Peraturan Pemerintah No 55 Tahun 2012 tentang Kendaraan.\n\nSelain perbedaan dari segi definisi tersebut, yuk simak penjelasan lengkap tentang perbedaan sepeda listrik dan motor listrik berikut ini.\n\n"
-                        }
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"Uwinfly.co.id"}
+                        </span>
+                        <React.Fragment>
+                          {
+                            " Satlantas Polrestabes Makassar mengeluarkan larangan penggunaan sepeda listrik bertenaga baterai di jalan raya karena dianggap berbahaya bagi keselamatan pengendara. Larangan itu dikeluarkan setelah masyarakat ternyata ambigu tentang perbedaan antara sepeda listrik dan sepeda motor listrik. \n\nDefinisi antara sepeda listrik dan motor listrik dapat dilihat dari dua peraturan yang berbeda. Sepeda listrik ikut Peraturan Menteri Perhubungan No 45 Tahun 2020 tentang Kendaraan Tertentu dengan Menggunakan Penggerak Motor Listrik, sedangkan sepeda motor listrik ikut Peraturan Pemerintah No 55 Tahun 2012 tentang Kendaraan.\n\nSelain perbedaan dari segi definisi tersebut, yuk simak penjelasan lengkap tentang perbedaan sepeda listrik dan motor listrik berikut ini.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"1. Kecepatan"}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\n\nSepeda listrik hanya dibatasi maksimal 25 km per jam. Sedangkan kecepatan pada motor listrik ditentukan oleh kapasitas baterai. \n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ color: "#000000", fontWeight: 700 }}
+                        >
+                          {"2. Kelengkapan Kendaraan "}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\n\nSepeda listrik dilengkapi dengan lampu utama, lampu belakang dan reflektor. Sementara itu, sepeda motor listrik punya lebih banyak kelengkapan seperti lampu utama, lampu belakang, lampu rem, lampu sinyal berbelok, penunjukkan kecepatan, dan lainnya.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ color: "#000000", fontWeight: 700 }}
+                        >
+                          {"3. Kapasitas Motor Penggerak Dan Baterai"}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\n\nSepeda listrik dirancang untuk kecepatan rendah, maka motor penggerak listrik yang dipakai juga memiliki daya yang rendah. Sedangkan motor listrik karena kecepatannya lebih tinggi maka menggunakan motor penggerak berdaya lebih besar dan baterai dengan kapasitas yang lebih besar juga.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"4. Jarak Tempuh"}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\n\nSepeda listrik dirancang untuk penggunaan jarak dekat dengan penggunaan baterai dari full hingga habis adalah berkisar antara 20 km-30 km. Sementara itu sepeda motor listrik memiliki jarak tempuh di atasnya.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"5. Daya Angkut Beban "}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\n\nSepeda listrik dengan motor penggerak listrik berdaya rendah hanya mampu mengangkut beban yang tidak terlalu berat, biasanya terbatas maksimal 120 kilo. Sementara itu sepeda motor listrik minimal bisa mengangkut bebasn 120 kilo.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"6. Kelengkapan Berkendara"}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\n\nSepeda listrik mewajibkan pengguna berusia 12 tahun dan helm. Sementara itu motor listrik memerlukan SIM, helm, jaket, celana panjang, sepatu sebagai bagian dari safety riding. \n\nItulah beda sepeda listrik dan dan motor listrik. Kalian lebih suka pakai sepeda listrik atau motor listrik nih\n\n\n"
+                          }
+                        </React.Fragment>
                       </React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"1. Kecepatan"}
-                      </span>
+                    ) : (
                       <React.Fragment>
-                        {
-                          "\n\nSepeda listrik hanya dibatasi maksimal 25 km per jam. Sedangkan kecepatan pada motor listrik ditentukan oleh kapasitas baterai. \n\n"
-                        }
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"Uwinfly.co.id"}
+                        </span>
+                        <React.Fragment>
+                          {
+                            " Satlantas Polrestabes Makassar mengeluarkan larangan penggunaan sepeda listrik bertenaga baterai di jalan raya karena dianggap berbahaya bagi keselamatan pengendara. Larangan itu dikeluarkan setelah masyarakat ternyata ambigu tentang perbedaan antara sepeda listrik dan sepeda motor listrik. \n\nDefinisi antara sepeda listrik dan motor listrik dapat dilihat dari dua peraturan yang berbeda. Sepeda listrik ikut Peraturan Menteri Perhubungan No 45 Tahun 2020 tentang Kendaraan Tertentu dengan Menggunakan Penggerak Motor Listrik, sedangkan sepeda motor listrik ikut Peraturan Pemerintah No 55 Tahun 2012 tentang Kendaraan.\n\nSelain perbedaan dari segi definisi tersebut, yuk simak penjelasan lengkap tentang perbedaan sepeda listrik dan motor listrik berikut ini.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"1. Kecepatan"}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\n\nSepeda listrik hanya dibatasi maksimal 25 km per jam. Sedangkan kecepatan pada motor listrik ditentukan oleh kapasitas baterai. \n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ color: "#000000", fontWeight: 700 }}
+                        >
+                          {"2. Kelengkapan Kendaraan "}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\n\nSepeda listrik dilengkapi dengan lampu utama, lampu belakang dan reflektor. Sementara itu, sepeda motor listrik punya lebih banyak kelengkapan seperti lampu utama, lampu belakang, lampu rem, lampu sinyal berbelok, penunjukkan kecepatan, dan lainnya.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ color: "#000000", fontWeight: 700 }}
+                        >
+                          {"3. Kapasitas Motor Penggerak Dan Baterai"}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\n\nSepeda listrik dirancang untuk kecepatan rendah, maka motor penggerak listrik yang dipakai juga memiliki daya yang rendah. Sedangkan motor listrik karena kecepatannya lebih tinggi maka menggunakan motor penggerak berdaya lebih besar dan baterai dengan kapasitas yang lebih besar juga.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"4. Jarak Tempuh"}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\n\nSepeda listrik dirancang untuk penggunaan jarak dekat dengan penggunaan baterai dari full hingga habis adalah berkisar antara 20 km-30 km. Sementara itu sepeda motor listrik memiliki jarak tempuh di atasnya.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"5. Daya Angkut Beban "}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\n\nSepeda listrik dengan motor penggerak listrik berdaya rendah hanya mampu mengangkut beban yang tidak terlalu berat, biasanya terbatas maksimal 120 kilo. Sementara itu sepeda motor listrik minimal bisa mengangkut bebasn 120 kilo.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"6. Kelengkapan Berkendara"}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\n\nSepeda listrik mewajibkan pengguna berusia 12 tahun dan helm. Sementara itu motor listrik memerlukan SIM, helm, jaket, celana panjang, sepatu sebagai bagian dari safety riding. \n\nItulah beda sepeda listrik dan dan motor listrik. Kalian lebih suka pakai sepeda listrik atau motor listrik nih\n\n\n"
+                          }
+                        </React.Fragment>
                       </React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ color: "#000000", fontWeight: 700 }}
-                      >
-                        {"2. Kelengkapan Kendaraan "}
-                      </span>
-                      <React.Fragment>
-                        {
-                          "\n\nSepeda listrik dilengkapi dengan lampu utama, lampu belakang dan reflektor. Sementara itu, sepeda motor listrik punya lebih banyak kelengkapan seperti lampu utama, lampu belakang, lampu rem, lampu sinyal berbelok, penunjukkan kecepatan, dan lainnya.\n\n"
-                        }
-                      </React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ color: "#000000", fontWeight: 700 }}
-                      >
-                        {"3. Kapasitas Motor Penggerak Dan Baterai"}
-                      </span>
-                      <React.Fragment>
-                        {
-                          "\n\nSepeda listrik dirancang untuk kecepatan rendah, maka motor penggerak listrik yang dipakai juga memiliki daya yang rendah. Sedangkan motor listrik karena kecepatannya lebih tinggi maka menggunakan motor penggerak berdaya lebih besar dan baterai dengan kapasitas yang lebih besar juga.\n\n"
-                        }
-                      </React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"4. Jarak Tempuh"}
-                      </span>
-                      <React.Fragment>
-                        {
-                          "\n\nSepeda listrik dirancang untuk penggunaan jarak dekat dengan penggunaan baterai dari full hingga habis adalah berkisar antara 20 km-30 km. Sementara itu sepeda motor listrik memiliki jarak tempuh di atasnya.\n\n"
-                        }
-                      </React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"5. Daya Angkut Beban "}
-                      </span>
-                      <React.Fragment>
-                        {
-                          "\n\nSepeda listrik dengan motor penggerak listrik berdaya rendah hanya mampu mengangkut beban yang tidak terlalu berat, biasanya terbatas maksimal 120 kilo. Sementara itu sepeda motor listrik minimal bisa mengangkut bebasn 120 kilo.\n\n"
-                        }
-                      </React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"6. Kelengkapan Berkendara"}
-                      </span>
-                      <React.Fragment>
-                        {
-                          "\n\nSepeda listrik mewajibkan pengguna berusia 12 tahun dan helm. Sementara itu motor listrik memerlukan SIM, helm, jaket, celana panjang, sepatu sebagai bagian dari safety riding. \n\nItulah beda sepeda listrik dan dan motor listrik. Kalian lebih suka pakai sepeda listrik atau motor listrik nih\n\n\n"
-                        }
-                      </React.Fragment>
-                    </React.Fragment>
+                    )}
                   </div>
                 </section>
               </div>
@@ -1659,8 +1775,9 @@ export const Plasmic_6PerbedaanMotorListrikDanSepedaListrik = Object.assign(
 
     // Page metadata
     pageMetadata: {
-      title: "blog ",
-      description: "informasi  sepeda listrik dan motor listrik \n",
+      title: "6 Perbedaan Motor Listrik dan Sepeda Listrik",
+      description:
+        "Sepeda listrik tengah naik daun di kalangan masyarakat. Umumnya, banyak masyarakat",
       ogImageSrc: "",
       canonical: ""
     }

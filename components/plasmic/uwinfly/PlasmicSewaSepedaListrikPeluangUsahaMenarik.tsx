@@ -687,72 +687,226 @@ function PlasmicSewaSepedaListrikPeluangUsahaMenarik__RenderFunc(props: {
                       sty.text__ddnF8
                     )}
                   >
-                    <React.Fragment>
+                    {hasVariant(globalVariants, "screen", "mobile") ? (
                       <React.Fragment>
-                        {
-                          "Sepeda listrik menjadi sebuah tren yang mulai banyak digemari oleh masyarakat karena lebih hemat bahan bakar dan sangat fleksibel.\n\nDukung penulis Indonesiana untuk terus berkarya\n\nJika kamu sedang bepergian ke suatu tempat dan tidak memungkinkan untuk membawa kendaraan pribadi, menyewa sebuah kendaraan tentu menjadi salah satu pilihan yang terbaik. Kamu bisa membayar kendaraan tersebut sesuai dengan lama waktu pemakaian dan bisa dikembalikan begitu masa sewa sudah habis.\n\nSalah satu jenis kendaraan yang dapat kamu sewa adalah sepeda listrik yang sangat efektif dan lebih efisien. Kamu bisa secara hemat berkendara sepuasnya dengan pengisian daya yang mudah. Penggunaannya juga tidak terbatas pada orang tertentu saja, sebab sepeda listrik ini tidak membutuhkan SIM saat digunakan. Sehingga, akan sangat cocok untuk anak-anak berangkat sekolah, ibu-ibu pergi kepasar, ataupun untuk rekreasi santai dengan keluarga.\n\nPeluang Usaha Sepeda Listrik\nSepeda listrik menjadi sebuah tren yang mulai banyak digemari oleh masyarakat sejak awal tahun lalu. Tren ini kini mulai menjamur di kehidupan masyarakat dengan banyaknya pengguna sepeda listrik yang mulai bermunculan. Para pemakai sepeda listrik ini bisa bepergian dengan lebih hemat bahan bakar dan sangat fleksibel. Oleh sebab itu, sepeda listrik ini bisa menjadi sebuah peluang usaha dengan keuntungan yang menjanjikan untuk ditekuni lebih dalam lagi.\n\n SCROLL UNTUK MELANJUTKAN \nManfaat dari kehadiran sepeda listrik ini dapat dirasakan secara langsung oleh masyarakat hingga saat ini. Peluang usaha dari sepeda listrik ini menjadi salah satu usaha yang berbeda dengan yang lainnya, sehingga dapat menarik perhatian dari masyarakat. Antusiasme dari masyarakat tersebut bisa mendatangkan pundi-pundi uang yang tentunya sangat menggiurkan. Usaha sepeda listrik ini tidak hanya untuk dijual, namun bisa juga untuk disewakan.\n\nKamu bisa menjual sepeda listrik ini untuk digunakan secara pribadi oleh pembeli dan menjadi kendaraan operasional sehari-hari layaknya sepeda motor. Kamu juga bisa membeli sepeda listrik in dalam beberapa unit, kemudian menyewakannya dengan batas waktu tertentu. Penyewaan sepeda listrik ini, biasanya bisa dilakukan di tempat-tempat yang ramai, seperti alun-alun kota, taman kota, dan tempat rekreasi keluarga lainnya. Hal ini, tentu akan menghasilkan cuan yang banyak, sehingga bisa menutup modal pembelian serta keuntungan laba yang akan didapatkan.\n\nTips dalam Membuka Usaha Sewa Sepeda Listrik\n\n"
-                        }
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"Uwinfly.co.id"}
+                        </span>
+                        <React.Fragment>
+                          {
+                            " Sepeda listrik menjadi sebuah tren yang mulai banyak digemari oleh masyarakat karena lebih hemat bahan bakar dan sangat fleksibel.\n\nDukung penulis Indonesiana untuk terus berkarya\n\nJika kamu sedang bepergian ke suatu tempat dan tidak memungkinkan untuk membawa kendaraan pribadi, menyewa sebuah kendaraan tentu menjadi salah satu pilihan yang terbaik. Kamu bisa membayar kendaraan tersebut sesuai dengan lama waktu pemakaian dan bisa dikembalikan begitu masa sewa sudah habis.\n\nSalah satu jenis kendaraan yang dapat kamu sewa adalah sepeda listrik yang sangat efektif dan lebih efisien. Kamu bisa secara hemat berkendara sepuasnya dengan pengisian daya yang mudah. Penggunaannya juga tidak terbatas pada orang tertentu saja, sebab sepeda listrik ini tidak membutuhkan SIM saat digunakan. Sehingga, akan sangat cocok untuk anak-anak berangkat sekolah, ibu-ibu pergi kepasar, ataupun untuk rekreasi santai dengan keluarga.\n\nPeluang Usaha Sepeda Listrik\nSepeda listrik menjadi sebuah tren yang mulai banyak digemari oleh masyarakat sejak awal tahun lalu. Tren ini kini mulai menjamur di kehidupan masyarakat dengan banyaknya pengguna sepeda listrik yang mulai bermunculan. Para pemakai sepeda listrik ini bisa bepergian dengan lebih hemat bahan bakar dan sangat fleksibel. Oleh sebab itu, sepeda listrik ini bisa menjadi sebuah peluang usaha dengan keuntungan yang menjanjikan untuk ditekuni lebih dalam lagi.\n\nManfaat dari kehadiran sepeda listrik ini dapat dirasakan secara langsung oleh masyarakat hingga saat ini. Peluang usaha dari sepeda listrik ini menjadi salah satu usaha yang berbeda dengan yang lainnya, sehingga dapat menarik perhatian dari masyarakat. Antusiasme dari masyarakat tersebut bisa mendatangkan pundi-pundi uang yang tentunya sangat menggiurkan. Usaha sepeda listrik ini tidak hanya untuk dijual, namun bisa juga untuk disewakan.\n\nKamu bisa menjual sepeda listrik ini untuk digunakan secara pribadi oleh pembeli dan menjadi kendaraan operasional sehari-hari layaknya sepeda motor. Kamu juga bisa membeli sepeda listrik in dalam beberapa unit, kemudian menyewakannya dengan batas waktu tertentu. Penyewaan sepeda listrik ini, biasanya bisa dilakukan di tempat-tempat yang ramai, seperti alun-alun kota, taman kota, dan tempat rekreasi keluarga lainnya. Hal ini, tentu akan menghasilkan cuan yang banyak, sehingga bisa menutup modal pembelian serta keuntungan laba yang akan didapatkan.\n\nTips dalam Membuka Usaha Sewa Sepeda Listrik\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"1. Pilihlah Lokasi yang Strategis"}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nSebagai calon penyewa sepeda listrik, kamu harus pandai memilih lokasi yang strategis untuk mendekatkan usahamu dengan konsumen. Kamu bisa mencari lokasi yang memang ramai dengan aktivitas dan banyak orang hilir mudik, seperti tempat wisata. Tentunya, membuka lokasi penyewaan sepeda listrik ditempat yang ramai bisa menarik perhatian banyak orang. Sehingga, usaha penyewaan sepedamu akan laris disewa oleh para pengunjung tempat wisata tersebut.\n\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {
+                            "2. Sesuaikan Kapasitas Tempat dengan Unit yang Akan Disewa"
+                          }
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nSemakin banyak jumlah unit yang ingin kamu sewakan, maka akan semakin luas pula tempat yang kamu butuhkan. Setidaknya, kamu memerlukan luas tempat sewa dengan ukuran 2x3 meter yang akan mencukupi kebutuhan penyewaan. Kamu bisa menambah luas tempat penyewaan lagi, bila usaha penyewaan yang kamu jalankan sudah ramai peminatnya. Sehingga, usaha penyewaan sepeda listrik yang kamu jalankan bisa semakin sukses kedepannya. \n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"3. Hemat Biaya Operasional"}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nUsaha penyewaan tidak seperti halnya bisnis kuliner atau barang yang selalu membutuhkan biaya operasional setiap harinya. Bisnis jasa dalam penyewaan sepeda listrik ini hanya membutuhkan modal di awal saja. Setelah itu, kamu hanya perlu memikirkan biaya servis bulanan rutin dan listrik pengisian daya yang digunakan. Biaya operasional usaha ini, tentunya lebih hemat apabila dengan bisnis usaha yang lainnya.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {
+                            "4. Sumber Listrik untuk Pengisian Daya yang Terjamin"
+                          }
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nSumber listrik sangatlah penting dalam jenis usaha ini agar para pengusaha penyewaan ini bisa mengisi daya ketika sepeda listrik sedang tidak disewakan. Daya pada baterai dapat diisi penuh dengan keamanan sumber listrik yang sudah terjamin aman. Dengan daya baterai yang terisi penuh ketika disewakan, maka hal itu bisa meningkatkan rasa percaya konsumen terhadap usaha penyewaan yang kamu kelola.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {
+                            "5. Lakukan Administrasi yang Baik Kepada Calon Penyewa"
+                          }
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nPelayanan yang baik menjadi sebuah kunci yang utama dalam menjalin hubungan yang baik dengan para konsumen. Dengan melakukan proses administrasi yang baik dan ramah tamah, tentu akan memberikan sebuah kesan yang baik pula. Hal ini, akan menjadi sebuah citra positif bagi para konsumen agar bisa datang dan kembali untuk menyewa di tempat usahamu."
+                          }
+                        </React.Fragment>
                       </React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"1. Pilihlah Lokasi yang Strategis"}
-                      </span>
+                    ) : (
                       <React.Fragment>
-                        {
-                          "\nSebagai calon penyewa sepeda listrik, kamu harus pandai memilih lokasi yang strategis untuk mendekatkan usahamu dengan konsumen. Kamu bisa mencari lokasi yang memang ramai dengan aktivitas dan banyak orang hilir mudik, seperti tempat wisata. Tentunya, membuka lokasi penyewaan sepeda listrik ditempat yang ramai bisa menarik perhatian banyak orang. Sehingga, usaha penyewaan sepedamu akan laris disewa oleh para pengunjung tempat wisata tersebut.\n\n\n"
-                        }
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"Uwinfly.co.id"}
+                        </span>
+                        <React.Fragment>
+                          {
+                            " Sepeda listrik menjadi sebuah tren yang mulai banyak digemari oleh masyarakat karena lebih hemat bahan bakar dan sangat fleksibel.\n\nDukung penulis Indonesiana untuk terus berkarya\n\nJika kamu sedang bepergian ke suatu tempat dan tidak memungkinkan untuk membawa kendaraan pribadi, menyewa sebuah kendaraan tentu menjadi salah satu pilihan yang terbaik. Kamu bisa membayar kendaraan tersebut sesuai dengan lama waktu pemakaian dan bisa dikembalikan begitu masa sewa sudah habis.\n\nSalah satu jenis kendaraan yang dapat kamu sewa adalah sepeda listrik yang sangat efektif dan lebih efisien. Kamu bisa secara hemat berkendara sepuasnya dengan pengisian daya yang mudah. Penggunaannya juga tidak terbatas pada orang tertentu saja, sebab sepeda listrik ini tidak membutuhkan SIM saat digunakan. Sehingga, akan sangat cocok untuk anak-anak berangkat sekolah, ibu-ibu pergi kepasar, ataupun untuk rekreasi santai dengan keluarga.\n\nPeluang Usaha Sepeda Listrik\nSepeda listrik menjadi sebuah tren yang mulai banyak digemari oleh masyarakat sejak awal tahun lalu. Tren ini kini mulai menjamur di kehidupan masyarakat dengan banyaknya pengguna sepeda listrik yang mulai bermunculan. Para pemakai sepeda listrik ini bisa bepergian dengan lebih hemat bahan bakar dan sangat fleksibel. Oleh sebab itu, sepeda listrik ini bisa menjadi sebuah peluang usaha dengan keuntungan yang menjanjikan untuk ditekuni lebih dalam lagi.\n\n SCROLL UNTUK MELANJUTKAN \nManfaat dari kehadiran sepeda listrik ini dapat dirasakan secara langsung oleh masyarakat hingga saat ini. Peluang usaha dari sepeda listrik ini menjadi salah satu usaha yang berbeda dengan yang lainnya, sehingga dapat menarik perhatian dari masyarakat. Antusiasme dari masyarakat tersebut bisa mendatangkan pundi-pundi uang yang tentunya sangat menggiurkan. Usaha sepeda listrik ini tidak hanya untuk dijual, namun bisa juga untuk disewakan.\n\nKamu bisa menjual sepeda listrik ini untuk digunakan secara pribadi oleh pembeli dan menjadi kendaraan operasional sehari-hari layaknya sepeda motor. Kamu juga bisa membeli sepeda listrik in dalam beberapa unit, kemudian menyewakannya dengan batas waktu tertentu. Penyewaan sepeda listrik ini, biasanya bisa dilakukan di tempat-tempat yang ramai, seperti alun-alun kota, taman kota, dan tempat rekreasi keluarga lainnya. Hal ini, tentu akan menghasilkan cuan yang banyak, sehingga bisa menutup modal pembelian serta keuntungan laba yang akan didapatkan.\n\nTips dalam Membuka Usaha Sewa Sepeda Listrik\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"1. Pilihlah Lokasi yang Strategis"}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nSebagai calon penyewa sepeda listrik, kamu harus pandai memilih lokasi yang strategis untuk mendekatkan usahamu dengan konsumen. Kamu bisa mencari lokasi yang memang ramai dengan aktivitas dan banyak orang hilir mudik, seperti tempat wisata. Tentunya, membuka lokasi penyewaan sepeda listrik ditempat yang ramai bisa menarik perhatian banyak orang. Sehingga, usaha penyewaan sepedamu akan laris disewa oleh para pengunjung tempat wisata tersebut.\n\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {
+                            "2. Sesuaikan Kapasitas Tempat dengan Unit yang Akan Disewa"
+                          }
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nSemakin banyak jumlah unit yang ingin kamu sewakan, maka akan semakin luas pula tempat yang kamu butuhkan. Setidaknya, kamu memerlukan luas tempat sewa dengan ukuran 2x3 meter yang akan mencukupi kebutuhan penyewaan. Kamu bisa menambah luas tempat penyewaan lagi, bila usaha penyewaan yang kamu jalankan sudah ramai peminatnya. Sehingga, usaha penyewaan sepeda listrik yang kamu jalankan bisa semakin sukses kedepannya. \n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {"3. Hemat Biaya Operasional"}
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nUsaha penyewaan tidak seperti halnya bisnis kuliner atau barang yang selalu membutuhkan biaya operasional setiap harinya. Bisnis jasa dalam penyewaan sepeda listrik ini hanya membutuhkan modal di awal saja. Setelah itu, kamu hanya perlu memikirkan biaya servis bulanan rutin dan listrik pengisian daya yang digunakan. Biaya operasional usaha ini, tentunya lebih hemat apabila dengan bisnis usaha yang lainnya.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {
+                            "4. Sumber Listrik untuk Pengisian Daya yang Terjamin"
+                          }
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nSumber listrik sangatlah penting dalam jenis usaha ini agar para pengusaha penyewaan ini bisa mengisi daya ketika sepeda listrik sedang tidak disewakan. Daya pada baterai dapat diisi penuh dengan keamanan sumber listrik yang sudah terjamin aman. Dengan daya baterai yang terisi penuh ketika disewakan, maka hal itu bisa meningkatkan rasa percaya konsumen terhadap usaha penyewaan yang kamu kelola.\n\n"
+                          }
+                        </React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {
+                            "5. Lakukan Administrasi yang Baik Kepada Calon Penyewa"
+                          }
+                        </span>
+                        <React.Fragment>
+                          {
+                            "\nPelayanan yang baik menjadi sebuah kunci yang utama dalam menjalin hubungan yang baik dengan para konsumen. Dengan melakukan proses administrasi yang baik dan ramah tamah, tentu akan memberikan sebuah kesan yang baik pula. Hal ini, akan menjadi sebuah citra positif bagi para konsumen agar bisa datang dan kembali untuk menyewa di tempat usahamu."
+                          }
+                        </React.Fragment>
                       </React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {
-                          "2. Sesuaikan Kapasitas Tempat dengan Unit yang Akan Disewa"
-                        }
-                      </span>
-                      <React.Fragment>
-                        {
-                          "\nSemakin banyak jumlah unit yang ingin kamu sewakan, maka akan semakin luas pula tempat yang kamu butuhkan. Setidaknya, kamu memerlukan luas tempat sewa dengan ukuran 2x3 meter yang akan mencukupi kebutuhan penyewaan. Kamu bisa menambah luas tempat penyewaan lagi, bila usaha penyewaan yang kamu jalankan sudah ramai peminatnya. Sehingga, usaha penyewaan sepeda listrik yang kamu jalankan bisa semakin sukses kedepannya. \n\n"
-                        }
-                      </React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"3. Hemat Biaya Operasional"}
-                      </span>
-                      <React.Fragment>
-                        {
-                          "\nUsaha penyewaan tidak seperti halnya bisnis kuliner atau barang yang selalu membutuhkan biaya operasional setiap harinya. Bisnis jasa dalam penyewaan sepeda listrik ini hanya membutuhkan modal di awal saja. Setelah itu, kamu hanya perlu memikirkan biaya servis bulanan rutin dan listrik pengisian daya yang digunakan. Biaya operasional usaha ini, tentunya lebih hemat apabila dengan bisnis usaha yang lainnya.\n\n"
-                        }
-                      </React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"4. Sumber Listrik untuk Pengisian Daya yang Terjamin"}
-                      </span>
-                      <React.Fragment>
-                        {
-                          "\nSumber listrik sangatlah penting dalam jenis usaha ini agar para pengusaha penyewaan ini bisa mengisi daya ketika sepeda listrik sedang tidak disewakan. Daya pada baterai dapat diisi penuh dengan keamanan sumber listrik yang sudah terjamin aman. Dengan daya baterai yang terisi penuh ketika disewakan, maka hal itu bisa meningkatkan rasa percaya konsumen terhadap usaha penyewaan yang kamu kelola.\n\n"
-                        }
-                      </React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {
-                          "5. Lakukan Administrasi yang Baik Kepada Calon Penyewa"
-                        }
-                      </span>
-                      <React.Fragment>
-                        {
-                          "\nPelayanan yang baik menjadi sebuah kunci yang utama dalam menjalin hubungan yang baik dengan para konsumen. Dengan melakukan proses administrasi yang baik dan ramah tamah, tentu akan memberikan sebuah kesan yang baik pula. Hal ini, akan menjadi sebuah citra positif bagi para konsumen agar bisa datang dan kembali untuk menyewa di tempat usahamu."
-                        }
-                      </React.Fragment>
-                    </React.Fragment>
+                    )}
                   </div>
                 </section>
               </div>
@@ -1658,8 +1812,9 @@ export const PlasmicSewaSepedaListrikPeluangUsahaMenarik = Object.assign(
 
     // Page metadata
     pageMetadata: {
-      title: "blog ",
-      description: "informasi  sepeda listrik dan motor listrik \n",
+      title: "Sewa Sepeda Listrik Peluang Usaha Menarik",
+      description:
+        "Sepeda listrik menjadi sebuah tren yang mulai banyak digemari",
       ogImageSrc: "",
       canonical: ""
     }
