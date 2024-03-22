@@ -843,7 +843,7 @@ function PlasmicBateraiMotorListrikAgarPerformaTerjaga__RenderFunc(props: {
                       </span>
                       <React.Fragment>
                         {
-                          "\nKomponen yang menempel pada permukaan akan terguncang jangan khawatir akan lepas jika Anda sering memukul baterai lithium. Selain itu, performa komponen baterai juga akan menurun dan mengakibatkan kerusakan atau kebakaran jika sering memukul atau mengetuknya, mengutip uwinfly."
+                          "\nKomponen yang menempel pada permukaan akan terguncang jangan khawatir akan lepas jika Anda sering memukul baterai lithium. Selain itu, performa komponen baterai juga akan menurun dan mengakibatkan kerusakan atau kebakaran."
                         }
                       </React.Fragment>
                     </React.Fragment>
