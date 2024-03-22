@@ -888,7 +888,7 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
                         </span>
                         <React.Fragment>
                           {
-                            "\nKendaraan dengan energi listrik memerlukan pengisian daya terlebih dahulu. Kekhawatiran masyarakat soal pengisian daya motor listrik yakni butuh waktu lama untuk mengisinya. \n\nNamun tenang, saat ini teknologi pengisian daya kendaraan listrik sudah berkembang pesat. Saat ini sudah ada fitur fast charging pada kendaraan listrik. Hal ini memungkinkan pengguna bisa mengisi baterai dalam waktu dua jam. \n\nMisalnya saja pada motor listrik United E-Motor T-1800, motor tersebut bisa mengisi daya 0-80% dalam waktu 1.5 jam saja. Tenang saja, meski bisa mengisi daya dengan cepat tetapi kondisi charger dan motor tidak akan panas. Karena motor tersebut telah dilengkapi dengan cooling fan sebagai pendingin.\n\n"
+                            "\nKendaraan dengan energi listrik memerlukan pengisian daya terlebih dahulu. Kekhawatiran masyarakat soal pengisian daya motor listrik yakni butuh waktu lama untuk mengisinya. \n\nNamun tenang, saat ini teknologi pengisian daya kendaraan listrik sudah berkembang pesat. Saat ini sudah ada fitur fast charging pada kendaraan listrik. Hal ini memungkinkan pengguna bisa mengisi baterai dalam waktu dua jam. \n\nMisalnya saja pada motor listrik uwinfly Ts 3 Pro, motor tersebut bisa mengisi daya 0-80% dalam waktu 6 jam saja. Tenang saja, meski bisa mengisi daya dengan cepat tetapi kondisi charger dan motor tidak akan panas. Karena motor tersebut telah dilengkapi dengan cooling fan sebagai pendingin.\n\n"
                           }
                         </React.Fragment>
                         <span
@@ -1124,7 +1124,7 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
                         </span>
                         <React.Fragment>
                           {
-                            "\nKendaraan dengan energi listrik memerlukan pengisian daya terlebih dahulu. Kekhawatiran masyarakat soal pengisian daya motor listrik yakni butuh waktu lama untuk mengisinya. \n\nNamun tenang, saat ini teknologi pengisian daya kendaraan listrik sudah berkembang pesat. Saat ini sudah ada fitur fast charging pada kendaraan listrik. Hal ini memungkinkan pengguna bisa mengisi baterai dalam waktu dua jam. \n\nMisalnya saja pada motor listrik United E-Motor T-1800, motor tersebut bisa mengisi daya 0-80% dalam waktu 1.5 jam saja. Tenang saja, meski bisa mengisi daya dengan cepat tetapi kondisi charger dan motor tidak akan panas. Karena motor tersebut telah dilengkapi dengan cooling fan sebagai pendingin.\n\n"
+                            "\nKendaraan dengan energi listrik memerlukan pengisian daya terlebih dahulu. Kekhawatiran masyarakat soal pengisian daya motor listrik yakni butuh waktu lama untuk mengisinya. \n\nNamun tenang, saat ini teknologi pengisian daya kendaraan listrik sudah berkembang pesat. Saat ini sudah ada fitur fast charging pada kendaraan listrik. Hal ini memungkinkan pengguna bisa mengisi baterai dalam waktu dua jam. \n\nMisalnya saja pada motor listrik uwinfly Ts 3 Pro, motor tersebut bisa mengisi daya 0-80% dalam waktu 6 jam saja. Tenang saja, meski bisa mengisi daya dengan cepat tetapi kondisi charger dan motor tidak akan panas. Karena motor tersebut telah dilengkapi dengan cooling fan sebagai pendingin.\n\n"
                           }
                         </React.Fragment>
                         <span
