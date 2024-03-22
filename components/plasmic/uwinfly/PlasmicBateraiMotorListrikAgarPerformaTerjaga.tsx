@@ -112,6 +112,7 @@ export type PlasmicBateraiMotorListrikAgarPerformaTerjaga__OverridesType = {
   link4?: Flex__<typeof Link4>;
   link5?: Flex__<typeof Link5>;
   link6?: Flex__<typeof Link6>;
+  images02?: Flex__<typeof PlasmicImg__>;
   footerMain?: Flex__<typeof FooterMain>;
   pageMetadataOverride?: Flex__<typeof PlasmicHead>;
 };
@@ -656,14 +657,16 @@ function PlasmicBateraiMotorListrikAgarPerformaTerjaga__RenderFunc(props: {
                   className={classNames(projectcss.all, sty.section___9LwHk)}
                 >
                   <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img__ojkUt)}
+                    data-plasmic-name={"images02"}
+                    data-plasmic-override={overrides.images02}
+                    alt={"Baterai Motor Listrik Agar Performa Terjaga"}
+                    className={classNames(sty.images02)}
                     displayHeight={"auto"}
                     displayMaxHeight={"none"}
                     displayMaxWidth={"100%"}
                     displayMinHeight={"0"}
                     displayMinWidth={"0"}
-                    displayWidth={"auto"}
+                    displayWidth={"100%"}
                     loading={"lazy"}
                     src={{
                       src: "/plasmic/uwinfly/images/newProjectpng.png",
@@ -1522,6 +1525,7 @@ const PlasmicDescendants = {
     "link4",
     "link5",
     "link6",
+    "images02",
     "footerMain",
     "pageMetadataOverride"
   ],
@@ -1540,6 +1544,7 @@ const PlasmicDescendants = {
   link4: ["link4"],
   link5: ["link5"],
   link6: ["link6"],
+  images02: ["images02"],
   footerMain: ["footerMain"],
   pageMetadataOverride: ["pageMetadataOverride"]
 } as const;
@@ -1555,6 +1560,7 @@ type NodeDefaultElementType = {
   link4: typeof Link4;
   link5: typeof Link5;
   link6: typeof Link6;
+  images02: typeof PlasmicImg__;
   footerMain: typeof FooterMain;
   pageMetadataOverride: typeof PlasmicHead;
 };
@@ -1673,6 +1679,7 @@ export const PlasmicBateraiMotorListrikAgarPerformaTerjaga = Object.assign(
     link4: makeNodeComponent("link4"),
     link5: makeNodeComponent("link5"),
     link6: makeNodeComponent("link6"),
+    images02: makeNodeComponent("images02"),
     footerMain: makeNodeComponent("footerMain"),
     pageMetadataOverride: makeNodeComponent("pageMetadataOverride"),
 

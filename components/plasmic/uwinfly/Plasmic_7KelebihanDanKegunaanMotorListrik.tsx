@@ -111,6 +111,7 @@ export type Plasmic_7KelebihanDanKegunaanMotorListrik__OverridesType = {
   link4?: Flex__<typeof Link4>;
   link5?: Flex__<typeof Link5>;
   link6?: Flex__<typeof Link6>;
+  images03?: Flex__<typeof PlasmicImg__>;
   footerMain?: Flex__<typeof FooterMain>;
   pageMetadataOverride?: Flex__<typeof PlasmicHead>;
 };
@@ -648,14 +649,16 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
                   className={classNames(projectcss.all, sty.section___9OHv1)}
                 >
                   <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img__c63Tx)}
+                    data-plasmic-name={"images03"}
+                    data-plasmic-override={overrides.images03}
+                    alt={"7 Kelebihan dan Kegunaan Motor Listrik"}
+                    className={classNames(sty.images03)}
                     displayHeight={"auto"}
                     displayMaxHeight={"none"}
                     displayMaxWidth={"100%"}
                     displayMinHeight={"0"}
                     displayMinWidth={"0"}
-                    displayWidth={"auto"}
+                    displayWidth={"100%"}
                     loading={"lazy"}
                     src={{
                       src: "/plasmic/uwinfly/images/newProject2Png.png",
@@ -1721,6 +1724,7 @@ const PlasmicDescendants = {
     "link4",
     "link5",
     "link6",
+    "images03",
     "footerMain",
     "pageMetadataOverride"
   ],
@@ -1739,6 +1743,7 @@ const PlasmicDescendants = {
   link4: ["link4"],
   link5: ["link5"],
   link6: ["link6"],
+  images03: ["images03"],
   footerMain: ["footerMain"],
   pageMetadataOverride: ["pageMetadataOverride"]
 } as const;
@@ -1754,6 +1759,7 @@ type NodeDefaultElementType = {
   link4: typeof Link4;
   link5: typeof Link5;
   link6: typeof Link6;
+  images03: typeof PlasmicImg__;
   footerMain: typeof FooterMain;
   pageMetadataOverride: typeof PlasmicHead;
 };
@@ -1872,6 +1878,7 @@ export const Plasmic_7KelebihanDanKegunaanMotorListrik = Object.assign(
     link4: makeNodeComponent("link4"),
     link5: makeNodeComponent("link5"),
     link6: makeNodeComponent("link6"),
+    images03: makeNodeComponent("images03"),
     footerMain: makeNodeComponent("footerMain"),
     pageMetadataOverride: makeNodeComponent("pageMetadataOverride"),
 

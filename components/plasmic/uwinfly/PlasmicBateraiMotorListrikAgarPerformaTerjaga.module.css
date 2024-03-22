@@ -957,18 +957,19 @@
 .section___9LwHk > * {
   grid-column: 4;
 }
-.img__ojkUt {
+.images02 {
   position: relative;
   object-fit: cover;
   max-width: 100%;
-  width: auto;
+  width: 100%;
+  min-width: 0;
   border-radius: 6px;
 }
-.img__ojkUt > picture > img {
+.images02 > picture > img {
   object-fit: cover;
 }
 @media (max-width: 768px) {
-  .img__ojkUt {
+  .images02 {
     border-radius: 6px;
   }
 }

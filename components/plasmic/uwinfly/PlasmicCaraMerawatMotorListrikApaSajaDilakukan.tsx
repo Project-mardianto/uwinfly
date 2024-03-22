@@ -112,6 +112,7 @@ export type PlasmicCaraMerawatMotorListrikApaSajaDilakukan__OverridesType = {
   link4?: Flex__<typeof Link4>;
   link5?: Flex__<typeof Link5>;
   link6?: Flex__<typeof Link6>;
+  images01?: Flex__<typeof PlasmicImg__>;
   footerMain?: Flex__<typeof FooterMain>;
   pageMetadataOverride?: Flex__<typeof PlasmicHead>;
 };
@@ -656,14 +657,16 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
                   className={classNames(projectcss.all, sty.section__qnH1M)}
                 >
                   <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img___4F77M)}
+                    data-plasmic-name={"images01"}
+                    data-plasmic-override={overrides.images01}
+                    alt={"Cara Merawat Motor Listrik: Apa Saja Dilakukan?"}
+                    className={classNames(sty.images01)}
                     displayHeight={"auto"}
                     displayMaxHeight={"none"}
                     displayMaxWidth={"100%"}
                     displayMinHeight={"0"}
                     displayMinWidth={"0"}
-                    displayWidth={"auto"}
+                    displayWidth={"100%"}
                     loading={"lazy"}
                     src={{
                       src: "/plasmic/uwinfly/images/newProject1Png.png",
@@ -1580,6 +1583,7 @@ const PlasmicDescendants = {
     "link4",
     "link5",
     "link6",
+    "images01",
     "footerMain",
     "pageMetadataOverride"
   ],
@@ -1598,6 +1602,7 @@ const PlasmicDescendants = {
   link4: ["link4"],
   link5: ["link5"],
   link6: ["link6"],
+  images01: ["images01"],
   footerMain: ["footerMain"],
   pageMetadataOverride: ["pageMetadataOverride"]
 } as const;
@@ -1613,6 +1618,7 @@ type NodeDefaultElementType = {
   link4: typeof Link4;
   link5: typeof Link5;
   link6: typeof Link6;
+  images01: typeof PlasmicImg__;
   footerMain: typeof FooterMain;
   pageMetadataOverride: typeof PlasmicHead;
 };
@@ -1731,6 +1737,7 @@ export const PlasmicCaraMerawatMotorListrikApaSajaDilakukan = Object.assign(
     link4: makeNodeComponent("link4"),
     link5: makeNodeComponent("link5"),
     link6: makeNodeComponent("link6"),
+    images01: makeNodeComponent("images01"),
     footerMain: makeNodeComponent("footerMain"),
     pageMetadataOverride: makeNodeComponent("pageMetadataOverride"),
 

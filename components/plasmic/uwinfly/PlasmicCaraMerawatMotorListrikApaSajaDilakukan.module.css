@@ -957,18 +957,20 @@
 .section__qnH1M > * {
   grid-column: 4;
 }
-.img___4F77M {
+.images01 {
   position: relative;
   object-fit: cover;
   max-width: 100%;
-  width: auto;
+  width: 100%;
+  justify-self: flex-start;
+  min-width: 0;
   border-radius: 6px;
 }
-.img___4F77M > picture > img {
+.images01 > picture > img {
   object-fit: cover;
 }
 @media (max-width: 768px) {
-  .img___4F77M {
+  .images01 {
     border-radius: 6px;
   }
 }
