@@ -831,7 +831,7 @@ function PlasmicSewaSepedaListrikPeluangUsahaMenarik__RenderFunc(props: {
                         </span>
                         <React.Fragment>
                           {
-                            " Sepeda listrik menjadi sebuah tren yang mulai banyak digemari oleh masyarakat karena lebih hemat bahan bakar dan sangat fleksibel.\n\nDukung penulis Indonesiana untuk terus berkarya\n\nJika kamu sedang bepergian ke suatu tempat dan tidak memungkinkan untuk membawa kendaraan pribadi, menyewa sebuah kendaraan tentu menjadi salah satu pilihan yang terbaik. Kamu bisa membayar kendaraan tersebut sesuai dengan lama waktu pemakaian dan bisa dikembalikan begitu masa sewa sudah habis.\n\nSalah satu jenis kendaraan yang dapat kamu sewa adalah sepeda listrik yang sangat efektif dan lebih efisien. Kamu bisa secara hemat berkendara sepuasnya dengan pengisian daya yang mudah. Penggunaannya juga tidak terbatas pada orang tertentu saja, sebab sepeda listrik ini tidak membutuhkan SIM saat digunakan. Sehingga, akan sangat cocok untuk anak-anak berangkat sekolah, ibu-ibu pergi kepasar, ataupun untuk rekreasi santai dengan keluarga.\n\nPeluang Usaha Sepeda Listrik\nSepeda listrik menjadi sebuah tren yang mulai banyak digemari oleh masyarakat sejak awal tahun lalu. Tren ini kini mulai menjamur di kehidupan masyarakat dengan banyaknya pengguna sepeda listrik yang mulai bermunculan. Para pemakai sepeda listrik ini bisa bepergian dengan lebih hemat bahan bakar dan sangat fleksibel. Oleh sebab itu, sepeda listrik ini bisa menjadi sebuah peluang usaha dengan keuntungan yang menjanjikan untuk ditekuni lebih dalam lagi.\n\n SCROLL UNTUK MELANJUTKAN \nManfaat dari kehadiran sepeda listrik ini dapat dirasakan secara langsung oleh masyarakat hingga saat ini. Peluang usaha dari sepeda listrik ini menjadi salah satu usaha yang berbeda dengan yang lainnya, sehingga dapat menarik perhatian dari masyarakat. Antusiasme dari masyarakat tersebut bisa mendatangkan pundi-pundi uang yang tentunya sangat menggiurkan. Usaha sepeda listrik ini tidak hanya untuk dijual, namun bisa juga untuk disewakan.\n\nKamu bisa menjual sepeda listrik ini untuk digunakan secara pribadi oleh pembeli dan menjadi kendaraan operasional sehari-hari layaknya sepeda motor. Kamu juga bisa membeli sepeda listrik in dalam beberapa unit, kemudian menyewakannya dengan batas waktu tertentu. Penyewaan sepeda listrik ini, biasanya bisa dilakukan di tempat-tempat yang ramai, seperti alun-alun kota, taman kota, dan tempat rekreasi keluarga lainnya. Hal ini, tentu akan menghasilkan cuan yang banyak, sehingga bisa menutup modal pembelian serta keuntungan laba yang akan didapatkan.\n\nTips dalam Membuka Usaha Sewa Sepeda Listrik\n\n"
+                            " Sepeda listrik menjadi sebuah tren yang mulai banyak digemari oleh masyarakat karena lebih hemat bahan bakar dan sangat fleksibel.\n\nDukung penulis Indonesiana untuk terus berkarya\n\nJika kamu sedang bepergian ke suatu tempat dan tidak memungkinkan untuk membawa kendaraan pribadi, menyewa sebuah kendaraan tentu menjadi salah satu pilihan yang terbaik. Kamu bisa membayar kendaraan tersebut sesuai dengan lama waktu pemakaian dan bisa dikembalikan begitu masa sewa sudah habis.\n\nSalah satu jenis kendaraan yang dapat kamu sewa adalah sepeda listrik yang sangat efektif dan lebih efisien. Kamu bisa secara hemat berkendara sepuasnya dengan pengisian daya yang mudah. Penggunaannya juga tidak terbatas pada orang tertentu saja, sebab sepeda listrik ini tidak membutuhkan SIM saat digunakan. Sehingga, akan sangat cocok untuk anak-anak berangkat sekolah, ibu-ibu pergi kepasar, ataupun untuk rekreasi santai dengan keluarga.\n\nPeluang Usaha Sepeda Listrik\nSepeda listrik menjadi sebuah tren yang mulai banyak digemari oleh masyarakat sejak awal tahun lalu. Tren ini kini mulai menjamur di kehidupan masyarakat dengan banyaknya pengguna sepeda listrik yang mulai bermunculan. Para pemakai sepeda listrik ini bisa bepergian dengan lebih hemat bahan bakar dan sangat fleksibel. Oleh sebab itu, sepeda listrik ini bisa menjadi sebuah peluang usaha dengan keuntungan yang menjanjikan untuk ditekuni lebih dalam lagi.\n\nManfaat dari kehadiran sepeda listrik ini dapat dirasakan secara langsung oleh masyarakat hingga saat ini. Peluang usaha dari sepeda listrik ini menjadi salah satu usaha yang berbeda dengan yang lainnya, sehingga dapat menarik perhatian dari masyarakat. Antusiasme dari masyarakat tersebut bisa mendatangkan pundi-pundi uang yang tentunya sangat menggiurkan. Usaha sepeda listrik ini tidak hanya untuk dijual, namun bisa juga untuk disewakan.\n\nKamu bisa menjual sepeda listrik ini untuk digunakan secara pribadi oleh pembeli dan menjadi kendaraan operasional sehari-hari layaknya sepeda motor. Kamu juga bisa membeli sepeda listrik in dalam beberapa unit, kemudian menyewakannya dengan batas waktu tertentu. Penyewaan sepeda listrik ini, biasanya bisa dilakukan di tempat-tempat yang ramai, seperti alun-alun kota, taman kota, dan tempat rekreasi keluarga lainnya. Hal ini, tentu akan menghasilkan cuan yang banyak, sehingga bisa menutup modal pembelian serta keuntungan laba yang akan didapatkan.\n\nTips dalam Membuka Usaha Sewa Sepeda Listrik\n\n"
                           }
                         </React.Fragment>
                         <span
@@ -841,6 +841,15 @@ function PlasmicSewaSepedaListrikPeluangUsahaMenarik__RenderFunc(props: {
                           style={{ fontWeight: 700 }}
                         >
                           {"1. Pilihlah Lokasi yang Strategis"}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
                         </span>
                         <React.Fragment>
                           {
@@ -857,6 +866,15 @@ function PlasmicSewaSepedaListrikPeluangUsahaMenarik__RenderFunc(props: {
                             "2. Sesuaikan Kapasitas Tempat dengan Unit yang Akan Disewa"
                           }
                         </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
                         <React.Fragment>
                           {
                             "\nSemakin banyak jumlah unit yang ingin kamu sewakan, maka akan semakin luas pula tempat yang kamu butuhkan. Setidaknya, kamu memerlukan luas tempat sewa dengan ukuran 2x3 meter yang akan mencukupi kebutuhan penyewaan. Kamu bisa menambah luas tempat penyewaan lagi, bila usaha penyewaan yang kamu jalankan sudah ramai peminatnya. Sehingga, usaha penyewaan sepeda listrik yang kamu jalankan bisa semakin sukses kedepannya. \n\n"
@@ -869,6 +887,15 @@ function PlasmicSewaSepedaListrikPeluangUsahaMenarik__RenderFunc(props: {
                           style={{ fontWeight: 700 }}
                         >
                           {"3. Hemat Biaya Operasional"}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
                         </span>
                         <React.Fragment>
                           {
@@ -885,6 +912,15 @@ function PlasmicSewaSepedaListrikPeluangUsahaMenarik__RenderFunc(props: {
                             "4. Sumber Listrik untuk Pengisian Daya yang Terjamin"
                           }
                         </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
                         <React.Fragment>
                           {
                             "\nSumber listrik sangatlah penting dalam jenis usaha ini agar para pengusaha penyewaan ini bisa mengisi daya ketika sepeda listrik sedang tidak disewakan. Daya pada baterai dapat diisi penuh dengan keamanan sumber listrik yang sudah terjamin aman. Dengan daya baterai yang terisi penuh ketika disewakan, maka hal itu bisa meningkatkan rasa percaya konsumen terhadap usaha penyewaan yang kamu kelola.\n\n"
@@ -899,6 +935,15 @@ function PlasmicSewaSepedaListrikPeluangUsahaMenarik__RenderFunc(props: {
                           {
                             "5. Lakukan Administrasi yang Baik Kepada Calon Penyewa"
                           }
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
                         </span>
                         <React.Fragment>
                           {

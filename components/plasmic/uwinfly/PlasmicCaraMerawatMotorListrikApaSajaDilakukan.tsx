@@ -709,6 +709,15 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
                         >
                           {"1. Menjaga kondisi bater"}
                         </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
                         <React.Fragment>
                           {
                             "\nBaterai adalah komponen paling penting pada motor listrik. Sebaiknya gunakan jenis charger yang disediakan oleh pabrikan atau charger yang direkomendasikan. Lalu pastikan untuk selalu mengisi daya baterai sesuai dengan petunjuk yang ada pada buku manual panduan penggunaan.\n\nSaat melakukan proses pengisian, sebisa mungkin hindari adanya overcharging. Jangan biarkan baterai terlalu lama diisi daya setelah mencapai kapasitas penuh. Ini dapat merusak sel baterai dan memperpendek umur baterai.\n\nHindari juga kemungkinan terjadinya depleted battery. Usahakan untuk tidak menggunakan sepeda motor listrik sampai baterai sepenuhnya habis. Karena hal tersebut dapat mengurangi umur pakai baterai.\n\n"
@@ -1015,6 +1024,15 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
                         >
                           {"1. Menjaga kondisi baterai"}
                         </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
                         <React.Fragment>
                           {
                             "\nBaterai adalah komponen paling penting pada motor listrik. Sebaiknya gunakan jenis charger yang disediakan oleh pabrikan atau charger yang direkomendasikan. Lalu pastikan untuk selalu mengisi daya baterai sesuai dengan petunjuk yang ada pada buku manual panduan penggunaan.\n\nSaat melakukan proses pengisian, sebisa mungkin hindari adanya overcharging. Jangan biarkan baterai terlalu lama diisi daya setelah mencapai kapasitas penuh. Ini dapat merusak sel baterai dan memperpendek umur baterai.\n\nHindari juga kemungkinan terjadinya depleted battery. Usahakan untuk tidak menggunakan sepeda motor listrik sampai baterai sepenuhnya habis. Karena hal tersebut dapat mengurangi umur pakai baterai.\n\n"
@@ -1027,6 +1045,15 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
                           style={{ fontWeight: 700 }}
                         >
                           {"2. Pemeriksaan rem"}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
                         </span>
                         <React.Fragment>
                           {
@@ -1041,6 +1068,15 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
                         >
                           {"3. Pengecekan tekanan ban"}
                         </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
                         <React.Fragment>
                           {
                             "\nTekanan udara yang tepat pada ban adalah kunci untuk kenyamanan dan keamanan berkendara. Kamu perlu memastikan bahwa tekanan udara pada ban sudah sesuai dengan rekomendasi pabrikan. Tekanan yang tepat meningkatkan efisiensi bahan bakar dan kestabilan kendaraan.\n\n"
@@ -1053,6 +1089,15 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
                           style={{ fontWeight: 700 }}
                         >
                           {"4. Metode penyimpanan "}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
                         </span>
                         <React.Fragment>
                           {
@@ -1080,6 +1125,15 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
                         >
                           {"6. Perhatikan kondisi jalan "}
                         </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
                         <React.Fragment>
                           {
                             "\nCara merawat motor listrik selanjutnya adalah dengan menghindari jalan berlubang dan kasar. Kondisi jalan yang seperti itu dapat merusak suspensi dan bagian-bagian motor listrik lainnya. Kalau memang jalan yang akan dilewati merupakan medan yang cukup sulit, jalankan motor listrik dengan perlahan dan berhati-hati. \n\n"
@@ -1093,9 +1147,18 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
                         >
                           {"7. Memeriksa aplikasi atau software tambahan "}
                         </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
                         <React.Fragment>
                           {
-                            "\nBeberapa merek motor listrik, seperti United, memberikan tambahan fitur aplikasi atau software yang memiliki berbagai fungsi. Periksa selalu pembaruan aplikasi tersebut untuk memastikan bahwa koneksi dan integrasi dengan motor listrik berjalan dengan aman dan lancar.\n\nSelalu gunakan buku panduan pengguna yang disediakan oleh pabrikan motor listrik sebagai petunjuk perawatan yang lebih spesifik. Menerapkan cara merawat motor listrik dengan baik, artinya kamu dapat memastikan kinerjanya secara optimal dan memperpanjang umur pakai komponen utamanya.\n\nBaca Juga: Service Motor Listrik Handal dan Terpercaya, Harga Terjangkau!\n\n \nKenapa Kamu Perlu Tahu Cara Merawat Motor Listrik?\nPemeliharaan dan perawatan motor listrik memang tidak memerlukan biaya yang banyak seperti pada motor konvensional. Namun, belajar untuk bisa merawatnya sendiri pun sangatlah penting. \n\nMengetahui cara merawat motor listrik bisa memberikan beberapa manfaat bagi kamu dan pengguna lainnya. Manfaat tersebut antara lain adalah:\n\n"
+                            "\nBeberapa merek motor listrik, seperti United, memberikan tambahan fitur aplikasi atau software yang memiliki berbagai fungsi. Periksa selalu pembaruan aplikasi tersebut untuk memastikan bahwa koneksi dan integrasi dengan motor listrik berjalan dengan aman dan lancar.\n\nSelalu gunakan buku panduan pengguna yang disediakan oleh pabrikan motor listrik sebagai petunjuk perawatan yang lebih spesifik. Menerapkan cara merawat motor listrik dengan baik, artinya kamu dapat memastikan kinerjanya secara optimal dan memperpanjang umur pakai komponen utamanya.\n\n \nKenapa Kamu Perlu Tahu Cara Merawat Motor Listrik?\nPemeliharaan dan perawatan motor listrik memang tidak memerlukan biaya yang banyak seperti pada motor konvensional. Namun, belajar untuk bisa merawatnya sendiri pun sangatlah penting. \n\nMengetahui cara merawat motor listrik bisa memberikan beberapa manfaat bagi kamu dan pengguna lainnya. Manfaat tersebut antara lain adalah:\n\n"
                           }
                         </React.Fragment>
                         <span
@@ -1105,6 +1168,15 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
                           style={{ fontWeight: 700 }}
                         >
                           {"1. Pemeliharaan performa yang optimal"}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
                         </span>
                         <React.Fragment>
                           {
@@ -1119,6 +1191,15 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
                         >
                           {"2. Memperpanjang umur baterai"}
                         </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
                         <React.Fragment>
                           {
                             "\nDengan merawat baterai sesuai petunjuk, kamu dapat memperpanjang umur pakai baterai dan memastikan daya tahan yang optimal.\n\n"
@@ -1131,6 +1212,15 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
                           style={{ fontWeight: 700 }}
                         >
                           {"3. Efisiensi energi"}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
                         </span>
                         <React.Fragment>
                           {
@@ -1145,6 +1235,15 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
                         >
                           {"4. Memastikan keamanan pengendara"}
                         </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
                         <React.Fragment>
                           {
                             "\nPengecekan rutin terhadap rem, lampu, dan sistem elektrik lainnya dapat membantu memastikan keamanan kamu saat berkendara. Motor listrik yang terawat dengan baik memiliki peluang lebih rendah untuk mengalami kegagalan komponen kritis.\n\n"
@@ -1157,6 +1256,15 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
                           style={{ fontWeight: 700 }}
                         >
                           {"5. Menghemat biaya perbaikan dan perawatan "}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
                         </span>
                         <React.Fragment>
                           {
@@ -1171,6 +1279,15 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
                         >
                           {"6. Memperpanjang umur pakai motor listrik "}
                         </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
                         <React.Fragment>
                           {
                             "\nPemeliharaan yang baik dapat memperpanjang umur pakai motor listrik. Ini berarti investasi awal kamu dalam kendaraan tersebut dapat memberikan value atau nilai lebih dalam jangka panjang.\n\nBaca Juga: Apa Saja Sparepart Motor Listrik yang Perlu Diketahui?\n\n"
@@ -1183,6 +1300,15 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
                           style={{ fontWeight: 700 }}
                         >
                           {"7. Kepatuhan Garansi"}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
                         </span>
                         <React.Fragment>
                           {

@@ -939,6 +939,15 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
                             "Kegunaan Motor Listrik dalam Kehidupan Sehari-hari "
                           }
                         </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
                         <React.Fragment>
                           {
                             "\nMotor listrik adalah sebuah kendaraan bermotor yang memakai tenaga listrik sebagai energinya. Pada motor listrik menggunakan mesin penggerak semacam dinamo. \n\nSecara umum, ada tiga komponen motor listrik yang sangat penting, yakni baterai sebagai sumber energi, dinamo atau rotor sebagai penggerak, dan V-Belt sebagai penghubung putaran rotor ke roda belakang. \n\nCara kerja motor listrik yakni arus listrik berjalan menuju dinamo dan akan menggerakkan dinamo. Perputaran dinamo ini akan diteruskan ke roda belakang melalui V-Belt. Sehingga motor listrik bisa bergerak dan berjalan sesuai dengan kencang. \n\nLantas apa fungsi motor listrik dalam kehidupan sehari hari? Kegunaan dari sepeda motor listrik yaitu sebagai kendaraan ramah lingkungan. Kendaraan yang satu ini dapat digunakan untuk mempermudah aktivitas. \n\nMisalnya untuk melakukan perjalanan jauh, mengangkut barang, hingga untuk nongkrong dengan teman-teman. Hal yang paling membanggakan yakni semua aktivitas dengan motor tersebut tidak menghasilkan polusi udara. Sehingga kualitas udara bisa tetap terjaga dan tubuh bisa tetap sehat.  \n\n"
@@ -951,6 +960,15 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
                           style={{ fontWeight: 700 }}
                         >
                           {"Kontrol sepenuhnya motor listrik melalui ponsel"}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
                         </span>
                         <React.Fragment>
                           {
@@ -985,6 +1003,15 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
                         >
                           {"1. Ramah Lingkungan"}
                         </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
                         <React.Fragment>
                           {
                             "\nPasti banyak yang penasaran, apakah motor listrik mengeluarkan asap? Nah motor listrik tidak menghasilkan asap sama sekali. Ini artinya, kendaraan tersebut tidak menghasilkan emisi gas buang yang menyebabkan polusi udara.\n\nMengutip dari laman Kemenperin.go.id, pemerintah juga telah menargetkan untuk mencapai net zero emisi di tahun 2060 mendatang. Salah satu jalan yang dilakukan oleh Pemerintah Indonesia yakni dengan memperbanyak produksi kendaraan listrik. Kemudian mewajibkan pemerintah pusat dan daerah memakai kendaraan listrik.\n\nKetika semua lapisan masyarakat telah memakai kendaraan listrik, maka akan tercipta lingkungan yang sehat. Polusi udara menjadi berkurang dan tentunya kondisi lingkungan juga bisa menjadi lebih baik lagi.\n\n"
@@ -997,6 +1024,15 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
                           style={{ fontWeight: 700 }}
                         >
                           {"2. Menghemat Energi Fosil"}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
                         </span>
                         <React.Fragment>
                           {
@@ -1011,6 +1047,15 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
                         >
                           {"3. Lebih Hemat Biaya Perawatan"}
                         </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
                         <React.Fragment>
                           {
                             "\nSetiap kendaraan bermotor tentunya perlu perawatan harian atau bulanan. Hal ini sangat berguna agar kondisi motor tetap prima dan bisa digunakan untuk berkendara dengan lancar.\n\nPerawatan dan operasional tersebut meliputi bahan bakar, reparasi rem, pengecekan mesin, dan lain sebagainya. Untungnya saat Anda memakai kendaraan listrik, Anda akan jauh lebih hemat dari biaya-biaya tersebut. \n\nKarena motor listrik hanya perlu perawatan bagian baterai dan kondisi mesin. Hal ini akan membuat Anda lebih hemat dalam perawatan kendaraan listrik yang dimiliki.\n\n"
@@ -1023,6 +1068,15 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
                           style={{ fontWeight: 700 }}
                         >
                           {"4. Lebih Ringan"}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
                         </span>
                         <React.Fragment>
                           {
@@ -1037,6 +1091,15 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
                         >
                           {"5. Tidak Bising"}
                         </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
                         <React.Fragment>
                           {
                             "\nKeunggulan motor listrik ketimbang motor konvensional yakni tidak bising. Motor listrik biasanya memiliki suara bising karena perlu pembakaran di mesin. Kemudian hasil pembakaran yang berupa gas akan dibuang melalui knalpot. \n\nHal inilah yang membuat motor konvensional memiliki bunyi yang amat bising. Sementara pada motor listrik, sama sekali tidak ada pembakaran di bagian mesin. Bunyi pada mesin motor listrik bersumber dari putaran dinamo atau rotor. \n\nSehingga motor listrik tidak akan mengeluarkan bunyi bising sama sekali. Hal tersebut akan memberikan kenyamanan berkendara untuk Anda sendiri dan lingkungan di sekitar Anda. Kehidupan bermasyarakat pun jadi lebih rukun serta lebih indah.\n\n"
@@ -1050,6 +1113,15 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
                         >
                           {"6. Pengisian Daya Lebih Cepat"}
                         </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
                         <React.Fragment>
                           {
                             "\nKendaraan dengan energi listrik memerlukan pengisian daya terlebih dahulu. Kekhawatiran masyarakat soal pengisian daya motor listrik yakni butuh waktu lama untuk mengisinya. \n\nNamun tenang, saat ini teknologi pengisian daya kendaraan listrik sudah berkembang pesat. Saat ini sudah ada fitur fast charging pada kendaraan listrik. Hal ini memungkinkan pengguna bisa mengisi baterai dalam waktu dua jam. \n\nMisalnya saja pada motor listrik United E-Motor T-1800, motor tersebut bisa mengisi daya 0-80% dalam waktu 1.5 jam saja. Tenang saja, meski bisa mengisi daya dengan cepat tetapi kondisi charger dan motor tidak akan panas. Karena motor tersebut telah dilengkapi dengan cooling fan sebagai pendingin.\n\n"
@@ -1062,6 +1134,15 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
                           style={{ fontWeight: 700 }}
                         >
                           {"7. Dapat Dicas di Rumah"}
+                        </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
                         </span>
                         <React.Fragment>
                           {
