@@ -710,7 +710,7 @@ function PlasmicBaruSajaBeliMotorListrikCatat5TipsUtamaMerawatMotorListrikIni__R
                       </span>
                       <React.Fragment>
                         {
-                          " Baru saja beli motor listrik! Catat 5 tips utama merawat motor listrik berikut ini.\n\nMemasuki tahun 2023, semakin banyak merk sepeda motor listrik yang menghadirkan model baru di Indonesia.\n\nAlhasil, jumlah pengguna motor listrik pun kian meningkat dan banyak sekali yang berpindah dari motor berbahan bakar minyak.\n\nSelain itu, setiap kendaraan bermotor pasti membutuhkan perawatan secara berkala agar tetap awet. \n\nSupaya performa dan kualitas motor listrik tetap baik dan optimal, ada beberapa tips perawatan utama yang harus dipahami pengguna. \n\nDikutip dari laman Gesits Motor, inilah beberapa tips utama merawat motor listrik yang perlu Anda ketahui agar awet dan tahan lama, antara lain:  \n\n"
+                          " - Baru saja beli motor listrik! Catat 5 tips utama merawat motor listrik berikut ini.\n\nMemasuki tahun 2023, semakin banyak merk sepeda motor listrik yang menghadirkan model baru di Indonesia.\n\nAlhasil, jumlah pengguna motor listrik pun kian meningkat dan banyak sekali yang berpindah dari motor berbahan bakar minyak.\n\nSelain itu, setiap kendaraan bermotor pasti membutuhkan perawatan secara berkala agar tetap awet. \n\nSupaya performa dan kualitas motor listrik tetap baik dan optimal, ada beberapa tips perawatan utama yang harus dipahami pengguna. \n\nDikutip dari laman Gesits Motor, inilah beberapa tips utama merawat motor listrik yang perlu Anda ketahui agar awet dan tahan lama, antara lain:  \n\n"
                         }
                       </React.Fragment>
                       <span

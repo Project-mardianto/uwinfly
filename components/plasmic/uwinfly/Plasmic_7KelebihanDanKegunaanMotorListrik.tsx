@@ -690,7 +690,7 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
                         </span>
                         <React.Fragment>
                           {
-                            " Kendaraan listrik saat ini tengah dikembangkan oleh produsen otomotif. Bukan tanpa alasan, pasalnya banyak kegunaan motor listrik dalam kehidupan sehari-hari. \n\nMisalnya saja, motor listrik bisa berguna untuk membuat hidup lebih sehat, ramah lingkungan, hingga mengurangi polusi udara. Dengan berbagai keunggulan ini, motor listrik bisa menjadi solusi kendaraan masa depan. \n\nBagi Anda yang masih awam mungkin akan bertanya-tanya, apa itu motor listrik dan cara kerjanya? Kami akan memberikan informasi mendalam mengenai motor listrik tersebut hingga keunggulannya.\n\n"
+                            " - Kendaraan listrik saat ini tengah dikembangkan oleh produsen otomotif. Bukan tanpa alasan, pasalnya banyak kegunaan motor listrik dalam kehidupan sehari-hari. \n\nMisalnya saja, motor listrik bisa berguna untuk membuat hidup lebih sehat, ramah lingkungan, hingga mengurangi polusi udara. Dengan berbagai keunggulan ini, motor listrik bisa menjadi solusi kendaraan masa depan. \n\nBagi Anda yang masih awam mungkin akan bertanya-tanya, apa itu motor listrik dan cara kerjanya? Kami akan memberikan informasi mendalam mengenai motor listrik tersebut hingga keunggulannya.\n\n"
                           }
                         </React.Fragment>
                         <span
@@ -922,7 +922,7 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
                           }
                           style={{ fontWeight: 700 }}
                         >
-                          {"Uwinfly.co.id"}
+                          {"Uwinfly.co.id -"}
                         </span>
                         <React.Fragment>
                           {
