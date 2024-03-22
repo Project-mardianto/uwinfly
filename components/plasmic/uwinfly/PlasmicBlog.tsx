@@ -718,7 +718,7 @@ function PlasmicBlog__RenderFunc(props: {
                   href={
                     hasVariant(globalVariants, "screen", "mobile")
                       ? `/Baterai-motor-listrik-agar-performa-terjaga`
-                      : undefined
+                      : `/Baterai-motor-listrik-agar-performa-terjaga`
                   }
                   platform={"nextjs"}
                 >
@@ -779,7 +779,7 @@ function PlasmicBlog__RenderFunc(props: {
                     href={
                       hasVariant(globalVariants, "screen", "mobile")
                         ? `/Cara-merawat-motor-listrik-apa-saja-dilakukan`
-                        : undefined
+                        : `/Cara-merawat-motor-listrik-apa-saja-dilakukan`
                     }
                     platform={"nextjs"}
                   >

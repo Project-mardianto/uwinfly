@@ -955,7 +955,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__upxuR
+                        sty.formField__wDwDa
                       )}
                       label={"Name"}
                       name={"name"}
@@ -963,14 +963,14 @@ function PlasmicKotakKami__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__bcgK4
+                          sty.input__agZmU
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__dVboi
+                        sty.formField__bXxKg
                       )}
                       hidden={false}
                       label={"Telepon"}
@@ -978,14 +978,14 @@ function PlasmicKotakKami__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__dIyOq
+                          sty.input__nmWyp
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__qyTPj
+                        sty.formField___9GRds
                       )}
                       label={"Message"}
                       name={"message"}
@@ -997,7 +997,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                     <AntdButton
                       className={classNames(
                         "__wab_instance",
-                        sty.button__zhEa3
+                        sty.button__iPJcR
                       )}
                       submitsForm={true}
                       type={"primary"}
@@ -1006,7 +1006,7 @@ function PlasmicKotakKami__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__ubQkk
+                          sty.text__ppOs
                         )}
                       >
                         {"Kirim"}
