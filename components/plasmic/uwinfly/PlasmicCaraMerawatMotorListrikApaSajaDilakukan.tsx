@@ -852,7 +852,7 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
                         </span>
                         <React.Fragment>
                           {
-                            "\nBeberapa merek motor listrik, seperti United, memberikan tambahan fitur aplikasi atau software yang memiliki berbagai fungsi. Periksa selalu pembaruan aplikasi tersebut untuk memastikan bahwa koneksi dan integrasi dengan motor listrik berjalan dengan aman dan lancar.\n\nSelalu gunakan buku panduan pengguna yang disediakan oleh pabrikan motor listrik sebagai petunjuk perawatan yang lebih spesifik. Menerapkan cara merawat motor listrik dengan baik, artinya kamu dapat memastikan kinerjanya secara optimal dan memperpanjang umur pakai komponen utamanya\n \nw \nKenapa Kamu Perlu Tahu Cara Merawat Motor Listrik?\nPemeliharaan dan perawatan motor listrik memang tidak memerlukan biaya yang banyak seperti pada motor konvensional. Namun, belajar untuk bisa merawatnya sendiri pun sangatlah penting. \n\nMengetahui cara merawat motor listrik bisa memberikan beberapa manfaat bagi kamu dan pengguna lainnya. Manfaat tersebut antara lain adalah:\n\n"
+                            "\nBeberapa merek motor listrik, seperti uwinfly, memberikan tambahan fitur aplikasi atau software yang memiliki berbagai fungsi. Periksa selalu pembaruan aplikasi tersebut untuk memastikan bahwa koneksi dan integrasi dengan motor listrik berjalan dengan aman dan lancar.\n\nSelalu gunakan buku panduan pengguna yang disediakan oleh pabrikan motor listrik sebagai petunjuk perawatan yang lebih spesifik. Menerapkan cara merawat motor listrik dengan baik, artinya kamu dapat memastikan kinerjanya secara optimal dan memperpanjang umur pakai komponen utamanya\n \nw \nKenapa Kamu Perlu Tahu Cara Merawat Motor Listrik?\nPemeliharaan dan perawatan motor listrik memang tidak memerlukan biaya yang banyak seperti pada motor konvensional. Namun, belajar untuk bisa merawatnya sendiri pun sangatlah penting. \n\nMengetahui cara merawat motor listrik bisa memberikan beberapa manfaat bagi kamu dan pengguna lainnya. Manfaat tersebut antara lain adalah:\n\n"
                           }
                         </React.Fragment>
                         <span
@@ -975,7 +975,7 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
                         </span>
                         <React.Fragment>
                           {
-                            "\nPemeliharaan yang baik dapat memperpanjang umur pakai motor listrik. Ini berarti investasi awal kamu dalam kendaraan tersebut dapat memberikan value atau nilai lebih dalam jangka panjang.\n\nBaca Juga: Apa Saja Sparepart Motor Listrik yang Perlu Diketahui?\n\n"
+                            "\nPemeliharaan yang baik dapat memperpanjang umur pakai motor listrik. Ini berarti investasi awal kamu dalam kendaraan tersebut dapat memberikan value atau nilai lebih dalam jangka panjang.\n\n"
                           }
                         </React.Fragment>
                         <span
@@ -997,7 +997,7 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
                         </span>
                         <React.Fragment>
                           {
-                            "\nProdusen motor listrik umumnya menawarkan garansi khusus. Tetapi, garansi ini bergantung pada pemeliharaan yang sesuai dengan pedoman pabrik. Dengan menjaga pemeliharaan yang baik, kamu dapat memastikan bahwa kendaraan tetap berada dalam jaminan garansi dan dapat memanfaatkan perbaikan yang dibutuhkan tanpa adanya biaya tambahan.\n\nDengan memahami dan menerapkan cara merawat motor listrik, kamu dan para pengguna lainnya dapat memaksimalkan manfaat kendaraan tersebut. Selain itu juga bisa meminimalkan risiko kerusakan dan biaya perbaikan yang tidak terduga.\n\nDalam menjaga motor listrik kamu, pastikan untuk selalu mengikuti petunjuk dari produsen dan mematuhi prosedur keamanan yang diberikan. Kalau ternyata kamu kurang yakin atau mengalami masalah saat menggunakan motor listrik, kamu bisa langsung konsultasikan hal tersebut dengan teknisi yang berpengalaman.\n\nProduk motor listrik keluaran UNITED merupakan produk asli Indonesia yang mengutamakan kualitas produk terbaik dan bergaransi. Produk United bisa dipastikan selalu inovatif dan akan mampu beradaptasi dengan teknologi ter-up-to-date yang pastinya berkonsep eco-friendly. Temukan berbagai pilihan motor listrik di sini."
+                            "\nProdusen motor listrik umumnya menawarkan garansi khusus. Tetapi, garansi ini bergantung pada pemeliharaan yang sesuai dengan pedoman pabrik. Dengan menjaga pemeliharaan yang baik, kamu dapat memastikan bahwa kendaraan tetap berada dalam jaminan garansi dan dapat memanfaatkan perbaikan yang dibutuhkan tanpa adanya biaya tambahan.\n\nDengan memahami dan menerapkan cara merawat motor listrik, kamu dan para pengguna lainnya dapat memaksimalkan manfaat kendaraan tersebut. Selain itu juga bisa meminimalkan risiko kerusakan dan biaya perbaikan yang tidak terduga.\n\nDalam menjaga motor listrik kamu, pastikan untuk selalu mengikuti petunjuk dari produsen dan mematuhi prosedur keamanan yang diberikan. Kalau ternyata kamu kurang yakin atau mengalami masalah saat menggunakan motor listrik, kamu bisa langsung konsultasikan hal tersebut dengan teknisi yang berpengalaman.\n\nProduk motor listrik keluaran Uwinfly merupakan produk asli Indonesia yang mengutamakan kualitas produk terbaik dan bergaransi. Produk United bisa dipastikan selalu inovatif dan akan mampu beradaptasi dengan teknologi ter-up-to-date yang pastinya berkonsep eco-friendly. Temukan berbagai pilihan motor listrik di sini."
                           }
                         </React.Fragment>
                       </React.Fragment>
@@ -1112,6 +1112,15 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
                         >
                           {"5. Melakukan pengecekan rutin"}
                         </span>
+                        <React.Fragment>{"\n"}</React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 700 }}
+                        >
+                          {""}
+                        </span>
                         <React.Fragment>
                           {
                             "\nLakukan pemeriksaan visual secara rutin terhadap semua komponen sepeda motor, termasuk kabel-kabel, lampu, dan bagian-bagian lainnya. Pastikan semua sistem elektrik berfungsi dengan baik. \n\nPeriksa lampu, pastikan semua lampu dan klakson berfungsi dengan baik. Ganti lampu yang mati segera. Periksa kabel-kabel untuk memastikan tidak ada korsleting atau kabel yang terkelupas.\n\n"
@@ -1158,7 +1167,7 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
                         </span>
                         <React.Fragment>
                           {
-                            "\nBeberapa merek motor listrik, seperti United, memberikan tambahan fitur aplikasi atau software yang memiliki berbagai fungsi. Periksa selalu pembaruan aplikasi tersebut untuk memastikan bahwa koneksi dan integrasi dengan motor listrik berjalan dengan aman dan lancar.\n\nSelalu gunakan buku panduan pengguna yang disediakan oleh pabrikan motor listrik sebagai petunjuk perawatan yang lebih spesifik. Menerapkan cara merawat motor listrik dengan baik, artinya kamu dapat memastikan kinerjanya secara optimal dan memperpanjang umur pakai komponen utamanya.\n\n \nKenapa Kamu Perlu Tahu Cara Merawat Motor Listrik?\nPemeliharaan dan perawatan motor listrik memang tidak memerlukan biaya yang banyak seperti pada motor konvensional. Namun, belajar untuk bisa merawatnya sendiri pun sangatlah penting. \n\nMengetahui cara merawat motor listrik bisa memberikan beberapa manfaat bagi kamu dan pengguna lainnya. Manfaat tersebut antara lain adalah:\n\n"
+                            "\nBeberapa merek motor listrik, seperti uwinfly , memberikan tambahan fitur aplikasi atau software yang memiliki berbagai fungsi. Periksa selalu pembaruan aplikasi tersebut untuk memastikan bahwa koneksi dan integrasi dengan motor listrik berjalan dengan aman dan lancar.\n\nSelalu gunakan buku panduan pengguna yang disediakan oleh pabrikan motor listrik sebagai petunjuk perawatan yang lebih spesifik. Menerapkan cara merawat motor listrik dengan baik, artinya kamu dapat memastikan kinerjanya secara optimal dan memperpanjang umur pakai komponen utamanya.\n\n \nKenapa Kamu Perlu Tahu Cara Merawat Motor Listrik?\nPemeliharaan dan perawatan motor listrik memang tidak memerlukan biaya yang banyak seperti pada motor konvensional. Namun, belajar untuk bisa merawatnya sendiri pun sangatlah penting. \n\nMengetahui cara merawat motor listrik bisa memberikan beberapa manfaat bagi kamu dan pengguna lainnya. Manfaat tersebut antara lain adalah:\n\n"
                           }
                         </React.Fragment>
                         <span
@@ -1290,7 +1299,7 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
                         </span>
                         <React.Fragment>
                           {
-                            "\nPemeliharaan yang baik dapat memperpanjang umur pakai motor listrik. Ini berarti investasi awal kamu dalam kendaraan tersebut dapat memberikan value atau nilai lebih dalam jangka panjang.\n\nBaca Juga: Apa Saja Sparepart Motor Listrik yang Perlu Diketahui?\n\n"
+                            "\nPemeliharaan yang baik dapat memperpanjang umur pakai motor listrik. Ini berarti investasi awal kamu dalam kendaraan tersebut dapat memberikan value atau nilai lebih dalam jangka panjang.\n\n"
                           }
                         </React.Fragment>
                         <span
@@ -1312,7 +1321,7 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
                         </span>
                         <React.Fragment>
                           {
-                            "\nProdusen motor listrik umumnya menawarkan garansi khusus. Tetapi, garansi ini bergantung pada pemeliharaan yang sesuai dengan pedoman pabrik. Dengan menjaga pemeliharaan yang baik, kamu dapat memastikan bahwa kendaraan tetap berada dalam jaminan garansi dan dapat memanfaatkan perbaikan yang dibutuhkan tanpa adanya biaya tambahan.\n\nDengan memahami dan menerapkan cara merawat motor listrik, kamu dan para pengguna lainnya dapat memaksimalkan manfaat kendaraan tersebut. Selain itu juga bisa meminimalkan risiko kerusakan dan biaya perbaikan yang tidak terduga.\n\nDalam menjaga motor listrik kamu, pastikan untuk selalu mengikuti petunjuk dari produsen dan mematuhi prosedur keamanan yang diberikan. Kalau ternyata kamu kurang yakin atau mengalami masalah saat menggunakan motor listrik, kamu bisa langsung konsultasikan hal tersebut dengan teknisi yang berpengalaman.\n\nProduk motor listrik keluaran UNITED merupakan produk asli Indonesia yang mengutamakan kualitas produk terbaik dan bergaransi. Produk United bisa dipastikan selalu inovatif dan akan mampu beradaptasi dengan teknologi ter-up-to-date yang pastinya berkonsep eco-friendly. Temukan berbagai pilihan motor listrik di sini."
+                            "\nProdusen motor listrik umumnya menawarkan garansi khusus. Tetapi, garansi ini bergantung pada pemeliharaan yang sesuai dengan pedoman pabrik. Dengan menjaga pemeliharaan yang baik, kamu dapat memastikan bahwa kendaraan tetap berada dalam jaminan garansi dan dapat memanfaatkan perbaikan yang dibutuhkan tanpa adanya biaya tambahan.\n\nDengan memahami dan menerapkan cara merawat motor listrik, kamu dan para pengguna lainnya dapat memaksimalkan manfaat kendaraan tersebut. Selain itu juga bisa meminimalkan risiko kerusakan dan biaya perbaikan yang tidak terduga.\n\nDalam menjaga motor listrik kamu, pastikan untuk selalu mengikuti petunjuk dari produsen dan mematuhi prosedur keamanan yang diberikan. Kalau ternyata kamu kurang yakin atau mengalami masalah saat menggunakan motor listrik, kamu bisa langsung konsultasikan hal tersebut dengan teknisi yang berpengalaman.\n\nProduk motor listrik keluaran uwinfly merupakan produk asli Indonesia yang mengutamakan kualitas produk terbaik dan bergaransi. Produk United bisa dipastikan selalu inovatif dan akan mampu beradaptasi dengan teknologi ter-up-to-date yang pastinya berkonsep eco-friendly. Temukan berbagai pilihan motor listrik di sini."
                           }
                         </React.Fragment>
                       </React.Fragment>

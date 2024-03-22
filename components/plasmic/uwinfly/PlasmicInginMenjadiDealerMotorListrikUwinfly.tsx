@@ -692,7 +692,7 @@ function PlasmicInginMenjadiDealerMotorListrikUwinfly__RenderFunc(props: {
                       </span>
                       <React.Fragment>
                         {
-                          " Semakin banyak masyarakat yang menggunakan motor listrik, artinya menjadi peluang bagi pemilik usaha untuk menjadi dealer motor listrik. Dealer motor listrik adalah tempat atau bisnis yang menjual, mendistribusikan, dan melayani sepeda motor listrik kepada konsumen. \n\nPeran utama dealer sepeda motor listrik adalah sebagai perantara antara produsen atau distributor motor listrik dengan pelanggan akhir. Di dealer, pelanggan dapat melihat, mencoba, membeli, dan mendapatkan layanan purna jual untuk motor listrik.\n\nKenapa Banyak Orang Tertarik Menjadi Dealer Motor Listrik?\nBanyak orang tertarik untuk menjadi dealer motor listrik karena memang ada berbagai keuntungan dan peluang terkait dengan bisnis ini. Beberapa alasan utama mengapa orang tertarik menjadi dealer motor listrik yaitu:\n\n"
+                          " Semakin banyak masyarakat yang menggunakan motor listrik, artinya menjadi peluang bagi pemilik usaha untuk menjadi dealer motor listrik. Dealer motor listrik adalah tempat atau bisnis yang menjual, mendistribusikan, dan melayani sepeda motor listrik kepada konsumen. \n\nPeran utama dealer sepeda motor listrik adalah sebagai perantara antara produsen atau distributor motor listrik dengan pelanggan akhir. Di dealer, pelanggan dapat melihat, mencoba, membeli, dan mendapatkan layanan purna jual untuk motor listrik.\n\nKenapa Banyak Orang Tertarik Menjadi Dealer Motor Listrik?\nBanyak orang tertarik untuk menjadi dealer motor listrik karena memang ada berbagai keuntungan dan peluang terkait dengan bisnis ini. Beberapa alasan utama mengapa orang tertarik menjadi dealer motor listrik yaitu :\n\n"
                         }
                       </React.Fragment>
                       <span
@@ -746,7 +746,7 @@ function PlasmicInginMenjadiDealerMotorListrikUwinfly__RenderFunc(props: {
                       </span>
                       <React.Fragment>
                         {
-                          "\nKonsumen semakin tertarik pada motor listrik karena banyak keuntungan lingkungan dan efisiensi yang ditawarkan. Dengan demikian, dealer motor listrik dapat menghadapi tingkat permintaan yang tinggi dari konsumen yang ingin beralih ke kendaraan listrik.\n\ntrend penjualan motor listrik\n\n"
+                          "\nKonsumen semakin tertarik pada motor listrik karena banyak keuntungan lingkungan dan efisiensi yang ditawarkan. Dengan demikian, dealer motor listrik dapat menghadapi tingkat permintaan yang tinggi dari konsumen yang ingin beralih ke kendaraan listrik, trend penjualan motor listrik,\n\n"
                         }
                       </React.Fragment>
                       <span
@@ -771,7 +771,7 @@ function PlasmicInginMenjadiDealerMotorListrikUwinfly__RenderFunc(props: {
                         className={"plasmic_default__all plasmic_default__span"}
                         style={{ fontWeight: 700 }}
                       >
-                        {"5. Adanya peluang kemitraan"}
+                        {"5. Adanya peluang disributor atau waralaba"}
                       </span>
                       <React.Fragment>{"\n"}</React.Fragment>
                       <span
@@ -854,9 +854,16 @@ function PlasmicInginMenjadiDealerMotorListrikUwinfly__RenderFunc(props: {
                       </span>
                       <React.Fragment>
                         {
-                          "\nDistributor motor listrik atau produsen biasanya memeriksa kualifikasi keuangan kamu sebagai pemohon dealer. Termasuk kemampuan untuk membeli dan menyimpan stok motor listrik.\n\n"
+                          "\nDistributor motor listrik atau produsen biasanya memeriksa kualifikasi keuangan kamu sebagai pemohon dealer. Termasuk kemampuan untuk membeli dan menyimpan stok motor listrik.\n"
                         }
                       </React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontWeight: 700 }}
+                      >
+                        {""}
+                      </span>
+                      <React.Fragment>{"\n"}</React.Fragment>
                       <span
                         className={"plasmic_default__all plasmic_default__span"}
                         style={{ fontWeight: 700 }}

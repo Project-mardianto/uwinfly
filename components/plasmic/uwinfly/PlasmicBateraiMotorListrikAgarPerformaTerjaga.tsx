@@ -775,7 +775,7 @@ function PlasmicBateraiMotorListrikAgarPerformaTerjaga__RenderFunc(props: {
                         style={{ fontWeight: 700 }}
                       >
                         {
-                          "5. Hindari gunakan charger dan kabel yang tidak orisinal"
+                          "5. Hindari gunakan charger dan kabel yang tidak original"
                         }
                       </span>
                       <React.Fragment>{"\n"}</React.Fragment>
@@ -843,7 +843,7 @@ function PlasmicBateraiMotorListrikAgarPerformaTerjaga__RenderFunc(props: {
                       </span>
                       <React.Fragment>
                         {
-                          "\nKomponen yang menempel pada permukaan akan terguncang dang khawatir akan lepas jika Anda sering memukul baterai lithium. Selain itu, performa komponen baterai juga akan menurun dan mengakibatkan kerusakan atau kebakaran jika sering memukul atau mengetuknya, mengutip Uwinfly."
+                          "\nKomponen yang menempel pada permukaan akan terguncang jangan khawatir akan lepas jika Anda sering memukul baterai lithium. Selain itu, performa komponen baterai juga akan menurun dan mengakibatkan kerusakan atau kebakaran jika sering memukul atau mengetuknya, mengutip uwinfly."
                         }
                       </React.Fragment>
                     </React.Fragment>

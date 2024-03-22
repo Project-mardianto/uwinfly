@@ -710,7 +710,7 @@ function PlasmicBaruSajaBeliMotorListrikCatat5TipsUtamaMerawatMotorListrikIni__R
                       </span>
                       <React.Fragment>
                         {
-                          " Baru saja beli motor listrik! Catat 5 tips utama merawat motor listrik berikut ini.\n\nMemasuki tahun 2023, semakin banyak merk sepeda motor listrik yang menghadirkan model baru di Indonesia.\n\nAlhasil, jumlah pengguna motor listrik pun kian meningkat dan banyak sekali yang berpindah dari motor berbahan bakar minyak.\n\nSelain itu, setiap kendaraan bermotor pasti membutuhkan perawatan secara berkala agar tetap awet. \n\nSupaya performa dan kualitas motor listrik tetap baik dan optimal, ada beberapa tips perawatan utama yang harus dipahami pengguna. \n\nDikutip dari laman Gesits Motor, inilah beberapa tips utama merawat motor listrik yang perlu Anda ketahui agar awet dan tahan lama, antara lain:  \n\nBaca Juga: Merah Meriah! 8 Rekomendasi Motor Listrik Bersubsidi Murah dengan Kualitas Oke\n\n"
+                          " Baru saja beli motor listrik! Catat 5 tips utama merawat motor listrik berikut ini.\n\nMemasuki tahun 2023, semakin banyak merk sepeda motor listrik yang menghadirkan model baru di Indonesia.\n\nAlhasil, jumlah pengguna motor listrik pun kian meningkat dan banyak sekali yang berpindah dari motor berbahan bakar minyak.\n\nSelain itu, setiap kendaraan bermotor pasti membutuhkan perawatan secara berkala agar tetap awet. \n\nSupaya performa dan kualitas motor listrik tetap baik dan optimal, ada beberapa tips perawatan utama yang harus dipahami pengguna. \n\nDikutip dari laman Gesits Motor, inilah beberapa tips utama merawat motor listrik yang perlu Anda ketahui agar awet dan tahan lama, antara lain:  \n\n"
                         }
                       </React.Fragment>
                       <span
@@ -784,7 +784,7 @@ function PlasmicBaruSajaBeliMotorListrikCatat5TipsUtamaMerawatMotorListrikIni__R
                       </span>
                       <React.Fragment>
                         {
-                          "\nTips utama merawat motor listrik yang perlu Anda ketahui yang keempat adalah lepas baterai jika tidak digunakan. \n\nKetika motor tidak digunakan dan bateria tidak dilepas, baterai yang tertanam akan mengalami self discharge. \n\nHal ini disebabkan karena meskipun dalam keadaan mati, listrik pada motor tetap digunakan misal untuk menyalakan alarm. \n\nOleh karena itu, mengisi daya baterai hingga penuh lalu mencabutnya ketika motor tidak digunakan menjadi salah satu cara agar motor listrik tetap awet terutama bagian baterai. \n\nBaca Juga: Ingin Beli Motor Listrik? Ini Tips Pilih Motor Listrik yang Tepat, Moms\n\n"
+                          "\nTips utama merawat motor listrik yang perlu Anda ketahui yang keempat adalah lepas baterai jika tidak digunakan. \n\nKetika motor tidak digunakan dan bateria tidak dilepas, baterai yang tertanam akan mengalami self discharge. \n\nHal ini disebabkan karena meskipun dalam keadaan mati, listrik pada motor tetap digunakan misal untuk menyalakan alarm. \n\nOleh karena itu, mengisi daya baterai hingga penuh lalu mencabutnya ketika motor tidak digunakan menjadi salah satu cara agar motor listrik tetap awet terutama bagian baterai. \n\n"
                         }
                       </React.Fragment>
                       <span
@@ -802,7 +802,7 @@ function PlasmicBaruSajaBeliMotorListrikCatat5TipsUtamaMerawatMotorListrikIni__R
                       </span>
                       <React.Fragment>
                         {
-                          "\nTips utama merawat motor listrik yang perlu Anda ketahui yang terakhir adalah cek berkala pada sistem pengeremannya.  \n\nSeperti motor konvensional, sistem pengereman juga penting diperiksa secara berkala demi keselamatan berkendara. \n\nJangan lupa untuk rutin mengecek bagian kampas rem baik depan maupun belakang setiap 2 sampai 3 bulan sekali. \n\nJika pengereman sudah tidak enak digunakan, segera lakukan penggantian ke bengkel resmi.\n\nItulah sederet tips utama yang bisa Anda lakukan untuk merawat motor listrik agar awet.\n\nCek Berita dan Artikel yang lain d"
+                          "\nTips utama merawat motor listrik yang perlu Anda ketahui yang terakhir adalah cek berkala pada sistem pengeremannya.  \n\nSeperti motor konvensional, sistem pengereman juga penting diperiksa secara berkala demi keselamatan berkendara. \n\nJangan lupa untuk rutin mengecek bagian kampas rem baik depan maupun belakang setiap 2 sampai 3 bulan sekali. \n\nJika pengereman sudah tidak enak digunakan, segera lakukan penggantian ke bengkel resmi.\n\nItulah sederet tips utama yang bisa Anda lakukan untuk merawat motor listrik agar awet."
                         }
                       </React.Fragment>
                     </React.Fragment>
