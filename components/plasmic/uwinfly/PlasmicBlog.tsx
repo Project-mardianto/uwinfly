@@ -814,7 +814,7 @@ function PlasmicBlog__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.columns__gJ5NV)}>
                 <div className={classNames(projectcss.all, sty.column__cDdcm)}>
                   <PlasmicImg__
-                    alt={""}
+                    alt={"Baterai Motor Listrik Agar Performa Terjaga"}
                     className={classNames(sty.img__isgdj)}
                     displayHeight={"auto"}
                     displayMaxHeight={"none"}
