@@ -1438,20 +1438,6 @@
           "path": "/Baru-saja-beli-motor-listrik-catat-5-tips-utama-merawat-motor-listrik-ini"
         },
         {
-          "id": "4XQoP0T24zxP",
-          "name": "InginMenjadiDealerMotorListrikUwinfly",
-          "type": "managed",
-          "projectId": "iWaiTLt8mAup4ReehswsSx",
-          "renderModuleFilePath": "plasmic/uwinfly/PlasmicInginMenjadiDealerMotorListrikUwinfly.tsx",
-          "importSpec": {
-            "modulePath": "../pages/Ingin-menjadi-dealer-motor-listrik-uwinfly!.tsx"
-          },
-          "cssFilePath": "plasmic/uwinfly/PlasmicInginMenjadiDealerMotorListrikUwinfly.module.css",
-          "scheme": "blackbox",
-          "componentType": "page",
-          "path": "/Ingin-menjadi-dealer-motor-listrik-uwinfly!"
-        },
-        {
           "id": "ckKiv0Jl3ju6",
           "name": "SewaSepedaListrikPeluangUsahaMenarik",
           "type": "managed",
@@ -1464,6 +1450,34 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/Sewa-sepeda-listrik-peluang-usaha-menarik"
+        },
+        {
+          "id": "4XQoP0T24zxP",
+          "name": "InginMenjadiDistributorMotorListrikUwinfly",
+          "type": "managed",
+          "projectId": "iWaiTLt8mAup4ReehswsSx",
+          "renderModuleFilePath": "plasmic/uwinfly/PlasmicInginMenjadiDistributorMotorListrikUwinfly.tsx",
+          "importSpec": {
+            "modulePath": "../pages/Ingin-menjadi-distributor -motor-listrik-uwinfly!.tsx"
+          },
+          "cssFilePath": "plasmic/uwinfly/PlasmicInginMenjadiDistributorMotorListrikUwinfly.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Ingin-menjadi-distributor -motor-listrik-uwinfly!"
+        },
+        {
+          "id": "8KoXw5wx_MMW",
+          "name": "ApaSajaSparepartMotorListrik",
+          "type": "managed",
+          "projectId": "iWaiTLt8mAup4ReehswsSx",
+          "renderModuleFilePath": "plasmic/uwinfly/PlasmicApaSajaSparepartMotorListrik.tsx",
+          "importSpec": {
+            "modulePath": "../pages/Apa-saja-sparepart-motor-listrik.tsx"
+          },
+          "cssFilePath": "plasmic/uwinfly/PlasmicApaSajaSparepartMotorListrik.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Apa-saja-sparepart-motor-listrik"
         }
       ],
       "icons": [
@@ -1748,6 +1762,11 @@
           "id": "z7h2PjdaO_yt",
           "name": "f202302051100218.jpg",
           "filePath": "../public/plasmic/uwinfly/images/f202302051100218Jpg.jpg"
+        },
+        {
+          "id": "vfNmNReSO0kJ",
+          "name": "Daftar-Service-Center-Uwinfly.jpg",
+          "filePath": "../public/plasmic/uwinfly/images/daftarServiceCenterUwinflyjpg.jpg"
         }
       ],
       "indirect": false,
