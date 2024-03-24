@@ -69,6 +69,7 @@ import Link4 from "../../Link4"; // plasmic-import: b5zzKfYNksQk/component
 import Link5 from "../../Link5"; // plasmic-import: jy_zqM-l3sYE/component
 import Link6 from "../../Link6"; // plasmic-import: qdfwHKfwtv8_/component
 import Button from "../../Button"; // plasmic-import: f3lmI1Q2JQuQ/component
+import YouTube from "@plasmicpkgs/react-youtube";
 import FooterMain from "../../FooterMain"; // plasmic-import: qoZVCK7paFuV/component
 import { PlasmicHead } from "@plasmicapp/react-web";
 
@@ -108,6 +109,7 @@ export type PlasmicBlog__OverridesType = {
   link4?: Flex__<typeof Link4>;
   link5?: Flex__<typeof Link5>;
   link6?: Flex__<typeof Link6>;
+  youTube?: Flex__<typeof YouTube>;
   footerMain?: Flex__<typeof FooterMain>;
   pageMetadataOverride?: Flex__<typeof PlasmicHead>;
 };
@@ -616,11 +618,84 @@ function PlasmicBlog__RenderFunc(props: {
             <div className={classNames(projectcss.all, sty.columns___7F4E)}>
               <div className={classNames(projectcss.all, sty.column__hJox3)}>
                 <section
-                  className={classNames(projectcss.all, sty.section__zrY4)}
+                  className={classNames(projectcss.all, sty.section__e0Xvr)}
+                >
+                  <YouTube
+                    data-plasmic-name={"youTube"}
+                    data-plasmic-override={overrides.youTube}
+                    className={classNames("__wab_instance", sty.youTube)}
+                    fs={true}
+                    modestbranding={false}
+                    videoId={"ceGfPJNoeWM?si=vycIrcO7DgDCx5bJ"}
+                  />
+
+                  <section
+                    className={classNames(projectcss.all, sty.section___6HGwv)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___8JrmK
+                      )}
+                    >
+                      {"Januari 24, 2024"}
+                    </div>
+                    <PlasmicLink__
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        projectcss.__wab_text,
+                        sty.link__egHpJ
+                      )}
+                      component={Link}
+                      href={`/7-kelebihan-dan-kegunaan-motor-listrik`}
+                      platform={"nextjs"}
+                    >
+                      {"X6 uwinfly - Brand new perfection"}
+                    </PlasmicLink__>
+                    {(
+                      hasVariant(globalVariants, "screen", "mobile")
+                        ? true
+                        : false
+                    ) ? (
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__mQ8Q
+                        )}
+                      >
+                        {
+                          "X6 telah hadir dengan tampilan terbaru bergaya Big electric Scooter lebih premium dan sporty, pasti bakal bikin winners semakin bangga!, ditambahkan teknologi motor power 2000 Watt terbaru pastinya membuat berkendara semakin bertenaga, Nikmati juga, fitur-fitur canggih seperti UWINFLY Smart Key System dan All LED Lighting System."
+                        }
+                      </div>
+                    ) : null}
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__uZqEa
+                      )}
+                    >
+                      {
+                        "X6 telah hadir dengan tampilan terbaru bergaya Big electric Scooter lebih premium dan sporty, pasti bakal bikin winners semakin bangga!, ditambahkan teknologi motor power 2000 Watt terbaru pastinya membuat berkendara semakin bertenaga, Nikmati juga, fitur-fitur canggih seperti UWINFLY Smart Key System dan All LED Lighting System."
+                      }
+                    </div>
+                  </section>
+                </section>
+              </div>
+            </div>
+          </section>
+          <section className={classNames(projectcss.all, sty.section__qOgNr)}>
+            <div className={classNames(projectcss.all, sty.columns__msDLm)}>
+              <div className={classNames(projectcss.all, sty.column__q8FSw)}>
+                <section
+                  className={classNames(projectcss.all, sty.section__ez2Y)}
                 >
                   <PlasmicImg__
                     alt={""}
-                    className={classNames(sty.img__nsnLc)}
+                    className={classNames(sty.img___6XyIe)}
                     displayHeight={"auto"}
                     displayMaxHeight={"none"}
                     displayMaxWidth={"100%"}
@@ -637,13 +712,13 @@ function PlasmicBlog__RenderFunc(props: {
                   />
                 </section>
                 <section
-                  className={classNames(projectcss.all, sty.section__e0Xvr)}
+                  className={classNames(projectcss.all, sty.section__ukhKc)}
                 >
                   <div
                     className={classNames(
                       projectcss.all,
                       projectcss.__wab_text,
-                      sty.text__ppva4
+                      sty.text__eVy69
                     )}
                   >
                     {"Januari 24, 2024"}
@@ -653,7 +728,7 @@ function PlasmicBlog__RenderFunc(props: {
                       projectcss.all,
                       projectcss.a,
                       projectcss.__wab_text,
-                      sty.link__advm4
+                      sty.link__ohe9
                     )}
                     component={Link}
                     href={`/7-kelebihan-dan-kegunaan-motor-listrik`}
@@ -665,7 +740,7 @@ function PlasmicBlog__RenderFunc(props: {
                     className={classNames(
                       projectcss.all,
                       projectcss.__wab_text,
-                      sty.text__o7EbH
+                      sty.text__ixCI
                     )}
                   >
                     {
@@ -1823,6 +1898,7 @@ const PlasmicDescendants = {
     "link4",
     "link5",
     "link6",
+    "youTube",
     "footerMain",
     "pageMetadataOverride"
   ],
@@ -1841,6 +1917,7 @@ const PlasmicDescendants = {
   link4: ["link4"],
   link5: ["link5"],
   link6: ["link6"],
+  youTube: ["youTube"],
   footerMain: ["footerMain"],
   pageMetadataOverride: ["pageMetadataOverride"]
 } as const;
@@ -1856,6 +1933,7 @@ type NodeDefaultElementType = {
   link4: typeof Link4;
   link5: typeof Link5;
   link6: typeof Link6;
+  youTube: typeof YouTube;
   footerMain: typeof FooterMain;
   pageMetadataOverride: typeof PlasmicHead;
 };
@@ -1969,6 +2047,7 @@ export const PlasmicBlog = Object.assign(
     link4: makeNodeComponent("link4"),
     link5: makeNodeComponent("link5"),
     link6: makeNodeComponent("link6"),
+    youTube: makeNodeComponent("youTube"),
     footerMain: makeNodeComponent("footerMain"),
     pageMetadataOverride: makeNodeComponent("pageMetadataOverride"),
 

@@ -25,6 +25,7 @@
     "@plasmicpkgs/react-awesome-reveal": "^3.8.192",
     "@plasmicpkgs/react-parallax-tilt": "^0.0.191",
     "@plasmicpkgs/react-slick": "^0.0.212",
+    "@plasmicpkgs/react-youtube": "^7.13.195",
     "@plasmicpkgs/tiptap": "^0.0.1",
     "@tiptap/core": "^2.2.4",
     "@tiptap/extension-bold": "^2.2.4",
