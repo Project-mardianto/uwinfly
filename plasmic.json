@@ -1478,6 +1478,20 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/Apa-saja-sparepart-motor-listrik"
+        },
+        {
+          "id": "KoUT2647HQQn",
+          "name": "CaraMendapatkanSubsidiMotorListrikDiIndonesia",
+          "type": "managed",
+          "projectId": "iWaiTLt8mAup4ReehswsSx",
+          "renderModuleFilePath": "plasmic/uwinfly/PlasmicCaraMendapatkanSubsidiMotorListrikDiIndonesia.tsx",
+          "importSpec": {
+            "modulePath": "../pages/Cara-mendapatkan-subsidi-motor-listrik-di-indonesia.tsx"
+          },
+          "cssFilePath": "plasmic/uwinfly/PlasmicCaraMendapatkanSubsidiMotorListrikDiIndonesia.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Cara-mendapatkan-subsidi-motor-listrik-di-indonesia"
         }
       ],
       "icons": [
@@ -1767,6 +1781,16 @@
           "id": "vfNmNReSO0kJ",
           "name": "Daftar-Service-Center-Uwinfly.jpg",
           "filePath": "../public/plasmic/uwinfly/images/daftarServiceCenterUwinflyjpg.jpg"
+        },
+        {
+          "id": "gESrz6LE4uD2",
+          "name": "3d Scooter -10.jpg",
+          "filePath": "../public/plasmic/uwinfly/images/_3DScooter10Jpg.jpg"
+        },
+        {
+          "id": "X7CBEhQDCeaY",
+          "name": "Cara mendapatkan Subsidi Motor Listrik di Indonesia.jpg",
+          "filePath": "../public/plasmic/uwinfly/images/caraMendapatkanSubsidiMotorListrikDiIndonesiajpg.png"
         }
       ],
       "indirect": false,
@@ -1915,7 +1939,8 @@
           "componentImportPath": "@plasmicpkgs/react-youtube"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     }
   ],
   "globalVariants": {

@@ -646,7 +646,7 @@ function PlasmicApaSajaSparepartMotorListrik__RenderFunc(props: {
                   <PlasmicImg__
                     data-plasmic-name={"images03"}
                     data-plasmic-override={overrides.images03}
-                    alt={"7 Kelebihan dan Kegunaan Motor Listrik"}
+                    alt={"Apa Saja Sparepart Motor Listrik"}
                     className={classNames(sty.images03)}
                     displayHeight={"auto"}
                     displayMaxHeight={"none"}

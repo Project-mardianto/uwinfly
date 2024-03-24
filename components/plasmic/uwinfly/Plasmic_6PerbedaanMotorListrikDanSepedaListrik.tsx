@@ -112,6 +112,7 @@ export type Plasmic_6PerbedaanMotorListrikDanSepedaListrik__OverridesType = {
   link4?: Flex__<typeof Link4>;
   link5?: Flex__<typeof Link5>;
   link6?: Flex__<typeof Link6>;
+  _6PerbedaanMotorListrikDanSepedaListrik?: Flex__<typeof PlasmicImg__>;
   footerMain?: Flex__<typeof FooterMain>;
   pageMetadataOverride?: Flex__<typeof PlasmicHead>;
 };
@@ -656,8 +657,16 @@ function Plasmic_6PerbedaanMotorListrikDanSepedaListrik__RenderFunc(props: {
                   className={classNames(projectcss.all, sty.section__eZKmY)}
                 >
                   <PlasmicImg__
+                    data-plasmic-name={
+                      "_6PerbedaanMotorListrikDanSepedaListrik"
+                    }
+                    data-plasmic-override={
+                      overrides._6PerbedaanMotorListrikDanSepedaListrik
+                    }
                     alt={"6 Perbedaan Motor Listrik dan Sepeda Listrik"}
-                    className={classNames(sty.img__eBh3Z)}
+                    className={classNames(
+                      sty._6PerbedaanMotorListrikDanSepedaListrik
+                    )}
                     displayHeight={"auto"}
                     displayMaxHeight={"none"}
                     displayMaxWidth={"100%"}
@@ -666,9 +675,9 @@ function Plasmic_6PerbedaanMotorListrikDanSepedaListrik__RenderFunc(props: {
                     displayWidth={"100%"}
                     loading={"lazy"}
                     src={{
-                      src: "/plasmic/uwinfly/images/perawatanMotorListrikjpg.jpg",
-                      fullWidth: 700,
-                      fullHeight: 394,
+                      src: "/plasmic/uwinfly/images/redRetroScooterGrassCopyjpg.jpg",
+                      fullWidth: 3000,
+                      fullHeight: 2000,
                       aspectRatio: undefined
                     }}
                   />
@@ -1614,6 +1623,7 @@ const PlasmicDescendants = {
     "link4",
     "link5",
     "link6",
+    "_6PerbedaanMotorListrikDanSepedaListrik",
     "footerMain",
     "pageMetadataOverride"
   ],
@@ -1632,6 +1642,9 @@ const PlasmicDescendants = {
   link4: ["link4"],
   link5: ["link5"],
   link6: ["link6"],
+  _6PerbedaanMotorListrikDanSepedaListrik: [
+    "_6PerbedaanMotorListrikDanSepedaListrik"
+  ],
   footerMain: ["footerMain"],
   pageMetadataOverride: ["pageMetadataOverride"]
 } as const;
@@ -1647,6 +1660,7 @@ type NodeDefaultElementType = {
   link4: typeof Link4;
   link5: typeof Link5;
   link6: typeof Link6;
+  _6PerbedaanMotorListrikDanSepedaListrik: typeof PlasmicImg__;
   footerMain: typeof FooterMain;
   pageMetadataOverride: typeof PlasmicHead;
 };
@@ -1765,6 +1779,9 @@ export const Plasmic_6PerbedaanMotorListrikDanSepedaListrik = Object.assign(
     link4: makeNodeComponent("link4"),
     link5: makeNodeComponent("link5"),
     link6: makeNodeComponent("link6"),
+    _6PerbedaanMotorListrikDanSepedaListrik: makeNodeComponent(
+      "_6PerbedaanMotorListrikDanSepedaListrik"
+    ),
     footerMain: makeNodeComponent("footerMain"),
     pageMetadataOverride: makeNodeComponent("pageMetadataOverride"),
 
