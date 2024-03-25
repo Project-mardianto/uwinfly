@@ -993,21 +993,14 @@
     font-size: 21px;
   }
 }
-.link__egHpJ {
+.text__kB6W {
   position: relative;
   width: 100%;
   height: auto;
   max-width: 100%;
   font-size: 26px;
   font-weight: 500;
-  color: #535353d9;
   min-width: 0;
-}
-@media (max-width: 768px) {
-  .link__egHpJ {
-    color: var(--token-WxvvgatuPYoJ);
-    font-size: 21px;
-  }
 }
 .text__mQ8Q {
   position: relative;

@@ -641,19 +641,15 @@ function PlasmicBlog__RenderFunc(props: {
                     >
                       {"Januari 24, 2024"}
                     </div>
-                    <PlasmicLink__
+                    <div
                       className={classNames(
                         projectcss.all,
-                        projectcss.a,
                         projectcss.__wab_text,
-                        sty.link__egHpJ
+                        sty.text__kB6W
                       )}
-                      component={Link}
-                      href={`/7-kelebihan-dan-kegunaan-motor-listrik`}
-                      platform={"nextjs"}
                     >
                       {"X6 uwinfly - Brand new perfection"}
-                    </PlasmicLink__>
+                    </div>
                     {(
                       hasVariant(globalVariants, "screen", "mobile")
                         ? true
@@ -1093,7 +1089,11 @@ function PlasmicBlog__RenderFunc(props: {
                       sty.link___9UyJl
                     )}
                     component={Link}
-                    href={`/Ingin-menjadi-distributor-motor-listrik-uwinfly!`}
+                    href={
+                      hasVariant(globalVariants, "screen", "mobile")
+                        ? `/Ingin-menjadi-distributor-motor-listrik-uwinfly!`
+                        : `/Ingin-menjadi-distributor-motor-listrik-uwinfly!`
+                    }
                     platform={"nextjs"}
                   >
                     {"Ingin Menjadi distributor Motor Listrik? uwinfly!"}
