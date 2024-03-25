@@ -1420,8 +1420,8 @@
   align-content: flex-start;
   justify-items: center;
   width: 100%;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 36px;
+  padding-right: 36px;
   margin-bottom: 36px;
   height: 452px;
   justify-self: flex-start;
@@ -1572,7 +1572,7 @@
       calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
     )
     minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
-  padding: 0px 0 96px;
+  padding: 0px 18px 96px;
 }
 .section__l5K0H > * {
   grid-column: 4;
