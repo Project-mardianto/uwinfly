@@ -126,11 +126,11 @@ export type PlasmicDetailProduk__OverridesType = {
   link6?: Flex__<typeof Link6>;
   sliderCarousel?: Flex__<typeof SliderWrapper>;
   productBox?: Flex__<typeof ProductBox>;
-  textbox3?: Flex__<"input">;
   textbox?: Flex__<"input">;
   textbox2?: Flex__<"input">;
   textbox4?: Flex__<"input">;
   productPrice?: Flex__<typeof ProductPriceComponent>;
+  addToCartButton?: Flex__<typeof AddToCartButton>;
   button2?: Flex__<typeof Button2>;
   footerMain?: Flex__<typeof FooterMain>;
   iconNavbar2?: Flex__<typeof IconNavbar2>;
@@ -192,12 +192,6 @@ function PlasmicDetailProduk__RenderFunc(props: {
         type: "private",
         variableType: "text",
         initFunc: ({ $props, $state, $queries, $ctx }) => `1${undefined}`
-      },
-      {
-        path: "textbox3.value",
-        type: "private",
-        variableType: "text",
-        initFunc: ({ $props, $state, $queries, $ctx }) => ``
       },
       {
         path: "textbox4.value",
@@ -1285,101 +1279,6 @@ function PlasmicDetailProduk__RenderFunc(props: {
                             </div>
                           </div>
                         </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.columns__bHsbK
-                          )}
-                        >
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              sty.column__zsKii
-                            )}
-                          >
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text__tvns8
-                              )}
-                            >
-                              {hasVariant(
-                                globalVariants,
-                                "screen",
-                                "mobile"
-                              ) ? (
-                                <React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{
-                                      color: "var(--token-RvPI6LyeIPmd)"
-                                    }}
-                                  >
-                                    {"Terjual"}
-                                  </span>
-                                </React.Fragment>
-                              ) : (
-                                <React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{
-                                      color: "var(--token-RvPI6LyeIPmd)"
-                                    }}
-                                  >
-                                    {"Qty"}
-                                  </span>
-                                </React.Fragment>
-                              )}
-                            </div>
-                          </div>
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              sty.column___23SuT
-                            )}
-                          >
-                            <ProductQuantity
-                              className={classNames(
-                                "__wab_instance",
-                                sty.productQuantity__xhV1M
-                              )}
-                            >
-                              <input
-                                data-plasmic-name={"textbox3"}
-                                data-plasmic-override={overrides.textbox3}
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.input,
-                                  sty.textbox3
-                                )}
-                                disabled={false}
-                                onChange={e => {
-                                  generateStateOnChangeProp($state, [
-                                    "textbox3",
-                                    "value"
-                                  ])(e.target.value);
-                                }}
-                                placeholder={``}
-                                ref={ref => {
-                                  $refs["textbox3"] = ref;
-                                }}
-                                size={1}
-                                type={"number"}
-                                value={
-                                  generateStateValueProp($state, [
-                                    "textbox3",
-                                    "value"
-                                  ]) ?? ""
-                                }
-                              />
-                            </ProductQuantity>
-                          </div>
-                        </div>
                         {(
                           hasVariant(globalVariants, "screen", "mobile")
                             ? true
@@ -1850,9 +1749,11 @@ function PlasmicDetailProduk__RenderFunc(props: {
                             )}
                           >
                             <AddToCartButton
+                              data-plasmic-name={"addToCartButton"}
+                              data-plasmic-override={overrides.addToCartButton}
                               className={classNames(
                                 "__wab_instance",
-                                sty.addToCartButton__akxzj
+                                sty.addToCartButton
                               )}
                             >
                               <button
@@ -1909,23 +1810,6 @@ function PlasmicDetailProduk__RenderFunc(props: {
                     )}
                   </DataCtxReader__>
                 </ProductBox>
-                <AddToCartButton
-                  className={classNames(
-                    "__wab_instance",
-                    sty.addToCartButton__qICcX
-                  )}
-                >
-                  <button
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.button,
-                      projectcss.__wab_text,
-                      sty.button___8Ns0D
-                    )}
-                  >
-                    {"Add To Cart"}
-                  </button>
-                </AddToCartButton>
               </div>
             </div>
           </section>
@@ -2218,11 +2102,11 @@ const PlasmicDescendants = {
     "link6",
     "sliderCarousel",
     "productBox",
-    "textbox3",
     "textbox",
     "textbox2",
     "textbox4",
     "productPrice",
+    "addToCartButton",
     "button2",
     "footerMain",
     "iconNavbar2",
@@ -2246,18 +2130,18 @@ const PlasmicDescendants = {
   sliderCarousel: ["sliderCarousel"],
   productBox: [
     "productBox",
-    "textbox3",
     "textbox",
     "textbox2",
     "textbox4",
     "productPrice",
+    "addToCartButton",
     "button2"
   ],
-  textbox3: ["textbox3"],
   textbox: ["textbox"],
   textbox2: ["textbox2"],
   textbox4: ["textbox4"],
   productPrice: ["productPrice"],
+  addToCartButton: ["addToCartButton"],
   button2: ["button2"],
   footerMain: ["footerMain"],
   iconNavbar2: ["iconNavbar2"],
@@ -2277,11 +2161,11 @@ type NodeDefaultElementType = {
   link6: typeof Link6;
   sliderCarousel: typeof SliderWrapper;
   productBox: typeof ProductBox;
-  textbox3: "input";
   textbox: "input";
   textbox2: "input";
   textbox4: "input";
   productPrice: typeof ProductPriceComponent;
+  addToCartButton: typeof AddToCartButton;
   button2: typeof Button2;
   footerMain: typeof FooterMain;
   iconNavbar2: typeof IconNavbar2;
@@ -2399,11 +2283,11 @@ export const PlasmicDetailProduk = Object.assign(
     link6: makeNodeComponent("link6"),
     sliderCarousel: makeNodeComponent("sliderCarousel"),
     productBox: makeNodeComponent("productBox"),
-    textbox3: makeNodeComponent("textbox3"),
     textbox: makeNodeComponent("textbox"),
     textbox2: makeNodeComponent("textbox2"),
     textbox4: makeNodeComponent("textbox4"),
     productPrice: makeNodeComponent("productPrice"),
+    addToCartButton: makeNodeComponent("addToCartButton"),
     button2: makeNodeComponent("button2"),
     footerMain: makeNodeComponent("footerMain"),
     iconNavbar2: makeNodeComponent("iconNavbar2"),
