@@ -1093,7 +1093,7 @@ function PlasmicBlog__RenderFunc(props: {
                       sty.link___9UyJl
                     )}
                     component={Link}
-                    href={`/Ingin-menjadi-distributor -motor-listrik-uwinfly!`}
+                    href={`/Ingin-menjadi-distributor-motor-listrik-uwinfly!`}
                     platform={"nextjs"}
                   >
                     {"Ingin Menjadi distributor Motor Listrik? uwinfly!"}

@@ -1458,7 +1458,7 @@
           "projectId": "iWaiTLt8mAup4ReehswsSx",
           "renderModuleFilePath": "plasmic/uwinfly/PlasmicInginMenjadiDistributorMotorListrikUwinfly.tsx",
           "importSpec": {
-            "modulePath": "../pages/Ingin-menjadi-distributor -motor-listrik-uwinfly!.tsx"
+            "modulePath": "../pages/Ingin-menjadi-distributor-motor-listrik-uwinfly!.tsx"
           },
           "cssFilePath": "plasmic/uwinfly/PlasmicInginMenjadiDistributorMotorListrikUwinfly.module.css",
           "scheme": "blackbox",
