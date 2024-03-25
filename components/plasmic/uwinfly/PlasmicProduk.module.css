@@ -1244,20 +1244,21 @@
     grid-column: 4;
   }
 }
+.link___3PhSu {
+  position: relative;
+  display: flex;
+}
 .tabs:global(.__wab_instance) {
   width: 100%;
   overflow: scroll;
   max-width: 100%;
   object-fit: cover;
-  position: relative;
   height: 100%;
-  grid-column-start: 3 !important;
-  grid-column-end: -3 !important;
+  min-width: 0;
 }
 @media (max-width: 768px) {
   .tabs:global(.__wab_instance) {
     width: 100%;
-    justify-self: flex-start;
     min-width: 0;
   }
 }

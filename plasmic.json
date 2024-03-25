@@ -1293,7 +1293,7 @@
           "projectId": "iWaiTLt8mAup4ReehswsSx",
           "renderModuleFilePath": "plasmic/uwinfly/PlasmicDetailProduk.tsx",
           "importSpec": {
-            "modulePath": "../pages/uwinfly-t3s-pro.tsx"
+            "modulePath": "../pages/products/[slug].tsx"
           },
           "cssFilePath": "plasmic/uwinfly/PlasmicDetailProduk.module.css",
           "scheme": "blackbox",
@@ -1492,6 +1492,34 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/Cara-mendapatkan-subsidi-motor-listrik-di-indonesia"
+        },
+        {
+          "id": "StxJDhbhv5wR",
+          "name": "Keranjang",
+          "type": "managed",
+          "projectId": "iWaiTLt8mAup4ReehswsSx",
+          "renderModuleFilePath": "plasmic/uwinfly/PlasmicKeranjang.tsx",
+          "importSpec": {
+            "modulePath": "../pages/keranjang.tsx"
+          },
+          "cssFilePath": "plasmic/uwinfly/PlasmicKeranjang.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/keranjang"
+        },
+        {
+          "id": "X1GyF0D52ux8",
+          "name": "Lokasi",
+          "type": "managed",
+          "projectId": "iWaiTLt8mAup4ReehswsSx",
+          "renderModuleFilePath": "plasmic/uwinfly/PlasmicLokasi.tsx",
+          "importSpec": {
+            "modulePath": "../pages/Lokasi.tsx"
+          },
+          "cssFilePath": "plasmic/uwinfly/PlasmicLokasi.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Lokasi"
         }
       ],
       "icons": [

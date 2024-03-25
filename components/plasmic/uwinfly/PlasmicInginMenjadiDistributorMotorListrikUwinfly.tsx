@@ -492,6 +492,7 @@ function PlasmicInginMenjadiDistributorMotorListrikUwinfly__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__vg0Ap)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__nE8Xr)}
+                  link={`/Lokasi`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -571,6 +572,7 @@ function PlasmicInginMenjadiDistributorMotorListrikUwinfly__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__ssyd4)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__r09O1)}
+                  link={`/Lokasi`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon

@@ -72,8 +72,8 @@ import Button from "../../Button"; // plasmic-import: f3lmI1Q2JQuQ/component
 import { SliderWrapper } from "@plasmicpkgs/react-slick";
 import { sliderHelpers as SliderWrapper_Helpers } from "@plasmicpkgs/react-slick";
 import { ProductBox } from "@plasmicpkgs/commerce";
-import { ProductSlider } from "@plasmicpkgs/commerce";
 import { ProductMedia } from "@plasmicpkgs/commerce";
+import { ProductSlider } from "@plasmicpkgs/commerce";
 import { ProductTextField } from "@plasmicpkgs/commerce";
 import { ProductVariantPicker } from "@plasmicpkgs/commerce";
 import { ProductQuantity } from "@plasmicpkgs/commerce";
@@ -83,6 +83,7 @@ import Button2 from "../../Button2"; // plasmic-import: bn8Yy5q1VEYE/component
 import FooterMain from "../../FooterMain"; // plasmic-import: qoZVCK7paFuV/component
 import IconNavbar2 from "../../IconNavbar2"; // plasmic-import: 8dJjOz6ixDRs/component
 import { PlasmicHead } from "@plasmicapp/react-web";
+import { Fetcher } from "@plasmicapp/react-web/lib/data-sources";
 
 import { useScreenVariants as useScreenVariantssppb0UOhrN5L } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: Sppb0uOhrN5l/globalVariant
 
@@ -126,6 +127,7 @@ export type PlasmicDetailProduk__OverridesType = {
   link6?: Flex__<typeof Link6>;
   sliderCarousel?: Flex__<typeof SliderWrapper>;
   productBox?: Flex__<typeof ProductBox>;
+  productSlider?: Flex__<typeof ProductSlider>;
   textbox?: Flex__<"input">;
   textbox2?: Flex__<"input">;
   textbox4?: Flex__<"input">;
@@ -536,6 +538,7 @@ function PlasmicDetailProduk__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__k9HfW)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__f1Xm5)}
+                  link={`/Lokasi`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -614,6 +617,7 @@ function PlasmicDetailProduk__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__wbVd4)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__vymtX)}
+                  link={`/Lokasi`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -901,406 +905,208 @@ function PlasmicDetailProduk__RenderFunc(props: {
                   data-plasmic-name={"productBox"}
                   data-plasmic-override={overrides.productBox}
                   className={classNames("__wab_instance", sty.productBox)}
-                  id={"65e7467c3746da00123ab693"}
+                  id={(() => {
+                    try {
+                      return $ctx.params.slug;
+                    } catch (e) {
+                      if (
+                        e instanceof TypeError ||
+                        e?.plasmicType === "PlasmicUndefinedDataError"
+                      ) {
+                        return undefined;
+                      }
+                      throw e;
+                    }
+                  })()}
                 >
                   <DataCtxReader__>
                     {$ctx => (
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.freeBox__m4Wo1
-                        )}
-                      >
-                        <ProductSlider
+                      <React.Fragment>
+                        <div
                           className={classNames(
-                            "__wab_instance",
-                            sty.productSlider___1NJm
+                            projectcss.all,
+                            sty.freeBox__b8Rhe
                           )}
-                          slideContainer={
-                            <DataCtxReader__>
-                              {$ctx => (
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.freeBox___9Nall
-                                  )}
-                                >
-                                  <ProductMedia
-                                    className={classNames(
-                                      "__wab_instance",
-                                      sty.productMedia__ruEbu
-                                    )}
-                                  />
-                                </div>
-                              )}
-                            </DataCtxReader__>
-                          }
-                          slideSelected={0}
-                          thumbsContainer={
-                            <DataCtxReader__>
-                              {$ctx => (
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.freeBox__bEqMn
-                                  )}
-                                >
-                                  <ProductMedia
-                                    className={classNames(
-                                      "__wab_instance",
-                                      sty.productMedia__nbGuD
-                                    )}
-                                  />
-                                </div>
-                              )}
-                            </DataCtxReader__>
-                          }
-                          thumbsVisible={4}
-                        />
+                        >
+                          <ProductMedia
+                            className={classNames(
+                              "__wab_instance",
+                              sty.productMedia__b93Ax
+                            )}
+                          />
 
-                        <ProductSlider
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text___80Nb8
+                            )}
+                          >
+                            <React.Fragment>
+                              {(() => {
+                                try {
+                                  return undefined;
+                                } catch (e) {
+                                  if (
+                                    e instanceof TypeError ||
+                                    e?.plasmicType ===
+                                      "PlasmicUndefinedDataError"
+                                  ) {
+                                    return "";
+                                  }
+                                  throw e;
+                                }
+                              })()}
+                            </React.Fragment>
+                          </div>
+                        </div>
+                        <div
                           className={classNames(
-                            "__wab_instance",
-                            sty.productSlider__x68Zc
+                            projectcss.all,
+                            sty.freeBox__m4Wo1
                           )}
-                          slideContainer={
-                            <DataCtxReader__>
-                              {$ctx => (
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.freeBox__iq887
-                                  )}
-                                >
-                                  <ProductMedia
+                        >
+                          <ProductSlider
+                            data-plasmic-name={"productSlider"}
+                            data-plasmic-override={overrides.productSlider}
+                            className={classNames(
+                              "__wab_instance",
+                              sty.productSlider
+                            )}
+                            slideContainer={
+                              <DataCtxReader__>
+                                {$ctx => (
+                                  <div
                                     className={classNames(
-                                      "__wab_instance",
-                                      sty.productMedia__ivnU6
+                                      projectcss.all,
+                                      sty.freeBox__iq887
                                     )}
-                                  />
-                                </div>
-                              )}
-                            </DataCtxReader__>
-                          }
-                          slideSelected={2}
-                          thumbsContainer={
-                            <DataCtxReader__>
-                              {$ctx => (
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.freeBox__wYEnh
-                                  )}
-                                >
-                                  <ProductMedia
-                                    className={classNames(
-                                      "__wab_instance",
-                                      sty.productMedia__bdQfo
-                                    )}
-                                  />
-                                </div>
-                              )}
-                            </DataCtxReader__>
-                          }
-                          thumbsVisible={4}
-                        />
-
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.columns__wV73K
-                          )}
-                        >
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              sty.column__w5MUh
-                            )}
-                          >
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text__fOcqj
-                              )}
-                            >
-                              {hasVariant(
-                                globalVariants,
-                                "screen",
-                                "mobile"
-                              ) ? (
-                                <React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{
-                                      color: "var(--token-RvPI6LyeIPmd)"
-                                    }}
                                   >
-                                    {"Produk"}
-                                  </span>
-                                </React.Fragment>
-                              ) : (
-                                <React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{
-                                      color: "var(--token-RvPI6LyeIPmd)"
-                                    }}
-                                  >
-                                    {"Produk"}
-                                  </span>
-                                </React.Fragment>
-                              )}
-                            </div>
-                          </div>
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              sty.column__rwWb5
-                            )}
-                          >
-                            <ProductTextField
-                              className={classNames(
-                                "__wab_instance",
-                                sty.productTextField__sgmV6
-                              )}
-                              field={"name"}
-                            />
-                          </div>
-                        </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.columns__zImXx
-                          )}
-                        >
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              sty.column___1Vyi
-                            )}
-                          >
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text__islPy
-                              )}
-                            >
-                              {hasVariant(
-                                globalVariants,
-                                "screen",
-                                "mobile"
-                              ) ? (
-                                <React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{
-                                      color: "var(--token-RvPI6LyeIPmd)"
-                                    }}
-                                  >
-                                    {"Stock"}
-                                  </span>
-                                </React.Fragment>
-                              ) : (
-                                <React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{
-                                      color: "var(--token-RvPI6LyeIPmd)"
-                                    }}
-                                  >
-                                    {"Terjual"}
-                                  </span>
-                                </React.Fragment>
-                              )}
-                            </div>
-                          </div>
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              sty.column__rHchL
-                            )}
-                          >
-                            <ProductTextField
-                              className={classNames(
-                                "__wab_instance",
-                                sty.productTextField___1UkFr
-                              )}
-                              field={"sku"}
-                            />
-                          </div>
-                        </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.columns__pspLy
-                          )}
-                        >
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              sty.column__x5Wnw
-                            )}
-                          >
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text__q6Lw1
-                              )}
-                            >
-                              {hasVariant(
-                                globalVariants,
-                                "screen",
-                                "mobile"
-                              ) ? (
-                                <React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{
-                                      color: "var(--token-RvPI6LyeIPmd)"
-                                    }}
-                                  >
-                                    {"Pengiriman"}
-                                  </span>
-                                </React.Fragment>
-                              ) : (
-                                <React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{
-                                      color: "var(--token-RvPI6LyeIPmd)"
-                                    }}
-                                  >
-                                    {"Varian"}
-                                  </span>
-                                </React.Fragment>
-                              )}
-                            </div>
-                          </div>
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              sty.column__aldzd
-                            )}
-                          >
-                            <ProductVariantPicker
-                              className={classNames(
-                                "__wab_instance",
-                                sty.productVariantPicker__oxlWl
-                              )}
-                            />
-                          </div>
-                        </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.columns__uYc6K
-                          )}
-                        >
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              sty.column__cGrby
-                            )}
-                          >
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text___5Qr5P
-                              )}
-                            >
-                              {hasVariant(
-                                globalVariants,
-                                "screen",
-                                "mobile"
-                              ) ? (
-                                <React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{
-                                      color: "var(--token-RvPI6LyeIPmd)"
-                                    }}
-                                  >
-                                    {"Terjual"}
-                                  </span>
-                                </React.Fragment>
-                              ) : (
-                                <React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{
-                                      color: "var(--token-RvPI6LyeIPmd)"
-                                    }}
-                                  >
-                                    {"Deskripsi produk"}
-                                  </span>
-                                </React.Fragment>
-                              )}
-                            </div>
-                          </div>
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              sty.column__lYgZl
-                            )}
-                          >
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                sty.freeBox__gxdAr
-                              )}
-                            >
-                              <ProductTextField
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.productTextField__iusDm
+                                    <ProductMedia
+                                      className={classNames(
+                                        "__wab_instance",
+                                        sty.productMedia__ivnU6
+                                      )}
+                                    />
+                                  </div>
                                 )}
-                                field={"description"}
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        {(
-                          hasVariant(globalVariants, "screen", "mobile")
-                            ? true
-                            : false
-                        ) ? (
+                              </DataCtxReader__>
+                            }
+                            slideSelected={2}
+                            thumbsContainer={
+                              <DataCtxReader__>
+                                {$ctx => (
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.freeBox__wYEnh
+                                    )}
+                                  >
+                                    <ProductMedia
+                                      className={classNames(
+                                        "__wab_instance",
+                                        sty.productMedia__bdQfo
+                                      )}
+                                    />
+                                  </div>
+                                )}
+                              </DataCtxReader__>
+                            }
+                            thumbsVisible={4}
+                          />
+
                           <div
                             className={classNames(
                               projectcss.all,
-                              sty.columns__kMen
+                              sty.columns__g2ON
                             )}
                           >
                             <div
                               className={classNames(
                                 projectcss.all,
-                                sty.column__pioW5
+                                sty.column__xc3Ix
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
                                   projectcss.__wab_text,
-                                  sty.text__rBeH9
+                                  sty.text__xdQ5X
+                                )}
+                              >
+                                {hasVariant(
+                                  globalVariants,
+                                  "screen",
+                                  "mobile"
+                                ) ? (
+                                  <React.Fragment>
+                                    <span
+                                      className={
+                                        "plasmic_default__all plasmic_default__span"
+                                      }
+                                      style={{
+                                        color: "var(--token-RvPI6LyeIPmd)"
+                                      }}
+                                    >
+                                      {"Stock"}
+                                    </span>
+                                  </React.Fragment>
+                                ) : (
+                                  <React.Fragment>
+                                    <span
+                                      className={
+                                        "plasmic_default__all plasmic_default__span"
+                                      }
+                                      style={{
+                                        color: "var(--token-RvPI6LyeIPmd)"
+                                      }}
+                                    >
+                                      {"Produk"}
+                                    </span>
+                                  </React.Fragment>
+                                )}
+                              </div>
+                            </div>
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                sty.column___719Z0
+                              )}
+                            >
+                              <ProductTextField
+                                className={classNames(
+                                  "__wab_instance",
+                                  sty.productTextField__lz8Xn
+                                )}
+                                field={"name"}
+                              />
+
+                              <ProductTextField
+                                className={classNames(
+                                  "__wab_instance",
+                                  sty.productTextField___1Ccif
+                                )}
+                                field={"sku"}
+                              />
+                            </div>
+                          </div>
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.columns__pspLy
+                            )}
+                          >
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                sty.column__x5Wnw
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__q6Lw1
                                 )}
                               >
                                 {hasVariant(
@@ -1330,7 +1136,7 @@ function PlasmicDetailProduk__RenderFunc(props: {
                                         color: "var(--token-RvPI6LyeIPmd)"
                                       }}
                                     >
-                                      {"Produk"}
+                                      {"Varian"}
                                     </span>
                                   </React.Fragment>
                                 )}
@@ -1339,261 +1145,34 @@ function PlasmicDetailProduk__RenderFunc(props: {
                             <div
                               className={classNames(
                                 projectcss.all,
-                                sty.column__bHqA
+                                sty.column__aldzd
                               )}
                             >
-                              <ProductTextField
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.productTextField__mcfAn
-                                )}
-                                field={"name"}
-                              />
-
-                              <ProductTextField
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.productTextField__zeTtY
-                                )}
-                                field={"description"}
-                              />
-
-                              <ProductQuantity
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.productQuantity__ljsFd
-                                )}
-                              >
-                                <input
-                                  data-plasmic-name={"textbox"}
-                                  data-plasmic-override={overrides.textbox}
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.input,
-                                    sty.textbox
-                                  )}
-                                  onChange={e => {
-                                    generateStateOnChangeProp($state, [
-                                      "textbox",
-                                      "value"
-                                    ])(e.target.value);
-                                  }}
-                                  ref={ref => {
-                                    $refs["textbox"] = ref;
-                                  }}
-                                  size={1}
-                                  type={"text"}
-                                  value={
-                                    generateStateValueProp($state, [
-                                      "textbox",
-                                      "value"
-                                    ]) ?? ""
-                                  }
-                                />
-                              </ProductQuantity>
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__keo1P
-                                )}
-                              >
-                                {"Wahana"}
-                              </div>
-                            </div>
-                          </div>
-                        ) : null}
-                        {(
-                          hasVariant(globalVariants, "screen", "mobile")
-                            ? true
-                            : false
-                        ) ? (
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              sty.columns__b8Clv
-                            )}
-                          >
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                sty.column__r95El
-                              )}
-                            >
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text___3ZSu2
-                                )}
-                              >
-                                {hasVariant(
-                                  globalVariants,
-                                  "screen",
-                                  "mobile"
-                                ) ? (
-                                  <React.Fragment>
-                                    <span
-                                      className={
-                                        "plasmic_default__all plasmic_default__span"
-                                      }
-                                      style={{
-                                        color: "var(--token-RvPI6LyeIPmd)"
-                                      }}
-                                    >
-                                      {"Variasi"}
-                                    </span>
-                                  </React.Fragment>
-                                ) : (
-                                  <React.Fragment>
-                                    <span
-                                      className={
-                                        "plasmic_default__all plasmic_default__span"
-                                      }
-                                      style={{
-                                        color: "var(--token-RvPI6LyeIPmd)"
-                                      }}
-                                    >
-                                      {"Produk"}
-                                    </span>
-                                  </React.Fragment>
-                                )}
-                              </div>
-                            </div>
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                sty.column__xpQZs
-                              )}
-                            >
-                              <ProductTextField
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.productTextField__lqVK
-                                )}
-                                field={"name"}
-                              />
-
-                              <ProductTextField
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.productTextField__j0YAu
-                                )}
-                                field={"description"}
-                              />
-
-                              <ProductQuantity
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.productQuantity___7AOuS
-                                )}
-                              >
-                                <input
-                                  data-plasmic-name={"textbox2"}
-                                  data-plasmic-override={overrides.textbox2}
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.input,
-                                    sty.textbox2
-                                  )}
-                                  disabled={false}
-                                  onChange={e => {
-                                    generateStateOnChangeProp($state, [
-                                      "textbox2",
-                                      "value"
-                                    ])(e.target.value);
-                                  }}
-                                  placeholder={``}
-                                  ref={ref => {
-                                    $refs["textbox2"] = ref;
-                                  }}
-                                  size={1}
-                                  type={"number"}
-                                  value={
-                                    generateStateValueProp($state, [
-                                      "textbox2",
-                                      "value"
-                                    ]) ?? ""
-                                  }
-                                />
-                              </ProductQuantity>
                               <ProductVariantPicker
                                 className={classNames(
                                   "__wab_instance",
-                                  sty.productVariantPicker__oaQm7
+                                  sty.productVariantPicker__oxlWl
                                 )}
                               />
                             </div>
                           </div>
-                        ) : null}
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.columns__gLkIg
-                          )}
-                        >
                           <div
                             className={classNames(
                               projectcss.all,
-                              sty.column__sg6Td
+                              sty.columns__uYc6K
                             )}
                           >
                             <div
                               className={classNames(
                                 projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text__ab5Wm
-                              )}
-                            >
-                              <React.Fragment>
-                                <span
-                                  className={
-                                    "plasmic_default__all plasmic_default__span"
-                                  }
-                                  style={{ color: "var(--token-RvPI6LyeIPmd)" }}
-                                >
-                                  {"Deskripsi produk"}
-                                </span>
-                              </React.Fragment>
-                            </div>
-                          </div>
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              sty.column__cHiVy
-                            )}
-                          >
-                            <ProductTextField
-                              className={classNames(
-                                "__wab_instance",
-                                sty.productTextField__aETi6
-                              )}
-                              field={"description"}
-                            />
-                          </div>
-                        </div>
-                        {(
-                          hasVariant(globalVariants, "screen", "mobile")
-                            ? true
-                            : false
-                        ) ? (
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              sty.columns__mhTz
-                            )}
-                          >
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                sty.column__xbUx9
+                                sty.column__cGrby
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
                                   projectcss.__wab_text,
-                                  sty.text___8SEmt
+                                  sty.text___5Qr5P
                                 )}
                               >
                                 {hasVariant(
@@ -1610,7 +1189,7 @@ function PlasmicDetailProduk__RenderFunc(props: {
                                         color: "var(--token-RvPI6LyeIPmd)"
                                       }}
                                     >
-                                      {"QTY"}
+                                      {"Terjual"}
                                     </span>
                                   </React.Fragment>
                                 ) : (
@@ -1623,7 +1202,7 @@ function PlasmicDetailProduk__RenderFunc(props: {
                                         color: "var(--token-RvPI6LyeIPmd)"
                                       }}
                                     >
-                                      {"Produk"}
+                                      {"Deskripsi produk"}
                                     </span>
                                   </React.Fragment>
                                 )}
@@ -1632,181 +1211,571 @@ function PlasmicDetailProduk__RenderFunc(props: {
                             <div
                               className={classNames(
                                 projectcss.all,
-                                sty.column__vuVg1
+                                sty.column__lYgZl
                               )}
                             >
-                              <ProductTextField
+                              <div
                                 className={classNames(
-                                  "__wab_instance",
-                                  sty.productTextField__y2Dv5
-                                )}
-                                field={"name"}
-                              />
-
-                              <ProductTextField
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.productTextField__qxUxD
-                                )}
-                                field={"description"}
-                              />
-
-                              <ProductQuantity
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.productQuantity__lwOfx
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__xbNn8
                                 )}
                               >
-                                <input
-                                  data-plasmic-name={"textbox4"}
-                                  data-plasmic-override={overrides.textbox4}
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.input,
-                                    sty.textbox4
-                                  )}
-                                  disabled={false}
-                                  onChange={e => {
-                                    generateStateOnChangeProp($state, [
-                                      "textbox4",
-                                      "value"
-                                    ])(e.target.value);
-                                  }}
-                                  placeholder={``}
-                                  ref={ref => {
-                                    $refs["textbox4"] = ref;
-                                  }}
-                                  size={1}
-                                  type={"number"}
-                                  value={
-                                    generateStateValueProp($state, [
-                                      "textbox4",
-                                      "value"
-                                    ]) ?? ""
-                                  }
-                                />
-                              </ProductQuantity>
+                                <React.Fragment>
+                                  {(() => {
+                                    try {
+                                      return $ctx.currentProduct.description;
+                                    } catch (e) {
+                                      if (
+                                        e instanceof TypeError ||
+                                        e?.plasmicType ===
+                                          "PlasmicUndefinedDataError"
+                                      ) {
+                                        return "";
+                                      }
+                                      throw e;
+                                    }
+                                  })()}
+                                </React.Fragment>
+                              </div>
                             </div>
                           </div>
-                        ) : null}
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.columns___00Xsf
-                          )}
-                        >
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              sty.column__zdKd
-                            )}
-                          >
+                          {(
+                            hasVariant(globalVariants, "screen", "mobile")
+                              ? true
+                              : false
+                          ) ? (
                             <div
                               className={classNames(
                                 projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text___5YoHj
+                                sty.columns__kMen
                               )}
                             >
-                              <React.Fragment>
-                                <span
-                                  className={
-                                    "plasmic_default__all plasmic_default__span"
-                                  }
-                                  style={{ color: "rgba(0, 0, 0, 0.85)" }}
-                                >
-                                  {"Harga"}
-                                </span>
-                              </React.Fragment>
-                            </div>
-                          </div>
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              sty.column__xczD6
-                            )}
-                          >
-                            <ProductPriceComponent
-                              data-plasmic-name={"productPrice"}
-                              data-plasmic-override={overrides.productPrice}
-                              className={classNames(
-                                "__wab_instance",
-                                sty.productPrice
-                              )}
-                            />
-                          </div>
-                        </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.columns__ubgA4
-                          )}
-                        >
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              sty.column___60Vx
-                            )}
-                          >
-                            <AddToCartButton
-                              data-plasmic-name={"addToCartButton"}
-                              data-plasmic-override={overrides.addToCartButton}
-                              className={classNames(
-                                "__wab_instance",
-                                sty.addToCartButton
-                              )}
-                            >
-                              <button
+                              <div
                                 className={classNames(
                                   projectcss.all,
-                                  projectcss.button,
-                                  sty.button__y7HNy
+                                  sty.column__pioW5
                                 )}
                               >
                                 <div
                                   className={classNames(
                                     projectcss.all,
                                     projectcss.__wab_text,
-                                    sty.text___098G6
+                                    sty.text__rBeH9
                                   )}
                                 >
-                                  {"Keranjang"}
+                                  {hasVariant(
+                                    globalVariants,
+                                    "screen",
+                                    "mobile"
+                                  ) ? (
+                                    <React.Fragment>
+                                      <span
+                                        className={
+                                          "plasmic_default__all plasmic_default__span"
+                                        }
+                                        style={{
+                                          color: "var(--token-RvPI6LyeIPmd)"
+                                        }}
+                                      >
+                                        {"Pengiriman"}
+                                      </span>
+                                    </React.Fragment>
+                                  ) : (
+                                    <React.Fragment>
+                                      <span
+                                        className={
+                                          "plasmic_default__all plasmic_default__span"
+                                        }
+                                        style={{
+                                          color: "var(--token-RvPI6LyeIPmd)"
+                                        }}
+                                      >
+                                        {"Produk"}
+                                      </span>
+                                    </React.Fragment>
+                                  )}
                                 </div>
-                              </button>
-                            </AddToCartButton>
+                              </div>
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.column__bHqA
+                                )}
+                              >
+                                <ProductTextField
+                                  className={classNames(
+                                    "__wab_instance",
+                                    sty.productTextField__mcfAn
+                                  )}
+                                  field={"name"}
+                                />
+
+                                <ProductTextField
+                                  className={classNames(
+                                    "__wab_instance",
+                                    sty.productTextField__zeTtY
+                                  )}
+                                  field={"description"}
+                                />
+
+                                <ProductQuantity
+                                  className={classNames(
+                                    "__wab_instance",
+                                    sty.productQuantity__ljsFd
+                                  )}
+                                >
+                                  <input
+                                    data-plasmic-name={"textbox"}
+                                    data-plasmic-override={overrides.textbox}
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.input,
+                                      sty.textbox
+                                    )}
+                                    onChange={e => {
+                                      generateStateOnChangeProp($state, [
+                                        "textbox",
+                                        "value"
+                                      ])(e.target.value);
+                                    }}
+                                    ref={ref => {
+                                      $refs["textbox"] = ref;
+                                    }}
+                                    size={1}
+                                    type={"text"}
+                                    value={
+                                      generateStateValueProp($state, [
+                                        "textbox",
+                                        "value"
+                                      ]) ?? ""
+                                    }
+                                  />
+                                </ProductQuantity>
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__keo1P
+                                  )}
+                                >
+                                  {"Wahana"}
+                                </div>
+                              </div>
+                            </div>
+                          ) : null}
+                          {(
+                            hasVariant(globalVariants, "screen", "mobile")
+                              ? true
+                              : false
+                          ) ? (
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                sty.columns__b8Clv
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.column__r95El
+                                )}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text___3ZSu2
+                                  )}
+                                >
+                                  {hasVariant(
+                                    globalVariants,
+                                    "screen",
+                                    "mobile"
+                                  ) ? (
+                                    <React.Fragment>
+                                      <span
+                                        className={
+                                          "plasmic_default__all plasmic_default__span"
+                                        }
+                                        style={{
+                                          color: "var(--token-RvPI6LyeIPmd)"
+                                        }}
+                                      >
+                                        {"Variasi"}
+                                      </span>
+                                    </React.Fragment>
+                                  ) : (
+                                    <React.Fragment>
+                                      <span
+                                        className={
+                                          "plasmic_default__all plasmic_default__span"
+                                        }
+                                        style={{
+                                          color: "var(--token-RvPI6LyeIPmd)"
+                                        }}
+                                      >
+                                        {"Produk"}
+                                      </span>
+                                    </React.Fragment>
+                                  )}
+                                </div>
+                              </div>
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.column__xpQZs
+                                )}
+                              >
+                                <ProductTextField
+                                  className={classNames(
+                                    "__wab_instance",
+                                    sty.productTextField__lqVK
+                                  )}
+                                  field={"name"}
+                                />
+
+                                <ProductTextField
+                                  className={classNames(
+                                    "__wab_instance",
+                                    sty.productTextField__j0YAu
+                                  )}
+                                  field={"description"}
+                                />
+
+                                <ProductQuantity
+                                  className={classNames(
+                                    "__wab_instance",
+                                    sty.productQuantity___7AOuS
+                                  )}
+                                >
+                                  <input
+                                    data-plasmic-name={"textbox2"}
+                                    data-plasmic-override={overrides.textbox2}
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.input,
+                                      sty.textbox2
+                                    )}
+                                    disabled={false}
+                                    onChange={e => {
+                                      generateStateOnChangeProp($state, [
+                                        "textbox2",
+                                        "value"
+                                      ])(e.target.value);
+                                    }}
+                                    placeholder={``}
+                                    ref={ref => {
+                                      $refs["textbox2"] = ref;
+                                    }}
+                                    size={1}
+                                    type={"number"}
+                                    value={
+                                      generateStateValueProp($state, [
+                                        "textbox2",
+                                        "value"
+                                      ]) ?? ""
+                                    }
+                                  />
+                                </ProductQuantity>
+                                <ProductVariantPicker
+                                  className={classNames(
+                                    "__wab_instance",
+                                    sty.productVariantPicker__oaQm7
+                                  )}
+                                />
+                              </div>
+                            </div>
+                          ) : null}
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.columns__gLkIg
+                            )}
+                          >
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                sty.column__sg6Td
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__ab5Wm
+                                )}
+                              >
+                                <React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{
+                                      color: "var(--token-RvPI6LyeIPmd)"
+                                    }}
+                                  >
+                                    {"Deskripsi produk"}
+                                  </span>
+                                </React.Fragment>
+                              </div>
+                            </div>
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                sty.column__cHiVy
+                              )}
+                            >
+                              <ProductTextField
+                                className={classNames(
+                                  "__wab_instance",
+                                  sty.productTextField__aETi6
+                                )}
+                                field={"description"}
+                              />
+                            </div>
+                          </div>
+                          {(
+                            hasVariant(globalVariants, "screen", "mobile")
+                              ? true
+                              : false
+                          ) ? (
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                sty.columns__mhTz
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.column__xbUx9
+                                )}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text___8SEmt
+                                  )}
+                                >
+                                  {hasVariant(
+                                    globalVariants,
+                                    "screen",
+                                    "mobile"
+                                  ) ? (
+                                    <React.Fragment>
+                                      <span
+                                        className={
+                                          "plasmic_default__all plasmic_default__span"
+                                        }
+                                        style={{
+                                          color: "var(--token-RvPI6LyeIPmd)"
+                                        }}
+                                      >
+                                        {"QTY"}
+                                      </span>
+                                    </React.Fragment>
+                                  ) : (
+                                    <React.Fragment>
+                                      <span
+                                        className={
+                                          "plasmic_default__all plasmic_default__span"
+                                        }
+                                        style={{
+                                          color: "var(--token-RvPI6LyeIPmd)"
+                                        }}
+                                      >
+                                        {"Produk"}
+                                      </span>
+                                    </React.Fragment>
+                                  )}
+                                </div>
+                              </div>
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.column__vuVg1
+                                )}
+                              >
+                                <ProductTextField
+                                  className={classNames(
+                                    "__wab_instance",
+                                    sty.productTextField__y2Dv5
+                                  )}
+                                  field={"name"}
+                                />
+
+                                <ProductTextField
+                                  className={classNames(
+                                    "__wab_instance",
+                                    sty.productTextField__qxUxD
+                                  )}
+                                  field={"description"}
+                                />
+
+                                <ProductQuantity
+                                  className={classNames(
+                                    "__wab_instance",
+                                    sty.productQuantity__lwOfx
+                                  )}
+                                >
+                                  <input
+                                    data-plasmic-name={"textbox4"}
+                                    data-plasmic-override={overrides.textbox4}
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.input,
+                                      sty.textbox4
+                                    )}
+                                    disabled={false}
+                                    onChange={e => {
+                                      generateStateOnChangeProp($state, [
+                                        "textbox4",
+                                        "value"
+                                      ])(e.target.value);
+                                    }}
+                                    placeholder={``}
+                                    ref={ref => {
+                                      $refs["textbox4"] = ref;
+                                    }}
+                                    size={1}
+                                    type={"number"}
+                                    value={
+                                      generateStateValueProp($state, [
+                                        "textbox4",
+                                        "value"
+                                      ]) ?? ""
+                                    }
+                                  />
+                                </ProductQuantity>
+                              </div>
+                            </div>
+                          ) : null}
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.columns___00Xsf
+                            )}
+                          >
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                sty.column__zdKd
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text___5YoHj
+                                )}
+                              >
+                                <React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ color: "rgba(0, 0, 0, 0.85)" }}
+                                  >
+                                    {"Harga"}
+                                  </span>
+                                </React.Fragment>
+                              </div>
+                            </div>
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                sty.column__xczD6
+                              )}
+                            >
+                              <ProductPriceComponent
+                                data-plasmic-name={"productPrice"}
+                                data-plasmic-override={overrides.productPrice}
+                                className={classNames(
+                                  "__wab_instance",
+                                  sty.productPrice
+                                )}
+                              />
+                            </div>
                           </div>
                           <div
                             className={classNames(
                               projectcss.all,
-                              sty.column__aiAsH
+                              sty.columns__ubgA4
                             )}
                           >
-                            <Button2
-                              data-plasmic-name={"button2"}
-                              data-plasmic-override={overrides.button2}
+                            <div
                               className={classNames(
-                                "__wab_instance",
-                                sty.button2
+                                projectcss.all,
+                                sty.column___60Vx
                               )}
-                              size={
-                                hasVariant(globalVariants, "screen", "mobile")
-                                  ? "compact"
-                                  : "compact"
-                              }
                             >
-                              {hasVariant(globalVariants, "screen", "mobile")
-                                ? "Beli"
-                                : "Beli"}
-                            </Button2>
+                              <AddToCartButton
+                                data-plasmic-name={"addToCartButton"}
+                                data-plasmic-override={
+                                  overrides.addToCartButton
+                                }
+                                className={classNames(
+                                  "__wab_instance",
+                                  sty.addToCartButton
+                                )}
+                              >
+                                <button
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.button,
+                                    sty.button__y7HNy
+                                  )}
+                                  onClick={async event => {
+                                    const $steps = {};
+                                  }}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text___098G6
+                                    )}
+                                  >
+                                    {"Keranjang"}
+                                  </div>
+                                </button>
+                              </AddToCartButton>
+                            </div>
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                sty.column__aiAsH
+                              )}
+                            >
+                              <Button2
+                                data-plasmic-name={"button2"}
+                                data-plasmic-override={overrides.button2}
+                                className={classNames(
+                                  "__wab_instance",
+                                  sty.button2
+                                )}
+                                size={
+                                  hasVariant(globalVariants, "screen", "mobile")
+                                    ? "compact"
+                                    : "compact"
+                                }
+                              >
+                                {hasVariant(globalVariants, "screen", "mobile")
+                                  ? "Beli"
+                                  : "Beli"}
+                              </Button2>
+                            </div>
                           </div>
+                          <ProductVariantPicker
+                            className={classNames(
+                              "__wab_instance",
+                              sty.productVariantPicker___0Crx0
+                            )}
+                          />
                         </div>
-                        <ProductVariantPicker
-                          className={classNames(
-                            "__wab_instance",
-                            sty.productVariantPicker___0Crx0
-                          )}
-                        />
-                      </div>
+                      </React.Fragment>
                     )}
                   </DataCtxReader__>
                 </ProductBox>
@@ -2102,6 +2071,7 @@ const PlasmicDescendants = {
     "link6",
     "sliderCarousel",
     "productBox",
+    "productSlider",
     "textbox",
     "textbox2",
     "textbox4",
@@ -2130,6 +2100,7 @@ const PlasmicDescendants = {
   sliderCarousel: ["sliderCarousel"],
   productBox: [
     "productBox",
+    "productSlider",
     "textbox",
     "textbox2",
     "textbox4",
@@ -2137,6 +2108,7 @@ const PlasmicDescendants = {
     "addToCartButton",
     "button2"
   ],
+  productSlider: ["productSlider"],
   textbox: ["textbox"],
   textbox2: ["textbox2"],
   textbox4: ["textbox4"],
@@ -2161,6 +2133,7 @@ type NodeDefaultElementType = {
   link6: typeof Link6;
   sliderCarousel: typeof SliderWrapper;
   productBox: typeof ProductBox;
+  productSlider: typeof ProductSlider;
   textbox: "input";
   textbox2: "input";
   textbox4: "input";
@@ -2283,6 +2256,7 @@ export const PlasmicDetailProduk = Object.assign(
     link6: makeNodeComponent("link6"),
     sliderCarousel: makeNodeComponent("sliderCarousel"),
     productBox: makeNodeComponent("productBox"),
+    productSlider: makeNodeComponent("productSlider"),
     textbox: makeNodeComponent("textbox"),
     textbox2: makeNodeComponent("textbox2"),
     textbox4: makeNodeComponent("textbox4"),

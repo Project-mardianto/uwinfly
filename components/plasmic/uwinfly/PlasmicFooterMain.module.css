@@ -255,75 +255,64 @@
   font-weight: 500;
 }
 .link__iBkUw {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  color: var(--token-dMoyXbO7yWwG);
-  line-height: 1.6;
+  position: relative;
   width: 100%;
   height: auto;
   max-width: 556px;
-  position: relative;
+  padding-bottom: 0px;
+  padding-right: 0px;
   left: auto;
   top: auto;
+  color: #535353;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 8px;
+  font-weight: 300;
   min-width: 0;
-  padding: 0px;
-  margin: 0px 0px 8px;
 }
 .link__pnby8 {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  color: #535353;
-  line-height: 1.6;
   width: 100%;
   height: auto;
   max-width: 800px;
   align-self: flex-start;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 8px;
+  color: #535353;
+  font-weight: 300;
   min-width: 0;
-  padding: 0px;
-  margin: 0px 0px 8px;
 }
 .link___3XnM6 {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  color: #535353;
-  line-height: 1.6;
   width: 100%;
   height: auto;
   max-width: 800px;
+  padding-left: 0px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 8px;
+  color: #535353;
+  font-weight: 300;
   min-width: 0;
-  padding: 0px;
-  margin: 0px 0px 8px;
 }
 .link__imSqX {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  color: #535353;
-  line-height: 1.6;
+  position: relative;
   width: 100%;
   height: auto;
   max-width: 800px;
-  position: relative;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 8px;
+  color: #535353;
+  font-weight: 300;
   min-width: 0;
-  padding: 0px;
-  margin: 0px 0px 8px;
 }
 .link__xtWoK {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  color: #535353;
-  line-height: 1.6;
-  width: 100%;
-  height: auto;
-  max-width: 800px;
   position: relative;
+  height: auto;
+  width: 100%;
+  max-width: 800px;
+  padding-bottom: 0px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 8px;
+  color: #535353;
+  font-weight: 300;
   min-width: 0;
-  padding: 0px;
-  margin: 0px 0px 8px;
 }
 .colmn3 {
   display: flex;

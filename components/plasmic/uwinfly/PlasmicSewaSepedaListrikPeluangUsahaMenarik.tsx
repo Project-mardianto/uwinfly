@@ -488,6 +488,7 @@ function PlasmicSewaSepedaListrikPeluangUsahaMenarik__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__ub8Oh)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__rqKm2)}
+                  link={`/Lokasi`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -567,6 +568,7 @@ function PlasmicSewaSepedaListrikPeluangUsahaMenarik__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__ew2EX)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__agUgm)}
+                  link={`/Lokasi`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon

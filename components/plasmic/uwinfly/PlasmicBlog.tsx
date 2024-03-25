@@ -472,6 +472,7 @@ function PlasmicBlog__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__je27F)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__vAse0)}
+                  link={`/Lokasi`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -551,6 +552,7 @@ function PlasmicBlog__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__cMkok)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__kxVwC)}
+                  link={`/Lokasi`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon

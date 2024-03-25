@@ -477,6 +477,7 @@ function PlasmicValidasiMessage__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__oxqeS)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__prmQp)}
+                  link={`/Lokasi`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -556,6 +557,7 @@ function PlasmicValidasiMessage__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__lrlZ)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__fzn6L)}
+                  link={`/Lokasi`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon

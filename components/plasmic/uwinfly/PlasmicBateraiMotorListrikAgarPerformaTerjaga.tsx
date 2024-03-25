@@ -490,6 +490,7 @@ function PlasmicBateraiMotorListrikAgarPerformaTerjaga__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__biTVe)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__uJfmq)}
+                  link={`/Lokasi`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -569,6 +570,7 @@ function PlasmicBateraiMotorListrikAgarPerformaTerjaga__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__fHYjM)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__wVqy5)}
+                  link={`/Lokasi`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon

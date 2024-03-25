@@ -490,6 +490,7 @@ function Plasmic_6PerbedaanMotorListrikDanSepedaListrik__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__z3YPm)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__rjuy0)}
+                  link={`/Lokasi`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -569,6 +570,7 @@ function Plasmic_6PerbedaanMotorListrikDanSepedaListrik__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__pbVir)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__lc2Qi)}
+                  link={`/Lokasi`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon

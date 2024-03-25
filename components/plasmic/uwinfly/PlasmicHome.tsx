@@ -568,6 +568,7 @@ function PlasmicHome__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__m7E9G)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__xgVaD)}
+                  link={`/Lokasi`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -647,6 +648,7 @@ function PlasmicHome__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__urvrv)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__sniwF)}
+                  link={`/Lokasi`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon

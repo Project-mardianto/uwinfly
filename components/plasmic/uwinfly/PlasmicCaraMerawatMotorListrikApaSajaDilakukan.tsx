@@ -490,6 +490,7 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__jjvbr)}>
                 <Button
                   className={classNames("__wab_instance", sty.button___3Fs7L)}
+                  link={`/Lokasi`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -569,6 +570,7 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__ef8ZL)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__h3Sft)}
+                  link={`/Lokasi`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
