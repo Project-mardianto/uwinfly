@@ -477,7 +477,7 @@ function PlasmicApaSajaSparepartMotorListrik__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column___2ZQi8)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__d4Is1)}
-                  link={`/Lokasi`}
+                  link={`/Service`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -486,7 +486,7 @@ function PlasmicApaSajaSparepartMotorListrik__RenderFunc(props: {
                     />
                   }
                 >
-                  {"Lokasi"}
+                  {"Service"}
                 </Button>
               </div>
             </Stack__>
@@ -557,7 +557,7 @@ function PlasmicApaSajaSparepartMotorListrik__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__hj24C)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__exgfM)}
-                  link={`/Lokasi`}
+                  link={`/Service`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -573,7 +573,7 @@ function PlasmicApaSajaSparepartMotorListrik__RenderFunc(props: {
                       sty.text__zyB3
                     )}
                   >
-                    {"Lokasi"}
+                    {"Service"}
                   </div>
                 </Button>
               </div>

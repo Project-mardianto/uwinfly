@@ -527,7 +527,7 @@ function PlasmicMitra__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__gitkq)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__fTbfn)}
-                  link={`/Lokasi`}
+                  link={`/Service`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -536,7 +536,7 @@ function PlasmicMitra__RenderFunc(props: {
                     />
                   }
                 >
-                  {"Lokasi"}
+                  {"Service"}
                 </Button>
               </div>
             </Stack__>
@@ -607,7 +607,7 @@ function PlasmicMitra__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__gRgWm)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__ne7Z3)}
-                  link={`/Lokasi`}
+                  link={`/Service`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -623,7 +623,7 @@ function PlasmicMitra__RenderFunc(props: {
                       sty.text__qets8
                     )}
                   >
-                    {"Lokasi"}
+                    {"Service"}
                   </div>
                 </Button>
               </div>

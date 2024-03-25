@@ -1509,17 +1509,17 @@
         },
         {
           "id": "X1GyF0D52ux8",
-          "name": "Lokasi",
+          "name": "Service",
           "type": "managed",
           "projectId": "iWaiTLt8mAup4ReehswsSx",
-          "renderModuleFilePath": "plasmic/uwinfly/PlasmicLokasi.tsx",
+          "renderModuleFilePath": "plasmic/uwinfly/PlasmicService.tsx",
           "importSpec": {
-            "modulePath": "../pages/Lokasi.tsx"
+            "modulePath": "../pages/Service.tsx"
           },
-          "cssFilePath": "plasmic/uwinfly/PlasmicLokasi.module.css",
+          "cssFilePath": "plasmic/uwinfly/PlasmicService.module.css",
           "scheme": "blackbox",
           "componentType": "page",
-          "path": "/Lokasi"
+          "path": "/Service"
         }
       ],
       "icons": [

@@ -522,7 +522,7 @@ function PlasmicProduk__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__craav)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__nyv3U)}
-                  link={`/Lokasi`}
+                  link={`/Service`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -531,7 +531,7 @@ function PlasmicProduk__RenderFunc(props: {
                     />
                   }
                 >
-                  {"Lokasi"}
+                  {"Service"}
                 </Button>
               </div>
             </Stack__>
@@ -602,7 +602,7 @@ function PlasmicProduk__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column___1DxJ)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__hPeAz)}
-                  link={`/Lokasi`}
+                  link={`/Service`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -618,7 +618,7 @@ function PlasmicProduk__RenderFunc(props: {
                       sty.text__lxUqH
                     )}
                   >
-                    {"Lokasi"}
+                    {"Service"}
                   </div>
                 </Button>
               </div>

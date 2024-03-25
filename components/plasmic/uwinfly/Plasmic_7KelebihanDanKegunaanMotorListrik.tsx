@@ -482,7 +482,7 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__poo08)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__v43UJ)}
-                  link={`/Lokasi`}
+                  link={`/Service`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -491,7 +491,7 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
                     />
                   }
                 >
-                  {"Lokasi"}
+                  {"Service"}
                 </Button>
               </div>
             </Stack__>
@@ -562,7 +562,7 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__oomDw)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__hnxHp)}
-                  link={`/Lokasi`}
+                  link={`/Service`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -578,7 +578,7 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
                       sty.text___3WTi
                     )}
                   >
-                    {"Lokasi"}
+                    {"Service"}
                   </div>
                 </Button>
               </div>

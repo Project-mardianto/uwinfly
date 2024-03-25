@@ -501,7 +501,7 @@ function PlasmicBaruSajaBeliMotorListrikCatat5TipsUtamaMerawatMotorListrikIni__R
               <div className={classNames(projectcss.all, sty.column__fJ46)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__fhG60)}
-                  link={`/Lokasi`}
+                  link={`/Service`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -510,7 +510,7 @@ function PlasmicBaruSajaBeliMotorListrikCatat5TipsUtamaMerawatMotorListrikIni__R
                     />
                   }
                 >
-                  {"Lokasi"}
+                  {"Service"}
                 </Button>
               </div>
             </Stack__>
@@ -581,7 +581,7 @@ function PlasmicBaruSajaBeliMotorListrikCatat5TipsUtamaMerawatMotorListrikIni__R
               <div className={classNames(projectcss.all, sty.column__dKLzq)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__fnBx)}
-                  link={`/Lokasi`}
+                  link={`/Service`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -597,7 +597,7 @@ function PlasmicBaruSajaBeliMotorListrikCatat5TipsUtamaMerawatMotorListrikIni__R
                       sty.text__vmIao
                     )}
                   >
-                    {"Lokasi"}
+                    {"Service"}
                   </div>
                 </Button>
               </div>

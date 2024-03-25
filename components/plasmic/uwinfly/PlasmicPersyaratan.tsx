@@ -509,7 +509,7 @@ function PlasmicPersyaratan__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__xCHkH)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__jbMPv)}
-                  link={`/Lokasi`}
+                  link={`/Service`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -525,7 +525,7 @@ function PlasmicPersyaratan__RenderFunc(props: {
                       sty.text__antRt
                     )}
                   >
-                    {"Lokasi"}
+                    {"Service"}
                   </div>
                 </Button>
               </div>
@@ -619,7 +619,7 @@ function PlasmicPersyaratan__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column___8MwJ)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__uz45)}
-                  link={`/Lokasi`}
+                  link={`/Service`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -628,7 +628,7 @@ function PlasmicPersyaratan__RenderFunc(props: {
                     />
                   }
                 >
-                  {"Lokasi"}
+                  {"Service"}
                 </Button>
               </div>
             </Stack__>

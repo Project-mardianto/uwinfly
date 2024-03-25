@@ -538,7 +538,7 @@ function PlasmicDetailProduk__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__k9HfW)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__f1Xm5)}
-                  link={`/Lokasi`}
+                  link={`/Service`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -547,7 +547,7 @@ function PlasmicDetailProduk__RenderFunc(props: {
                     />
                   }
                 >
-                  {"Lokasi"}
+                  {"Service"}
                 </Button>
               </div>
             </Stack__>
@@ -617,7 +617,7 @@ function PlasmicDetailProduk__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__wbVd4)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__vymtX)}
-                  link={`/Lokasi`}
+                  link={`/Service`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -633,7 +633,7 @@ function PlasmicDetailProduk__RenderFunc(props: {
                       sty.text__rwcff
                     )}
                   >
-                    {"Lokasi"}
+                    {"Service"}
                   </div>
                 </Button>
               </div>

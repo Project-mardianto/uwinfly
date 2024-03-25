@@ -490,7 +490,7 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__jjvbr)}>
                 <Button
                   className={classNames("__wab_instance", sty.button___3Fs7L)}
-                  link={`/Lokasi`}
+                  link={`/Service`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -499,7 +499,7 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
                     />
                   }
                 >
-                  {"Lokasi"}
+                  {"Service"}
                 </Button>
               </div>
             </Stack__>
@@ -570,7 +570,7 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__ef8ZL)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__h3Sft)}
-                  link={`/Lokasi`}
+                  link={`/Service`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -586,7 +586,7 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
                       sty.text__wKXf6
                     )}
                   >
-                    {"Lokasi"}
+                    {"Service"}
                   </div>
                 </Button>
               </div>

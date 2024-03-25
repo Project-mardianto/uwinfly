@@ -358,7 +358,7 @@ function PlasmicFooterMain__RenderFunc(props: {
                 sty.link__xtWoK
               )}
               component={Link}
-              href={`/Lokasi`}
+              href={`/Service`}
               platform={"nextjs"}
             >
               {"Lokasi\n"}

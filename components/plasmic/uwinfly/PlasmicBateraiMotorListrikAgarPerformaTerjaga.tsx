@@ -490,7 +490,7 @@ function PlasmicBateraiMotorListrikAgarPerformaTerjaga__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__biTVe)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__uJfmq)}
-                  link={`/Lokasi`}
+                  link={`/Service`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -499,7 +499,7 @@ function PlasmicBateraiMotorListrikAgarPerformaTerjaga__RenderFunc(props: {
                     />
                   }
                 >
-                  {"Lokasi"}
+                  {"Service"}
                 </Button>
               </div>
             </Stack__>
@@ -570,7 +570,7 @@ function PlasmicBateraiMotorListrikAgarPerformaTerjaga__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__fHYjM)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__wVqy5)}
-                  link={`/Lokasi`}
+                  link={`/Service`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -586,7 +586,7 @@ function PlasmicBateraiMotorListrikAgarPerformaTerjaga__RenderFunc(props: {
                       sty.text__lOf1F
                     )}
                   >
-                    {"Lokasi"}
+                    {"Service"}
                   </div>
                 </Button>
               </div>

@@ -476,7 +476,7 @@ function PlasmicAboutUs__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__twkYo)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__qfUx6)}
-                  link={`/Lokasi`}
+                  link={`/Service`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -485,7 +485,7 @@ function PlasmicAboutUs__RenderFunc(props: {
                     />
                   }
                 >
-                  {"Lokasi"}
+                  {"Service"}
                 </Button>
               </div>
             </Stack__>
@@ -556,7 +556,7 @@ function PlasmicAboutUs__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__eThf4)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__ihFq9)}
-                  link={`/Lokasi`}
+                  link={`/Service`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -572,7 +572,7 @@ function PlasmicAboutUs__RenderFunc(props: {
                       sty.text__qG5YO
                     )}
                   >
-                    {"Lokasi"}
+                    {"Service"}
                   </div>
                 </Button>
               </div>

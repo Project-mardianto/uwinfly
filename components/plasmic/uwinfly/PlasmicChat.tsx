@@ -504,7 +504,7 @@ function PlasmicChat__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__aRkju)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__xpSyv)}
-                  link={`/Lokasi`}
+                  link={`/Service`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -513,7 +513,7 @@ function PlasmicChat__RenderFunc(props: {
                     />
                   }
                 >
-                  {"Lokasi"}
+                  {"Service"}
                 </Button>
               </div>
             </Stack__>
@@ -584,7 +584,7 @@ function PlasmicChat__RenderFunc(props: {
               <div className={classNames(projectcss.all, sty.column__t6GrU)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__snMd9)}
-                  link={`/Lokasi`}
+                  link={`/Service`}
                   showStartIcon={true}
                   startIcon={
                     <PinsvgIcon
@@ -600,7 +600,7 @@ function PlasmicChat__RenderFunc(props: {
                       sty.text__c32D
                     )}
                   >
-                    {"Lokasi"}
+                    {"Service"}
                   </div>
                 </Button>
               </div>
