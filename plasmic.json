@@ -1657,6 +1657,31 @@
           "id": "eybPFtSD3Jk4",
           "name": "_2987919AisvgIcon",
           "moduleFilePath": "plasmic/uwinfly/icons/PlasmicIcon___2987919Aisvg.tsx"
+        },
+        {
+          "id": "4-iW2s-TZvIB",
+          "name": "ServicesvgIcon",
+          "moduleFilePath": "plasmic/uwinfly/icons/PlasmicIcon__Servicesvg.tsx"
+        },
+        {
+          "id": "uXoT165k6q5f",
+          "name": "Service1SvgIcon",
+          "moduleFilePath": "plasmic/uwinfly/icons/PlasmicIcon__Service1Svg.tsx"
+        },
+        {
+          "id": "jSIjzQBU6L2D",
+          "name": "Service2SvgIcon",
+          "moduleFilePath": "plasmic/uwinfly/icons/PlasmicIcon__Service2Svg.tsx"
+        },
+        {
+          "id": "YubMcpXuPk_l",
+          "name": "Service3SvgIcon",
+          "moduleFilePath": "plasmic/uwinfly/icons/PlasmicIcon__Service3Svg.tsx"
+        },
+        {
+          "id": "D5R2P6rvD6M4",
+          "name": "Service4SvgIcon",
+          "moduleFilePath": "plasmic/uwinfly/icons/PlasmicIcon__Service4Svg.tsx"
         }
       ],
       "images": [

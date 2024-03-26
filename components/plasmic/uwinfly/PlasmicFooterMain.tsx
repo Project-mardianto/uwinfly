@@ -307,7 +307,7 @@ function PlasmicFooterMain__RenderFunc(props: {
                 sty.link__iBkUw
               )}
               component={Link}
-              href={`/persyaratan`}
+              href={`/Produk`}
               platform={"nextjs"}
             >
               {"Best seller"}
@@ -320,7 +320,7 @@ function PlasmicFooterMain__RenderFunc(props: {
                 sty.link__pnby8
               )}
               component={Link}
-              href={`/about-us`}
+              href={`/Produk`}
               platform={"nextjs"}
             >
               {"Produk"}
@@ -335,7 +335,7 @@ function PlasmicFooterMain__RenderFunc(props: {
               component={Link}
               platform={"nextjs"}
             >
-              {"Sparepart"}
+              {"Promo"}
             </PlasmicLink__>
             <PlasmicLink__
               className={classNames(
@@ -345,23 +345,10 @@ function PlasmicFooterMain__RenderFunc(props: {
                 sty.link__imSqX
               )}
               component={Link}
-              href={"#"}
-              platform={"nextjs"}
-            >
-              {"Services "}
-            </PlasmicLink__>
-            <PlasmicLink__
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                projectcss.__wab_text,
-                sty.link__xtWoK
-              )}
-              component={Link}
               href={`/Service`}
               platform={"nextjs"}
             >
-              {"Lokasi\n"}
+              {"Services "}
             </PlasmicLink__>
           </div>
           <div
