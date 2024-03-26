@@ -1458,8 +1458,8 @@
   justify-self: flex-start;
   height: 358px;
   margin-bottom: 0px;
-  grid-column-start: 1 !important;
-  grid-column-end: -1 !important;
+  grid-column-start: 3 !important;
+  grid-column-end: -3 !important;
 }
 .section__laDMx {
   display: grid;
@@ -1595,8 +1595,8 @@
   margin-top: 0px;
   height: 718px;
   margin-bottom: 0px;
-  grid-column-start: 1 !important;
-  grid-column-end: -1 !important;
+  justify-self: flex-start;
+  min-width: 0;
 }
 .freeBox__gA2Br {
   display: flex;
