@@ -1682,6 +1682,11 @@
           "id": "D5R2P6rvD6M4",
           "name": "Service4SvgIcon",
           "moduleFilePath": "plasmic/uwinfly/icons/PlasmicIcon__Service4Svg.tsx"
+        },
+        {
+          "id": "ZBTReqOjVgHb",
+          "name": "Service5SvgIcon",
+          "moduleFilePath": "plasmic/uwinfly/icons/PlasmicIcon__Service5Svg.tsx"
         }
       ],
       "images": [

@@ -101,7 +101,7 @@ import MotorcyclesvgIcon from "./icons/PlasmicIcon__Motorcyclesvg"; // plasmic-i
 import PinsvgIcon from "./icons/PlasmicIcon__Pinsvg"; // plasmic-import: d5Rc8pnBZxlJ/icon
 import ArrowLeftSvgrepoComsvgIcon from "./icons/PlasmicIcon__ArrowLeftSvgrepoComsvg"; // plasmic-import: n23QXdz0xMhj/icon
 import ArrowOpenRightSvgrepoComsvgIcon from "./icons/PlasmicIcon__ArrowOpenRightSvgrepoComsvg"; // plasmic-import: bseFrujWYX3A/icon
-import Service4SvgIcon from "./icons/PlasmicIcon__Service4Svg"; // plasmic-import: D5R2P6rvD6M4/icon
+import Service5SvgIcon from "./icons/PlasmicIcon__Service5Svg"; // plasmic-import: ZBTReqOjVgHb/icon
 import Home8SvgrepoComsvgIcon from "./icons/PlasmicIcon__Home8SvgrepoComsvg"; // plasmic-import: -M_rLtuPSxCT/icon
 import MotorcycleBikeSvgrepoComsvgIcon from "./icons/PlasmicIcon__MotorcycleBikeSvgrepoComsvg"; // plasmic-import: 8wmKCbwv8HSh/icon
 import ChatRoundDotsSvgrepoCom1SvgIcon from "./icons/PlasmicIcon__ChatRoundDotsSvgrepoCom1Svg"; // plasmic-import: 0ggQKe6ouxoP/icon
@@ -816,8 +816,8 @@ function PlasmicService__RenderFunc(props: {
                     <PlasmicIcon__
                       PlasmicIconType={
                         hasVariant(globalVariants, "screen", "mobile")
-                          ? Service4SvgIcon
-                          : Service4SvgIcon
+                          ? Service5SvgIcon
+                          : Service5SvgIcon
                       }
                       className={classNames(projectcss.all, sty.svg__ztA1)}
                       role={"img"}
@@ -953,7 +953,7 @@ function PlasmicService__RenderFunc(props: {
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__nmt0C
+                        sty.formField__eIUO
                       )}
                       label={"Name"}
                       name={"name"}
@@ -961,14 +961,14 @@ function PlasmicService__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__ctavp
+                          sty.input__gH3A3
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__o4CPb
+                        sty.formField__mvDhp
                       )}
                       hidden={false}
                       label={"Telepon"}
@@ -976,14 +976,14 @@ function PlasmicService__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__qvlMf
+                          sty.input__lFBpZ
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__w6Jig
+                        sty.formField__hTehX
                       )}
                       label={"Message"}
                       name={"message"}
@@ -995,7 +995,7 @@ function PlasmicService__RenderFunc(props: {
                     <AntdButton
                       className={classNames(
                         "__wab_instance",
-                        sty.button__p5FhC
+                        sty.button___9Ru3G
                       )}
                       submitsForm={true}
                       type={"primary"}
@@ -1004,7 +1004,7 @@ function PlasmicService__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__msyp
+                          sty.text__uEzwy
                         )}
                       >
                         {"Kirim"}
