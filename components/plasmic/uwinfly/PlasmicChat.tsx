@@ -395,7 +395,6 @@ function PlasmicChat__RenderFunc(props: {
                       sty.link__bsGtX
                     )}
                     component={Link}
-                    href={`/Kotak-kami`}
                     platform={"nextjs"}
                   >
                     <Link6

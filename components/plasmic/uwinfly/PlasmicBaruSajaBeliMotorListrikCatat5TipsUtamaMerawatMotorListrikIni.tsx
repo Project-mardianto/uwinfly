@@ -390,7 +390,6 @@ function PlasmicBaruSajaBeliMotorListrikCatat5TipsUtamaMerawatMotorListrikIni__R
                       sty.link___0SBna
                     )}
                     component={Link}
-                    href={`/Kotak-kami`}
                     platform={"nextjs"}
                   >
                     <Link6

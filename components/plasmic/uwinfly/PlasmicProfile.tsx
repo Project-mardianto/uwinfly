@@ -475,7 +475,6 @@ function PlasmicProfile__RenderFunc(props: {
                       sty.link__wimc
                     )}
                     component={Link}
-                    href={`/Kotak-kami`}
                     platform={"nextjs"}
                   >
                     <Link6
@@ -777,19 +776,19 @@ function PlasmicProfile__RenderFunc(props: {
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__hvyPs
+                      sty.formField___8YxBr
                     )}
                     label={"Email"}
                     name={"name"}
                   >
                     <AntdInput
-                      className={classNames("__wab_instance", sty.input__kNvk)}
+                      className={classNames("__wab_instance", sty.input__vrCJ)}
                     />
                   </FormItemWrapper>
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField___4F1AO
+                      sty.formField__n7Y2L
                     )}
                     label={"Password"}
                   >
@@ -807,7 +806,7 @@ function PlasmicProfile__RenderFunc(props: {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__kpZm
+                        sty.text__mUqC
                       )}
                     >
                       {"Login"}
@@ -1180,7 +1179,7 @@ function PlasmicProfile__RenderFunc(props: {
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__qcgY
+                        sty.formField___0YpHq
                       )}
                       label={"Name"}
                       name={"name"}
@@ -1188,14 +1187,14 @@ function PlasmicProfile__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__anqjl
+                          sty.input__kq5Gb
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__yNezZ
+                        sty.formField__vh15Y
                       )}
                       hidden={false}
                       label={"Telepon"}
@@ -1203,14 +1202,14 @@ function PlasmicProfile__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__ht5Mn
+                          sty.input__fkp4
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__fxtl6
+                        sty.formField___1Keoo
                       )}
                       label={"Message"}
                       name={"message"}
@@ -1222,7 +1221,7 @@ function PlasmicProfile__RenderFunc(props: {
                     <AntdButton
                       className={classNames(
                         "__wab_instance",
-                        sty.button___4Pg55
+                        sty.button__m76Lx
                       )}
                       submitsForm={true}
                       type={"primary"}
@@ -1231,7 +1230,7 @@ function PlasmicProfile__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text___0D3Oe
+                          sty.text___0AIV
                         )}
                       >
                         {"Kirim"}

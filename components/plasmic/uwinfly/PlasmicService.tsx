@@ -454,7 +454,6 @@ function PlasmicService__RenderFunc(props: {
                       sty.link__eQvhX
                     )}
                     component={Link}
-                    href={`/Kotak-kami`}
                     platform={"nextjs"}
                   >
                     <Link6
@@ -963,7 +962,7 @@ function PlasmicService__RenderFunc(props: {
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__u0478
+                        sty.formField__k3Zog
                       )}
                       label={"Name"}
                       name={"name"}
@@ -971,29 +970,26 @@ function PlasmicService__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__nBUp
+                          sty.input__zrwkE
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__nYo9K
+                        sty.formField__y3J7Q
                       )}
                       hidden={false}
                       label={"Telepon"}
                     >
                       <AntdInput
-                        className={classNames(
-                          "__wab_instance",
-                          sty.input___2Ex2V
-                        )}
+                        className={classNames("__wab_instance", sty.input__xyH)}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__clSaA
+                        sty.formField__cdztu
                       )}
                       label={"Message"}
                       name={"message"}
@@ -1003,10 +999,7 @@ function PlasmicService__RenderFunc(props: {
                       />
                     </FormItemWrapper>
                     <AntdButton
-                      className={classNames(
-                        "__wab_instance",
-                        sty.button__ihC7L
-                      )}
+                      className={classNames("__wab_instance", sty.button__qqI4)}
                       submitsForm={true}
                       type={"primary"}
                     >
@@ -1014,7 +1007,7 @@ function PlasmicService__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__kPm3P
+                          sty.text__o7Tct
                         )}
                       >
                         {"Kirim"}

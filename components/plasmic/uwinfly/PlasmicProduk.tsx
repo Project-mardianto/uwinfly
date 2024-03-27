@@ -413,7 +413,6 @@ function PlasmicProduk__RenderFunc(props: {
                       sty.link__p28S6
                     )}
                     component={Link}
-                    href={`/Kotak-kami`}
                     platform={"nextjs"}
                   >
                     <Link6

@@ -373,7 +373,6 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
                       sty.link__yrKyf
                     )}
                     component={Link}
-                    href={`/Kotak-kami`}
                     platform={"nextjs"}
                   >
                     <Link6

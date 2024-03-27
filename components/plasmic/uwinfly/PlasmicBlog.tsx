@@ -363,7 +363,6 @@ function PlasmicBlog__RenderFunc(props: {
                       sty.link__efZgb
                     )}
                     component={Link}
-                    href={`/Kotak-kami`}
                     platform={"nextjs"}
                   >
                     <Link6

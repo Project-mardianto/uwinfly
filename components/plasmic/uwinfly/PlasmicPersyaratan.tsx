@@ -389,7 +389,6 @@ function PlasmicPersyaratan__RenderFunc(props: {
                       sty.link__apNbX
                     )}
                     component={Link}
-                    href={`/Kotak-kami`}
                     platform={"nextjs"}
                   >
                     <Link6

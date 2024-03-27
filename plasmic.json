@@ -1245,20 +1245,6 @@
           "componentType": "component"
         },
         {
-          "id": "Iuq95P4E6ady",
-          "name": "KotakKami",
-          "type": "managed",
-          "projectId": "iWaiTLt8mAup4ReehswsSx",
-          "renderModuleFilePath": "plasmic/uwinfly/PlasmicKotakKami.tsx",
-          "importSpec": {
-            "modulePath": "../pages/Kotak-kami.tsx"
-          },
-          "cssFilePath": "plasmic/uwinfly/PlasmicKotakKami.module.css",
-          "scheme": "blackbox",
-          "componentType": "page",
-          "path": "/Kotak-kami"
-        },
-        {
           "id": "MUZDtw1P8i41",
           "name": "Profile",
           "type": "managed",

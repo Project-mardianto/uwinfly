@@ -278,7 +278,6 @@ function PlasmicFooterMain__RenderFunc(props: {
                 sty.link__jydYt
               )}
               component={Link}
-              href={`/Kotak-kami`}
               platform={"nextjs"}
             >
               {"Kontak kami"}
@@ -397,7 +396,6 @@ function PlasmicFooterMain__RenderFunc(props: {
               data-plasmic-name={"button2"}
               data-plasmic-override={overrides.button2}
               className={classNames("__wab_instance", sty.button2)}
-              link={`/Kotak-kami`}
             >
               {"Kontak kami"}
             </Button2>

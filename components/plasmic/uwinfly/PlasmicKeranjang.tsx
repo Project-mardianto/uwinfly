@@ -398,7 +398,6 @@ function PlasmicKeranjang__RenderFunc(props: {
                       sty.link___11Fo
                     )}
                     component={Link}
-                    href={`/Kotak-kami`}
                     platform={"nextjs"}
                   >
                     <Link6

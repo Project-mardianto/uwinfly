@@ -141,7 +141,6 @@ function PlasmicLink6__RenderFunc(props: {
         sty.root
       )}
       component={Link}
-      href={`/Kotak-kami`}
       platform={"nextjs"}
     >
       {"Kontak kami"}

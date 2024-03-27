@@ -381,7 +381,6 @@ function PlasmicBateraiMotorListrikAgarPerformaTerjaga__RenderFunc(props: {
                       sty.link__ty6ER
                     )}
                     component={Link}
-                    href={`/Kotak-kami`}
                     platform={"nextjs"}
                   >
                     <Link6

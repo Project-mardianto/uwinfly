@@ -461,7 +461,6 @@ function PlasmicHome__RenderFunc(props: {
                       sty.link__pnng
                     )}
                     component={Link}
-                    href={`/Kotak-kami`}
                     platform={"nextjs"}
                   >
                     <Link6
