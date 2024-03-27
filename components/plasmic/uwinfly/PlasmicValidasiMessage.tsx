@@ -368,6 +368,7 @@ function PlasmicValidasiMessage__RenderFunc(props: {
                       sty.link__pidfz
                     )}
                     component={Link}
+                    href={`/Kontak-kami`}
                     platform={"nextjs"}
                   >
                     <Link6

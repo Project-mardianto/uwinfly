@@ -390,6 +390,7 @@ function PlasmicBaruSajaBeliMotorListrikCatat5TipsUtamaMerawatMotorListrikIni__R
                       sty.link___0SBna
                     )}
                     component={Link}
+                    href={`/Kontak-kami`}
                     platform={"nextjs"}
                   >
                     <Link6

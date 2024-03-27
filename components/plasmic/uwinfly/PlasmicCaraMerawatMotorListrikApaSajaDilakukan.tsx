@@ -381,6 +381,7 @@ function PlasmicCaraMerawatMotorListrikApaSajaDilakukan__RenderFunc(props: {
                       sty.link__rwF7A
                     )}
                     component={Link}
+                    href={`/Kontak-kami`}
                     platform={"nextjs"}
                   >
                     <Link6

@@ -367,6 +367,7 @@ function PlasmicAboutUs__RenderFunc(props: {
                       sty.link__iPvYt
                     )}
                     component={Link}
+                    href={`/Kontak-kami`}
                     platform={"nextjs"}
                   >
                     <Link6

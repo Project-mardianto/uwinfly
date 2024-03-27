@@ -377,6 +377,7 @@ function PlasmicSewaSepedaListrikPeluangUsahaMenarik__RenderFunc(props: {
                       sty.link__fmob
                     )}
                     component={Link}
+                    href={`/Kontak-kami`}
                     platform={"nextjs"}
                   >
                     <Link6

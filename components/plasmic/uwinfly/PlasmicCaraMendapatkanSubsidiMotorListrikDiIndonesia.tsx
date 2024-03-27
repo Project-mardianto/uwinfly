@@ -389,6 +389,7 @@ function PlasmicCaraMendapatkanSubsidiMotorListrikDiIndonesia__RenderFunc(props:
                       sty.link__i4Cd
                     )}
                     component={Link}
+                    href={`/Kontak-kami`}
                     platform={"nextjs"}
                   >
                     <Link6

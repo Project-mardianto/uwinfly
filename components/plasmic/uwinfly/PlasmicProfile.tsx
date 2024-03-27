@@ -475,6 +475,7 @@ function PlasmicProfile__RenderFunc(props: {
                       sty.link__wimc
                     )}
                     component={Link}
+                    href={`/Kontak-kami`}
                     platform={"nextjs"}
                   >
                     <Link6
@@ -776,19 +777,19 @@ function PlasmicProfile__RenderFunc(props: {
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField___8YxBr
+                      sty.formField__b465N
                     )}
                     label={"Email"}
                     name={"name"}
                   >
                     <AntdInput
-                      className={classNames("__wab_instance", sty.input__vrCJ)}
+                      className={classNames("__wab_instance", sty.input__z4VfM)}
                     />
                   </FormItemWrapper>
                   <FormItemWrapper
                     className={classNames(
                       "__wab_instance",
-                      sty.formField__n7Y2L
+                      sty.formField__l11Gu
                     )}
                     label={"Password"}
                   >
@@ -806,7 +807,7 @@ function PlasmicProfile__RenderFunc(props: {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__mUqC
+                        sty.text__qdMgb
                       )}
                     >
                       {"Login"}
@@ -1179,7 +1180,7 @@ function PlasmicProfile__RenderFunc(props: {
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField___0YpHq
+                        sty.formField___1K2Ef
                       )}
                       label={"Name"}
                       name={"name"}
@@ -1187,29 +1188,26 @@ function PlasmicProfile__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__kq5Gb
+                          sty.input___9OpF9
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__vh15Y
+                        sty.formField__rdoM
                       )}
                       hidden={false}
                       label={"Telepon"}
                     >
                       <AntdInput
-                        className={classNames(
-                          "__wab_instance",
-                          sty.input__fkp4
-                        )}
+                        className={classNames("__wab_instance", sty.input__qdQ)}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField___1Keoo
+                        sty.formField__eIYjN
                       )}
                       label={"Message"}
                       name={"message"}
@@ -1219,10 +1217,7 @@ function PlasmicProfile__RenderFunc(props: {
                       />
                     </FormItemWrapper>
                     <AntdButton
-                      className={classNames(
-                        "__wab_instance",
-                        sty.button__m76Lx
-                      )}
+                      className={classNames("__wab_instance", sty.button__wCxk)}
                       submitsForm={true}
                       type={"primary"}
                     >
@@ -1230,7 +1225,7 @@ function PlasmicProfile__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text___0AIV
+                          sty.text__cgaX9
                         )}
                       >
                         {"Kirim"}

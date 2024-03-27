@@ -429,6 +429,7 @@ function PlasmicDetailProduk__RenderFunc(props: {
                       sty.link__mlHc2
                     )}
                     component={Link}
+                    href={`/Kontak-kami`}
                     platform={"nextjs"}
                   >
                     <Link6

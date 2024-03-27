@@ -366,6 +366,7 @@ function PlasmicApaSajaSparepartMotorListrik__RenderFunc(props: {
                       sty.link__lhS
                     )}
                     component={Link}
+                    href={`/Kontak-kami`}
                     platform={"nextjs"}
                   >
                     <Link6

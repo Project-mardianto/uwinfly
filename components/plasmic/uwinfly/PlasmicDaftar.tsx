@@ -459,6 +459,7 @@ function PlasmicDaftar__RenderFunc(props: {
                       sty.link__rIt8X
                     )}
                     component={Link}
+                    href={`/Kontak-kami`}
                     platform={"nextjs"}
                   >
                     <Link6
@@ -923,7 +924,7 @@ function PlasmicDaftar__RenderFunc(props: {
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__xWmex
+                        sty.formField__gHhXt
                       )}
                       label={"Name"}
                       name={"name"}
@@ -931,14 +932,14 @@ function PlasmicDaftar__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__q52C3
+                          sty.input__gCk6K
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__fa5P
+                        sty.formField__wQzzw
                       )}
                       hidden={false}
                       label={"Telepon"}
@@ -946,14 +947,14 @@ function PlasmicDaftar__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__h2LV8
+                          sty.input__eMVV
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__s83Dw
+                        sty.formField__f3VF
                       )}
                       label={"Message"}
                       name={"message"}
@@ -963,10 +964,7 @@ function PlasmicDaftar__RenderFunc(props: {
                       />
                     </FormItemWrapper>
                     <AntdButton
-                      className={classNames(
-                        "__wab_instance",
-                        sty.button__y8WBy
-                      )}
+                      className={classNames("__wab_instance", sty.button__ve3M)}
                       submitsForm={true}
                       type={"primary"}
                     >
@@ -974,7 +972,7 @@ function PlasmicDaftar__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__pgNbc
+                          sty.text__pEqVc
                         )}
                       >
                         {"Kirim"}

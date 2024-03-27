@@ -381,6 +381,7 @@ function PlasmicBateraiMotorListrikAgarPerformaTerjaga__RenderFunc(props: {
                       sty.link__ty6ER
                     )}
                     component={Link}
+                    href={`/Kontak-kami`}
                     platform={"nextjs"}
                   >
                     <Link6

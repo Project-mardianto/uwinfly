@@ -363,6 +363,7 @@ function PlasmicBlog__RenderFunc(props: {
                       sty.link__efZgb
                     )}
                     component={Link}
+                    href={`/Kontak-kami`}
                     platform={"nextjs"}
                   >
                     <Link6

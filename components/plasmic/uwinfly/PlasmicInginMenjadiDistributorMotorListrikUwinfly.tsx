@@ -383,6 +383,7 @@ function PlasmicInginMenjadiDistributorMotorListrikUwinfly__RenderFunc(props: {
                       sty.link__vewcc
                     )}
                     component={Link}
+                    href={`/Kontak-kami`}
                     platform={"nextjs"}
                   >
                     <Link6

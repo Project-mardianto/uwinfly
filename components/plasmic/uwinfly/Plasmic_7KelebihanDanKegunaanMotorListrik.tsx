@@ -373,6 +373,11 @@ function Plasmic_7KelebihanDanKegunaanMotorListrik__RenderFunc(props: {
                       sty.link__yrKyf
                     )}
                     component={Link}
+                    href={
+                      hasVariant(globalVariants, "screen", "mobile")
+                        ? `/Kontak-kami`
+                        : `/Kontak-kami`
+                    }
                     platform={"nextjs"}
                   >
                     <Link6

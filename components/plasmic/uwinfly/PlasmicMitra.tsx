@@ -416,6 +416,7 @@ function PlasmicMitra__RenderFunc(props: {
                       sty.link__o7GMo
                     )}
                     component={Link}
+                    href={`/Kontak-kami`}
                     platform={"nextjs"}
                   >
                     <Link6

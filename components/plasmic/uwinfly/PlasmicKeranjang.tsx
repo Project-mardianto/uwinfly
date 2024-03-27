@@ -398,6 +398,7 @@ function PlasmicKeranjang__RenderFunc(props: {
                       sty.link___11Fo
                     )}
                     component={Link}
+                    href={`/Kontak-kami`}
                     platform={"nextjs"}
                   >
                     <Link6
