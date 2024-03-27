@@ -127,6 +127,7 @@ export type PlasmicService__OverridesType = {
   link4?: Flex__<typeof Link4>;
   link5?: Flex__<typeof Link5>;
   link6?: Flex__<typeof Link6>;
+  h2?: Flex__<"h2">;
   embedHtml?: Flex__<typeof Embed>;
   clientsSection6?: Flex__<"div">;
   form2?: Flex__<typeof FormWrapper>;
@@ -136,7 +137,6 @@ export type PlasmicService__OverridesType = {
   accordion4?: Flex__<typeof AntdAccordion>;
   footerMain?: Flex__<typeof FooterMain>;
   pageMetadataOverride?: Flex__<typeof PlasmicHead>;
-  freeBox?: Flex__<"div">;
   iconNavbar2?: Flex__<typeof IconNavbar2>;
 };
 
@@ -806,64 +806,74 @@ function PlasmicService__RenderFunc(props: {
               {"Kontak kami"}
             </div>
           </section>
+          <div className={classNames(projectcss.all, sty.freeBox__fAIe)}>
+            <div className={classNames(projectcss.all, sty.freeBox__nfahD)}>
+              <Stack__
+                as={"div"}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.columns__wENax)}
+              >
+                <div className={classNames(projectcss.all, sty.column___9ERr2)}>
+                  <PlasmicIcon__
+                    PlasmicIconType={
+                      hasVariant(globalVariants, "screen", "mobile")
+                        ? Service5SvgIcon
+                        : Service5SvgIcon
+                    }
+                    className={classNames(projectcss.all, sty.svg__rnniV)}
+                    role={"img"}
+                  />
+                </div>
+                <div className={classNames(projectcss.all, sty.column__mreNq)}>
+                  <Stack__
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox__zhoNe)}
+                  >
+                    <h2
+                      data-plasmic-name={"h2"}
+                      data-plasmic-override={overrides.h2}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h2,
+                        projectcss.__wab_text,
+                        sty.h2
+                      )}
+                    >
+                      {hasVariant(globalVariants, "screen", "mobile")
+                        ? "Shop drive uwinfly"
+                        : "Shop drive uwinfly"}
+                    </h2>
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__aoXx
+                      )}
+                    >
+                      {hasVariant(globalVariants, "screen", "mobile")
+                        ? "Kami menawarkan berbagai  seperpart uwinfly dan tersedia dalam berbagai type motor dan spesifikasi sesuai kebutuhan motor anda. dapatkan pelayanan terbaik dari teknisi ahli kami yang siap membantu anda dalam memilih dan memasang seperpart motor dengan cepat dan profesional. Jangan ragu untuk menghubungi kami."
+                        : "Kami menawarkan berbagai  seperpart uwinfly dan tersedia dalam berbagai type motor dan spesifikasi sesuai kebutuhan motor anda. dapatkan pelayanan terbaik dari teknisi ahli kami yang siap membantu anda dalam memilih dan memasang seperpart motor dengan cepat dan profesional. Jangan ragu untuk menghubungi kami."}
+                    </div>
+                    <section
+                      className={classNames(projectcss.all, sty.section__njhqm)}
+                    >
+                      <Button
+                        className={classNames(
+                          "__wab_instance",
+                          sty.button__lKxEg
+                        )}
+                      >
+                        {"Daftar sekarang"}
+                      </Button>
+                    </section>
+                  </Stack__>
+                </div>
+              </Stack__>
+            </div>
+          </div>
           <section className={classNames(projectcss.all, sty.section__bGf52)}>
             <section className={classNames(projectcss.all, sty.section__sQnKr)}>
-              <div className={classNames(projectcss.all, sty.columns__ud3Qd)}>
-                <div className={classNames(projectcss.all, sty.column__pyTif)}>
-                  <section
-                    className={classNames(projectcss.all, sty.section__rO1B)}
-                  >
-                    <PlasmicIcon__
-                      PlasmicIconType={
-                        hasVariant(globalVariants, "screen", "mobile")
-                          ? Service5SvgIcon
-                          : Service5SvgIcon
-                      }
-                      className={classNames(projectcss.all, sty.svg__ztA1)}
-                      role={"img"}
-                    />
-                  </section>
-                </div>
-              </div>
-              <section
-                className={classNames(projectcss.all, sty.section__hepd7)}
-              >
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__iNmts
-                  )}
-                >
-                  {"Shop drive uwinfly"}
-                </div>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__wQvTt
-                  )}
-                >
-                  {
-                    "Kami menawarkan berbagai  seperpart uwinfly dan tersedia dalam berbagai type motor dan spesifikasi sesuai kebutuhan motor anda. dapatkan pelayanan terbaik dari teknisi ahli kami yang siap membantu anda dalam memilih dan memasang seperpart motor dengan cepat dan profesional. Jangan ragu untuk menghubungi kami."
-                  }
-                </div>
-                {(
-                  hasVariant(globalVariants, "screen", "mobile") ? true : false
-                ) ? (
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__wOt1W
-                    )}
-                  >
-                    {
-                      " Telah menghubungi kami mohon menunggu 1x24 jam Admin kami akan membalas anda."
-                    }
-                  </div>
-                ) : null}
-              </section>
               <section
                 className={classNames(projectcss.all, sty.section__jPnk0)}
               >
@@ -953,7 +963,7 @@ function PlasmicService__RenderFunc(props: {
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__q2Oob
+                        sty.formField__dj3L7
                       )}
                       label={"Name"}
                       name={"name"}
@@ -961,14 +971,14 @@ function PlasmicService__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input___6VSpE
+                          sty.input__wjJbk
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__pdqph
+                        sty.formField__nKgQa
                       )}
                       hidden={false}
                       label={"Telepon"}
@@ -976,14 +986,14 @@ function PlasmicService__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__pdRmL
+                          sty.input__dHsJd
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__r462W
+                        sty.formField__gAf8X
                       )}
                       label={"Message"}
                       name={"message"}
@@ -995,7 +1005,7 @@ function PlasmicService__RenderFunc(props: {
                     <AntdButton
                       className={classNames(
                         "__wab_instance",
-                        sty.button__ghAFj
+                        sty.button___6XawI
                       )}
                       submitsForm={true}
                       type={"primary"}
@@ -1004,7 +1014,7 @@ function PlasmicService__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__iRuL
+                          sty.text__uaC73
                         )}
                       >
                         {"Kirim"}
@@ -2024,11 +2034,7 @@ function PlasmicService__RenderFunc(props: {
           />
 
           {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
-            <div
-              data-plasmic-name={"freeBox"}
-              data-plasmic-override={overrides.freeBox}
-              className={classNames(projectcss.all, sty.freeBox)}
-            >
+            <div className={classNames(projectcss.all, sty.freeBox__feKyP)}>
               <div className={classNames(projectcss.all, sty.columns__pwUtX)}>
                 <PlasmicLink__
                   className={classNames(
@@ -2181,6 +2187,7 @@ const PlasmicDescendants = {
     "link4",
     "link5",
     "link6",
+    "h2",
     "embedHtml",
     "clientsSection6",
     "form2",
@@ -2190,7 +2197,6 @@ const PlasmicDescendants = {
     "accordion4",
     "footerMain",
     "pageMetadataOverride",
-    "freeBox",
     "iconNavbar2"
   ],
   navigationBar: [
@@ -2208,6 +2214,7 @@ const PlasmicDescendants = {
   link4: ["link4"],
   link5: ["link5"],
   link6: ["link6"],
+  h2: ["h2"],
   embedHtml: ["embedHtml"],
   clientsSection6: ["clientsSection6", "form2", "textArea", "accordion2"],
   form2: ["form2", "textArea"],
@@ -2217,7 +2224,6 @@ const PlasmicDescendants = {
   accordion4: ["accordion4"],
   footerMain: ["footerMain"],
   pageMetadataOverride: ["pageMetadataOverride"],
-  freeBox: ["freeBox", "iconNavbar2"],
   iconNavbar2: ["iconNavbar2"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
@@ -2232,6 +2238,7 @@ type NodeDefaultElementType = {
   link4: typeof Link4;
   link5: typeof Link5;
   link6: typeof Link6;
+  h2: "h2";
   embedHtml: typeof Embed;
   clientsSection6: "div";
   form2: typeof FormWrapper;
@@ -2241,7 +2248,6 @@ type NodeDefaultElementType = {
   accordion4: typeof AntdAccordion;
   footerMain: typeof FooterMain;
   pageMetadataOverride: typeof PlasmicHead;
-  freeBox: "div";
   iconNavbar2: typeof IconNavbar2;
 };
 
@@ -2354,6 +2360,7 @@ export const PlasmicService = Object.assign(
     link4: makeNodeComponent("link4"),
     link5: makeNodeComponent("link5"),
     link6: makeNodeComponent("link6"),
+    h2: makeNodeComponent("h2"),
     embedHtml: makeNodeComponent("embedHtml"),
     clientsSection6: makeNodeComponent("clientsSection6"),
     form2: makeNodeComponent("form2"),
@@ -2363,7 +2370,6 @@ export const PlasmicService = Object.assign(
     accordion4: makeNodeComponent("accordion4"),
     footerMain: makeNodeComponent("footerMain"),
     pageMetadataOverride: makeNodeComponent("pageMetadataOverride"),
-    freeBox: makeNodeComponent("freeBox"),
     iconNavbar2: makeNodeComponent("iconNavbar2"),
 
     // Metadata about props expected for PlasmicService
