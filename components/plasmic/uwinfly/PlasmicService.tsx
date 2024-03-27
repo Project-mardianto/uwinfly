@@ -953,7 +953,7 @@ function PlasmicService__RenderFunc(props: {
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__mclmy
+                        sty.formField__q2Oob
                       )}
                       label={"Name"}
                       name={"name"}
@@ -961,14 +961,14 @@ function PlasmicService__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__iBCiD
+                          sty.input___6VSpE
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__hOKnb
+                        sty.formField__pdqph
                       )}
                       hidden={false}
                       label={"Telepon"}
@@ -976,14 +976,14 @@ function PlasmicService__RenderFunc(props: {
                       <AntdInput
                         className={classNames(
                           "__wab_instance",
-                          sty.input__i2I16
+                          sty.input__pdRmL
                         )}
                       />
                     </FormItemWrapper>
                     <FormItemWrapper
                       className={classNames(
                         "__wab_instance",
-                        sty.formField__lrrqd
+                        sty.formField__r462W
                       )}
                       label={"Message"}
                       name={"message"}
@@ -995,7 +995,7 @@ function PlasmicService__RenderFunc(props: {
                     <AntdButton
                       className={classNames(
                         "__wab_instance",
-                        sty.button__fp8F1
+                        sty.button__ghAFj
                       )}
                       submitsForm={true}
                       type={"primary"}
@@ -1004,7 +1004,7 @@ function PlasmicService__RenderFunc(props: {
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text___5Yn3
+                          sty.text__iRuL
                         )}
                       >
                         {"Kirim"}
