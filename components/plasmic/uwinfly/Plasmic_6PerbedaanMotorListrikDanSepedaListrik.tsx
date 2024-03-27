@@ -289,7 +289,7 @@ function Plasmic_6PerbedaanMotorListrikDanSepedaListrik__RenderFunc(props: {
                 />
               }
               forceOpenMenu={
-                hasVariant(globalVariants, "screen", "mobile") ? false : true
+                hasVariant(globalVariants, "screen", "mobile") ? true : true
               }
               itemsGap={hasVariant(globalVariants, "screen", "mobile") ? 8 : 8}
               menuItems={
@@ -381,7 +381,11 @@ function Plasmic_6PerbedaanMotorListrikDanSepedaListrik__RenderFunc(props: {
                       sty.link__mgdPr
                     )}
                     component={Link}
-                    href={`/Kotak-kami`}
+                    href={
+                      hasVariant(globalVariants, "screen", "mobile")
+                        ? `/Kontak-kami`
+                        : `/Kontak-kami`
+                    }
                     platform={"nextjs"}
                   >
                     <Link6

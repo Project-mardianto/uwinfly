@@ -1520,6 +1520,20 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/Service"
+        },
+        {
+          "id": "FNlU0Xw2spSz",
+          "name": "KontakKami",
+          "type": "managed",
+          "projectId": "iWaiTLt8mAup4ReehswsSx",
+          "renderModuleFilePath": "plasmic/uwinfly/PlasmicKontakKami.tsx",
+          "importSpec": {
+            "modulePath": "../pages/Kontak-kami.tsx"
+          },
+          "cssFilePath": "plasmic/uwinfly/PlasmicKontakKami.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Kontak-kami"
         }
       ],
       "icons": [
