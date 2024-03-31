@@ -78,7 +78,6 @@ import { ProductTextField } from "@plasmicpkgs/commerce";
 import { ProductVariantPicker } from "@plasmicpkgs/commerce";
 import { ProductQuantity } from "@plasmicpkgs/commerce";
 import { ProductPriceComponent } from "@plasmicpkgs/commerce";
-import { AddToCartButton } from "@plasmicpkgs/commerce";
 import Button2 from "../../Button2"; // plasmic-import: bn8Yy5q1VEYE/component
 import FooterMain from "../../FooterMain"; // plasmic-import: qoZVCK7paFuV/component
 import IconNavbar2 from "../../IconNavbar2"; // plasmic-import: 8dJjOz6ixDRs/component
@@ -131,7 +130,6 @@ export type PlasmicDetailProduk__OverridesType = {
   textbox?: Flex__<"input">;
   textbox2?: Flex__<"input">;
   textbox4?: Flex__<"input">;
-  addToCartButton?: Flex__<typeof AddToCartButton>;
   button2?: Flex__<typeof Button2>;
   footerMain?: Flex__<typeof FooterMain>;
   iconNavbar2?: Flex__<typeof IconNavbar2>;
@@ -2050,44 +2048,6 @@ function PlasmicDetailProduk__RenderFunc(props: {
                             <div
                               className={classNames(
                                 projectcss.all,
-                                sty.column___60Vx
-                              )}
-                            >
-                              <AddToCartButton
-                                data-plasmic-name={"addToCartButton"}
-                                data-plasmic-override={
-                                  overrides.addToCartButton
-                                }
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.addToCartButton
-                                )}
-                              >
-                                <button
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.button,
-                                    sty.button__y7HNy
-                                  )}
-                                  onClick={async event => {
-                                    const $steps = {};
-                                  }}
-                                >
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text___098G6
-                                    )}
-                                  >
-                                    {"Keranjang"}
-                                  </div>
-                                </button>
-                              </AddToCartButton>
-                            </div>
-                            <div
-                              className={classNames(
-                                projectcss.all,
                                 sty.column__aiAsH
                               )}
                             >
@@ -2417,7 +2377,6 @@ const PlasmicDescendants = {
     "textbox",
     "textbox2",
     "textbox4",
-    "addToCartButton",
     "button2",
     "footerMain",
     "iconNavbar2",
@@ -2445,14 +2404,12 @@ const PlasmicDescendants = {
     "textbox",
     "textbox2",
     "textbox4",
-    "addToCartButton",
     "button2"
   ],
   productSlider: ["productSlider"],
   textbox: ["textbox"],
   textbox2: ["textbox2"],
   textbox4: ["textbox4"],
-  addToCartButton: ["addToCartButton"],
   button2: ["button2"],
   footerMain: ["footerMain"],
   iconNavbar2: ["iconNavbar2"],
@@ -2476,7 +2433,6 @@ type NodeDefaultElementType = {
   textbox: "input";
   textbox2: "input";
   textbox4: "input";
-  addToCartButton: typeof AddToCartButton;
   button2: typeof Button2;
   footerMain: typeof FooterMain;
   iconNavbar2: typeof IconNavbar2;
@@ -2598,7 +2554,6 @@ export const PlasmicDetailProduk = Object.assign(
     textbox: makeNodeComponent("textbox"),
     textbox2: makeNodeComponent("textbox2"),
     textbox4: makeNodeComponent("textbox4"),
-    addToCartButton: makeNodeComponent("addToCartButton"),
     button2: makeNodeComponent("button2"),
     footerMain: makeNodeComponent("footerMain"),
     iconNavbar2: makeNodeComponent("iconNavbar2"),

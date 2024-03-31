@@ -736,7 +736,21 @@ function PlasmicProduk__RenderFunc(props: {
               category={"gid://shopify/Collection/269963001927"}
               className={classNames("__wab_instance", sty.productCollection)}
               count={
-                hasVariant(globalVariants, "screen", "mobile") ? 1 : undefined
+                hasVariant(globalVariants, "screen", "mobile")
+                  ? (() => {
+                      try {
+                        return undefined;
+                      } catch (e) {
+                        if (
+                          e instanceof TypeError ||
+                          e?.plasmicType === "PlasmicUndefinedDataError"
+                        ) {
+                          return 1;
+                        }
+                        throw e;
+                      }
+                    })()
+                  : undefined
               }
               emptyMessage={
                 <DataCtxReader__>

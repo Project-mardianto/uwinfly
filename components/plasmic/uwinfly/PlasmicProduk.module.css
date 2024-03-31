@@ -869,7 +869,7 @@
   .productCollection:global(.__wab_instance) {
     display: grid;
     grid-template-rows: auto auto;
-    grid-template-columns: repeat(1, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-row-gap: 16px;
     grid-column-gap: 16px;
     grid-auto-rows: auto;

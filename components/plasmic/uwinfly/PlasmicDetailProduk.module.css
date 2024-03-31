@@ -2856,11 +2856,8 @@
   min-width: 0;
   padding: 36px 8px;
 }
-.columns__ubgA4 > :nth-child(2n + 1) {
-  width: calc((100% - 2 * var(--plsmc-rc-col-gap, 0px)) * 6 / 12);
-}
-.columns__ubgA4 > :nth-child(2n + 2) {
-  width: calc((100% - 2 * var(--plsmc-rc-col-gap, 0px)) * 6 / 12);
+.columns__ubgA4 > :nth-child(1n + 1) {
+  width: calc((100% - 1 * var(--plsmc-rc-col-gap, 0px)) * 12 / 12);
 }
 @media (max-width: 768px) {
   .columns__ubgA4 {
@@ -2877,48 +2874,6 @@
   .columns__ubgA4 > :nth-child(1n + 1) {
     width: calc((100% - 1 * var(--plsmc-rc-col-gap, 0px)) * 12 / 12);
   }
-}
-.column___60Vx {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  justify-content: center;
-  align-items: center;
-  min-width: 0;
-  padding: 8px;
-}
-.addToCartButton:global(.__wab_instance) {
-  max-width: 100%;
-  object-fit: cover;
-  position: relative;
-}
-.button__y7HNy {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  background: #ffffff;
-  flex-direction: row;
-  display: flex;
-  height: 40px;
-  min-width: 0;
-  border-radius: 6px;
-  border: 1px solid var(--token-ddpevpfGL4QK);
-}
-@media (max-width: 768px) {
-  .button__y7HNy {
-    width: 100%;
-    min-width: 0;
-  }
-}
-.text___098G6 {
-  position: relative;
-  text-align: center;
-  color: var(--token-8dHZNKgzL8aW);
 }
 .column__aiAsH {
   display: flex;
