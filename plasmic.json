@@ -1999,6 +1999,28 @@
       ],
       "customFunctions": [],
       "jsBundleThemes": []
+    },
+    {
+      "projectId": "i3z63WaCLuRiSZRBwZC8d1",
+      "projectApiToken": "vFDcPRRkeIndudbVPzzJ6XYFTPaQbbUH7viVQRfVlT6w3AZurCwBghalKWIWYrMiawJ1uBiJ5nGZCgQGR1Tg",
+      "projectName": "commerce-shopify",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/commerce_shopify/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "plasmic/commerce_shopify/PlasmicGlobalContextsProvider.tsx",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "jKXfoEXfU9R",
+          "name": "CommerceProviderComponent",
+          "displayName": "plasmic-commerce-shopify-provider",
+          "componentImportPath": "@plasmicpkgs/commerce-shopify"
+        }
+      ],
+      "customFunctions": []
     }
   ],
   "globalVariants": {

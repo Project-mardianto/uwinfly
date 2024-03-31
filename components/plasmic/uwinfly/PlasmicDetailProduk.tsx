@@ -131,7 +131,6 @@ export type PlasmicDetailProduk__OverridesType = {
   textbox?: Flex__<"input">;
   textbox2?: Flex__<"input">;
   textbox4?: Flex__<"input">;
-  productPrice?: Flex__<typeof ProductPriceComponent>;
   addToCartButton?: Flex__<typeof AddToCartButton>;
   button2?: Flex__<typeof Button2>;
   footerMain?: Flex__<typeof FooterMain>;
@@ -1048,7 +1047,7 @@ function PlasmicDetailProduk__RenderFunc(props: {
                                         color: "var(--token-RvPI6LyeIPmd)"
                                       }}
                                     >
-                                      {"Stock"}
+                                      {"Produk"}
                                     </span>
                                   </React.Fragment>
                                 ) : (
@@ -1087,72 +1086,6 @@ function PlasmicDetailProduk__RenderFunc(props: {
                                   sty.productTextField___1Ccif
                                 )}
                                 field={"sku"}
-                              />
-                            </div>
-                          </div>
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              sty.columns__pspLy
-                            )}
-                          >
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                sty.column__x5Wnw
-                              )}
-                            >
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__q6Lw1
-                                )}
-                              >
-                                {hasVariant(
-                                  globalVariants,
-                                  "screen",
-                                  "mobile"
-                                ) ? (
-                                  <React.Fragment>
-                                    <span
-                                      className={
-                                        "plasmic_default__all plasmic_default__span"
-                                      }
-                                      style={{
-                                        color: "var(--token-RvPI6LyeIPmd)"
-                                      }}
-                                    >
-                                      {"Pengiriman"}
-                                    </span>
-                                  </React.Fragment>
-                                ) : (
-                                  <React.Fragment>
-                                    <span
-                                      className={
-                                        "plasmic_default__all plasmic_default__span"
-                                      }
-                                      style={{
-                                        color: "var(--token-RvPI6LyeIPmd)"
-                                      }}
-                                    >
-                                      {"Varian"}
-                                    </span>
-                                  </React.Fragment>
-                                )}
-                              </div>
-                            </div>
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                sty.column__aldzd
-                              )}
-                            >
-                              <ProductVariantPicker
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.productVariantPicker__oxlWl
-                                )}
                               />
                             </div>
                           </div>
@@ -1238,6 +1171,72 @@ function PlasmicDetailProduk__RenderFunc(props: {
                                   })()}
                                 </React.Fragment>
                               </div>
+                            </div>
+                          </div>
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.columns__pspLy
+                            )}
+                          >
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                sty.column__x5Wnw
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__q6Lw1
+                                )}
+                              >
+                                {hasVariant(
+                                  globalVariants,
+                                  "screen",
+                                  "mobile"
+                                ) ? (
+                                  <React.Fragment>
+                                    <span
+                                      className={
+                                        "plasmic_default__all plasmic_default__span"
+                                      }
+                                      style={{
+                                        color: "var(--token-RvPI6LyeIPmd)"
+                                      }}
+                                    >
+                                      {"Pengiriman"}
+                                    </span>
+                                  </React.Fragment>
+                                ) : (
+                                  <React.Fragment>
+                                    <span
+                                      className={
+                                        "plasmic_default__all plasmic_default__span"
+                                      }
+                                      style={{
+                                        color: "var(--token-RvPI6LyeIPmd)"
+                                      }}
+                                    >
+                                      {"Varian"}
+                                    </span>
+                                  </React.Fragment>
+                                )}
+                              </div>
+                            </div>
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                sty.column__aldzd
+                              )}
+                            >
+                              <ProductVariantPicker
+                                className={classNames(
+                                  "__wab_instance",
+                                  sty.productVariantPicker__oxlWl
+                                )}
+                              />
                             </div>
                           </div>
                           {(
@@ -1487,54 +1486,6 @@ function PlasmicDetailProduk__RenderFunc(props: {
                               </div>
                             </div>
                           ) : null}
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              sty.columns__gLkIg
-                            )}
-                          >
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                sty.column__sg6Td
-                              )}
-                            >
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__ab5Wm
-                                )}
-                              >
-                                <React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{
-                                      color: "var(--token-RvPI6LyeIPmd)"
-                                    }}
-                                  >
-                                    {"Deskripsi produk"}
-                                  </span>
-                                </React.Fragment>
-                              </div>
-                            </div>
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                sty.column__cHiVy
-                              )}
-                            >
-                              <ProductTextField
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.productTextField__aETi6
-                                )}
-                                field={"description"}
-                              />
-                            </div>
-                          </div>
                           {(
                             hasVariant(globalVariants, "screen", "mobile")
                               ? true
@@ -1690,15 +1641,406 @@ function PlasmicDetailProduk__RenderFunc(props: {
                               )}
                             >
                               <ProductPriceComponent
-                                data-plasmic-name={"productPrice"}
-                                data-plasmic-override={overrides.productPrice}
                                 className={classNames(
                                   "__wab_instance",
-                                  sty.productPrice
+                                  sty.productPrice__cwUho
                                 )}
                               />
                             </div>
                           </div>
+                          {(
+                            hasVariant(globalVariants, "screen", "mobile")
+                              ? true
+                              : false
+                          ) ? (
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                sty.columns__aagO
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.column__v6K7
+                                )}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__xYo76
+                                  )}
+                                >
+                                  {hasVariant(
+                                    globalVariants,
+                                    "screen",
+                                    "mobile"
+                                  ) ? (
+                                    <React.Fragment>
+                                      <span
+                                        className={
+                                          "plasmic_default__all plasmic_default__span"
+                                        }
+                                        style={{
+                                          color: "var(--token-RvPI6LyeIPmd)"
+                                        }}
+                                      >
+                                        {"Produk"}
+                                      </span>
+                                    </React.Fragment>
+                                  ) : (
+                                    <React.Fragment>
+                                      <span
+                                        className={
+                                          "plasmic_default__all plasmic_default__span"
+                                        }
+                                        style={{
+                                          color: "var(--token-RvPI6LyeIPmd)"
+                                        }}
+                                      >
+                                        {"Deskripsi produk"}
+                                      </span>
+                                    </React.Fragment>
+                                  )}
+                                </div>
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__axwB
+                                  )}
+                                >
+                                  <React.Fragment>
+                                    <span
+                                      className={
+                                        "plasmic_default__all plasmic_default__span"
+                                      }
+                                      style={{
+                                        color: "var(--token-RvPI6LyeIPmd)"
+                                      }}
+                                    >
+                                      {"Deskripsi produk"}
+                                    </span>
+                                  </React.Fragment>
+                                </div>
+                              </div>
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.column__fpX6I
+                                )}
+                              >
+                                <ProductTextField
+                                  className={classNames(
+                                    "__wab_instance",
+                                    sty.productTextField__osJy
+                                  )}
+                                  field={"description"}
+                                />
+
+                                <ProductTextField
+                                  className={classNames(
+                                    "__wab_instance",
+                                    sty.productTextField__q8GWf
+                                  )}
+                                  field={"name"}
+                                />
+                              </div>
+                            </div>
+                          ) : null}
+                          {(
+                            hasVariant(globalVariants, "screen", "mobile")
+                              ? true
+                              : false
+                          ) ? (
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                sty.columns__b8WMk
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.column__jvOct
+                                )}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__kc4T
+                                  )}
+                                >
+                                  <React.Fragment>
+                                    <span
+                                      className={
+                                        "plasmic_default__all plasmic_default__span"
+                                      }
+                                      style={{
+                                        color: "var(--token-RvPI6LyeIPmd)"
+                                      }}
+                                    >
+                                      {"Deskripsi produk"}
+                                    </span>
+                                  </React.Fragment>
+                                </div>
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__hvhY4
+                                  )}
+                                >
+                                  <React.Fragment>
+                                    <span
+                                      className={
+                                        "plasmic_default__all plasmic_default__span"
+                                      }
+                                      style={{
+                                        color: "var(--token-RvPI6LyeIPmd)"
+                                      }}
+                                    >
+                                      {"Deskripsi produk"}
+                                    </span>
+                                  </React.Fragment>
+                                </div>
+                              </div>
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.column__lMrO0
+                                )}
+                              >
+                                <ProductTextField
+                                  className={classNames(
+                                    "__wab_instance",
+                                    sty.productTextField__uaFE
+                                  )}
+                                  field={"description"}
+                                />
+
+                                <ProductTextField
+                                  className={classNames(
+                                    "__wab_instance",
+                                    sty.productTextField__xpDsJ
+                                  )}
+                                  field={"name"}
+                                />
+                              </div>
+                            </div>
+                          ) : null}
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.columns__gLkIg
+                            )}
+                          >
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                sty.column__sg6Td
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__ab5Wm
+                                )}
+                              >
+                                {hasVariant(
+                                  globalVariants,
+                                  "screen",
+                                  "mobile"
+                                ) ? (
+                                  <React.Fragment>
+                                    <span
+                                      className={
+                                        "plasmic_default__all plasmic_default__span"
+                                      }
+                                      style={{
+                                        color: "var(--token-RvPI6LyeIPmd)"
+                                      }}
+                                    >
+                                      {"Varian"}
+                                    </span>
+                                  </React.Fragment>
+                                ) : (
+                                  <React.Fragment>
+                                    <span
+                                      className={
+                                        "plasmic_default__all plasmic_default__span"
+                                      }
+                                      style={{
+                                        color: "var(--token-RvPI6LyeIPmd)"
+                                      }}
+                                    >
+                                      {"Deskripsi produk"}
+                                    </span>
+                                  </React.Fragment>
+                                )}
+                              </div>
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text___4T46N
+                                )}
+                              >
+                                <React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{
+                                      color: "var(--token-RvPI6LyeIPmd)"
+                                    }}
+                                  >
+                                    {"Deskripsi produk"}
+                                  </span>
+                                </React.Fragment>
+                              </div>
+                            </div>
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                sty.column__cHiVy
+                              )}
+                            >
+                              <ProductTextField
+                                className={classNames(
+                                  "__wab_instance",
+                                  sty.productTextField__aETi6
+                                )}
+                                field={"description"}
+                              />
+
+                              <ProductTextField
+                                className={classNames(
+                                  "__wab_instance",
+                                  sty.productTextField__mcGRw
+                                )}
+                                field={"name"}
+                              />
+
+                              <ProductVariantPicker
+                                className={classNames(
+                                  "__wab_instance",
+                                  sty.productVariantPicker__nbPPb
+                                )}
+                              />
+                            </div>
+                          </div>
+                          {(
+                            hasVariant(globalVariants, "screen", "mobile")
+                              ? true
+                              : false
+                          ) ? (
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                sty.columns__noqZp
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.column__fPjYv
+                                )}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__eus3
+                                  )}
+                                >
+                                  {hasVariant(
+                                    globalVariants,
+                                    "screen",
+                                    "mobile"
+                                  ) ? (
+                                    <React.Fragment>
+                                      <span
+                                        className={
+                                          "plasmic_default__all plasmic_default__span"
+                                        }
+                                        style={{
+                                          color: "var(--token-RvPI6LyeIPmd)"
+                                        }}
+                                      >
+                                        {"Harga"}
+                                      </span>
+                                    </React.Fragment>
+                                  ) : (
+                                    <React.Fragment>
+                                      <span
+                                        className={
+                                          "plasmic_default__all plasmic_default__span"
+                                        }
+                                        style={{
+                                          color: "var(--token-RvPI6LyeIPmd)"
+                                        }}
+                                      >
+                                        {"Deskripsi produk"}
+                                      </span>
+                                    </React.Fragment>
+                                  )}
+                                </div>
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__g6OQc
+                                  )}
+                                >
+                                  <React.Fragment>
+                                    <span
+                                      className={
+                                        "plasmic_default__all plasmic_default__span"
+                                      }
+                                      style={{
+                                        color: "var(--token-RvPI6LyeIPmd)"
+                                      }}
+                                    >
+                                      {"Deskripsi produk"}
+                                    </span>
+                                  </React.Fragment>
+                                </div>
+                              </div>
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.column__fcyDf
+                                )}
+                              >
+                                <ProductTextField
+                                  className={classNames(
+                                    "__wab_instance",
+                                    sty.productTextField__gayD0
+                                  )}
+                                  field={"description"}
+                                />
+
+                                <ProductTextField
+                                  className={classNames(
+                                    "__wab_instance",
+                                    sty.productTextField__jHket
+                                  )}
+                                  field={"name"}
+                                />
+
+                                <ProductPriceComponent
+                                  className={classNames(
+                                    "__wab_instance",
+                                    sty.productPrice__oE81C
+                                  )}
+                                />
+                              </div>
+                            </div>
+                          ) : null}
                           <div
                             className={classNames(
                               projectcss.all,
@@ -2075,7 +2417,6 @@ const PlasmicDescendants = {
     "textbox",
     "textbox2",
     "textbox4",
-    "productPrice",
     "addToCartButton",
     "button2",
     "footerMain",
@@ -2104,7 +2445,6 @@ const PlasmicDescendants = {
     "textbox",
     "textbox2",
     "textbox4",
-    "productPrice",
     "addToCartButton",
     "button2"
   ],
@@ -2112,7 +2452,6 @@ const PlasmicDescendants = {
   textbox: ["textbox"],
   textbox2: ["textbox2"],
   textbox4: ["textbox4"],
-  productPrice: ["productPrice"],
   addToCartButton: ["addToCartButton"],
   button2: ["button2"],
   footerMain: ["footerMain"],
@@ -2137,7 +2476,6 @@ type NodeDefaultElementType = {
   textbox: "input";
   textbox2: "input";
   textbox4: "input";
-  productPrice: typeof ProductPriceComponent;
   addToCartButton: typeof AddToCartButton;
   button2: typeof Button2;
   footerMain: typeof FooterMain;
@@ -2260,7 +2598,6 @@ export const PlasmicDetailProduk = Object.assign(
     textbox: makeNodeComponent("textbox"),
     textbox2: makeNodeComponent("textbox2"),
     textbox4: makeNodeComponent("textbox4"),
-    productPrice: makeNodeComponent("productPrice"),
     addToCartButton: makeNodeComponent("addToCartButton"),
     button2: makeNodeComponent("button2"),
     footerMain: makeNodeComponent("footerMain"),

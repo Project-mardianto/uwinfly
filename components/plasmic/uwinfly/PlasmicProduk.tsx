@@ -71,11 +71,10 @@ import Link6 from "../../Link6"; // plasmic-import: qdfwHKfwtv8_/component
 import Button from "../../Button"; // plasmic-import: f3lmI1Q2JQuQ/component
 import { SliderWrapper } from "@plasmicpkgs/react-slick";
 import { sliderHelpers as SliderWrapper_Helpers } from "@plasmicpkgs/react-slick";
-import { AntdTabs } from "@plasmicpkgs/antd5/skinny/registerTabs";
-import { AntdTabItem } from "@plasmicpkgs/antd5/skinny/registerTabs";
 import { ProductCollection } from "@plasmicpkgs/commerce";
 import { ProductMedia } from "@plasmicpkgs/commerce";
 import { ProductTextField } from "@plasmicpkgs/commerce";
+import { ProductPriceComponent } from "@plasmicpkgs/commerce";
 import FooterMain from "../../FooterMain"; // plasmic-import: qoZVCK7paFuV/component
 import IconNavbar2 from "../../IconNavbar2"; // plasmic-import: 8dJjOz6ixDRs/component
 import { PlasmicHead } from "@plasmicapp/react-web";
@@ -95,8 +94,6 @@ import BestSellersvgIcon from "./icons/PlasmicIcon__BestSellersvg"; // plasmic-i
 import ChecksvgIcon from "./icons/PlasmicIcon__Checksvg"; // plasmic-import: q0SxIWf05NzX/icon
 import MotorcyclesvgIcon from "./icons/PlasmicIcon__Motorcyclesvg"; // plasmic-import: bB21gLC1MPi2/icon
 import PinsvgIcon from "./icons/PlasmicIcon__Pinsvg"; // plasmic-import: d5Rc8pnBZxlJ/icon
-import OdometerForKilometersAndSpeedControlSvgrepoComsvgIcon from "./icons/PlasmicIcon__OdometerForKilometersAndSpeedControlSvgrepoComsvg"; // plasmic-import: tXieI8wn5FWi/icon
-import ElectricitysvgIcon from "./icons/PlasmicIcon__Electricitysvg"; // plasmic-import: _PJFYwn5foSn/icon
 import Home8SvgrepoComsvgIcon from "./icons/PlasmicIcon__Home8SvgrepoComsvg"; // plasmic-import: -M_rLtuPSxCT/icon
 import MotorcycleBikeSvgrepoComsvgIcon from "./icons/PlasmicIcon__MotorcycleBikeSvgrepoComsvg"; // plasmic-import: 8wmKCbwv8HSh/icon
 import ChatRoundDotsSvgrepoCom1SvgIcon from "./icons/PlasmicIcon__ChatRoundDotsSvgrepoCom1Svg"; // plasmic-import: 0ggQKe6ouxoP/icon
@@ -123,7 +120,10 @@ export type PlasmicProduk__OverridesType = {
   link5?: Flex__<typeof Link5>;
   link6?: Flex__<typeof Link6>;
   sliderCarousel?: Flex__<typeof SliderWrapper>;
-  tabs?: Flex__<typeof AntdTabs>;
+  productCollection?: Flex__<typeof ProductCollection>;
+  productMedia?: Flex__<typeof ProductMedia>;
+  productTextField?: Flex__<typeof ProductTextField>;
+  productPrice?: Flex__<typeof ProductPriceComponent>;
   footerMain?: Flex__<typeof FooterMain>;
   iconNavbar2?: Flex__<typeof IconNavbar2>;
   pageMetadataOverride?: Flex__<typeof PlasmicHead>;
@@ -178,12 +178,6 @@ function PlasmicProduk__RenderFunc(props: {
 
         refName: "sliderCarousel",
         onMutate: generateOnMutateForSpec("currentSlide", SliderWrapper_Helpers)
-      },
-      {
-        path: "tabs.activeKey",
-        type: "private",
-        variableType: "text",
-        initFunc: ({ $props, $state, $queries, $ctx }) => "1"
       }
     ],
     [$props, $ctx, $refs]
@@ -735,6 +729,97 @@ function PlasmicProduk__RenderFunc(props: {
               );
             })()}
           </section>
+          <section className={classNames(projectcss.all, sty.section___39S7T)}>
+            <ProductCollection
+              data-plasmic-name={"productCollection"}
+              data-plasmic-override={overrides.productCollection}
+              category={"gid://shopify/Collection/269963001927"}
+              className={classNames("__wab_instance", sty.productCollection)}
+              count={
+                hasVariant(globalVariants, "screen", "mobile") ? 1 : undefined
+              }
+              emptyMessage={
+                <DataCtxReader__>
+                  {$ctx => (
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___6BZar
+                      )}
+                    >
+                      {"No product found!"}
+                    </div>
+                  )}
+                </DataCtxReader__>
+              }
+              loadingMessage={
+                <DataCtxReader__>
+                  {$ctx => (
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__jv7S
+                      )}
+                    >
+                      {"Loading..."}
+                    </div>
+                  )}
+                </DataCtxReader__>
+              }
+              sort={"trending-desc"}
+            >
+              <DataCtxReader__>
+                {$ctx => (
+                  <PlasmicLink__
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.link__l6E
+                    )}
+                    component={Link}
+                    href={(() => {
+                      try {
+                        return /products/ + $ctx.currentProduct.slug;
+                      } catch (e) {
+                        if (
+                          e instanceof TypeError ||
+                          e?.plasmicType === "PlasmicUndefinedDataError"
+                        ) {
+                          return `/products/${""}`;
+                        }
+                        throw e;
+                      }
+                    })()}
+                    platform={"nextjs"}
+                  >
+                    <ProductMedia
+                      data-plasmic-name={"productMedia"}
+                      data-plasmic-override={overrides.productMedia}
+                      className={classNames("__wab_instance", sty.productMedia)}
+                    />
+
+                    <ProductTextField
+                      data-plasmic-name={"productTextField"}
+                      data-plasmic-override={overrides.productTextField}
+                      className={classNames(
+                        "__wab_instance",
+                        sty.productTextField
+                      )}
+                      field={"name"}
+                    />
+
+                    <ProductPriceComponent
+                      data-plasmic-name={"productPrice"}
+                      data-plasmic-override={overrides.productPrice}
+                      className={classNames("__wab_instance", sty.productPrice)}
+                    />
+                  </PlasmicLink__>
+                )}
+              </DataCtxReader__>
+            </ProductCollection>
+          </section>
           <section className={classNames(projectcss.all, sty.section__tPtTo)}>
             <div className={classNames(projectcss.all, sty.columns__ectoD)}>
               <div className={classNames(projectcss.all, sty.column__msyT)}>
@@ -882,587 +967,6 @@ function PlasmicProduk__RenderFunc(props: {
                 </Button>
               </div>
             </div>
-          </section>
-          <section className={classNames(projectcss.all, sty.section__sYvNp)}>
-            <PlasmicLink__
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                sty.link___3PhSu
-              )}
-              component={Link}
-              href={`/products/${""}`}
-              platform={"nextjs"}
-            >
-              <AntdTabs
-                data-plasmic-name={"tabs"}
-                data-plasmic-override={overrides.tabs}
-                activeKey={generateStateValueProp($state, [
-                  "tabs",
-                  "activeKey"
-                ])}
-                animateTabBar={true}
-                animateTabContent={false}
-                animated={true}
-                className={classNames("__wab_instance", sty.tabs)}
-                defaultActiveKey={"1"}
-                items={
-                  <React.Fragment>
-                    <AntdTabItem
-                      className={classNames(
-                        "__wab_instance",
-                        sty.tabItem__ggYkM
-                      )}
-                      key={"1"}
-                      label={
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text___3QA6L
-                          )}
-                        >
-                          {"Motor Listrik"}
-                        </div>
-                      }
-                    >
-                      <ProductCollection
-                        category={"65e0853309c5c60012947a97"}
-                        className={classNames(
-                          "__wab_instance",
-                          sty.productCollection___51P5B
-                        )}
-                        emptyMessage={
-                          <DataCtxReader__>
-                            {$ctx => (
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__taPjX
-                                )}
-                              >
-                                {"No product found!"}
-                              </div>
-                            )}
-                          </DataCtxReader__>
-                        }
-                        includeSubCategories={true}
-                        loadingMessage={
-                          <DataCtxReader__>
-                            {$ctx => (
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__okZcB
-                                )}
-                              >
-                                {"Loading..."}
-                              </div>
-                            )}
-                          </DataCtxReader__>
-                        }
-                        noLayout={false}
-                        search={``}
-                      >
-                        <DataCtxReader__>
-                          {$ctx => (
-                            <PlasmicLink__
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.a,
-                                sty.link__bIEd,
-                                ``
-                              )}
-                              component={Link}
-                              href={
-                                hasVariant(globalVariants, "screen", "mobile")
-                                  ? `/products/[slug]`
-                                  : `/products/[slug]`
-                              }
-                              platform={"nextjs"}
-                            >
-                              <ProductMedia
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.productMedia__kzFw5
-                                )}
-                              />
-
-                              <ProductTextField
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.productTextField__heKjW
-                                )}
-                                field={"name"}
-                              />
-
-                              <section
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.section__ipmsg
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.columns__irFdw
-                                  )}
-                                >
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.column__qMcLb
-                                    )}
-                                  >
-                                    <div
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.freeBox__mbg1
-                                      )}
-                                    >
-                                      <OdometerForKilometersAndSpeedControlSvgrepoComsvgIcon
-                                        className={classNames(
-                                          projectcss.all,
-                                          sty.svg__rwpDr
-                                        )}
-                                        role={"img"}
-                                      />
-
-                                      <div
-                                        className={classNames(
-                                          projectcss.all,
-                                          projectcss.__wab_text,
-                                          sty.text__ny1Kc
-                                        )}
-                                      >
-                                        {hasVariant(
-                                          globalVariants,
-                                          "screen",
-                                          "mobile"
-                                        )
-                                          ? "\u00b1 60 km/jam"
-                                          : "\u00b1 60 km/jam"}
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.column__lNaso
-                                    )}
-                                  >
-                                    <div
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.freeBox__rz5AX
-                                      )}
-                                    >
-                                      <ElectricitysvgIcon
-                                        className={classNames(
-                                          projectcss.all,
-                                          sty.svg__ynn4M
-                                        )}
-                                        role={"img"}
-                                      />
-
-                                      <div
-                                        className={classNames(
-                                          projectcss.all,
-                                          projectcss.__wab_text,
-                                          sty.text__lHf7N
-                                        )}
-                                      >
-                                        {hasVariant(
-                                          globalVariants,
-                                          "screen",
-                                          "mobile"
-                                        )
-                                          ? "  72/20AH"
-                                          : "1200 Watt"}
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </section>
-                            </PlasmicLink__>
-                          )}
-                        </DataCtxReader__>
-                      </ProductCollection>
-                    </AntdTabItem>
-                    <AntdTabItem
-                      className={classNames(
-                        "__wab_instance",
-                        sty.tabItem__sqPrw
-                      )}
-                      key={"2"}
-                      label={
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__as9Kl
-                          )}
-                        >
-                          {"Sepeda Listrik"}
-                        </div>
-                      }
-                    >
-                      <ProductCollection
-                        category={"65e086552a82e10012ac0b8e"}
-                        className={classNames(
-                          "__wab_instance",
-                          sty.productCollection__qJJm1
-                        )}
-                        emptyMessage={
-                          <DataCtxReader__>
-                            {$ctx => (
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__xhQwJ
-                                )}
-                              >
-                                {"No product found!"}
-                              </div>
-                            )}
-                          </DataCtxReader__>
-                        }
-                        includeSubCategories={true}
-                        loadingMessage={
-                          <DataCtxReader__>
-                            {$ctx => (
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__mVry0
-                                )}
-                              >
-                                {"Loading..."}
-                              </div>
-                            )}
-                          </DataCtxReader__>
-                        }
-                        noLayout={false}
-                        search={``}
-                      >
-                        <DataCtxReader__>
-                          {$ctx => (
-                            <PlasmicLink__
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.a,
-                                sty.link__dQ4Oj
-                              )}
-                              component={Link}
-                              href={`/persyaratan`}
-                              platform={"nextjs"}
-                            >
-                              <ProductMedia
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.productMedia__sW6Z
-                                )}
-                              />
-
-                              <ProductTextField
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.productTextField__whip2
-                                )}
-                                field={"name"}
-                              />
-
-                              <section
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.section__dYoh
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.columns___0IdS
-                                  )}
-                                >
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.column__vqLhT
-                                    )}
-                                  >
-                                    <div
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.freeBox__ygF3
-                                      )}
-                                    >
-                                      <OdometerForKilometersAndSpeedControlSvgrepoComsvgIcon
-                                        className={classNames(
-                                          projectcss.all,
-                                          sty.svg__bSUJ
-                                        )}
-                                        role={"img"}
-                                      />
-
-                                      <div
-                                        className={classNames(
-                                          projectcss.all,
-                                          projectcss.__wab_text,
-                                          sty.text__y3Rcu
-                                        )}
-                                      >
-                                        {"\u00b1 60 km/jam"}
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.column___98IV
-                                    )}
-                                  >
-                                    <div
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.freeBox__hbjK
-                                      )}
-                                    >
-                                      <ElectricitysvgIcon
-                                        className={classNames(
-                                          projectcss.all,
-                                          sty.svg__seaKy
-                                        )}
-                                        role={"img"}
-                                      />
-
-                                      <div
-                                        className={classNames(
-                                          projectcss.all,
-                                          projectcss.__wab_text,
-                                          sty.text__ylnZz
-                                        )}
-                                      >
-                                        {"1200 Watt"}
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </section>
-                            </PlasmicLink__>
-                          )}
-                        </DataCtxReader__>
-                      </ProductCollection>
-                    </AntdTabItem>
-                    <AntdTabItem
-                      className={classNames(
-                        "__wab_instance",
-                        sty.tabItem__pb2Ii
-                      )}
-                      key={"3"}
-                      label={
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__s8211
-                          )}
-                        >
-                          {"Niaga"}
-                        </div>
-                      }
-                    >
-                      <ProductCollection
-                        category={"65e086a5a58c880013462aa5"}
-                        className={classNames(
-                          "__wab_instance",
-                          sty.productCollection__w33SD
-                        )}
-                        emptyMessage={
-                          <DataCtxReader__>
-                            {$ctx => (
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__dNob7
-                                )}
-                              >
-                                {"No product found!"}
-                              </div>
-                            )}
-                          </DataCtxReader__>
-                        }
-                        includeSubCategories={true}
-                        loadingMessage={
-                          <DataCtxReader__>
-                            {$ctx => (
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__tUkyE
-                                )}
-                              >
-                                {"Loading..."}
-                              </div>
-                            )}
-                          </DataCtxReader__>
-                        }
-                        noLayout={false}
-                        search={``}
-                      >
-                        <DataCtxReader__>
-                          {$ctx => (
-                            <PlasmicLink__
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.a,
-                                sty.link___4WF2
-                              )}
-                              component={Link}
-                              href={`/persyaratan`}
-                              platform={"nextjs"}
-                            >
-                              <ProductMedia
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.productMedia__u0IsO
-                                )}
-                              />
-
-                              <ProductTextField
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.productTextField__dlHQt
-                                )}
-                                field={"name"}
-                              />
-
-                              <section
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.section__uRcU4
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.columns__i2Vs2
-                                  )}
-                                >
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.column___2OVOo
-                                    )}
-                                  >
-                                    <div
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.freeBox___7R3Gr
-                                      )}
-                                    >
-                                      <OdometerForKilometersAndSpeedControlSvgrepoComsvgIcon
-                                        className={classNames(
-                                          projectcss.all,
-                                          sty.svg__hNIu
-                                        )}
-                                        role={"img"}
-                                      />
-
-                                      <div
-                                        className={classNames(
-                                          projectcss.all,
-                                          projectcss.__wab_text,
-                                          sty.text__yjYil
-                                        )}
-                                      >
-                                        {"\u00b1 60 km/jam"}
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.column___9SMN
-                                    )}
-                                  >
-                                    <div
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.freeBox__gO49M
-                                      )}
-                                    >
-                                      <ElectricitysvgIcon
-                                        className={classNames(
-                                          projectcss.all,
-                                          sty.svg__c2XKf
-                                        )}
-                                        role={"img"}
-                                      />
-
-                                      <div
-                                        className={classNames(
-                                          projectcss.all,
-                                          projectcss.__wab_text,
-                                          sty.text__zwX7
-                                        )}
-                                      >
-                                        {"1200 Watt"}
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </section>
-                            </PlasmicLink__>
-                          )}
-                        </DataCtxReader__>
-                      </ProductCollection>
-                    </AntdTabItem>
-                    <AntdTabItem
-                      className={classNames(
-                        "__wab_instance",
-                        sty.tabItem___4OidS
-                      )}
-                      key={"4"}
-                      label={
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__ulSk
-                          )}
-                        >
-                          {"Sparepart "}
-                        </div>
-                      }
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__w0V75
-                        )}
-                      >
-                        {"Tab Children 4"}
-                      </div>
-                    </AntdTabItem>
-                  </React.Fragment>
-                }
-                onChange={generateStateOnChangeProp($state, [
-                  "tabs",
-                  "activeKey"
-                ])}
-                sticky={false}
-                tabBarBackground={"#FFF"}
-                tabsDropdownScopeClassName={sty["tabs__tabsDropdown"]}
-                tabsScopeClassName={sty["tabs__tabs"]}
-              />
-            </PlasmicLink__>
           </section>
           {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
             <section className={classNames(projectcss.all, sty.section__duWpi)}>
@@ -1754,7 +1258,10 @@ const PlasmicDescendants = {
     "link5",
     "link6",
     "sliderCarousel",
-    "tabs",
+    "productCollection",
+    "productMedia",
+    "productTextField",
+    "productPrice",
     "footerMain",
     "iconNavbar2",
     "pageMetadataOverride"
@@ -1775,7 +1282,15 @@ const PlasmicDescendants = {
   link5: ["link5"],
   link6: ["link6"],
   sliderCarousel: ["sliderCarousel"],
-  tabs: ["tabs"],
+  productCollection: [
+    "productCollection",
+    "productMedia",
+    "productTextField",
+    "productPrice"
+  ],
+  productMedia: ["productMedia"],
+  productTextField: ["productTextField"],
+  productPrice: ["productPrice"],
   footerMain: ["footerMain"],
   iconNavbar2: ["iconNavbar2"],
   pageMetadataOverride: ["pageMetadataOverride"]
@@ -1793,7 +1308,10 @@ type NodeDefaultElementType = {
   link5: typeof Link5;
   link6: typeof Link6;
   sliderCarousel: typeof SliderWrapper;
-  tabs: typeof AntdTabs;
+  productCollection: typeof ProductCollection;
+  productMedia: typeof ProductMedia;
+  productTextField: typeof ProductTextField;
+  productPrice: typeof ProductPriceComponent;
   footerMain: typeof FooterMain;
   iconNavbar2: typeof IconNavbar2;
   pageMetadataOverride: typeof PlasmicHead;
@@ -1909,7 +1427,10 @@ export const PlasmicProduk = Object.assign(
     link5: makeNodeComponent("link5"),
     link6: makeNodeComponent("link6"),
     sliderCarousel: makeNodeComponent("sliderCarousel"),
-    tabs: makeNodeComponent("tabs"),
+    productCollection: makeNodeComponent("productCollection"),
+    productMedia: makeNodeComponent("productMedia"),
+    productTextField: makeNodeComponent("productTextField"),
+    productPrice: makeNodeComponent("productPrice"),
     footerMain: makeNodeComponent("footerMain"),
     iconNavbar2: makeNodeComponent("iconNavbar2"),
     pageMetadataOverride: makeNodeComponent("pageMetadataOverride"),

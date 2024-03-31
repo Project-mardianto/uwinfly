@@ -7,14 +7,13 @@
 import * as React from "react";
 import { hasVariant, ensureGlobalVariants } from "@plasmicapp/react-web";
 import { AntdConfigProvider } from "@plasmicpkgs/antd5/skinny/registerConfigProvider";
-import { CommerceProviderComponent } from "@plasmicpkgs/commerce-swell";
+import { CommerceProviderComponent } from "@plasmicpkgs/commerce-shopify";
 
 export interface GlobalContextsProviderProps {
   children?: React.ReactElement;
   antdConfigProviderProps?: Partial<
     Omit<React.ComponentProps<typeof AntdConfigProvider>, "children">
   >;
-
   commerceProviderComponentProps?: Partial<
     Omit<React.ComponentProps<typeof CommerceProviderComponent>, "children">
   >;
@@ -121,17 +120,17 @@ export default function GlobalContextsProvider(
     >
       <CommerceProviderComponent
         {...commerceProviderComponentProps}
-        publicKey={
+        accessToken={
           commerceProviderComponentProps &&
-          "publicKey" in commerceProviderComponentProps
-            ? commerceProviderComponentProps.publicKey!
-            : "pk_test_BAhu4DEDl3OHIFQHs4X4NMFvcocQabKe"
+          "accessToken" in commerceProviderComponentProps
+            ? commerceProviderComponentProps.accessToken!
+            : "a83f7b6253e3a71f73ddd2a8fdf8afa8"
         }
-        storeId={
+        storeDomain={
           commerceProviderComponentProps &&
-          "storeId" in commerceProviderComponentProps
-            ? commerceProviderComponentProps.storeId!
-            : "Uwinfly"
+          "storeDomain" in commerceProviderComponentProps
+            ? commerceProviderComponentProps.storeDomain!
+            : "quickstart-9af38078.myshopify.com"
         }
       >
         {children}
